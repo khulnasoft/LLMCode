@@ -42,7 +42,7 @@ networkx<3.3
 # Including it here explicitly because we
 # didn't specify networkx[default] above.
 # Pin below 1.14 to retain python 3.9 compatibility.
-scipy<1.14
+scipy<1.16
 
 # v0.22.2 seems to break tree-sitter-languages?
 tree-sitter==0.21.3 
