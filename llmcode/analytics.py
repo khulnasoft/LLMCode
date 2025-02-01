@@ -199,7 +199,7 @@ class Analytics:
         """disable posthog if we get an error"""
         print("X" * 100)
         # https://github.com/PostHog/posthog-python/blob/9e1bb8c58afaa229da24c4fb576c08bb88a75752/posthog/consumer.py#L86
-        # https://github.com/KhulnaSoft/llmcode/issues/2532
+        # https://github.com/khulnasoft/llmcode/issues/2532
         self.ph = None
 
     def event(self, event_name, main_model=None, **kwargs):

@@ -1,5 +1,5 @@
 If you need more help, please check our
-[GitHub issues](https://github.com/KhulnaSoft/llmcode/issues)
+[GitHub issues](https://github.com/khulnasoft/llmcode/issues)
 and file a new issue if your problem isn't discussed.
 Or drop into our
 [Discord](https://discord.gg/Tv2uQnR88V)

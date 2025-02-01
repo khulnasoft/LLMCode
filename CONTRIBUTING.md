@@ -17,10 +17,10 @@ Contributions of
 [LLM benchmark results](https://llmcode.khulnasoft.com/docs/leaderboards/)
 are welcome!
 See the
-[benchmark README](https://github.com/KhulnaSoft/llmcode/blob/main/benchmark/README.md)
+[benchmark README](https://github.com/khulnasoft/llmcode/blob/main/benchmark/README.md)
 for information on running llmcode's code editing benchmarks.
 Submit results by opening a PR with edits to the
-[benchmark results data files](https://github.com/KhulnaSoft/llmcode/blob/main/llmcode/website/_data/).
+[benchmark results data files](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/_data/).
 
 
 ## Pull Requests
@@ -42,7 +42,7 @@ All contributors will be asked to complete the agreement as part of the PR proce
 ### Clone the Repository
 
 ```
-git clone https://github.com/KhulnaSoft/llmcode.git
+git clone https://github.com/khulnasoft/llmcode.git
 cd llmcode
 ```
 

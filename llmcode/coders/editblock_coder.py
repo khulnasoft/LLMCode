@@ -54,7 +54,7 @@ class EditBlockCoder(Coder):
 
             # If the edit failed, and
             # this is not a "create a new file" with an empty original...
-            # https://github.com/KhulnaSoft/llmcode/issues/2258
+            # https://github.com/khulnasoft/llmcode/issues/2258
             if not new_content and original.strip():
                 # try patching any of the other files in the chat
                 for full_path in self.abs_fnames:
@@ -418,7 +418,7 @@ def strip_filename(filename, fence):
     filename = filename.strip("`")
     filename = filename.strip("*")
 
-    # https://github.com/KhulnaSoft/llmcode/issues/1158
+    # https://github.com/khulnasoft/llmcode/issues/1158
     # filename = filename.replace("\\_", "_")
 
     return filename

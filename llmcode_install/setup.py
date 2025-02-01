@@ -9,7 +9,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Md Sulaiman",
     author_email="dev.sulaiman@icloud.com",
-    url="https://github.com/KhulnaSoft/llmcode",
+    url="https://github.com/khulnasoft/llmcode",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

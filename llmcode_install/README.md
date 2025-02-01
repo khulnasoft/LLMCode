@@ -42,5 +42,5 @@ uv tool update-shell
 
 ## Support
 
-For issues with the installer, please [open a GitHub issue](https://github.com/KhulnaSoft/llmcode/issues).
+For issues with the installer, please [open a GitHub issue](https://github.com/khulnasoft/llmcode/issues).
 For llmcode usage questions, see the [llmcode documentation](https://llmcode.khulnasoft.com).

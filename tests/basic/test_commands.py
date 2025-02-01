@@ -72,7 +72,9 @@ class TestCommands(TestCase):
             mock_copy.assert_called_once_with("Second assistant message")
 
             # Assert that tool_output was called with the expected preview
-            expected_preview = "Copied last assistant message to clipboard. Preview: Second assistant message"
+            expected_preview = (
+                "Copied last assistant message to clipboard. Preview: Second assistant message"
+            )
             mock_tool_output.assert_any_call(expected_preview)
 
     def test_cmd_copy_with_cur_messages(self):
@@ -105,9 +107,7 @@ class TestCommands(TestCase):
             commands.cmd_copy("")
 
             # Assert pyperclip.copy was called with the last assistant message in cur_messages
-            mock_copy.assert_called_once_with(
-                "Latest assistant message in cur_messages"
-            )
+            mock_copy.assert_called_once_with("Latest assistant message in cur_messages")
 
             # Assert that tool_output was called with the expected preview
             expected_preview = (
@@ -128,9 +128,7 @@ class TestCommands(TestCase):
         with mock.patch.object(io, "tool_error") as mock_tool_error:
             commands.cmd_copy("")
             # Assert tool_error was called indicating no assistant messages
-            mock_tool_error.assert_called_once_with(
-                "No assistant messages found to copy."
-            )
+            mock_tool_error.assert_called_once_with("No assistant messages found to copy.")
 
     def test_cmd_copy_pyperclip_exception(self):
         io = InputOutput(pretty=False, fancy_input=False, yes=True)
@@ -152,12 +150,10 @@ class TestCommands(TestCase):
             commands.cmd_copy("")
 
             # Assert that tool_error was called with the clipboard error message
-            mock_tool_error.assert_called_once_with(
-                "Failed to copy to clipboard: Clipboard error"
-            )
+            mock_tool_error.assert_called_once_with("Failed to copy to clipboard: Clipboard error")
 
     def test_cmd_add_bad_glob(self):
-        # https://github.com/KhulnaSoft/llmcode/issues/293
+        # https://github.com/khulnasoft/llmcode/issues/293
 
         io = InputOutput(pretty=False, fancy_input=False, yes=False)
         from llmcode.coders import Coder
@@ -245,9 +241,7 @@ class TestCommands(TestCase):
         # Check if the files have been added to the chat session
         self.assertIn(str(Path("test_dir/test_file1.txt").resolve()), coder.abs_fnames)
         self.assertIn(str(Path("test_dir/test_file2.txt").resolve()), coder.abs_fnames)
-        self.assertIn(
-            str(Path("test_dir/another_dir/test_file.txt").resolve()), coder.abs_fnames
-        )
+        self.assertIn(str(Path("test_dir/another_dir/test_file.txt").resolve()), coder.abs_fnames)
 
         commands.cmd_drop(str(Path("test_dir/another_dir")))
         self.assertIn(str(Path("test_dir/test_file1.txt").resolve()), coder.abs_fnames)
@@ -402,9 +396,7 @@ class TestCommands(TestCase):
     def test_cmd_add_from_subdir(self):
         repo = git.Repo.init()
         repo.config_writer().set_value("user", "name", "Test User").release()
-        repo.config_writer().set_value(
-            "user", "email", "testuser@example.com"
-        ).release()
+        repo.config_writer().set_value("user", "email", "testuser@example.com").release()
 
         # Create three empty files and add them to the git repository
         filenames = [
@@ -455,7 +447,7 @@ class TestCommands(TestCase):
                 pass
 
             # this was blowing up with GitCommandError, per:
-            # https://github.com/KhulnaSoft/llmcode/issues/201
+            # https://github.com/khulnasoft/llmcode/issues/201
             commands.cmd_add("temp.txt")
 
     def test_cmd_commit(self):
@@ -496,7 +488,7 @@ class TestCommands(TestCase):
             outside_file.touch()
 
             # This should not be allowed!
-            # https://github.com/KhulnaSoft/llmcode/issues/178
+            # https://github.com/khulnasoft/llmcode/issues/178
             commands.cmd_add("../outside.txt")
 
             self.assertEqual(len(coder.abs_fnames), 0)
@@ -520,7 +512,7 @@ class TestCommands(TestCase):
 
             # This should not be allowed!
             # It was blowing up with GitCommandError, per:
-            # https://github.com/KhulnaSoft/llmcode/issues/178
+            # https://github.com/khulnasoft/llmcode/issues/178
             commands.cmd_add("../outside.txt")
 
             self.assertEqual(len(coder.abs_fnames), 0)
@@ -578,9 +570,7 @@ class TestCommands(TestCase):
             io.tool_output = original_tool_output
 
             # Check if the output includes repository map information
-            repo_map_line = next(
-                (line for line in output_lines if "repository map" in line), None
-            )
+            repo_map_line = next((line for line in output_lines if "repository map" in line), None)
             self.assertIsNotNone(
                 repo_map_line, "Repository map information not found in the output"
             )
@@ -761,12 +751,9 @@ class TestCommands(TestCase):
             commands.cmd_load(session_file)
 
             # Verify files were restored correctly
-            added_files = {
-                Path(coder.get_rel_fname(f)).as_posix() for f in coder.abs_fnames
-            }
+            added_files = {Path(coder.get_rel_fname(f)).as_posix() for f in coder.abs_fnames}
             read_only_files = {
-                Path(coder.get_rel_fname(f)).as_posix()
-                for f in coder.abs_read_only_fnames
+                Path(coder.get_rel_fname(f)).as_posix() for f in coder.abs_read_only_fnames
             }
 
             self.assertEqual(added_files, {"file1.txt", "file2.py"})
@@ -820,9 +807,7 @@ class TestCommands(TestCase):
                             if os.path.samefile(saved_path, external_file_path):
                                 break
                     else:
-                        self.fail(
-                            f"No matching read-only command found for {external_file_path}"
-                        )
+                        self.fail(f"No matching read-only command found for {external_file_path}")
 
                 # Clear the current session
                 commands.cmd_reset("")
@@ -834,15 +819,11 @@ class TestCommands(TestCase):
 
                 # Verify files were restored correctly
                 added_files = {coder.get_rel_fname(f) for f in coder.abs_fnames}
-                read_only_files = {
-                    coder.get_rel_fname(f) for f in coder.abs_read_only_fnames
-                }
+                read_only_files = {coder.get_rel_fname(f) for f in coder.abs_read_only_fnames}
 
                 self.assertEqual(added_files, {str(Path("file1.txt"))})
                 self.assertTrue(
-                    any(
-                        os.path.samefile(external_file_path, f) for f in read_only_files
-                    )
+                    any(os.path.samefile(external_file_path, f) for f in read_only_files)
                 )
 
                 # Clean up
@@ -902,9 +883,7 @@ class TestCommands(TestCase):
                             if os.path.samefile(saved_path, external_file1_path):
                                 break
                     else:
-                        self.fail(
-                            f"No matching read-only command found for {external_file1_path}"
-                        )
+                        self.fail(f"No matching read-only command found for {external_file1_path}")
                     # Split commands and check each one
                     for line in commands_text.splitlines():
                         if line.startswith("/read-only "):
@@ -912,9 +891,7 @@ class TestCommands(TestCase):
                             if os.path.samefile(saved_path, external_file2_path):
                                 break
                     else:
-                        self.fail(
-                            f"No matching read-only command found for {external_file2_path}"
-                        )
+                        self.fail(f"No matching read-only command found for {external_file2_path}")
 
                 # Clear the current session
                 commands.cmd_reset("")
@@ -926,17 +903,12 @@ class TestCommands(TestCase):
 
                 # Verify files were restored correctly
                 added_files = {coder.get_rel_fname(f) for f in coder.abs_fnames}
-                read_only_files = {
-                    coder.get_rel_fname(f) for f in coder.abs_read_only_fnames
-                }
+                read_only_files = {coder.get_rel_fname(f) for f in coder.abs_read_only_fnames}
 
                 self.assertEqual(added_files, {str(Path("internal1.txt"))})
                 self.assertTrue(
                     all(
-                        any(
-                            os.path.samefile(external_path, fname)
-                            for fname in read_only_files
-                        )
+                        any(os.path.samefile(external_path, fname) for fname in read_only_files)
                         for external_path in [external_file1_path, external_file2_path]
                     )
                 )
@@ -1087,9 +1059,7 @@ class TestCommands(TestCase):
 
         fname = "file.txt"
         encoding = "utf-16"
-        some_content_which_will_error_if_read_with_encoding_utf8 = "ÅÍÎÏ".encode(
-            encoding
-        )
+        some_content_which_will_error_if_read_with_encoding_utf8 = "ÅÍÎÏ".encode(encoding)
         with open(fname, "wb") as f:
             f.write(some_content_which_will_error_if_read_with_encoding_utf8)
 
@@ -1125,10 +1095,7 @@ class TestCommands(TestCase):
 
             # It's not in the repo, should not do anything
             self.assertFalse(
-                any(
-                    os.path.samefile(str(test_file.resolve()), fname)
-                    for fname in coder.abs_fnames
-                )
+                any(os.path.samefile(str(test_file.resolve()), fname) for fname in coder.abs_fnames)
             )
             self.assertTrue(
                 any(
@@ -1146,10 +1113,7 @@ class TestCommands(TestCase):
 
             # Verify it's now in abs_fnames and not in abs_read_only_fnames
             self.assertTrue(
-                any(
-                    os.path.samefile(str(test_file.resolve()), fname)
-                    for fname in coder.abs_fnames
-                )
+                any(os.path.samefile(str(test_file.resolve()), fname) for fname in coder.abs_fnames)
             )
             self.assertFalse(
                 any(
@@ -1173,9 +1137,7 @@ class TestCommands(TestCase):
             commands.cmd_run("exit 1", add_on_nonzero_exit=True)
 
             # Check that the output was added to cur_messages
-            self.assertTrue(
-                any("exit 1" in msg["content"] for msg in coder.cur_messages)
-            )
+            self.assertTrue(any("exit 1" in msg["content"] for msg in coder.cur_messages))
 
     def test_cmd_add_drop_untracked_files(self):
         with GitTemporaryDirectory():
@@ -1717,9 +1679,7 @@ class TestCommands(TestCase):
             repo.git.commit("-m", "Add test_file.py")
 
             # Modify the file to make it dirty
-            file_path.write_text(
-                "def hello():\n    print('Hello, World!')\n\n# Dirty line\n"
-            )
+            file_path.write_text("def hello():\n    print('Hello, World!')\n\n# Dirty line\n")
 
             # Mock the linter.lint method
             with mock.patch.object(coder.linter, "lint") as mock_lint:

@@ -56,17 +56,13 @@ class TestMain(TestCase):
         )
         self.assertTrue(os.path.exists("foo.txt"))
 
-    @patch(
-        "llmcode.repo.GitRepo.get_commit_message", return_value="mock commit message"
-    )
+    @patch("llmcode.repo.GitRepo.get_commit_message", return_value="mock commit message")
     def test_main_with_empty_git_dir_new_file(self, _):
         make_repo()
         main(["--yes", "foo.txt", "--exit"], input=DummyInput(), output=DummyOutput())
         self.assertTrue(os.path.exists("foo.txt"))
 
-    @patch(
-        "llmcode.repo.GitRepo.get_commit_message", return_value="mock commit message"
-    )
+    @patch("llmcode.repo.GitRepo.get_commit_message", return_value="mock commit message")
     def test_main_with_empty_git_dir_new_files(self, _):
         make_repo()
         main(
@@ -84,9 +80,7 @@ class TestMain(TestCase):
         res = main(["subdir", "foo.txt"], input=DummyInput(), output=DummyOutput())
         self.assertNotEqual(res, None)
 
-    @patch(
-        "llmcode.repo.GitRepo.get_commit_message", return_value="mock commit message"
-    )
+    @patch("llmcode.repo.GitRepo.get_commit_message", return_value="mock commit message")
     def test_main_with_subdir_repo_fnames(self, _):
         subdir = Path("subdir")
         subdir.mkdir()
@@ -240,9 +234,7 @@ class TestMain(TestCase):
                 input=DummyInput(),
                 output=DummyOutput(),
             )
-            MockCoder.return_value.run.assert_called_once_with(
-                with_message=message_file_content
-            )
+            MockCoder.return_value.run.assert_called_once_with(with_message=message_file_content)
 
         os.remove(message_file_path)
 
@@ -412,9 +404,7 @@ class TestMain(TestCase):
                 MockLinter.assert_called_once()
                 called_arg = MockLinter.call_args[0][0]
                 self.assertTrue(called_arg.endswith("dirty_file.py"))
-                self.assertFalse(
-                    called_arg.endswith(f"subdir{os.path.sep}dirty_file.py")
-                )
+                self.assertFalse(called_arg.endswith(f"subdir{os.path.sep}dirty_file.py"))
 
     def test_verbose_mode_lists_env_vars(self):
         self.create_env_file(".env", "LLMCODE_DARK_MODE=on")
@@ -478,9 +468,7 @@ class TestMain(TestCase):
                 main(["--yes", "--exit"], input=DummyInput(), output=DummyOutput())
                 _, kwargs = MockCoder.call_args
                 print("kwargs:", kwargs)  # Add this line for debugging
-                self.assertIn(
-                    "main_model", kwargs, "main_model key not found in kwargs"
-                )
+                self.assertIn("main_model", kwargs, "main_model key not found in kwargs")
                 self.assertEqual(kwargs["main_model"].name, "gpt-4-32k")
                 self.assertEqual(kwargs["map_tokens"], 4096)
 
@@ -802,9 +790,7 @@ class TestMain(TestCase):
 
     @patch("git.Repo.init")
     def test_main_exit_with_git_command_not_found(self, mock_git_init):
-        mock_git_init.side_effect = git.exc.GitCommandNotFound(
-            "git", "Command 'git' not found"
-        )
+        mock_git_init.side_effect = git.exc.GitCommandNotFound("git", "Command 'git' not found")
 
         try:
             result = main(["--exit", "--yes"], input=DummyInput(), output=DummyOutput())

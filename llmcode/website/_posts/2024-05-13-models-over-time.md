@@ -15,7 +15,7 @@ nav_exclude: true
 I recently wanted to draw a graph showing how LLM code editing skill has been
 changing over time as new models have been released by OpenAI, Anthropic and others.
 I have all the
-[data in a yaml file](https://github.com/KhulnaSoft/llmcode/blob/main/website/_data/edit_leaderboard.yml) that is used to render
+[data in a yaml file](https://github.com/khulnasoft/llmcode/blob/main/website/_data/edit_leaderboard.yml) that is used to render
 [llmcode's LLM leaderboards](https://llmcode.khulnasoft.com/docs/leaderboards/).
 
 Below is the llmcode chat transcript, which shows:

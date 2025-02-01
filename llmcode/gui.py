@@ -160,7 +160,7 @@ class GUI:
 
             st.warning(
                 "This browser version of llmcode is experimental. Please share feedback in [GitHub"
-                " issues](https://github.com/KhulnaSoft/llmcode/issues)."
+                " issues](https://github.com/khulnasoft/llmcode/issues)."
             )
 
     def do_settings_tab(self):
@@ -528,7 +528,7 @@ def gui_main():
         page_icon=urls.favicon,
         menu_items={
             "Get Help": urls.website,
-            "Report a bug": "https://github.com/KhulnaSoft/llmcode/issues",
+            "Report a bug": "https://github.com/khulnasoft/llmcode/issues",
             "About": "# Llmcode\nAI pair programming in your browser.",
         },
     )

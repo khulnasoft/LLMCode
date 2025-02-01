@@ -965,7 +965,7 @@
 ### Llmcode v0.14.0
 
 - [Support for Claude2 and other LLMs via OpenRouter](https://llmcode.khulnasoft.com/docs/faq.html#accessing-other-llms-with-openrouter) by @joshuavial
-- Documentation for [running the llmcode benchmarking suite](https://github.com/KhulnaSoft/llmcode/tree/main/benchmark)
+- Documentation for [running the llmcode benchmarking suite](https://github.com/khulnasoft/llmcode/tree/main/benchmark)
 - Llmcode now requires Python >= 3.9
 
 

@@ -24,7 +24,7 @@ load_dotenv()
 
 BOT_SUFFIX = """
 
-Note: [A bot script](https://github.com/KhulnaSoft/llmcode/blob/main/scripts/issues.py) made these updates to the issue.
+Note: [A bot script](https://github.com/khulnasoft/llmcode/blob/main/scripts/issues.py) made these updates to the issue.
 """  # noqa
 
 DUPLICATE_COMMENT = (

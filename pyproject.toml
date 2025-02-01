@@ -20,7 +20,7 @@ requires-python = ">=3.9,<3.13"
 dynamic = ["dependencies", "optional-dependencies", "version"]
 
 [project.urls]
-Homepage = "https://github.com/KhulnaSoft/llmcode"
+Homepage = "https://github.com/khulnasoft/llmcode"
 
 [project.scripts]
 llmcode = "llmcode.main:main"
@@ -47,6 +47,6 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 write_to = "llmcode/_version.py"
 
-[tool.codespell]
+[tool.codetypo]
 skip = "*.svg,Gemfile.lock"
 write-changes = true
