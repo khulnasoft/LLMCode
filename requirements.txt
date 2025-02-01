@@ -143,9 +143,7 @@ posthog==3.8.3
 prompt-toolkit==3.0.48
     # via -r requirements/requirements.in
 propcache==0.2.1
-    # via
-    #   aiohttp
-    #   yarl
+    # via yarl
 psutil==6.1.1
     # via -r requirements/requirements.in
 ptyprocess==0.7.0

@@ -270,7 +270,7 @@ Llmcode's analytics only records the names of "well known" LLMs.
 [Llmcode is tightly integrated with git](/docs/git.html) so all
 of llmcode's code changes are committed to the repo with proper attribution.
 The 
-[stats are computed](https://github.com/KhulnaSoft/llmcode/blob/main/scripts/blame.py)
+[stats are computed](https://github.com/khulnasoft/llmcode/blob/main/scripts/blame.py)
 by doing something like `git blame` on the repo,
 and counting up who wrote all the new lines of code in each release.
 Only lines in source code files are counted, not documentation or prompt files.
@@ -347,9 +347,9 @@ Your edits and llmcode's edits might conflict.
 
 Llmcode AI LLC is the company behind the llmcode AI coding tool.
 Llmcode is 
-[open source and available on GitHub](https://github.com/KhulnaSoft/llmcode)
+[open source and available on GitHub](https://github.com/khulnasoft/llmcode)
 under an 
-[Apache 2.0 license](https://github.com/KhulnaSoft/llmcode/blob/main/LICENSE.txt).
+[Apache 2.0 license](https://github.com/khulnasoft/llmcode/blob/main/LICENSE.txt).
 
 
 <div style="height:80vh"></div>

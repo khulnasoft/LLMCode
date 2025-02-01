@@ -50,7 +50,7 @@ llmcode uses.
 
 In particular, be careful with the packages with pinned versions 
 noted at the end of
-[llmcode's requirements.in file](https://github.com/KhulnaSoft/llmcode/blob/main/requirements/requirements.in).
+[llmcode's requirements.in file](https://github.com/khulnasoft/llmcode/blob/main/requirements/requirements.in).
 These versions are pinned because llmcode is known not to work with the
 latest versions of these libraries.
 

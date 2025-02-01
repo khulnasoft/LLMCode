@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: llmcode-install
 Version: 0.0.1
 Summary: Installer for the llmcode AI pair programming CLI tool.
-Home-page: https://github.com/KhulnaSoft/llmcode
+Home-page: https://github.com/khulnasoft/llmcode
 Author: Md Sulaiman
 Author-email: dev.sulaiman@icloud.com
 Classifier: Programming Language :: Python :: 3
@@ -57,5 +57,5 @@ uv tool update-shell
 
 ## Support
 
-For issues with the installer, please [open a GitHub issue](https://github.com/KhulnaSoft/llmcode/issues).
+For issues with the installer, please [open a GitHub issue](https://github.com/khulnasoft/llmcode/issues).
 For llmcode usage questions, see the [llmcode documentation](https://llmcode.khulnasoft.com).

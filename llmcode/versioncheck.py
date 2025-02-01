@@ -21,7 +21,7 @@ def install_from_main_branch(io):
         io,
         None,
         "Install the development version of llmcode from the main branch?",
-        ["git+https://github.com/KhulnaSoft/llmcode.git"],
+        ["git+https://github.com/khulnasoft/llmcode.git"],
         self_update=True,
     )
 

@@ -345,7 +345,7 @@ These changes replace the `subprocess.run` patches with `subprocess.check_output
         self.assertEqual(result, expected_output)
 
     def test_create_new_file_with_other_file_in_chat(self):
-        # https://github.com/KhulnaSoft/llmcode/issues/2258
+        # https://github.com/khulnasoft/llmcode/issues/2258
         with ChdirTemporaryDirectory():
             # Create a few temporary files
             file1 = "file.txt"

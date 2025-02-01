@@ -1,6 +1,4 @@
-- llmcode_percentage: 29.08
-  llmcode_total: 41
-  end_date: '2023-06-15'
+- end_date: '2023-06-15'
   end_tag: v0.6.0
   file_counts:
     llmcode/coder.py:
@@ -27,11 +25,11 @@
   grand_total:
     Md Sulaiman: 100
     Md Sulaiman (llmcode): 41
+  llmcode_percentage: 29.08
+  llmcode_total: 41
   start_tag: v0.5.0
   total_lines: 141
-- llmcode_percentage: 15.99
-  llmcode_total: 224
-  end_date: '2023-06-25'
+- end_date: '2023-06-25'
   end_tag: v0.7.0
   file_counts:
     .github/workflows/release.yml:
@@ -89,11 +87,11 @@
   grand_total:
     Md Sulaiman: 1177
     Md Sulaiman (llmcode): 224
+  llmcode_percentage: 15.99
+  llmcode_total: 224
   start_tag: v0.6.0
   total_lines: 1401
-- llmcode_percentage: 8.21
-  llmcode_total: 142
-  end_date: '2023-07-06'
+- end_date: '2023-07-06'
   end_tag: v0.8.0
   file_counts:
     .github/workflows/ubuntu-tests.yml:
@@ -101,6 +99,23 @@
     .github/workflows/windows-tests.yml:
       Md Sulaiman: 13
       Md Sulaiman (llmcode): 25
+    benchmark/Dockerfile:
+      Md Sulaiman: 7
+    benchmark/benchmark.py:
+      Md Sulaiman: 446
+      Md Sulaiman (llmcode): 29
+    benchmark/docker.sh:
+      Md Sulaiman: 11
+      Md Sulaiman (llmcode): 1
+    benchmark/docker_build.sh:
+      Md Sulaiman: 8
+    benchmark/plot.sh:
+      Md Sulaiman: 29
+    benchmark/rungrid.py:
+      Md Sulaiman: 60
+    benchmark/test_benchmark.py:
+      Md Sulaiman: 34
+      Md Sulaiman (llmcode): 13
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/__init__.py:
@@ -134,23 +149,6 @@
       Md Sulaiman: 30
     llmcode/utils.py:
       Md Sulaiman: 11
-    benchmark/Dockerfile:
-      Md Sulaiman: 7
-    benchmark/benchmark.py:
-      Md Sulaiman: 446
-      Md Sulaiman (llmcode): 29
-    benchmark/docker.sh:
-      Md Sulaiman: 11
-      Md Sulaiman (llmcode): 1
-    benchmark/docker_build.sh:
-      Md Sulaiman: 8
-    benchmark/plot.sh:
-      Md Sulaiman: 29
-    benchmark/rungrid.py:
-      Md Sulaiman: 60
-    benchmark/test_benchmark.py:
-      Md Sulaiman: 34
-      Md Sulaiman (llmcode): 13
     tests/test_coder.py:
       Md Sulaiman: 87
       Md Sulaiman (llmcode): 24
@@ -172,13 +170,15 @@
     Md Sulaiman: 1582
     Md Sulaiman (llmcode): 142
     kwmiebach: 5
+  llmcode_percentage: 8.21
+  llmcode_total: 142
   start_tag: v0.7.0
   total_lines: 1729
-- llmcode_percentage: 17.67
-  llmcode_total: 144
-  end_date: '2023-07-16'
+- end_date: '2023-07-16'
   end_tag: v0.9.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 3
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -203,8 +203,6 @@
       Md Sulaiman: 36
     llmcode/utils.py:
       Md Sulaiman: 8
-    benchmark/benchmark.py:
-      Md Sulaiman: 3
     scripts/versionbump.py:
       Md Sulaiman: 15
       Md Sulaiman (llmcode): 10
@@ -233,13 +231,15 @@
   grand_total:
     Md Sulaiman: 671
     Md Sulaiman (llmcode): 144
+  llmcode_percentage: 17.67
+  llmcode_total: 144
   start_tag: v0.8.0
   total_lines: 815
-- llmcode_percentage: 11.34
-  llmcode_total: 33
-  end_date: '2023-07-22'
+- end_date: '2023-07-22'
   end_tag: v0.10.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -263,8 +263,6 @@
     llmcode/versioncheck.py:
       Md Sulaiman: 22
       Md Sulaiman (llmcode): 5
-    benchmark/benchmark.py:
-      Md Sulaiman: 1
     scripts/versionbump.py:
       Md Sulaiman (llmcode): 2
     tests/test_coder.py:
@@ -283,11 +281,11 @@
     Amer Amayreh: 8
     Md Sulaiman: 250
     Md Sulaiman (llmcode): 33
+  llmcode_percentage: 11.34
+  llmcode_total: 33
   start_tag: v0.9.0
   total_lines: 291
-- llmcode_percentage: 6.62
-  llmcode_total: 49
-  end_date: '2023-08-02'
+- end_date: '2023-08-02'
   end_tag: v0.11.0
   file_counts:
     llmcode/__init__.py:
@@ -330,13 +328,15 @@
   grand_total:
     Md Sulaiman: 691
     Md Sulaiman (llmcode): 49
+  llmcode_percentage: 6.62
+  llmcode_total: 49
   start_tag: v0.10.0
   total_lines: 740
-- llmcode_percentage: 4.71
-  llmcode_total: 24
-  end_date: '2023-08-11'
+- end_date: '2023-08-11'
   end_tag: v0.12.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 57
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -363,8 +363,6 @@
     llmcode/voice.py:
       Md Sulaiman: 77
       Md Sulaiman (llmcode): 8
-    benchmark/benchmark.py:
-      Md Sulaiman: 57
     scripts/versionbump.py:
       Md Sulaiman: 1
     tests/test_coder.py:
@@ -381,11 +379,11 @@
     Joshua Vial: 2
     Md Sulaiman: 481
     Md Sulaiman (llmcode): 24
+  llmcode_percentage: 4.71
+  llmcode_total: 24
   start_tag: v0.11.0
   total_lines: 510
-- llmcode_percentage: 4.32
-  llmcode_total: 23
-  end_date: '2023-08-22'
+- end_date: '2023-08-22'
   end_tag: v0.13.0
   file_counts:
     .github/workflows/ubuntu-tests.yml:
@@ -432,13 +430,15 @@
   grand_total:
     Md Sulaiman: 510
     Md Sulaiman (llmcode): 23
+  llmcode_percentage: 4.32
+  llmcode_total: 23
   start_tag: v0.12.0
   total_lines: 533
-- llmcode_percentage: 0.55
-  llmcode_total: 1
-  end_date: '2023-09-08'
+- end_date: '2023-09-08'
   end_tag: v0.14.0
   file_counts:
+    benchmark/Dockerfile:
+      Md Sulaiman: 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -476,8 +476,6 @@
       JV: 2
       Joshua Vial: 4
       Md Sulaiman: 1
-    benchmark/Dockerfile:
-      Md Sulaiman: 1
     setup.py:
       Md Sulaiman: 1
     tests/test_models.py:
@@ -488,16 +486,22 @@
     Joshua Vial: 59
     Md Sulaiman: 60
     Md Sulaiman (llmcode): 1
+  llmcode_percentage: 0.55
+  llmcode_total: 1
   start_tag: v0.13.0
   total_lines: 182
-- llmcode_percentage: 11.28
-  llmcode_total: 38
-  end_date: '2023-10-20'
+- end_date: '2023-10-20'
   end_tag: v0.15.0
   file_counts:
     .github/workflows/release.yml:
       Md Sulaiman: 9
       Md Sulaiman (llmcode): 14
+    benchmark/Dockerfile:
+      Joshua Vial: 1
+    benchmark/benchmark.py:
+      Joshua Vial: 1
+    docker/Dockerfile:
+      Md Sulaiman: 9
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -517,12 +521,6 @@
       Md Sulaiman: 11
     llmcode/voice.py:
       Md Sulaiman: 8
-    benchmark/Dockerfile:
-      Joshua Vial: 1
-    benchmark/benchmark.py:
-      Joshua Vial: 1
-    docker/Dockerfile:
-      Md Sulaiman: 9
     scripts/versionbump.py:
       Md Sulaiman: 2
     tests/test_commands.py:
@@ -537,13 +535,17 @@
     Md Sulaiman: 289
     Md Sulaiman (llmcode): 37
     Thinh Nguyen: 8
+  llmcode_percentage: 11.28
+  llmcode_total: 38
   start_tag: v0.14.0
   total_lines: 337
-- llmcode_percentage: 1.76
-  llmcode_total: 16
-  end_date: '2023-10-29'
+- end_date: '2023-10-29'
   end_tag: v0.16.0
   file_counts:
+    benchmark/Dockerfile:
+      Md Sulaiman: 4
+    docker/Dockerfile:
+      Md Sulaiman: 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -589,10 +591,6 @@
     llmcode/repomap.py:
       Md Sulaiman: 187
       Md Sulaiman (llmcode): 2
-    benchmark/Dockerfile:
-      Md Sulaiman: 4
-    docker/Dockerfile:
-      Md Sulaiman: 1
     setup.py:
       Md Sulaiman: 2
       Md Sulaiman (llmcode): 2
@@ -607,11 +605,11 @@
   grand_total:
     Md Sulaiman: 894
     Md Sulaiman (llmcode): 16
+  llmcode_percentage: 1.76
+  llmcode_total: 16
   start_tag: v0.15.0
   total_lines: 910
-- llmcode_percentage: 5.35
-  llmcode_total: 13
-  end_date: '2023-11-06'
+- end_date: '2023-11-06'
   end_tag: v0.17.0
   file_counts:
     .github/workflows/docker-build-test.yml:
@@ -619,6 +617,12 @@
       Md Sulaiman (llmcode): 7
     .github/workflows/release.yml:
       Md Sulaiman: 4
+    benchmark/Dockerfile:
+      Md Sulaiman: 2
+    benchmark/benchmark.py:
+      Md Sulaiman: 24
+    docker/Dockerfile:
+      Md Sulaiman: 5
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -626,9 +630,9 @@
     llmcode/coders/editblock_coder.py:
       Md Sulaiman: 29
     llmcode/commands.py:
-      Omri Bloch: 1
       Md Sulaiman: 5
       Md Sulaiman (llmcode): 6
+      Omri Bloch: 1
     llmcode/io.py:
       Md Sulaiman: 1
     llmcode/main.py:
@@ -639,12 +643,6 @@
       Md Sulaiman: 3
     llmcode/repomap.py:
       Md Sulaiman: 6
-    benchmark/Dockerfile:
-      Md Sulaiman: 2
-    benchmark/benchmark.py:
-      Md Sulaiman: 24
-    docker/Dockerfile:
-      Md Sulaiman: 5
     setup.py:
       Jack Hallam: 3
       Md Sulaiman: 10
@@ -658,16 +656,21 @@
       Md Sulaiman: 3
   grand_total:
     Jack Hallam: 3
-    Omri Bloch: 1
     Md Sulaiman: 226
     Md Sulaiman (llmcode): 13
+    Omri Bloch: 1
+  llmcode_percentage: 5.35
+  llmcode_total: 13
   start_tag: v0.16.0
   total_lines: 243
-- llmcode_percentage: 39.3
-  llmcode_total: 90
-  end_date: '2023-11-17'
+- end_date: '2023-11-17'
   end_tag: v0.18.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 22
+      Md Sulaiman (llmcode): 33
+    benchmark/rungrid.py:
+      Md Sulaiman: 16
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -681,11 +684,6 @@
       Md Sulaiman: 13
     llmcode/repomap.py:
       Md Sulaiman: 10
-    benchmark/benchmark.py:
-      Md Sulaiman: 22
-      Md Sulaiman (llmcode): 33
-    benchmark/rungrid.py:
-      Md Sulaiman: 16
     scripts/versionbump.py:
       Md Sulaiman (llmcode): 41
     tests/test_coder.py:
@@ -700,13 +698,17 @@
   grand_total:
     Md Sulaiman: 139
     Md Sulaiman (llmcode): 90
+  llmcode_percentage: 39.3
+  llmcode_total: 90
   start_tag: v0.17.0
   total_lines: 229
-- llmcode_percentage: 0.72
-  llmcode_total: 13
-  end_date: '2023-12-19'
+- end_date: '2023-12-19'
   end_tag: v0.19.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 175
+    benchmark/refactor_tools.py:
+      Md Sulaiman: 209
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/__init__.py:
@@ -745,10 +747,6 @@
       Md Sulaiman: 15
     llmcode/voice.py:
       Md Sulaiman: 7
-    benchmark/benchmark.py:
-      Md Sulaiman: 175
-    benchmark/refactor_tools.py:
-      Md Sulaiman: 209
     tests/test_coder.py:
       Md Sulaiman: 11
     tests/test_commands.py:
@@ -772,15 +770,17 @@
     Md Sulaiman: 1780
     Your Name: 19
     Your Name (llmcode): 13
+  llmcode_percentage: 0.72
+  llmcode_total: 13
   start_tag: v0.18.0
   total_lines: 1812
-- llmcode_percentage: 11.38
-  llmcode_total: 38
-  end_date: '2024-01-04'
+- end_date: '2024-01-04'
   end_tag: v0.20.0
   file_counts:
     .github/workflows/docker-build-test.yml:
       Md Sulaiman: 4
+    benchmark/benchmark.py:
+      Joshua Vial: 16
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -810,8 +810,6 @@
       Joshua Vial: 9
     llmcode/utils.py:
       Joshua Vial: 29
-    benchmark/benchmark.py:
-      Joshua Vial: 16
     tests/test_commands.py:
       Md Sulaiman: 17
       Md Sulaiman (llmcode): 20
@@ -825,11 +823,11 @@
     Joshua Vial: 170
     Md Sulaiman: 119
     Md Sulaiman (llmcode): 38
+  llmcode_percentage: 11.38
+  llmcode_total: 38
   start_tag: v0.19.0
   total_lines: 334
-- llmcode_percentage: 19.32
-  llmcode_total: 17
-  end_date: '2024-01-08'
+- end_date: '2024-01-08'
   end_tag: v0.21.0
   file_counts:
     .github/workflows/ubuntu-tests.yml:
@@ -851,11 +849,11 @@
   grand_total:
     Md Sulaiman: 71
     Md Sulaiman (llmcode): 17
+  llmcode_percentage: 19.32
+  llmcode_total: 17
   start_tag: v0.20.0
   total_lines: 88
-- llmcode_percentage: 0.0
-  llmcode_total: 0
-  end_date: '2024-01-22'
+- end_date: '2024-01-22'
   end_tag: v0.22.0
   file_counts:
     llmcode/__init__.py:
@@ -870,13 +868,15 @@
       Md Sulaiman: 2
   grand_total:
     Md Sulaiman: 54
+  llmcode_percentage: 0.0
+  llmcode_total: 0
   start_tag: v0.21.0
   total_lines: 54
-- llmcode_percentage: 1.16
-  llmcode_total: 2
-  end_date: '2024-02-03'
+- end_date: '2024-02-03'
   end_tag: v0.23.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 16
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -891,17 +891,15 @@
       Md Sulaiman (llmcode): 2
     llmcode/models/openai.py:
       Md Sulaiman: 3
-    benchmark/benchmark.py:
-      Md Sulaiman: 16
   grand_total:
     Md Sulaiman: 165
     Md Sulaiman (llmcode): 2
     Zachary Vorhies: 6
+  llmcode_percentage: 1.16
+  llmcode_total: 2
   start_tag: v0.22.0
   total_lines: 173
-- llmcode_percentage: 6.68
-  llmcode_total: 25
-  end_date: '2024-02-10'
+- end_date: '2024-02-10'
   end_tag: v0.24.0
   file_counts:
     llmcode/__init__.py:
@@ -929,11 +927,11 @@
   grand_total:
     Md Sulaiman: 349
     Md Sulaiman (llmcode): 25
+  llmcode_percentage: 6.68
+  llmcode_total: 25
   start_tag: v0.23.0
   total_lines: 374
-- llmcode_percentage: 5.79
-  llmcode_total: 7
-  end_date: '2024-03-04'
+- end_date: '2024-03-04'
   end_tag: v0.25.0
   file_counts:
     llmcode/__init__.py:
@@ -958,11 +956,11 @@
   grand_total:
     Md Sulaiman: 114
     Md Sulaiman (llmcode): 7
+  llmcode_percentage: 5.79
+  llmcode_total: 7
   start_tag: v0.24.0
   total_lines: 121
-- llmcode_percentage: 0.0
-  llmcode_total: 0
-  end_date: '2024-03-08'
+- end_date: '2024-03-08'
   end_tag: v0.26.0
   file_counts:
     llmcode/__init__.py:
@@ -973,13 +971,15 @@
       Md Sulaiman: 26
   grand_total:
     Md Sulaiman: 35
+  llmcode_percentage: 0.0
+  llmcode_total: 0
   start_tag: v0.25.0
   total_lines: 35
-- llmcode_percentage: 0.0
-  llmcode_total: 0
-  end_date: '2024-03-22'
+- end_date: '2024-03-22'
   end_tag: v0.27.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 91
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/commands.py:
@@ -990,8 +990,6 @@
       Ryan Freckleton: 21
     llmcode/repomap.py:
       Md Sulaiman: 6
-    benchmark/benchmark.py:
-      Md Sulaiman: 91
     tests/test_commands.py:
       Md Sulaiman: 3
     tests/test_repomap.py:
@@ -999,11 +997,11 @@
   grand_total:
     Md Sulaiman: 125
     Ryan Freckleton: 69
+  llmcode_percentage: 0.0
+  llmcode_total: 0
   start_tag: v0.26.0
   total_lines: 194
-- llmcode_percentage: 0.0
-  llmcode_total: 0
-  end_date: '2024-04-09'
+- end_date: '2024-04-09'
   end_tag: v0.28.0
   file_counts:
     llmcode/__init__.py:
@@ -1012,11 +1010,11 @@
       Md Sulaiman: 3
   grand_total:
     Md Sulaiman: 4
+  llmcode_percentage: 0.0
+  llmcode_total: 0
   start_tag: v0.27.0
   total_lines: 4
-- llmcode_percentage: 5.69
-  llmcode_total: 35
-  end_date: '2024-04-21'
+- end_date: '2024-04-21'
   end_tag: v0.29.0
   file_counts:
     .github/workflows/docker-build-test.yml:
@@ -1027,6 +1025,8 @@
       Md Sulaiman: 2
     .github/workflows/windows-tests.yml:
       Md Sulaiman: 2
+    benchmark/benchmark.py:
+      Md Sulaiman: 60
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -1054,8 +1054,6 @@
       Md Sulaiman: 4
     llmcode/voice.py:
       Md Sulaiman: 3
-    benchmark/benchmark.py:
-      Md Sulaiman: 60
     tests/test_coder.py:
       Md Sulaiman: 28
     tests/test_commands.py:
@@ -1076,13 +1074,15 @@
     Aloha: 1
     Md Sulaiman: 579
     Md Sulaiman (llmcode): 35
+  llmcode_percentage: 5.69
+  llmcode_total: 35
   start_tag: v0.28.0
   total_lines: 615
-- llmcode_percentage: 0.0
-  llmcode_total: 0
-  end_date: '2024-04-23'
+- end_date: '2024-04-23'
   end_tag: v0.30.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -1097,8 +1097,6 @@
       Md Sulaiman: 3
     llmcode/voice.py:
       Md Sulaiman: 2
-    benchmark/benchmark.py:
-      Md Sulaiman: 1
     tests/test_coder.py:
       Md Sulaiman: 1
     tests/test_commands.py:
@@ -1115,11 +1113,11 @@
       Md Sulaiman: 1
   grand_total:
     Md Sulaiman: 213
+  llmcode_percentage: 0.0
+  llmcode_total: 0
   start_tag: v0.29.0
   total_lines: 213
-- llmcode_percentage: 0.16
-  llmcode_total: 2
-  end_date: '2024-05-02'
+- end_date: '2024-05-02'
   end_tag: v0.31.0
   file_counts:
     llmcode/__init__.py:
@@ -1152,13 +1150,18 @@
   grand_total:
     Md Sulaiman: 1247
     Md Sulaiman (llmcode): 2
+  llmcode_percentage: 0.16
+  llmcode_total: 2
   start_tag: v0.30.0
   total_lines: 1249
-- llmcode_percentage: 3.29
-  llmcode_total: 8
-  end_date: '2024-05-07'
+- end_date: '2024-05-07'
   end_tag: v0.32.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 78
+      Md Sulaiman (llmcode): 5
+    benchmark/plots.py:
+      Md Sulaiman: 3
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -1182,11 +1185,6 @@
       Md Sulaiman: 10
     llmcode/utils.py:
       Md Sulaiman: 1
-    benchmark/benchmark.py:
-      Md Sulaiman: 78
-      Md Sulaiman (llmcode): 5
-    benchmark/plots.py:
-      Md Sulaiman: 3
     tests/test_main.py:
       Md Sulaiman: 10
     tests/test_sendchat.py:
@@ -1194,11 +1192,11 @@
   grand_total:
     Md Sulaiman: 235
     Md Sulaiman (llmcode): 8
+  llmcode_percentage: 3.29
+  llmcode_total: 8
   start_tag: v0.31.0
   total_lines: 243
-- llmcode_percentage: 0.0
-  llmcode_total: 0
-  end_date: '2024-05-08'
+- end_date: '2024-05-08'
   end_tag: v0.33.0
   file_counts:
     llmcode/__init__.py:
@@ -1219,11 +1217,11 @@
       Md Sulaiman: 2
   grand_total:
     Md Sulaiman: 21
+  llmcode_percentage: 0.0
+  llmcode_total: 0
   start_tag: v0.32.0
   total_lines: 21
-- llmcode_percentage: 0.0
-  llmcode_total: 0
-  end_date: '2024-05-10'
+- end_date: '2024-05-10'
   end_tag: v0.34.0
   file_counts:
     llmcode/__init__.py:
@@ -1244,11 +1242,11 @@
       Md Sulaiman: 4
   grand_total:
     Md Sulaiman: 54
+  llmcode_percentage: 0.0
+  llmcode_total: 0
   start_tag: v0.33.0
   total_lines: 54
-- llmcode_percentage: 6.8
-  llmcode_total: 17
-  end_date: '2024-05-13'
+- end_date: '2024-05-13'
   end_tag: v0.35.0
   file_counts:
     llmcode/__init__.py:
@@ -1280,15 +1278,20 @@
   grand_total:
     Md Sulaiman: 233
     Md Sulaiman (llmcode): 17
+  llmcode_percentage: 6.8
+  llmcode_total: 17
   start_tag: v0.34.0
   total_lines: 250
-- llmcode_percentage: 15.38
-  llmcode_total: 92
-  end_date: '2024-05-22'
+- end_date: '2024-05-22'
   end_tag: v0.36.0
   file_counts:
     Gemfile:
       Md Sulaiman (llmcode): 5
+    benchmark/benchmark.py:
+      Md Sulaiman: 5
+    benchmark/over_time.py:
+      Md Sulaiman: 29
+      Md Sulaiman (llmcode): 28
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -1316,11 +1319,6 @@
     llmcode/repo.py:
       Md Sulaiman: 4
       Md Sulaiman (llmcode): 14
-    benchmark/benchmark.py:
-      Md Sulaiman: 5
-    benchmark/over_time.py:
-      Md Sulaiman: 29
-      Md Sulaiman (llmcode): 28
     scripts/jekyll_build.sh:
       Md Sulaiman: 1
       Md Sulaiman (llmcode): 3
@@ -1330,13 +1328,18 @@
   grand_total:
     Md Sulaiman: 506
     Md Sulaiman (llmcode): 92
+  llmcode_percentage: 15.38
+  llmcode_total: 92
   start_tag: v0.35.0
   total_lines: 598
-- llmcode_percentage: 19.06
-  llmcode_total: 113
-  end_date: '2024-06-04'
+- end_date: '2024-06-04'
   end_tag: v0.37.0
   file_counts:
+    benchmark/over_time.py:
+      Md Sulaiman (llmcode): 7
+    benchmark/swe_bench.py:
+      Md Sulaiman: 99
+      Md Sulaiman (llmcode): 24
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/coders/base_coder.py:
@@ -1361,11 +1364,6 @@
       Md Sulaiman: 2
     llmcode/voice.py:
       Md Sulaiman (llmcode): 4
-    benchmark/over_time.py:
-      Md Sulaiman (llmcode): 7
-    benchmark/swe_bench.py:
-      Md Sulaiman: 99
-      Md Sulaiman (llmcode): 24
     scripts/blame.py:
       Md Sulaiman: 153
       Md Sulaiman (llmcode): 59
@@ -1377,11 +1375,11 @@
     Aleksandr Bobrov (llmcode): 1
     Md Sulaiman: 479
     Md Sulaiman (llmcode): 112
+  llmcode_percentage: 19.06
+  llmcode_total: 113
   start_tag: v0.36.0
   total_lines: 593
-- llmcode_percentage: 9.53
-  llmcode_total: 53
-  end_date: '2024-06-16'
+- end_date: '2024-06-16'
   end_tag: v0.38.0
   file_counts:
     .github/workflows/docker-build-test.yml:
@@ -1443,11 +1441,11 @@
     Md Sulaiman: 474
     Md Sulaiman (llmcode): 53
     develmusa: 1
+  llmcode_percentage: 9.53
+  llmcode_total: 53
   start_tag: v0.37.0
   total_lines: 556
-- llmcode_percentage: 15.56
-  llmcode_total: 47
-  end_date: '2024-06-20'
+- end_date: '2024-06-20'
   end_tag: v0.39.0
   file_counts:
     llmcode/__init__.py:
@@ -1486,8 +1484,8 @@
       Md Sulaiman: 19
       Md Sulaiman (llmcode): 21
     llmcode/urls.py:
-      Nicolas Perez: 1
       Md Sulaiman: 1
+      Nicolas Perez: 1
     llmcode/utils.py:
       Daniel Vainsencher: 7
       Daniel Vainsencher (llmcode): 11
@@ -1498,14 +1496,14 @@
     Daniel Vainsencher: 32
     Daniel Vainsencher (llmcode): 13
     John-Mason P. Shackelford: 115
-    Nicolas Perez: 2
     Md Sulaiman: 106
     Md Sulaiman (llmcode): 34
+    Nicolas Perez: 2
+  llmcode_percentage: 15.56
+  llmcode_total: 47
   start_tag: v0.38.0
   total_lines: 302
-- llmcode_percentage: 6.42
-  llmcode_total: 21
-  end_date: '2024-06-24'
+- end_date: '2024-06-24'
   end_tag: v0.40.0
   file_counts:
     llmcode/__init__.py:
@@ -1536,11 +1534,11 @@
     Krazer: 69
     Md Sulaiman: 224
     Md Sulaiman (llmcode): 21
+  llmcode_percentage: 6.42
+  llmcode_total: 21
   start_tag: v0.39.0
   total_lines: 327
-- llmcode_percentage: 4.74
-  llmcode_total: 11
-  end_date: '2024-07-01'
+- end_date: '2024-07-01'
   end_tag: v0.41.0
   file_counts:
     .github/workflows/release.yml:
@@ -1566,8 +1564,8 @@
     llmcode/mdstream.py:
       Md Sulaiman: 1
     llmcode/models.py:
-      Mitsuki Ogasahara: 3
       Md Sulaiman: 28
+      Mitsuki Ogasahara: 3
     llmcode/repo.py:
       Md Sulaiman: 7
     llmcode/repomap.py:
@@ -1586,14 +1584,14 @@
       Md Sulaiman: 3
   grand_total:
     Amir Elaguizy (llmcode): 3
-    Mitsuki Ogasahara: 3
     Md Sulaiman: 218
     Md Sulaiman (llmcode): 8
+    Mitsuki Ogasahara: 3
+  llmcode_percentage: 4.74
+  llmcode_total: 11
   start_tag: v0.40.0
   total_lines: 232
-- llmcode_percentage: 2.29
-  llmcode_total: 7
-  end_date: '2024-07-04'
+- end_date: '2024-07-04'
   end_tag: v0.42.0
   file_counts:
     .github/workflows/pages.yml:
@@ -1634,11 +1632,11 @@
   grand_total:
     Md Sulaiman: 299
     Md Sulaiman (llmcode): 7
+  llmcode_percentage: 2.29
+  llmcode_total: 7
   start_tag: v0.41.0
   total_lines: 306
-- llmcode_percentage: 10.61
-  llmcode_total: 40
-  end_date: '2024-07-07'
+- end_date: '2024-07-07'
   end_tag: v0.43.0
   file_counts:
     .github/workflows/docker-build-test.yml:
@@ -1692,17 +1690,22 @@
   grand_total:
     Md Sulaiman: 337
     Md Sulaiman (llmcode): 40
+  llmcode_percentage: 10.61
+  llmcode_total: 40
   start_tag: v0.42.0
   total_lines: 377
-- llmcode_percentage: 27.02
-  llmcode_total: 157
-  end_date: '2024-07-16'
+- end_date: '2024-07-16'
   end_tag: v0.44.0
   file_counts:
     .github/workflows/ubuntu-tests.yml:
       Md Sulaiman: 3
     .github/workflows/windows-tests.yml:
       Md Sulaiman: 4
+    benchmark/Dockerfile:
+      Md Sulaiman: 3
+    docker/Dockerfile:
+      Md Sulaiman: 14
+      Md Sulaiman (llmcode): 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -1731,11 +1734,6 @@
       Md Sulaiman: 27
     llmcode/voice.py:
       Md Sulaiman: 6
-    benchmark/Dockerfile:
-      Md Sulaiman: 3
-    docker/Dockerfile:
-      Md Sulaiman: 14
-      Md Sulaiman (llmcode): 1
     scripts/blame.py:
       Md Sulaiman: 38
       Md Sulaiman (llmcode): 49
@@ -1760,11 +1758,11 @@
   grand_total:
     Md Sulaiman: 424
     Md Sulaiman (llmcode): 157
+  llmcode_percentage: 27.02
+  llmcode_total: 157
   start_tag: v0.43.0
   total_lines: 581
-- llmcode_percentage: 44.93
-  llmcode_total: 93
-  end_date: '2024-07-18'
+- end_date: '2024-07-18'
   end_tag: v0.45.0
   file_counts:
     llmcode/__init__.py:
@@ -1798,13 +1796,15 @@
   grand_total:
     Md Sulaiman: 114
     Md Sulaiman (llmcode): 93
+  llmcode_percentage: 44.93
+  llmcode_total: 93
   start_tag: v0.44.0
   total_lines: 207
-- llmcode_percentage: 52.87
-  llmcode_total: 313
-  end_date: '2024-07-29'
+- end_date: '2024-07-29'
   end_tag: v0.46.0
   file_counts:
+    benchmark/Dockerfile:
+      Your Name: 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -1855,8 +1855,6 @@
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 11
       Md Sulaiman (llmcode): 85
-    benchmark/Dockerfile:
-      Your Name: 1
     tests/basic/test_coder.py:
       Md Sulaiman: 6
       Md Sulaiman (llmcode): 5
@@ -1874,17 +1872,20 @@
     Md Sulaiman (llmcode): 272
     Your Name: 71
     Your Name (llmcode): 41
+  llmcode_percentage: 52.87
+  llmcode_total: 313
   start_tag: v0.45.0
   total_lines: 592
-- llmcode_percentage: 56.98
-  llmcode_total: 355
-  end_date: '2024-07-31'
+- end_date: '2024-07-31'
   end_tag: v0.47.0
   file_counts:
     .github/workflows/docker-release.yml:
       Md Sulaiman (llmcode): 20
     .github/workflows/release.yml:
       Md Sulaiman (llmcode): 2
+    docker/Dockerfile:
+      Md Sulaiman: 19
+      Md Sulaiman (llmcode): 18
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -1925,9 +1926,6 @@
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 11
       Md Sulaiman (llmcode): 12
-    docker/Dockerfile:
-      Md Sulaiman: 19
-      Md Sulaiman (llmcode): 18
     scripts/blame.py:
       Md Sulaiman: 65
       Md Sulaiman (llmcode): 99
@@ -1951,11 +1949,11 @@
   grand_total:
     Md Sulaiman: 268
     Md Sulaiman (llmcode): 355
+  llmcode_percentage: 56.98
+  llmcode_total: 355
   start_tag: v0.46.0
   total_lines: 623
-- llmcode_percentage: 45.67
-  llmcode_total: 269
-  end_date: '2024-08-06'
+- end_date: '2024-08-06'
   end_tag: v0.48.0
   file_counts:
     .github/workflows/ubuntu-tests.yml:
@@ -2014,13 +2012,16 @@
     Md Sulaiman (llmcode): 269
     Thinh Nguyen: 1
     paul-gauthier: 1
+  llmcode_percentage: 45.67
+  llmcode_total: 269
   start_tag: v0.47.0
   total_lines: 589
-- llmcode_percentage: 59.83
-  llmcode_total: 429
-  end_date: '2024-08-10'
+- end_date: '2024-08-10'
   end_tag: v0.49.0
   file_counts:
+    docker/Dockerfile:
+      Md Sulaiman: 5
+      Md Sulaiman (llmcode): 2
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -2063,9 +2064,6 @@
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 11
       Md Sulaiman (llmcode): 11
-    docker/Dockerfile:
-      Md Sulaiman: 5
-      Md Sulaiman (llmcode): 2
     tests/basic/test_coder.py:
       Md Sulaiman (llmcode): 5
     tests/basic/test_commands.py:
@@ -2085,11 +2083,11 @@
   grand_total:
     Md Sulaiman: 288
     Md Sulaiman (llmcode): 429
+  llmcode_percentage: 59.83
+  llmcode_total: 429
   start_tag: v0.48.0
   total_lines: 717
-- llmcode_percentage: 65.23
-  llmcode_total: 182
-  end_date: '2024-08-13'
+- end_date: '2024-08-13'
   end_tag: v0.50.0
   file_counts:
     .github/workflows/release.yml:
@@ -2141,13 +2139,20 @@
     Branch Vincent: 2
     Md Sulaiman: 95
     Md Sulaiman (llmcode): 171
+  llmcode_percentage: 65.23
+  llmcode_total: 182
   start_tag: v0.49.0
   total_lines: 279
-- llmcode_percentage: 56.95
-  llmcode_total: 582
-  end_date: '2024-08-20'
+- end_date: '2024-08-20'
   end_tag: v0.51.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 7
+    benchmark/over_time.py:
+      Md Sulaiman: 14
+      Md Sulaiman (llmcode): 57
+    docker/Dockerfile:
+      Md Sulaiman: 10
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -2186,13 +2191,6 @@
       Md Sulaiman (llmcode): 116
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 1
-    benchmark/benchmark.py:
-      Md Sulaiman: 7
-    benchmark/over_time.py:
-      Md Sulaiman: 14
-      Md Sulaiman (llmcode): 57
-    docker/Dockerfile:
-      Md Sulaiman: 10
     scripts/blame.py:
       Md Sulaiman (llmcode): 17
     tests/basic/test_commands.py:
@@ -2206,13 +2204,15 @@
   grand_total:
     Md Sulaiman: 440
     Md Sulaiman (llmcode): 582
+  llmcode_percentage: 56.95
+  llmcode_total: 582
   start_tag: v0.50.0
   total_lines: 1022
-- llmcode_percentage: 67.74
-  llmcode_total: 485
-  end_date: '2024-08-23'
+- end_date: '2024-08-23'
   end_tag: v0.52.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -2249,8 +2249,6 @@
       Md Sulaiman: 2
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 1
-    benchmark/benchmark.py:
-      Md Sulaiman: 1
     scripts/blame.py:
       Md Sulaiman: 1
     tests/basic/test_commands.py:
@@ -2271,11 +2269,11 @@
     Md Sulaiman: 230
     Md Sulaiman (llmcode): 485
     pcamp: 1
+  llmcode_percentage: 67.74
+  llmcode_total: 485
   start_tag: v0.51.0
   total_lines: 716
-- llmcode_percentage: 62.36
-  llmcode_total: 434
-  end_date: '2024-08-27'
+- end_date: '2024-08-27'
   end_tag: v0.53.0
   file_counts:
     llmcode/__init__.py:
@@ -2346,11 +2344,11 @@
   grand_total:
     Md Sulaiman: 262
     Md Sulaiman (llmcode): 434
+  llmcode_percentage: 62.36
+  llmcode_total: 434
   start_tag: v0.52.0
   total_lines: 696
-- llmcode_percentage: 67.4
-  llmcode_total: 184
-  end_date: '2024-08-28'
+- end_date: '2024-08-28'
   end_tag: v0.54.0
   file_counts:
     .github/workflows/docker-build-test.yml:
@@ -2401,11 +2399,11 @@
     Antti Kaihola: 4
     Md Sulaiman: 85
     Md Sulaiman (llmcode): 184
+  llmcode_percentage: 67.4
+  llmcode_total: 184
   start_tag: v0.53.0
   total_lines: 273
-- llmcode_percentage: 52.82
-  llmcode_total: 759
-  end_date: '2024-09-04'
+- end_date: '2024-09-04'
   end_tag: v0.55.0
   file_counts:
     llmcode/__init__.py:
@@ -2502,16 +2500,18 @@
       Md Sulaiman (llmcode): 11
   grand_total:
     Antti Kaihola: 12
-    Nikolay Sedelnikov: 31
     Md Sulaiman: 635
     Md Sulaiman (llmcode): 759
+    Nikolay Sedelnikov: 31
+  llmcode_percentage: 52.82
+  llmcode_total: 759
   start_tag: v0.54.0
   total_lines: 1437
-- llmcode_percentage: 56.23
-  llmcode_total: 149
-  end_date: '2024-09-09'
+- end_date: '2024-09-09'
   end_tag: v0.56.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 1
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -2544,8 +2544,6 @@
       Md Sulaiman (llmcode): 20
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 1
-    benchmark/benchmark.py:
-      Md Sulaiman: 1
     tests/basic/test_linter.py:
       Md Sulaiman: 1
       Md Sulaiman (llmcode): 51
@@ -2556,13 +2554,15 @@
     Md Sulaiman: 104
     Md Sulaiman (llmcode): 149
     fry69: 12
+  llmcode_percentage: 56.23
+  llmcode_total: 149
   start_tag: v0.55.0
   total_lines: 265
-- llmcode_percentage: 70.27
-  llmcode_total: 390
-  end_date: '2024-09-21'
+- end_date: '2024-09-21'
   end_tag: v0.57.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman: 4
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args_formatter.py:
@@ -2605,8 +2605,6 @@
       Anjor Kanekar: 1
       Md Sulaiman: 1
       Md Sulaiman (llmcode): 12
-    benchmark/benchmark.py:
-      Md Sulaiman: 4
     scripts/issues.py:
       Md Sulaiman: 10
       Md Sulaiman (llmcode): 123
@@ -2629,22 +2627,26 @@
     Krazer: 27
     Md Sulaiman: 134
     Md Sulaiman (llmcode): 377
+  llmcode_percentage: 70.27
+  llmcode_total: 390
   start_tag: v0.56.0
   total_lines: 555
-- llmcode_percentage: 44.68
-  llmcode_total: 600
-  end_date: '2024-09-29'
+- end_date: '2024-09-29'
   end_tag: v0.58.0
   file_counts:
     .github/workflows/docker-build-test.yml:
       Md Sulaiman: 1
       Md Sulaiman (llmcode): 5
+    benchmark/benchmark.py:
+      Md Sulaiman: 25
+      Md Sulaiman (llmcode): 29
+      fry69: 3
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
-      Mike Bailey: 7
       Md Sulaiman: 8
       Md Sulaiman (llmcode): 51
+      Mike Bailey: 7
       Stein Martin Hustad: 17
       fry69: 2
     llmcode/coders/__init__.py:
@@ -2664,9 +2666,9 @@
       Md Sulaiman: 2
     llmcode/commands.py:
       Jonathan Ellis: 1
-      Mike Bailey: 1
       Md Sulaiman: 17
       Md Sulaiman (llmcode): 77
+      Mike Bailey: 1
       fry69: 2
     llmcode/help.py:
       Md Sulaiman: 27
@@ -2704,15 +2706,11 @@
     llmcode/versioncheck.py:
       Md Sulaiman: 2
     llmcode/voice.py:
-      Mike Bailey: 17
       Md Sulaiman: 2
       Md Sulaiman (llmcode): 6
+      Mike Bailey: 17
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 152
-    benchmark/benchmark.py:
-      Md Sulaiman: 25
-      Md Sulaiman (llmcode): 29
-      fry69: 3
     scripts/issues.py:
       Md Sulaiman: 5
       Md Sulaiman (llmcode): 43
@@ -2736,17 +2734,17 @@
       Md Sulaiman: 9
   grand_total:
     Jonathan Ellis: 1
-    Mike Bailey: 25
     Md Sulaiman: 494
     Md Sulaiman (llmcode): 600
+    Mike Bailey: 25
     Stein Martin Hustad: 26
     fry69: 196
     rti: 1
+  llmcode_percentage: 44.68
+  llmcode_total: 600
   start_tag: v0.57.0
   total_lines: 1343
-- llmcode_percentage: 68.72
-  llmcode_total: 123
-  end_date: '2024-10-04'
+- end_date: '2024-10-04'
   end_tag: v0.59.0
   file_counts:
     llmcode/__init__.py:
@@ -2798,11 +2796,11 @@
   grand_total:
     Md Sulaiman: 56
     Md Sulaiman (llmcode): 123
+  llmcode_percentage: 68.72
+  llmcode_total: 123
   start_tag: v0.58.0
   total_lines: 179
-- llmcode_percentage: 57.2
-  llmcode_total: 139
-  end_date: '2024-10-22'
+- end_date: '2024-10-22'
   end_tag: v0.60.0
   file_counts:
     .github/workflows/close-stale.yml:
@@ -2853,11 +2851,11 @@
     Md Sulaiman (llmcode): 139
     Sven Grunewaldt: 10
     fry69: 7
+  llmcode_percentage: 57.2
+  llmcode_total: 139
   start_tag: v0.59.0
   total_lines: 243
-- llmcode_percentage: 67.04
-  llmcode_total: 781
-  end_date: '2024-11-01'
+- end_date: '2024-11-01'
   end_tag: v0.61.0
   file_counts:
     llmcode/__init__.py:
@@ -2928,11 +2926,11 @@
     Md Sulaiman: 370
     Md Sulaiman (llmcode): 781
     kAIto47802: 4
+  llmcode_percentage: 67.04
+  llmcode_total: 781
   start_tag: v0.60.0
   total_lines: 1165
-- llmcode_percentage: 77.78
-  llmcode_total: 56
-  end_date: '2024-11-04'
+- end_date: '2024-11-04'
   end_tag: v0.62.0
   file_counts:
     llmcode/__init__.py:
@@ -2952,11 +2950,11 @@
   grand_total:
     Md Sulaiman: 16
     Md Sulaiman (llmcode): 56
+  llmcode_percentage: 77.78
+  llmcode_total: 56
   start_tag: v0.61.0
   total_lines: 72
-- llmcode_percentage: 55.21
-  llmcode_total: 350
-  end_date: '2024-11-13'
+- end_date: '2024-11-13'
   end_tag: v0.63.0
   file_counts:
     llmcode/__init__.py:
@@ -3017,13 +3015,16 @@
     Logan Attwood: 13
     Md Sulaiman: 271
     Md Sulaiman (llmcode): 350
+  llmcode_percentage: 55.21
+  llmcode_total: 350
   start_tag: v0.62.0
   total_lines: 634
-- llmcode_percentage: 73.55
-  llmcode_total: 865
-  end_date: '2024-11-21'
+- end_date: '2024-11-21'
   end_tag: v0.64.0
   file_counts:
+    benchmark/over_time.py:
+      Md Sulaiman: 11
+      Md Sulaiman (llmcode): 162
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/analytics.py:
@@ -3073,9 +3074,6 @@
       Md Sulaiman (llmcode): 10
     llmcode/website/share/index.md:
       Md Sulaiman (llmcode): 29
-    benchmark/over_time.py:
-      Md Sulaiman: 11
-      Md Sulaiman (llmcode): 162
     scripts/blame.py:
       Md Sulaiman: 1
       Md Sulaiman (llmcode): 2
@@ -3102,13 +3100,20 @@
     Md Sulaiman (llmcode): 865
     caetanominuzzo: 1
     mw: 21
+  llmcode_percentage: 73.55
+  llmcode_total: 865
   start_tag: v0.63.0
   total_lines: 1176
-- llmcode_percentage: 81.19
-  llmcode_total: 544
-  end_date: '2024-11-26'
+- end_date: '2024-11-26'
   end_tag: v0.65.0
   file_counts:
+    benchmark/benchmark.py:
+      Md Sulaiman (llmcode): 10
+    benchmark/docker.sh:
+      Md Sulaiman (llmcode): 1
+    benchmark/over_time.py:
+      Md Sulaiman: 1
+      Md Sulaiman (llmcode): 157
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/analytics.py:
@@ -3138,13 +3143,6 @@
       Md Sulaiman (llmcode): 76
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 1
-    benchmark/benchmark.py:
-      Md Sulaiman (llmcode): 10
-    benchmark/docker.sh:
-      Md Sulaiman (llmcode): 1
-    benchmark/over_time.py:
-      Md Sulaiman: 1
-      Md Sulaiman (llmcode): 157
     scripts/update-docs.sh:
       Md Sulaiman: 1
     scripts/update-history.py:
@@ -3165,11 +3163,11 @@
     Md Sulaiman: 43
     Md Sulaiman (llmcode): 544
     malkoG: 83
+  llmcode_percentage: 81.19
+  llmcode_total: 544
   start_tag: v0.64.0
   total_lines: 670
-- llmcode_percentage: 81.65
-  llmcode_total: 574
-  end_date: '2024-12-01'
+- end_date: '2024-12-01'
   end_tag: v0.66.0
   file_counts:
     .github/workflows/docker-build-test.yml:
@@ -3185,6 +3183,8 @@
       Md Sulaiman (llmcode): 8
     .github/workflows/windows-tests.yml:
       Md Sulaiman (llmcode): 4
+    benchmark/benchmark.py:
+      Md Sulaiman (llmcode): 38
     llmcode/__init__.py:
       Md Sulaiman: 16
     llmcode/analytics.py:
@@ -3216,8 +3216,6 @@
       Philippe de Reynal: 24
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 1
-    benchmark/benchmark.py:
-      Md Sulaiman (llmcode): 38
     scripts/blame.py:
       Md Sulaiman (llmcode): 26
     scripts/issues.py:
@@ -3250,11 +3248,11 @@
     Md Sulaiman: 99
     Md Sulaiman (llmcode): 574
     Philippe de Reynal: 30
+  llmcode_percentage: 81.65
+  llmcode_total: 574
   start_tag: v0.65.0
   total_lines: 703
-- llmcode_percentage: 67.86
-  llmcode_total: 437
-  end_date: '2024-12-06'
+- end_date: '2024-12-06'
   end_tag: v0.67.0
   file_counts:
     .github/workflows/issues.yml:
@@ -3317,11 +3315,11 @@
   grand_total:
     Md Sulaiman: 207
     Md Sulaiman (llmcode): 437
+  llmcode_percentage: 67.86
+  llmcode_total: 437
   start_tag: v0.66.0
   total_lines: 644
-- llmcode_percentage: 71.57
-  llmcode_total: 428
-  end_date: '2024-12-10'
+- end_date: '2024-12-10'
   end_tag: v0.68.0
   file_counts:
     .github/workflows/pages.yml:
@@ -3400,33 +3398,36 @@
   grand_total:
     Md Sulaiman: 170
     Md Sulaiman (llmcode): 428
+  llmcode_percentage: 71.57
+  llmcode_total: 428
   start_tag: v0.67.0
   total_lines: 598
-- llmcode_percentage: 67.87
-  llmcode_total: 207
-  end_date: '2024-12-13'
+- end_date: '2024-12-13'
   end_tag: v0.69.0
   file_counts:
     .github/workflows/pages.yml:
       Md Sulaiman: 2
+    benchmark/benchmark.py:
+      Md Sulaiman: 7
+      Md Sulaiman (llmcode): 7
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/analytics.py:
       Md Sulaiman: 2
     llmcode/args.py:
-      Mir Adnan ALI: 3
       Md Sulaiman: 1
+      Mir Adnan ALI: 3
     llmcode/coders/base_coder.py:
       JeongJuhyeon: 1
       Mir Adnan ALI: 3
     llmcode/commands.py:
-      Mir Adnan ALI: 4
       Md Sulaiman: 5
       Md Sulaiman (llmcode): 3
+      Mir Adnan ALI: 4
     llmcode/io.py:
-      Mir Adnan ALI: 37
       Md Sulaiman: 8
       Md Sulaiman (llmcode): 3
+      Mir Adnan ALI: 37
     llmcode/main.py:
       Mir Adnan ALI: 1
     llmcode/models.py:
@@ -3436,9 +3437,6 @@
       Md Sulaiman (llmcode): 47
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 1
-    benchmark/benchmark.py:
-      Md Sulaiman: 7
-      Md Sulaiman (llmcode): 7
     scripts/blame.py:
       Md Sulaiman (llmcode): 1
     scripts/issues.py:
@@ -3452,16 +3450,41 @@
       Md Sulaiman (llmcode): 68
   grand_total:
     JeongJuhyeon: 1
-    Mir Adnan ALI: 48
     Md Sulaiman: 49
     Md Sulaiman (llmcode): 207
+    Mir Adnan ALI: 48
+  llmcode_percentage: 67.87
+  llmcode_total: 207
   start_tag: v0.68.0
   total_lines: 305
-- llmcode_percentage: 74.22
-  llmcode_total: 875
-  end_date: '2024-12-26'
+- end_date: '2024-12-26'
   end_tag: v0.70.0
   file_counts:
+    benchmark/Dockerfile:
+      Md Sulaiman: 8
+      Md Sulaiman (llmcode): 43
+    benchmark/benchmark.py:
+      Md Sulaiman: 69
+      Md Sulaiman (llmcode): 153
+    benchmark/clone-exercism.sh:
+      Md Sulaiman: 2
+      Md Sulaiman (llmcode): 18
+    benchmark/cpp-test.sh:
+      Md Sulaiman: 10
+      Md Sulaiman (llmcode): 1
+    benchmark/docker.sh:
+      Md Sulaiman (llmcode): 4
+    benchmark/install-docker-ubuntu.sh:
+      Md Sulaiman (llmcode): 63
+    benchmark/npm-test.sh:
+      Md Sulaiman: 10
+      Md Sulaiman (llmcode): 3
+    benchmark/problem_stats.py:
+      Md Sulaiman: 35
+      Md Sulaiman (llmcode): 318
+    benchmark/rsync.sh:
+      Md Sulaiman: 7
+      Md Sulaiman (llmcode): 26
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/analytics.py:
@@ -3498,31 +3521,6 @@
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 28
       Md Sulaiman (llmcode): 2
-    benchmark/Dockerfile:
-      Md Sulaiman: 8
-      Md Sulaiman (llmcode): 43
-    benchmark/benchmark.py:
-      Md Sulaiman: 69
-      Md Sulaiman (llmcode): 153
-    benchmark/clone-exercism.sh:
-      Md Sulaiman: 2
-      Md Sulaiman (llmcode): 18
-    benchmark/cpp-test.sh:
-      Md Sulaiman: 10
-      Md Sulaiman (llmcode): 1
-    benchmark/docker.sh:
-      Md Sulaiman (llmcode): 4
-    benchmark/install-docker-ubuntu.sh:
-      Md Sulaiman (llmcode): 63
-    benchmark/npm-test.sh:
-      Md Sulaiman: 10
-      Md Sulaiman (llmcode): 3
-    benchmark/problem_stats.py:
-      Md Sulaiman: 35
-      Md Sulaiman (llmcode): 318
-    benchmark/rsync.sh:
-      Md Sulaiman: 7
-      Md Sulaiman (llmcode): 26
     scripts/blame.py:
       Md Sulaiman (llmcode): 6
     scripts/my_models.py:
@@ -3543,13 +3541,24 @@
     Md Sulaiman (llmcode): 875
     apaz-cli: 3
     mdk: 34
+  llmcode_percentage: 74.22
+  llmcode_total: 875
   start_tag: v0.69.0
   total_lines: 1179
-- llmcode_percentage: 60.36
-  llmcode_total: 236
-  end_date: '2025-01-10'
+- end_date: '2025-01-10'
   end_tag: v0.71.0
   file_counts:
+    benchmark/Dockerfile:
+      Josh Vera: 1
+      Paul Maunders: 12
+    benchmark/benchmark.py:
+      Md Sulaiman: 6
+      Md Sulaiman (llmcode): 30
+      Nimesh Ghelani: 1
+    benchmark/problem_stats.py:
+      Md Sulaiman (llmcode): 5
+    docker/Dockerfile:
+      Md Sulaiman (llmcode): 32
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -3587,17 +3596,6 @@
       Md Sulaiman (llmcode): 13
     llmcode/watch.py:
       Md Sulaiman: 1
-    benchmark/Dockerfile:
-      Josh Vera: 1
-      Paul Maunders: 12
-    benchmark/benchmark.py:
-      Nimesh Ghelani: 1
-      Md Sulaiman: 6
-      Md Sulaiman (llmcode): 30
-    benchmark/problem_stats.py:
-      Md Sulaiman (llmcode): 5
-    docker/Dockerfile:
-      Md Sulaiman (llmcode): 32
     scripts/update-history.py:
       Md Sulaiman (llmcode): 1
     tests/basic/test_commands.py:
@@ -3612,16 +3610,16 @@
     Aaron Weisberg: 9
     Josh Vera: 1
     Krazer: 10
-    Nimesh Ghelani: 1
     Md Sulaiman: 104
     Md Sulaiman (llmcode): 236
+    Nimesh Ghelani: 1
     Paul Maunders: 12
     apaz-cli: 18
+  llmcode_percentage: 60.36
+  llmcode_total: 236
   start_tag: v0.70.0
   total_lines: 391
-- llmcode_percentage: 51.69
-  llmcode_total: 138
-  end_date: '2025-01-20'
+- end_date: '2025-01-20'
   end_tag: v0.72.0
   file_counts:
     .github/workflows/docker-build-test.yml:
@@ -3633,6 +3631,13 @@
       Md Sulaiman (llmcode): 8
     .github/workflows/windows-tests.yml:
       Md Sulaiman (llmcode): 8
+    benchmark/benchmark.py:
+      Md Sulaiman: 9
+    benchmark/rsync.sh:
+      Md Sulaiman: 21
+    docker/Dockerfile:
+      Md Sulaiman: 2
+      Md Sulaiman (llmcode): 6
     llmcode/__init__.py:
       Md Sulaiman: 1
     llmcode/args.py:
@@ -3665,13 +3670,6 @@
       Md Sulaiman: 1
     llmcode/website/docs/leaderboards/index.md:
       Md Sulaiman: 2
-    benchmark/benchmark.py:
-      Md Sulaiman: 9
-    benchmark/rsync.sh:
-      Md Sulaiman: 21
-    docker/Dockerfile:
-      Md Sulaiman: 2
-      Md Sulaiman (llmcode): 6
     scripts/my_models.py:
       Md Sulaiman: 3
     scripts/update-docs.sh:
@@ -3685,5 +3683,7 @@
     Md Sulaiman (llmcode): 138
     Paul Walker: 28
     Titusz Pan: 9
+  llmcode_percentage: 51.69
+  llmcode_total: 138
   start_tag: v0.71.0
   total_lines: 267
