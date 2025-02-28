@@ -44,7 +44,7 @@ jobs:
 
     - name: Build Docker images (PR)
       if: ${{ github.event_name == 'pull_request' }}
-      uses: docker/build-push-action@v5
+      uses: docker/build-push-action@v6
       with:
         context: .
         file: ./docker/Dockerfile
@@ -54,7 +54,7 @@ jobs:
 
     - name: Build Docker images (Push)
       if: ${{ github.event_name != 'pull_request' }}
-      uses: docker/build-push-action@v5
+      uses: docker/build-push-action@v6
       with:
         context: .
         file: ./docker/Dockerfile
@@ -65,7 +65,7 @@ jobs:
 
     - name: Build Docker full image (PR)
       if: ${{ github.event_name == 'pull_request' }}
-      uses: docker/build-push-action@v5
+      uses: docker/build-push-action@v6
       with:
         context: .
         file: ./docker/Dockerfile
@@ -75,7 +75,7 @@ jobs:
 
     - name: Build Docker full image (Push)
       if: ${{ github.event_name != 'pull_request' }}
-      uses: docker/build-push-action@v5
+      uses: docker/build-push-action@v6
       with:
         context: .
         file: ./docker/Dockerfile
