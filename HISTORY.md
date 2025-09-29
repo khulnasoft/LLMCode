@@ -710,7 +710,7 @@ versions.
 
 ### Llmcode v0.57.1
 
-- Fixed dependency conflict between llmcode-chat[help] and [playwright].
+- Fixed dependency conflict between llmcode[help] and [playwright].
 
 ### Llmcode v0.57.0
 
@@ -1019,9 +1019,9 @@ versions.
 
 - Default pip install size reduced by 3-12x.
 - Added 3 package extras, which llmcode will offer to install when needed:
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Improved regex for detecting URLs in user chat messages.
 - Bugfix to globbing logic when absolute paths are included in `/add`.
 - Simplified output of `--models`.
@@ -1372,7 +1372,7 @@ versions.
 ### Llmcode v0.14.0
 
 - [Support for Claude2 and other LLMs via OpenRouter](https://llm.khulnasoft.com/docs/faq.html#accessing-other-llms-with-openrouter) by @joshuavial
-- Documentation for [running the llmcode benchmarking suite](https://github.com/khulnasoft-lab/llmcode/tree/main/benchmark)
+- Documentation for [running the llmcode benchmarking suite](https://github.com/khulnasoft/llmcode/tree/main/benchmark)
 - Llmcode now requires Python >= 3.9
 
 
@@ -1415,7 +1415,7 @@ versions.
 
 ### Llmcode v0.10.0
 
-- Added `/git` command to run git from inside llmcode chats.
+- Added `/git` command to run git from inside llm codes.
 - Use Meta-ENTER (Esc+ENTER in some environments) to enter multiline chat messages.
 - Create a `.gitignore` with `.llmcode*` to prevent users from accidentally adding llmcode files to git.
 - Check pypi for newer versions and notify user.

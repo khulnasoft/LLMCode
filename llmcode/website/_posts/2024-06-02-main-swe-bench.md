@@ -64,7 +64,7 @@ with the problem statement
 submitted as the opening chat message from "the user".
 - After that llmcode ran as normal, except all of llmcode's
 suggestions were always accepted without user approval.
-- A [simple harness](https://github.com/khulnasoft-lab/llmcode-swe-bench#the-llmcode-agent) was used to retry the SWE Bench problem if llmcode produced code that wasn't *plausibly correct*.
+- A [simple harness](https://github.com/khulnasoft/llmcode-swe-bench#the-llmcode-agent) was used to retry the SWE Bench problem if llmcode produced code that wasn't *plausibly correct*.
 Plausibly correct means that llmcode reported that it had successfully edited the repo
 without causing syntax errors or breaking any *pre-existing* tests.
 - If the solution from llmcode with GPT-4o wasn't plausible, the harness launched llmcode to try again from scratch using Claude 3 Opus.
@@ -90,7 +90,7 @@ For a detailed discussion of the benchmark
 methodology, see the
 [article about llmcode's SWE Bench Lite results](https://llm.khulnasoft.com/2024/05/22/swe-bench-lite.html).
 Also, the
-[llmcode SWE Bench repository on GitHub](https://github.com/khulnasoft-lab/llmcode-swe-bench)
+[llmcode SWE Bench repository on GitHub](https://github.com/khulnasoft/llmcode-swe-bench)
 contains the harness and statistics code used for the benchmarks.
 
 The benchmarking process was similar to how a developer might use llmcode to

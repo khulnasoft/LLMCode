@@ -84,7 +84,7 @@ Llmcode has a `--copy-paste` mode that streamlines this entire process:
 code context to your clipboard. 
 You'll see "Copied code context to clipboard" whenever this happens.
 - When you copy the LLM reply to your clipboard outside llmcode, llmcode will automatically notice
-and load it into the llmcode chat. 
+and load it into the llm code. 
 Just press ENTER to send the message
 and llmcode will apply the LLMs changes to your local files.
 - Llmcode will automatically select the best edit format for this copy/paste functionality. 

@@ -8,7 +8,7 @@ nav_exclude: true
              connect-src http: https:;
              style-src 'self' 'unsafe-inline';">
 
-# Shared llmcode chat transcript
+# Shared llm code transcript
 
 A user has shared the following transcript of a pair programming chat session
 created using <a href="https://llm.khulnasoft.com">llmcode</a>.

@@ -24,7 +24,7 @@ load_dotenv()
 
 BOT_SUFFIX = """
 
-Note: [A bot script](https://github.com/khulnasoft-lab/llmcode/blob/main/scripts/issues.py) made these updates to the issue.
+Note: [A bot script](https://github.com/khulnasoft/llmcode/blob/main/scripts/issues.py) made these updates to the issue.
 """  # noqa
 
 DUPLICATE_COMMENT = (
@@ -62,7 +62,7 @@ CLOSE_FIXED_BUG_COMMENT = (
 
 # GitHub API configuration
 GITHUB_API_URL = "https://api.github.com"
-REPO_OWNER = "khulnasoft-lab"
+REPO_OWNER = "khulnasoft"
 REPO_NAME = "llmcode"
 TOKEN = os.getenv("GITHUB_TOKEN")
 

@@ -5,7 +5,7 @@ parent: Example chat transcripts
 # Honor the NO_COLOR environment variable
 
 The user pastes the specification of the NO_COLOR environment variable protocol
-from [no-color.org](https://no-color.org) into the llmcode chat.
+from [no-color.org](https://no-color.org) into the llm code.
 
 Llmcode figures out which files need to be edited, and asks permission to make changes.
 It then disables all the color and pretty-printing functions if NO_COLOR is

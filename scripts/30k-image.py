@@ -189,7 +189,7 @@ def generate_celebration_svg(output_path=None, width=DEFAULT_WIDTH, height=DEFAU
     <text x="{width/2}" y="{height/2 - 100}" class="llmcode-logo">llmcode</text>
     <text x="{width/2}" y="{height/2 + 20}" class="stars-text">30,000 GitHub stars!</text>
     <text x="{width/2}" y="{height/2 + 100}" class="tagline">Thank you to our amazing community!</text>
-    <text x="{width/2}" y="{height - 50}" class="footer">github.com/khulnasoft-lab/llmcode</text>
+    <text x="{width/2}" y="{height - 50}" class="footer">github.com/khulnasoft/llmcode</text>
 
   </g>
 </svg>

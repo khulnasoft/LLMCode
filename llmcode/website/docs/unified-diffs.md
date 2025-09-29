@@ -317,7 +317,7 @@ the ones with the most code and which involve refactoring.
 Based on this observation, I set out to build a benchmark based on refactoring
 a non-trivial amount of code found in fairly large files.
 To do this, I used python's `ast` module to analyze
-[9 popular open source python repositories](https://github.com/khulnasoft-lab/refactor-benchmark)
+[9 popular open source python repositories](https://github.com/khulnasoft/refactor-benchmark)
 to identify challenging refactoring tasks.
 The goal was to find:
 
@@ -332,7 +332,7 @@ where we ask GPT to do something like:
 > Name the new function `_set_csrf_cookie`, exactly the same name as the existing method.
 > Update any existing `self._set_csrf_cookie` calls to work with the new `_set_csrf_cookie` function.
 
-A [simple python AST scanning script](https://github.com/khulnasoft-lab/llmcode/blob/main/benchmark/refactor_tools.py)
+A [simple python AST scanning script](https://github.com/khulnasoft/llmcode/blob/main/benchmark/refactor_tools.py)
 found 89 suitable files
 and packaged them up as benchmark tasks.
 Each task has a test
@@ -351,7 +351,7 @@ gathered during benchmarking like the
 introduction of new comments that contain "...".
 
 The result is a pragmatic
-[benchmark suite that provokes, detects and quantifies GPT coding laziness](https://github.com/khulnasoft-lab/refactor-benchmark).
+[benchmark suite that provokes, detects and quantifies GPT coding laziness](https://github.com/khulnasoft/refactor-benchmark).
 
 
 

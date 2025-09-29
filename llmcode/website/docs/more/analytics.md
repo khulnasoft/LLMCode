@@ -77,7 +77,7 @@ If you say "no", analytics will be permanently disabled.
 ### Sample analytics data
 
 To get a better sense of what type of data is collected, you can review some
-[sample analytics logs](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/website/assets/sample-analytics.jsonl).
+[sample analytics logs](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/assets/sample-analytics.jsonl).
 These are the last 1,000 analytics events from the author's
 personal use of llmcode, updated regularly.
 
@@ -87,7 +87,7 @@ personal use of llmcode, updated regularly.
 Since llmcode is open source, all the places where llmcode collects analytics
 are visible in the source code.
 They can be viewed using 
-[GitHub search](https://github.com/search?q=repo%3Akhulnasoft-lab%2Fllmcode+%22.event%28%22&type=code).
+[GitHub search](https://github.com/search?q=repo%3Akhulnasoft%2Fllmcode+%22.event%28%22&type=code).
 
 
 ### Logging and inspecting analytics
@@ -117,7 +117,7 @@ Llmcode uses PostHog for analytics collection. You can configure llmcode to send
 If you have concerns about any of the analytics that llmcode is collecting
 or our data practices
 please contact us by opening a
-[GitHub Issue](https://github.com/khulnasoft-lab/llmcode/issues).
+[GitHub Issue](https://github.com/khulnasoft/llmcode/issues).
 
 ## Privacy policy
 

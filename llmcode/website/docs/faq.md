@@ -177,7 +177,7 @@ To run the project locally, follow these steps:
 
 ```
 # Clone the repository
-git clone git@github.com:khulnasoft-lab/llmcode.git
+git clone git@github.com:khulnasoft/llmcode.git
 
 # Navigate to the project directory
 cd llmcode
@@ -243,7 +243,7 @@ release.
 People often ask which LLMs I use with llmcode, when writing llmcode.
 Below is a table showing the models I have used recently,
 extracted from the 
-[public log](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/website/assets/sample-analytics.jsonl)
+[public log](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/assets/sample-analytics.jsonl)
 of my
 [llmcode analytics](https://llm.khulnasoft.com/docs/more/analytics.html).
 
@@ -284,7 +284,7 @@ Llmcode's analytics only records the names of "well known" LLMs.
 [Llmcode is tightly integrated with git](/docs/git.html) so all
 of llmcode's code changes are committed to the repo with proper attribution.
 The 
-[stats are computed](https://github.com/khulnasoft-lab/llmcode/blob/main/scripts/blame.py)
+[stats are computed](https://github.com/khulnasoft/llmcode/blob/main/scripts/blame.py)
 by doing something like `git blame` on the repo,
 and counting up who wrote all the new lines of code in each release.
 Only lines in source code files are counted, not documentation or prompt files.
@@ -336,14 +336,14 @@ You can explicitly set the language that llmcode tells the model to use with
 `--chat-language <language>`.
 But the LLM may not comply.
 
-## Can I share my llmcode chat transcript?
+## Can I share my llm code transcript?
 
-Yes, you can now share llmcode chat logs in a pretty way.
+Yes, you can now share llm code logs in a pretty way.
 
 1. Copy the markdown logs you want to share from `.llm.khulnasoft.com.history.md` and make a github gist. Or publish the raw markdown logs on the web any way you'd like.
 
    ```
-   https://gist.github.com/khulnasoft-lab/2087ab8b64034a078c0a209440ac8be0
+   https://gist.github.com/khulnasoft/2087ab8b64034a078c0a209440ac8be0
    ```
 
 2. Take the gist URL and append it to:
@@ -355,7 +355,7 @@ Yes, you can now share llmcode chat logs in a pretty way.
 This will give you a URL like this, which shows the chat history like you'd see in a terminal:
 
 ```
-https://llm.khulnasoft.com/share/?mdurl=https://gist.github.com/khulnasoft-lab/2087ab8b64034a078c0a209440ac8be0
+https://llm.khulnasoft.com/share/?mdurl=https://gist.github.com/khulnasoft/2087ab8b64034a078c0a209440ac8be0
 ```
 
 ## Can I edit files myself while llmcode is running?
@@ -371,9 +371,9 @@ Your edits and llmcode's edits might conflict.
 
 Llmcode AI LLC is the company behind the llmcode AI coding tool.
 Llmcode is 
-[open source and available on GitHub](https://github.com/khulnasoft-lab/llmcode)
+[open source and available on GitHub](https://github.com/khulnasoft/llmcode)
 under an 
-[Apache 2.0 license](https://github.com/khulnasoft-lab/llmcode/blob/main/LICENSE.txt).
+[Apache 2.0 license](https://github.com/khulnasoft/llmcode/blob/main/LICENSE.txt).
 
 ## Can I Script Llmcode?
 

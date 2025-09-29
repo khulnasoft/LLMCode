@@ -20,7 +20,7 @@ For example, say we want our python code to:
 ```
 
 We would simply create a file like `CONVENTIONS.md` with those lines
-and then we can add it to the llmcode chat, along with the file(s)
+and then we can add it to the llm code, along with the file(s)
 that we want to edit.
 
 It's best to load the conventions file with `/read CONVENTIONS.md` 
@@ -30,7 +30,7 @@ is enabled.
 
 ## Community contributed conventions
 
-You can check the [llmcode conventions repository](https://github.com/khulnasoft-lab/conventions)
+You can check the [llmcode conventions repository](https://github.com/khulnasoft/conventions)
 to find or contribute conventions files.
 
 ## Always load conventions

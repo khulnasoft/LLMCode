@@ -50,7 +50,7 @@ By default, llmcode creates commit messages which follow
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 You can customize the
-[commit prompt](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/prompts.py#L5)
+[commit prompt](https://github.com/khulnasoft/llmcode/blob/main/llmcode/prompts.py#L5)
 with the `--commit-prompt` option.
 You can place that on the command line, or 
 [configure it via a config file or environment variables](https://llm.khulnasoft.com/docs/config.html).

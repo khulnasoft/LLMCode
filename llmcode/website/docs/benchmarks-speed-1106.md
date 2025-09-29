@@ -20,7 +20,7 @@ and there's a lot
 of interest about their capabilities and performance.
 With that in mind, I've been benchmarking the new models.
 
-[Llmcode](https://github.com/khulnasoft-lab/llmcode)
+[Llmcode](https://github.com/khulnasoft/llmcode)
 is an open source command line chat tool that lets you work with GPT to edit
 code in your local git repo.
 Llmcode relies on a

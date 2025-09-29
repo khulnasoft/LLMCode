@@ -5,7 +5,7 @@ import random
 import re
 import sys
 import traceback
-from typing import Optional, Dict, Any
+from typing import Any, Dict, Optional
 
 import pyperclip
 import streamlit as st
@@ -13,14 +13,9 @@ import streamlit as st
 from llmcode import urls
 from llmcode.coders import Coder
 from llmcode.dump import dump  # noqa: F401
-from llmcode.exceptions import (
-    ConfigurationError,
-    FileOperationError,
-    ModelError,
-    NetworkError,
-    RepositoryError,
-    ValidationError,
-)
+from llmcode.exceptions import (ConfigurationError, FileOperationError,
+                                ModelError, NetworkError, RepositoryError,
+                                ValidationError)
 from llmcode.io import InputOutput
 from llmcode.main import main as cli_main
 from llmcode.scrape import Scraper, has_playwright
@@ -88,7 +83,9 @@ def get_coder():
             raise ConfigurationError(f"Failed to initialize coder: {coder}")
 
         if not coder.repo:
-            raise RepositoryError("GUI can currently only be used inside a git repository")
+            raise RepositoryError(
+                "GUI can currently only be used inside a git repository"
+            )
 
         io = CaptureIO(
             pretty=False,
@@ -105,8 +102,12 @@ def get_coder():
         return coder
 
     except RepositoryError:
-        st.error("❌ **Repository Error**: Please run this from inside a git repository.")
-        st.info("💡 **Tip**: Initialize git with `git init` or navigate to an existing git repository.")
+        st.error(
+            "❌ **Repository Error**: Please run this from inside a git repository."
+        )
+        st.info(
+            "💡 **Tip**: Initialize git with `git init` or navigate to an existing git repository."
+        )
         st.stop()
     except ConfigurationError as e:
         st.error(f"❌ **Configuration Error**: {str(e)}")
@@ -173,7 +174,9 @@ class GUI:
         undone = self.state.last_undone_commit_hash == commit_hash
         if not undone:
             with self.last_undo_empty:
-                if self.button(f"Undo commit `{commit_hash}`", key=f"undo_{commit_hash}"):
+                if self.button(
+                    f"Undo commit `{commit_hash}`", key=f"undo_{commit_hash}"
+                ):
                     self.do_undo(commit_hash)
 
     def do_sidebar(self):
@@ -213,13 +216,16 @@ class GUI:
 
             # Footer with helpful links
             st.markdown("---")
-            st.markdown("""
+            st.markdown(
+                """
             <div style='text-align: center; color: #666; font-size: 0.8em;'>
                 <strong>Llmcode GUI</strong><br>
-                <a href='https://github.com/khulnasoft-lab/llmcode/issues' target='_blank'>🐛 Report Issues</a> •
-                <a href='https://github.com/khulnasoft-lab/llmcode' target='_blank'>📖 Documentation</a>
+                <a href='https://github.com/khulnasoft/llmcode/issues' target='_blank'>🐛 Report Issues</a> •
+                <a href='https://github.com/khulnasoft/llmcode' target='_blank'>📖 Documentation</a>
             </div>
-            """, unsafe_allow_html=True)
+            """,
+                unsafe_allow_html=True,
+            )
 
     def do_settings_tab(self):
         pass
@@ -234,8 +240,12 @@ class GUI:
                 self.button("Create git repo", key=random.random(), help="?")
 
             with st.popover("Update your `.gitignore` file"):
-                st.write("It's best to keep llmcode's internal files out of your git repo.")
-                self.button("Add `.llmcode*` to `.gitignore`", key=random.random(), help="?")
+                st.write(
+                    "It's best to keep llmcode's internal files out of your git repo."
+                )
+                self.button(
+                    "Add `.llmcode*` to `.gitignore`", key=random.random(), help="?"
+                )
 
     def do_git_operations(self):
         """Enhanced git operations section."""
@@ -273,7 +283,9 @@ class GUI:
 
         # Git command input
         with st.expander("⚡ Quick Git Commands"):
-            git_cmd = st.text_input("Git command", placeholder="git status", key="git_cmd")
+            git_cmd = st.text_input(
+                "Git command", placeholder="git status", key="git_cmd"
+            )
             if git_cmd and self.button("Execute", key="git_exec"):
                 try:
                     self.coder.commands.cmd_git(git_cmd)
@@ -362,7 +374,7 @@ class GUI:
             available_files,
             default=current_files,
             key="file_selection",
-            help="Files in chat are visible to the AI for editing and context"
+            help="Files in chat are visible to the AI for editing and context",
         )
 
         # Update file selection
@@ -398,7 +410,7 @@ class GUI:
                 "URL",
                 placeholder="https://...",
                 key=f"web_content_{self.state.web_content_num}",
-                help="Enter a valid URL to scrape content from"
+                help="Enter a valid URL to scrape content from",
             )
 
         if not self.web_content:
@@ -415,17 +427,17 @@ class GUI:
             return
 
         # Check if URL is already being processed
-        if hasattr(self.state, 'processing_url') and self.state.processing_url == url:
+        if hasattr(self.state, "processing_url") and self.state.processing_url == url:
             st.info("🔄 Processing URL...")
             return
 
         try:
             # Initialize scraper if needed
-            if not hasattr(self.state, 'scraper') or not self.state.scraper:
+            if not hasattr(self.state, "scraper") or not self.state.scraper:
                 with st.spinner("Initializing web scraper..."):
                     self.state.scraper = Scraper(
                         print_error=self._handle_error,
-                        playwright_available=has_playwright()
+                        playwright_available=has_playwright(),
                     )
 
             # Mark URL as being processed
@@ -455,8 +467,8 @@ class GUI:
                 st.code(traceback.format_exc())
         finally:
             # Clear processing flag
-            if hasattr(self.state, 'processing_url'):
-                delattr(self.state, 'processing_url')
+            if hasattr(self.state, "processing_url"):
+                delattr(self.state, "processing_url")
             self.web_content = None
 
     def _handle_error(self, message: str) -> None:
@@ -468,7 +480,9 @@ class GUI:
         try:
             available_files = self.coder.get_all_relative_files()
             if not available_files:
-                st.info("📁 No files found in repository. Add some files to get started!")
+                st.info(
+                    "📁 No files found in repository. Add some files to get started!"
+                )
                 return
 
             fnames = st.multiselect(
@@ -558,7 +572,9 @@ class GUI:
         if self.button("Clear chat history", help=text):
             self.coder.done_messages = []
             self.coder.cur_messages = []
-            self.info("Cleared chat history. Now the LLM can't see anything before this line.")
+            self.info(
+                "Cleared chat history. Now the LLM can't see anything before this line."
+            )
 
     def do_show_metrics(self):
         st.metric("Cost of last message send & reply", "$0.0019", help="foo")
@@ -607,7 +623,8 @@ class GUI:
     def do_messages_container(self):
         """Enhanced messages container with better styling."""
         # Main chat area with better styling
-        st.markdown("""
+        st.markdown(
+            """
         <style>
         .main-chat-container {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -630,7 +647,9 @@ class GUI:
             margin-right: 50px;
         }
         </style>
-        """, unsafe_allow_html=True)
+        """,
+            unsafe_allow_html=True,
+        )
 
         self.messages = st.container()
 
@@ -639,7 +658,8 @@ class GUI:
             if not self.state.messages or len(self.state.messages) <= 1:
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.markdown("""
+                    st.markdown(
+                        """
                     <div style='text-align: center; padding: 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white;'>
                         <h2>🤖 Welcome to Llmcode GUI!</h2>
                         <p>Start a conversation by typing a message below or use the sidebar to add files and web content.</p>
@@ -649,7 +669,9 @@ class GUI:
                             <span style='background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; margin: 5px; display: inline-block;'>🌐 Web Content</span>
                         </div>
                     </div>
-                    """, unsafe_allow_html=True)
+                    """,
+                        unsafe_allow_html=True,
+                    )
 
             # Display messages with enhanced styling
             for i, msg in enumerate(self.state.messages):
@@ -673,7 +695,13 @@ class GUI:
                     if len(text.splitlines()[0]) > 60:
                         line += "..."
                     with st.expander(f"📄 {line}", expanded=False):
-                        st.text_area("Content", text, height=200, key=f"text_msg_{i}", disabled=True)
+                        st.text_area(
+                            "Content",
+                            text,
+                            height=200,
+                            key=f"text_msg_{i}",
+                            disabled=True,
+                        )
                 elif role in ("user", "assistant"):
                     with st.chat_message(role):
                         content = msg["content"]
@@ -683,10 +711,14 @@ class GUI:
                         if role == "assistant" and len(self.state.messages) > 1:
                             col1, col2, col3 = st.columns([1, 1, 2])
                             with col1:
-                                if st.button("🔄 Retry", key=f"retry_{i}", help="Retry this message"):
+                                if st.button(
+                                    "🔄 Retry",
+                                    key=f"retry_{i}",
+                                    help="Retry this message",
+                                ):
                                     # Copy the previous user message
                                     prev_msg = None
-                                    for j in range(i-1, -1, -1):
+                                    for j in range(i - 1, -1, -1):
                                         if self.state.messages[j]["role"] == "user":
                                             prev_msg = self.state.messages[j]["content"]
                                             break
@@ -694,14 +726,18 @@ class GUI:
                                         self.prompt = prev_msg
                                         self.prompt_as = "user"
                             with col2:
-                                if st.button("📋 Copy", key=f"copy_{i}", help="Copy to clipboard"):
+                                if st.button(
+                                    "📋 Copy", key=f"copy_{i}", help="Copy to clipboard"
+                                ):
                                     try:
                                         pyperclip.copy(content)
                                         st.success("Copied to clipboard!")
                                     except Exception:
                                         st.error("Clipboard not available")
                             with col3:
-                                st.caption(f"Message {i+1} of {len(self.state.messages)}")
+                                st.caption(
+                                    f"Message {i+1} of {len(self.state.messages)}"
+                                )
                 else:
                     # Fallback for unknown message types
                     with st.expander(f"Unknown message type: {role}"):
@@ -761,7 +797,9 @@ class GUI:
             if user_inp:
                 # Validate input length
                 if len(user_inp.strip()) > 10000:
-                    st.error("❌ **Input too long**: Please keep messages under 10,000 characters.")
+                    st.error(
+                        "❌ **Input too long**: Please keep messages under 10,000 characters."
+                    )
                     st.rerun()
                     return
 
@@ -794,7 +832,9 @@ class GUI:
             self.state.input_history.append(self.prompt)
 
             if self.prompt_as:
-                self.state.messages.append({"role": self.prompt_as, "content": self.prompt})
+                self.state.messages.append(
+                    {"role": self.prompt_as, "content": self.prompt}
+                )
 
             if self.prompt_as == "user":
                 with self.messages.chat_message("user"):
@@ -822,21 +862,25 @@ class GUI:
             return False
 
         if len(prompt) > 50000:  # Reasonable limit
-            st.error("❌ **Message Too Long**: Please keep messages under 50,000 characters.")
+            st.error(
+                "❌ **Message Too Long**: Please keep messages under 50,000 characters."
+            )
             return False
 
         # Check for potentially harmful content
         dangerous_patterns = [
-            r'<script.*?>.*?</script>',
-            r'javascript:',
-            r'vbscript:',
-            r'onload\s*=',
-            r'onerror\s*=',
+            r"<script.*?>.*?</script>",
+            r"javascript:",
+            r"vbscript:",
+            r"onload\s*=",
+            r"onerror\s*=",
         ]
 
         for pattern in dangerous_patterns:
             if re.search(pattern, prompt, re.IGNORECASE):
-                st.error("❌ **Invalid Content**: Message contains potentially unsafe content.")
+                st.error(
+                    "❌ **Invalid Content**: Message contains potentially unsafe content."
+                )
                 return False
 
         return True
@@ -868,18 +912,24 @@ class GUI:
                         response_stream = self.coder.run_stream(prompt)
                         if response_stream:
                             response_text = st.write_stream(response_stream)
-                            self.state.messages.append({"role": "assistant", "content": response_text})
+                            self.state.messages.append(
+                                {"role": "assistant", "content": response_text}
+                            )
                         else:
                             st.error("❌ No response generated")
                             return
 
                     except ModelError as e:
                         st.error(f"❌ **Model Error**: {str(e)}")
-                        st.info("💡 **Tip**: Check your model configuration and API keys.")
+                        st.info(
+                            "💡 **Tip**: Check your model configuration and API keys."
+                        )
                         return
                     except NetworkError as e:
                         st.error(f"❌ **Network Error**: {str(e)}")
-                        st.info("💡 **Tip**: Check your internet connection and API service status.")
+                        st.info(
+                            "💡 **Tip**: Check your internet connection and API service status."
+                        )
                         return
                     except Exception as e:
                         st.error(f"❌ **Response Error**: Failed to generate response")
@@ -891,10 +941,14 @@ class GUI:
                 if self.coder.reflected_message:
                     if self.num_reflections < self.max_reflections:
                         self.num_reflections += 1
-                        self.info(f"🤔 Reflecting on previous response... (attempt {self.num_reflections}/{self.max_reflections})")
+                        self.info(
+                            f"🤔 Reflecting on previous response... (attempt {self.num_reflections}/{self.max_reflections})"
+                        )
                         prompt = self.coder.reflected_message
                     else:
-                        st.warning(f"⚠️ Maximum reflections ({self.max_reflections}) reached")
+                        st.warning(
+                            f"⚠️ Maximum reflections ({self.max_reflections}) reached"
+                        )
 
             # Handle any edits that were made
             with self.messages:
@@ -903,7 +957,10 @@ class GUI:
                     fnames=self.coder.llmcode_edited_files,
                 )
 
-                if self.state.last_llmcode_commit_hash != self.coder.last_llmcode_commit_hash:
+                if (
+                    self.state.last_llmcode_commit_hash
+                    != self.coder.last_llmcode_commit_hash
+                ):
                     edit["commit_hash"] = self.coder.last_llmcode_commit_hash
                     edit["commit_message"] = self.coder.last_llmcode_commit_message
 
@@ -915,7 +972,9 @@ class GUI:
                             self.coder.last_llmcode_commit_hash,
                         )
                         edit["diff"] = diff
-                        self.state.last_llmcode_commit_hash = self.coder.last_llmcode_commit_hash
+                        self.state.last_llmcode_commit_hash = (
+                            self.coder.last_llmcode_commit_hash
+                        )
                     except Exception as e:
                         st.warning(f"⚠️ Could not generate diff: {str(e)}")
 
@@ -959,7 +1018,9 @@ class GUI:
         url = self.web_content
 
         if not self.state.scraper:
-            self.scraper = Scraper(print_error=self.info, playwright_available=has_playwright())
+            self.scraper = Scraper(
+                print_error=self.info, playwright_available=has_playwright()
+            )
 
         content = self.scraper.scrape(url) or ""
         if content.strip():
@@ -1003,7 +1064,7 @@ def gui_main():
         page_icon=urls.favicon,
         menu_items={
             "Get Help": urls.website,
-            "Report a bug": "https://github.com/khulnasoft-lab/llmcode/issues",
+            "Report a bug": "https://github.com/khulnasoft/llmcode/issues",
             "About": "# Llmcode\nAI pair programming in your browser.",
         },
     )

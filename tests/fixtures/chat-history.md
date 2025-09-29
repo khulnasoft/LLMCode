@@ -91,7 +91,7 @@
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-05 19:33:02
+# llm code started at 2024-08-05 19:33:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.47.2-dev  
@@ -100,7 +100,7 @@
 > Repo-map: using 1024 tokens  
 > Commit d0ffbf1 fix: Reorder imports in repomap.py  
 
-# llmcode chat started at 2024-08-05 19:33:32
+# llm code started at 2024-08-05 19:33:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/utils.py  
 > Llmcode v0.47.2-dev  
@@ -215,7 +215,7 @@ This change replaces the custom spinner implementation with the `Spinner` class.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-05 20:39:59
+# llm code started at 2024-08-05 20:39:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --map 1024 --msg hi  
 > Llmcode v0.47.2-dev  
@@ -245,7 +245,7 @@ Please add these files to the chat so I can assist you further!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-05 20:40:10
+# llm code started at 2024-08-05 20:40:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-repo  
 > Llmcode v0.47.2-dev  
@@ -1619,7 +1619,7 @@ tests/help/test_help.py
 
 tests/scrape/test_scrape.py  
 
-# llmcode chat started at 2024-08-05 20:40:33
+# llm code started at 2024-08-05 20:40:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.47.2-dev  
@@ -1631,7 +1631,7 @@ tests/scrape/test_scrape.py
 #### /help hi  
 > To use interactive /help you need to install the help extras:  
 >  
-> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode-chat[help] --extra-index-url https://download.pytorch.org/whl/cpu  
+> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode[help] --extra-index-url https://download.pytorch.org/whl/cpu  
 > Run pip install? y  
 >  
 >  
@@ -1640,7 +1640,7 @@ tests/scrape/test_scrape.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-05 20:41:15
+# llm code started at 2024-08-05 20:41:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py  
 > Llmcode v0.47.2-dev  
@@ -1656,7 +1656,7 @@ tests/scrape/test_scrape.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-05 20:42:31
+# llm code started at 2024-08-05 20:42:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.47.2-dev  
@@ -1665,19 +1665,19 @@ tests/scrape/test_scrape.py
 > Repo-map: using 1024 tokens  
 > Commit d89eeff fix: Implement efficient token counting for large text inputs  
 
-# llmcode chat started at 2024-08-06 08:28:28
+# llm code started at 2024-08-06 08:28:28
 
 
-# llmcode chat started at 2024-08-06 08:40:35
+# llm code started at 2024-08-06 08:40:35
 
 
-# llmcode chat started at 2024-08-06 08:41:45
+# llm code started at 2024-08-06 08:41:45
 
 
-# llmcode chat started at 2024-08-06 08:42:43
+# llm code started at 2024-08-06 08:42:43
 
 
-# llmcode chat started at 2024-08-06 08:47:10
+# llm code started at 2024-08-06 08:47:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repo.py tests/basic/test_repo.py  
 > Llmcode v0.47.2-dev  
@@ -2703,7 +2703,7 @@ This change removes the unused import of `GitRepo`, which should resolve the fla
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 08:55:14
+# llm code started at 2024-08-06 08:55:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_main.py  
 > Llmcode v0.47.2-dev  
@@ -4007,7 +4007,7 @@ This SEARCH/REPLACE block should now correctly match the existing content and ad
 > Commit ce7cc13 feat: add --yes flag to map tokens tests  
 > You can use /undo to revert and discard commit ce7cc13.  
 
-# llmcode chat started at 2024-08-06 09:05:50
+# llm code started at 2024-08-06 09:05:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4 --map-tokens 1000 --exit --yes  
 > Llmcode v0.47.2-dev  
@@ -4016,7 +4016,7 @@ This SEARCH/REPLACE block should now correctly match the existing content and ad
 > Repo-map: using 1000 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-06 09:06:27
+# llm code started at 2024-08-06 09:06:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4 --map-tokens 1000 --exit --yes  
 > Llmcode v0.47.2-dev  
@@ -4617,7 +4617,7 @@ These modifications should resolve the `TypeError` and make the test pass. The t
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 09:11:16
+# llm code started at 2024-08-06 09:11:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.47.2-dev  
@@ -4626,7 +4626,7 @@ These modifications should resolve the `TypeError` and make the test pass. The t
 > Repo-map: using 1024 tokens  
 > Commit fb06919 fix: Use repo map only when map_tokens is greater than 0  
 
-# llmcode chat started at 2024-08-06 09:13:00
+# llm code started at 2024-08-06 09:13:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --no-git  
 > Llmcode v0.47.2-dev  
@@ -4640,19 +4640,19 @@ These modifications should resolve the `TypeError` and make the test pass. The t
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 09:15:50
+# llm code started at 2024-08-06 09:15:50
 
 
-# llmcode chat started at 2024-08-06 09:23:22
+# llm code started at 2024-08-06 09:23:22
 
 
-# llmcode chat started at 2024-08-06 09:35:06
+# llm code started at 2024-08-06 09:35:06
 
 
-# llmcode chat started at 2024-08-06 09:39:29
+# llm code started at 2024-08-06 09:39:29
 
 
-# llmcode chat started at 2024-08-06 09:42:38
+# llm code started at 2024-08-06 09:42:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git openrouter/google/gemini-pro-1.5-exp  
 > Creating empty file /Users/gauthier/Projects/llmcode/openrouter/google/gemini-pro-1.5-exp  
@@ -4671,7 +4671,7 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui avec votre code ? Avez-vous de
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 09:44:24
+# llm code started at 2024-08-06 09:44:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.47.2-dev  
@@ -4941,7 +4941,7 @@ The changes in this commit add a function to detect the user's language and incl
 > ...⋮...  
 >  
 
-# llmcode chat started at 2024-08-06 09:46:55
+# llm code started at 2024-08-06 09:46:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -4949,7 +4949,7 @@ The changes in this commit add a function to detect the user's language and incl
 > Git repo: .git with 300 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-06 09:47:11
+# llm code started at 2024-08-06 09:47:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5148,7 +5148,7 @@ These changes will now include the country in the language information, like "en
 > Commit eeb4790 style: Fix formatting in base_coder.py  
 > You can use /undo to revert and discard commit eeb4790.  
 
-# llmcode chat started at 2024-08-06 09:50:34
+# llm code started at 2024-08-06 09:50:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5156,7 +5156,7 @@ These changes will now include the country in the language information, like "en
 > Git repo: .git with 300 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-06 09:51:03
+# llm code started at 2024-08-06 09:51:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5188,7 +5188,7 @@ This change uses the `strftime` method to format the date and time without milli
 > Commit 11745ad fix: Show date and time without milliseconds  
 > You can use /undo to revert and discard commit 11745ad.  
 
-# llmcode chat started at 2024-08-06 09:51:37
+# llm code started at 2024-08-06 09:51:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5198,7 +5198,7 @@ This change uses the `strftime` method to format the date and time without milli
 > Commit df4d173 style: Apply linter formatting changes  
 > You can use /undo to revert and discard commit df4d173.  
 
-# llmcode chat started at 2024-08-06 09:52:26
+# llm code started at 2024-08-06 09:52:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5243,7 +5243,7 @@ This will result in a datetime string that includes the timezone offset, like "2
 >   
 > ^^^ Expected `>>>>>>> REPLACE` not `=======  
 
-# llmcode chat started at 2024-08-06 09:52:50
+# llm code started at 2024-08-06 09:52:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5271,7 +5271,7 @@ This change will include the timezone information in the datetime string as requ
 > Commit d009677 feat: Include timezone information in datetime string  
 > You can use /undo to revert and discard commit d009677.  
 
-# llmcode chat started at 2024-08-06 09:52:58
+# llm code started at 2024-08-06 09:52:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5279,7 +5279,7 @@ This change will include the timezone information in the datetime string as requ
 > Git repo: .git with 300 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-06 09:54:05
+# llm code started at 2024-08-06 09:54:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5287,7 +5287,7 @@ This change will include the timezone information in the datetime string as requ
 > Git repo: .git with 300 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-06 09:54:39
+# llm code started at 2024-08-06 09:54:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.47.2-dev  
@@ -5295,7 +5295,7 @@ This change will include the timezone information in the datetime string as requ
 > Git repo: .git with 300 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-06 09:55:26
+# llm code started at 2024-08-06 09:55:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.47.2-dev  
@@ -5304,12 +5304,12 @@ This change will include the timezone information in the datetime string as requ
 > Repo-map: using 1024 tokens  
 > Commit 535fdff fix: Improve formatting of system information in prompt  
 
-# llmcode chat started at 2024-08-06 10:02:03
+# llm code started at 2024-08-06 10:02:03
 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 10:03:58
+# llm code started at 2024-08-06 10:03:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.47.2-dev  
@@ -5399,7 +5399,7 @@ These modifications will improve the functionality of the `/add` command when wo
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 10:21:59
+# llm code started at 2024-08-06 10:21:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode scripts/blame.py  
 > Llmcode v0.47.2-dev  
@@ -5576,7 +5576,7 @@ This modification will ensure that we only count lines that have actual content,
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 10:25:14
+# llm code started at 2024-08-06 10:25:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repo.py llmcode/utils.py  
 > Llmcode v0.47.2-dev  
@@ -5774,7 +5774,7 @@ To fully test this fix, it would be ideal to run the test suite on a Windows mac
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 10:27:06
+# llm code started at 2024-08-06 10:27:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode scripts/blame.py  
 > Llmcode v0.47.2-dev  
@@ -5862,7 +5862,7 @@ This ensures that blank lines or lines containing only whitespace are not counte
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 10:36:19
+# llm code started at 2024-08-06 10:36:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py llmcode/commands.py  
 > Llmcode v0.47.2-dev  
@@ -5959,22 +5959,22 @@ To implement these changes, you would need to update the `llmcode/io.py` file wi
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 10:42:42
+# llm code started at 2024-08-06 10:42:42
 
 
-# llmcode chat started at 2024-08-06 10:45:17
+# llm code started at 2024-08-06 10:45:17
 
 
-# llmcode chat started at 2024-08-06 10:46:05
+# llm code started at 2024-08-06 10:46:05
 
 
-# llmcode chat started at 2024-08-06 10:46:58
+# llm code started at 2024-08-06 10:46:58
 
 
-# llmcode chat started at 2024-08-06 10:51:14
+# llm code started at 2024-08-06 10:51:14
 
 
-# llmcode chat started at 2024-08-06 10:53:39
+# llm code started at 2024-08-06 10:53:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py  
 > Llmcode v0.48.1-dev  
@@ -6137,10 +6137,10 @@ Now, when a user presses either Ctrl+V or Alt+V, the message "Paste detected (Ct
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 10:56:57
+# llm code started at 2024-08-06 10:56:57
 
 
-# llmcode chat started at 2024-08-06 11:00:08
+# llm code started at 2024-08-06 11:00:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask --msg hi  
 > Llmcode v0.48.1-dev  
@@ -6155,7 +6155,7 @@ Hello! How can I assist you today? Since we're working with a git repository, is
 
 > Tokens: 11,809 sent, 52 received. Cost: $0.04 request, $0.04 session.  
 
-# llmcode chat started at 2024-08-06 11:01:07
+# llm code started at 2024-08-06 11:01:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask --msg which files do i edit to change the default colors  
 > Llmcode v0.48.1-dev  
@@ -6178,7 +6178,7 @@ However, without seeing the full contents of the file, I can't give you the exac
 > llmcode/io.py  
 > Add these files to the chat? n  
 
-# llmcode chat started at 2024-08-06 11:13:10
+# llm code started at 2024-08-06 11:13:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode docker/Dockerfile  
 > Llmcode v0.48.1-dev  
@@ -6344,7 +6344,7 @@ These changes will set the `LLMCODE_DOCKER_IMAGE` environment variable for all p
 > Removed: 4f6c917 feat: Set LLMCODE_DOCKER_IMAGE environment variable in base image  
 > HEAD is: a369e0c feat: Add LLMCODE_DOCKER_IMAGE=true environment variable to llmcode-full and llmcode Docker images  
 
-# llmcode chat started at 2024-08-06 11:16:33
+# llm code started at 2024-08-06 11:16:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode docker/Dockerfile llmcode/versioncheck.py  
 > Llmcode v0.48.1-dev  
@@ -6372,7 +6372,7 @@ llmcode/versioncheck.py
     if not is_update_available:
         return False
 
-    cmd = utils.get_pip_install(["--upgrade", "llmcode-chat"])
+    cmd = utils.get_pip_install(["--upgrade", "llmcode"])
 
     text = f"""
 Newer llmcode version v{latest_version} is available. To upgrade, run:
@@ -6424,7 +6424,7 @@ def check_version(io, just_check=False):
     import requests
 
     try:
-        response = requests.get("https://pypi.org/pypi/llmcode-chat/json")
+        response = requests.get("https://pypi.org/pypi/llmcode/json")
         data = response.json()
         latest_version = data["info"]["version"]
         current_version = llmcode.__version__
@@ -6453,7 +6453,7 @@ def check_version(io, just_check=False):
     if not is_update_available:
         return False
 
-    cmd = utils.get_pip_install(["--upgrade", "llmcode-chat"])
+    cmd = utils.get_pip_install(["--upgrade", "llmcode"])
 
     text = f"""
 Newer llmcode version v{latest_version} is available. To upgrade, run:
@@ -6496,7 +6496,7 @@ def check_version(io, just_check=False):
     import requests
 
     try:
-        response = requests.get("https://pypi.org/pypi/llmcode-chat/json")
+        response = requests.get("https://pypi.org/pypi/llmcode/json")
         data = response.json()
         latest_version = data["info"]["version"]
         current_version = llmcode.__version__
@@ -6535,7 +6535,7 @@ Newer llmcode version v{latest_version} is available. To upgrade, run:
         io.tool_error(text)
         return True
 
-    cmd = utils.get_pip_install(["--upgrade", "llmcode-chat"])
+    cmd = utils.get_pip_install(["--upgrade", "llmcode"])
 
     text = f"""
 Newer llmcode version v{latest_version} is available. To upgrade, run:
@@ -6574,7 +6574,7 @@ This modification ensures that users running llmcode in a Docker container are g
 > Commit df5d5bd style: Fix import order in versioncheck.py  
 > You can use /undo to revert and discard commit df5d5bd.  
 
-# llmcode chat started at 2024-08-06 11:19:20
+# llm code started at 2024-08-06 11:19:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.1-dev  
@@ -6589,28 +6589,28 @@ This modification ensures that users running llmcode in a Docker container are g
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 11:19:48
+# llm code started at 2024-08-06 11:19:48
 
 > Current version: 0.48.1-dev  
 > Latest version: 0.48.0  
 > No update available  
 
-# llmcode chat started at 2024-08-06 14:21:30
+# llm code started at 2024-08-06 14:21:30
 
 > Loaded /app/.env  
 > Current version: 0.46.2-dev  
 > Latest version: 0.48.0  
 > Update available  
 
-# llmcode chat started at 2024-08-06 14:21:38
+# llm code started at 2024-08-06 14:21:38
 
 > Loaded /app/.env  
 >  
 > Newer llmcode version v0.48.0 is available. To upgrade, run:  
 >  
-> /venv/bin/python -m pip install --upgrade llmcode-chat  
+> /venv/bin/python -m pip install --upgrade llmcode  
 
-# llmcode chat started at 2024-08-06 14:21:50
+# llm code started at 2024-08-06 14:21:50
 
 >  
 > Newer llmcode version v0.48.0 is available. To upgrade, run:  
@@ -6625,7 +6625,7 @@ This modification ensures that users running llmcode in a Docker container are g
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 11:22:01
+# llm code started at 2024-08-06 11:22:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.1-dev  
@@ -6635,10 +6635,10 @@ This modification ensures that users running llmcode in a Docker container are g
 > Commit 14b2642 fix: Set is_update_available flag in versioncheck.py
 build: Update LLMCODE_DOCKER_IMAGE environment variable in Dockerfile  
 
-# llmcode chat started at 2024-08-06 11:23:36
+# llm code started at 2024-08-06 11:23:36
 
 
-# llmcode chat started at 2024-08-06 12:32:55
+# llm code started at 2024-08-06 12:32:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/google/gemini-pro-1.5-exp --msg hi  
 > Model openrouter/google/gemini-pro-1.5-exp: Unknown context window size and costs, using sane defaults.  
@@ -6661,7 +6661,7 @@ build: Update LLMCODE_DOCKER_IMAGE environment variable in Dockerfile
 > }  
 > }  
 
-# llmcode chat started at 2024-08-06 12:33:20
+# llm code started at 2024-08-06 12:33:20
 
 > llmcode --show-repo  
 > Llmcode v0.48.1-dev  
@@ -6669,7 +6669,7 @@ build: Update LLMCODE_DOCKER_IMAGE environment variable in Dockerfile
 > Git repo: .git with 300 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-06 12:35:35
+# llm code started at 2024-08-06 12:35:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repo.py  
 > Llmcode v0.48.0  
@@ -6719,7 +6719,7 @@ If performance is a concern, especially for large repositories, it might be wort
 
 #### /ex  
 
-# llmcode chat started at 2024-08-06 14:10:41
+# llm code started at 2024-08-06 14:10:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py  
 > Llmcode v0.48.0  
@@ -6751,7 +6751,7 @@ If performance is a concern, especially for large repositories, it might be wort
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 14:13:01
+# llm code started at 2024-08-06 14:13:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py  
 > Llmcode v0.48.0  
@@ -6885,7 +6885,7 @@ The changes should now be complete.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 14:17:56
+# llm code started at 2024-08-06 14:17:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --map 1024 --show-repo  
 > Llmcode v0.48.1-dev  
@@ -8261,7 +8261,7 @@ tests/help/test_help.py
 
 tests/scrape/test_scrape.py  
 
-# llmcode chat started at 2024-08-06 14:18:20
+# llm code started at 2024-08-06 14:18:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py --4o  
 > Llmcode v0.48.1-dev  
@@ -8299,7 +8299,7 @@ llmcode/repomap.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 14:33:57
+# llm code started at 2024-08-06 14:33:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py  
 > Llmcode v0.48.1-dev  
@@ -8315,7 +8315,7 @@ llmcode/repomap.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 15:18:57
+# llm code started at 2024-08-06 15:18:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-2024-08-06-diff  
 > Model gpt-4o-2024-08-06-diff: Unknown which environment variables are required.  
@@ -8333,7 +8333,7 @@ llmcode/repomap.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 15:19:02
+# llm code started at 2024-08-06 15:19:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-2024-08-06  
 > Model gpt-4o-2024-08-06: Unknown which environment variables are required.  
@@ -8357,7 +8357,7 @@ llmcode/repomap.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 15:19:36
+# llm code started at 2024-08-06 15:19:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/gpt-4o-2024-08-06  
 > Model openai/gpt-4o-2024-08-06: Unknown context window size and costs, using sane defaults.  
@@ -8384,19 +8384,19 @@ Got it! Please let me know what changes you'd like to make, and I'll identify wh
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-06 15:32:49
+# llm code started at 2024-08-06 15:32:49
 
 
-# llmcode chat started at 2024-08-06 15:34:27
+# llm code started at 2024-08-06 15:34:27
 
 
-# llmcode chat started at 2024-08-06 15:36:15
+# llm code started at 2024-08-06 15:36:15
 
 
-# llmcode chat started at 2024-08-06 15:48:55
+# llm code started at 2024-08-06 15:48:55
 
 
-# llmcode chat started at 2024-08-06 16:20:29
+# llm code started at 2024-08-06 16:20:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.1-dev  
@@ -8411,7 +8411,7 @@ Got it! Please let me know what changes you'd like to make, and I'll identify wh
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-07 07:41:11
+# llm code started at 2024-08-07 07:41:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.1-dev  
@@ -8419,7 +8419,7 @@ Got it! Please let me know what changes you'd like to make, and I'll identify wh
 > Git repo: .git with 300 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-07 07:41:37
+# llm code started at 2024-08-07 07:41:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.1-dev  
@@ -8428,7 +8428,7 @@ Got it! Please let me know what changes you'd like to make, and I'll identify wh
 > Repo-map: using 1024 tokens  
 > Commit eb38165 fix: Improve commit message generation by handling large diffs  
 
-# llmcode chat started at 2024-08-07 07:45:32
+# llm code started at 2024-08-07 07:45:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.1-dev  
@@ -8437,7 +8437,7 @@ Got it! Please let me know what changes you'd like to make, and I'll identify wh
 > Repo-map: using 1024 tokens  
 > Commit e48fece fix: Handle missing model info values gracefully  
 
-# llmcode chat started at 2024-08-07 07:46:12
+# llm code started at 2024-08-07 07:46:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_sendchat.py  
 > Llmcode v0.48.1-dev  
@@ -8453,7 +8453,7 @@ Got it! Please let me know what changes you'd like to make, and I'll identify wh
 #### /add llmcode/sendchat.py  
 > Added /Users/gauthier/Projects/llmcode/llmcode/sendchat.py to the chat  
 
-# llmcode chat started at 2024-08-07 07:46:37
+# llm code started at 2024-08-07 07:46:37
 
 
 #### add a test which calls `simple_send_with_retries`. it should mock the httpx library so that we can inspect the headers. confirm that "Llmcode" appears in the headers somewhere.  
@@ -9068,7 +9068,7 @@ This change will print out all the parameters passed to the httpx.Request call, 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-07 08:44:07
+# llm code started at 2024-08-07 08:44:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/openai/gpt-4-mini --msg hi --no-git  
 > Model openrouter/openai/gpt-4-mini: Unknown context window size and costs, using sane defaults.  
@@ -9088,7 +9088,7 @@ Hello! How can I assist you today?
 
 > Tokens: 1,299 sent, 9 received.  
 
-# llmcode chat started at 2024-08-07 08:44:34
+# llm code started at 2024-08-07 08:44:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/openai/gpt-4o-mini --msg hi --no-git  
 > Model openrouter/openai/gpt-4o-mini: Unknown context window size and costs, using sane defaults.  
@@ -9108,7 +9108,7 @@ Hello! How can I assist you today?
 
 > Tokens: 1,299 sent, 9 received.  
 
-# llmcode chat started at 2024-08-07 08:44:58
+# llm code started at 2024-08-07 08:44:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/openai/gpt-4o-mini --msg hi --no-git  
 > Model openrouter/openai/gpt-4o-mini: Unknown context window size and costs, using sane defaults.  
@@ -9128,7 +9128,7 @@ Understood! If you have any specific requests or changes you'd like to make to y
 
 > Tokens: 1,720 sent, 33 received.  
 
-# llmcode chat started at 2024-08-07 08:45:18
+# llm code started at 2024-08-07 08:45:18
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -9150,7 +9150,7 @@ Understood! If you have any specific requests or changes you'd like to make to y
 
 > Tokens: 1,722 sent, 33 received.  
 
-# llmcode chat started at 2024-08-07 08:46:19
+# llm code started at 2024-08-07 08:46:19
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -9172,7 +9172,7 @@ Understood! Please let me know what changes you would like to make, and provide 
 
 > Tokens: 1,722 sent, 23 received.  
 
-# llmcode chat started at 2024-08-07 08:47:14
+# llm code started at 2024-08-07 08:47:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/openai/gpt-4o-mini --msg hi --no-git  
 > Model openrouter/openai/gpt-4o-mini: Unknown context window size and costs, using sane defaults.  
@@ -9192,7 +9192,7 @@ Understood! Please let me know what changes you would like to make, and provide 
 
 > Tokens: 1,720 sent, 23 received.  
 
-# llmcode chat started at 2024-08-07 08:50:52
+# llm code started at 2024-08-07 08:50:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/openai/gpt-4o-mini --msg hi --no-git  
 > Model openrouter/openai/gpt-4o-mini: Unknown context window size and costs, using sane defaults.  
@@ -9212,7 +9212,7 @@ Understood! If you have any requests or need assistance with code changes, pleas
 
 > Tokens: 1,720 sent, 29 received.  
 
-# llmcode chat started at 2024-08-07 09:03:11
+# llm code started at 2024-08-07 09:03:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode -3  
 > Llmcode v0.48.1-dev  
@@ -9252,7 +9252,7 @@ It seems like you have uploaded an image file (/private/var/folders/49/kxrdwwbx0
 
 #### /ex  
 
-# llmcode chat started at 2024-08-07 11:19:39
+# llm code started at 2024-08-07 11:19:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet --no-git --msg hi  
 > Llmcode v0.48.1-dev  
@@ -9263,11 +9263,11 @@ It seems like you have uploaded an image file (/private/var/folders/49/kxrdwwbx0
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,657 sent, 57 received. Cost: $0.0058 request, $0.0058 session.  
 
-# llmcode chat started at 2024-08-07 11:20:23
+# llm code started at 2024-08-07 11:20:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet --no-git --msg hi  
 > Llmcode v0.48.1-dev  
@@ -9278,11 +9278,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,657 sent, 57 received. Cost: $0.0058 request, $0.0058 session.  
 
-# llmcode chat started at 2024-08-07 11:20:57
+# llm code started at 2024-08-07 11:20:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet --no-git --msg hi  
 > Llmcode v0.48.1-dev  
@@ -9293,11 +9293,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,663 sent, 57 received. Cost: $0.0058 request, $0.0058 session.  
 
-# llmcode chat started at 2024-08-07 11:23:49
+# llm code started at 2024-08-07 11:23:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet --no-git --msg hi  
 > Llmcode v0.48.1-dev  
@@ -9308,11 +9308,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,657 sent, 57 received. Cost: $0.0058 request, $0.0058 session.  
 
-# llmcode chat started at 2024-08-07 11:24:12
+# llm code started at 2024-08-07 11:24:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet --no-git --msg hi  
 > Llmcode v0.48.1-dev  
@@ -9323,11 +9323,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,657 sent, 57 received. Cost: $0.0058 request, $0.0058 session.  
 
-# llmcode chat started at 2024-08-07 11:25:55
+# llm code started at 2024-08-07 11:25:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-2024-08-06  
 > Llmcode v0.48.1-dev  
@@ -9348,14 +9348,14 @@ Got it! Please let me know what changes you would like to make, and I'll identif
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-07 11:32:32
+# llm code started at 2024-08-07 11:32:32
 
 > You need to install the llmcode browser feature:  
 >  
-> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode-chat[browser]  
+> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode[browser]  
 > Run pip install? yes  
 
-# llmcode chat started at 2024-08-07 11:41:40
+# llm code started at 2024-08-07 11:41:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/llm.py llmcode/models.py  
 > Llmcode v0.48.1-dev  
@@ -9499,19 +9499,19 @@ These changes import the `LLMCODE_SITE_URL` and `LLMCODE_APP_NAME` constants fro
 
 #### /exit  
 
-# llmcode chat started at 2024-08-07 11:44:13
+# llm code started at 2024-08-07 11:44:13
 
 
-# llmcode chat started at 2024-08-07 11:46:36
+# llm code started at 2024-08-07 11:46:36
 
 
-# llmcode chat started at 2024-08-07 11:47:26
+# llm code started at 2024-08-07 11:47:26
 
 
-# llmcode chat started at 2024-08-07 11:48:30
+# llm code started at 2024-08-07 11:48:30
 
 
-# llmcode chat started at 2024-08-07 11:52:06
+# llm code started at 2024-08-07 11:52:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet --no-git --msg hi  
 > Llmcode v0.48.2-dev  
@@ -9522,11 +9522,11 @@ These changes import the `LLMCODE_SITE_URL` and `LLMCODE_APP_NAME` constants fro
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,657 sent, 57 received. Cost: $0.0058 request, $0.0058 session.  
 
-# llmcode chat started at 2024-08-07 12:37:18
+# llm code started at 2024-08-07 12:37:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/google/gemini-pro-1.5-exp --msg hi  
 > Model openrouter/google/gemini-pro-1.5-exp: Unknown context window size and costs, using sane defaults.  
@@ -9549,7 +9549,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > }  
 > }  
 
-# llmcode chat started at 2024-08-07 12:37:50
+# llm code started at 2024-08-07 12:37:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gemini/gemini-1.5-pro-exp-0801 --msg hi  
 > Llmcode v0.48.2-dev  
@@ -9564,7 +9564,7 @@ Hi!  How can I help you today?  Please let me know if you have any code you'd li
 
 > Tokens: 685 sent, 37 received. Cost: $0.0028 request, $0.0028 session.  
 
-# llmcode chat started at 2024-08-07 12:46:04
+# llm code started at 2024-08-07 12:46:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -9587,7 +9587,7 @@ SAVE
 __pycache__
 _config.yml~
 llmcode
-llmcode_chat.egg-info
+llmcode.egg-info
 badedit.md~
 benchmark
 branches_to_delete.txt~
@@ -9747,7 +9747,7 @@ README.md
 [34m__pycache__[39;49m[0m
 _config.yml~
 [34mllmcode[39;49m[0m
-[34mllmcode_chat.egg-info[39;49m[0m
+[34mllmcode.egg-info[39;49m[0m
 badedit.md~
 [34mbenchmark[39;49m[0m
 branches_to_delete.txt~
@@ -9890,11 +9890,11 @@ tmp_over_time.svg
 tmp_timing.svg  
 > Add the output to the chat? (y/n/instructions): n  
 
-# llmcode chat started at 2024-08-07 12:47:40
+# llm code started at 2024-08-07 12:47:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model https://llm.khulnasoft.com/docs/llms/warnings.html  
 
-# llmcode chat started at 2024-08-07 12:47:47
+# llm code started at 2024-08-07 12:47:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/aws/claude-3.5-sonnet  
 > Model openai/aws/claude-3.5-sonnet: Unknown context window size and costs, using sane defaults.  
@@ -9905,11 +9905,11 @@ tmp_timing.svg
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-07 12:48:03
+# llm code started at 2024-08-07 12:48:03
 
 > No models match "openai/aws/claude-3.5-sonnet".  
 
-# llmcode chat started at 2024-08-07 13:13:06
+# llm code started at 2024-08-07 13:13:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -9918,16 +9918,16 @@ tmp_timing.svg
 > Repo-map: using 1024 tokens  
 > Commit 0a5b5c3 fix: Fix token_count method to handle list of messages  
 
-# llmcode chat started at 2024-08-07 13:13:53
+# llm code started at 2024-08-07 13:13:53
 
 
-# llmcode chat started at 2024-08-07 13:14:35
+# llm code started at 2024-08-07 13:14:35
 
 
-# llmcode chat started at 2024-08-07 13:19:10
+# llm code started at 2024-08-07 13:19:10
 
 
-# llmcode chat started at 2024-08-07 13:24:55
+# llm code started at 2024-08-07 13:24:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repo.py  
 > Llmcode v0.48.2-dev  
@@ -10217,13 +10217,13 @@ This change will ensure that the code catches the correct exception when a suita
 
 #### /run llmcode ~/tmp/foo.txt README.me  
 
-# llmcode chat started at 2024-08-07 13:27:21
+# llm code started at 2024-08-07 13:27:21
 
 > Files are in different git repos.  
 > Files are in different git repos.
 Traceback (most recent call last):
   File "/Users/gauthier/Projects/llmcode/.venv/bin/llmcode", line 33, in <module>
-    sys.exit(load_entry_point('llmcode-chat', 'console_scripts', 'llmcode')())
+    sys.exit(load_entry_point('llmcode', 'console_scripts', 'llmcode')())
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/Users/gauthier/Projects/llmcode/llmcode/main.py", line 413, in main
     right_repo_root = guessed_wrong_repo(io, git_root, fnames, git_dname)
@@ -10238,7 +10238,7 @@ llmcode.repo.SuitableRepoNotFound
 > Files are in different git repos.  
 > Traceback (most recent call last):  
 > File "/Users/gauthier/Projects/llmcode/.venv/bin/llmcode", line 33, in <module>  
-> sys.exit(load_entry_point('llmcode-chat', 'console_scripts', 'llmcode')())  
+> sys.exit(load_entry_point('llmcode', 'console_scripts', 'llmcode')())  
 > ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
 > File "/Users/gauthier/Projects/llmcode/llmcode/main.py", line 413, in main  
 > right_repo_root = guessed_wrong_repo(io, git_root, fnames, git_dname)  
@@ -10310,10 +10310,10 @@ These changes should handle the case where files are in different git repositori
 > Commit 9c8baa1 fix: Handle files in different git repos  
 > You can use /undo to revert and discard commit 9c8baa1.  
 
-# llmcode chat started at 2024-08-07 13:39:50
+# llm code started at 2024-08-07 13:39:50
 
 
-# llmcode chat started at 2024-08-08 09:54:02
+# llm code started at 2024-08-08 09:54:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py --model deepseek/deepseek-coder  
 > Llmcode v0.48.2-dev  
@@ -10323,12 +10323,12 @@ These changes should handle the case where files are in different git repositori
 > Added llmcode/repomap.py to the chat.  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-#### cache the `TreeContext` for each filename, and re-use it.  
+#### cache the `TreeContext` for each filename, and reuse it.  
 >  
 >  
 > ^C again to exit  
 
-To implement caching for `TreeContext` for each filename and re-use it, we need to modify the `RepoMap` class in `llmcode/repomap.py`. Specifically, we need to:
+To implement caching for `TreeContext` for each filename and reuse it, we need to modify the `RepoMap` class in `llmcode/repomap.py`. Specifically, we need to:
 
 1. Add a cache dictionary to store `TreeContext` instances.
 2. Modify the `render_tree` method to check the cache before creating a new `TreeContext` instance.
@@ -10446,9 +10446,9 @@ Understood. I'll wait for further instructions before attempting any changes. If
 
 #### /clear  
 
-#### cache the `TreeContext` for each filename, and re-use it.  
+#### cache the `TreeContext` for each filename, and reuse it.  
 
-To implement caching of the `TreeContext` for each filename and re-use it, we need to make changes to the `RepoMap` class in the `llmcode/repomap.py` file. Here are the necessary changes:
+To implement caching of the `TreeContext` for each filename and reuse it, we need to make changes to the `RepoMap` class in the `llmcode/repomap.py` file. Here are the necessary changes:
 
 llmcode/repomap.py
 ```python
@@ -10599,18 +10599,18 @@ llmcode/repomap.py
 >>>>>>> REPLACE
 ```
 
-These changes will cache the `TreeContext` for each filename and re-use it, which should improve performance when rendering trees for the same file multiple times with different lines of interest.
+These changes will cache the `TreeContext` for each filename and reuse it, which should improve performance when rendering trees for the same file multiple times with different lines of interest.
 
 > Tokens: 6,513 sent, 896 received. Cost: $0.03 request, $0.03 session.  
 > Applied edit to llmcode/repomap.py  
-> Commit bb4ee1a perf: cache TreeContext for each filename and re-use it  
+> Commit bb4ee1a perf: cache TreeContext for each filename and reuse it  
 > You can use /undo to revert and discard commit bb4ee1a.  
 
 #### /diff  
 
 #### /ex  
 
-# llmcode chat started at 2024-08-08 09:58:42
+# llm code started at 2024-08-08 09:58:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -10619,7 +10619,7 @@ These changes will cache the `TreeContext` for each filename and re-use it, whic
 > Repo-map: using 1024 tokens  
 > Commit 30af7f6 fix: Clear lines of interest instead of clearing the entire context  
 
-# llmcode chat started at 2024-08-08 10:12:44
+# llm code started at 2024-08-08 10:12:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask llmcode/io.py  
 > Llmcode v0.48.2-dev  
@@ -10629,7 +10629,7 @@ These changes will cache the `TreeContext` for each filename and re-use it, whic
 > Added llmcode/io.py to the chat.  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-08 10:12:57
+# llm code started at 2024-08-08 10:12:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask llmcode/io.py llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -11074,7 +11074,7 @@ This approach allows you to handle user interactions asynchronously without usin
 
 #### /ex  
 
-# llmcode chat started at 2024-08-08 12:10:30
+# llm code started at 2024-08-08 12:10:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model openrouter/openai/claude-3-5-sonnet --msg hi  
 > Model openrouter/openai/claude-3-5-sonnet: Unknown context window size and costs, using sane defaults.  
@@ -11091,7 +11091,7 @@ This approach allows you to handle user interactions asynchronously without usin
 #### hi  
 > BadRequestError: litellm.BadRequestError: OpenrouterException - Error code: 400 - {'error': {'message': 'Model openai/claude-3-5-sonnet is not available', 'code': 400}, 'user_id': 'user_2bjiyGLMYbkFZIJPiSgrX4beinK'}  
 
-# llmcode chat started at 2024-08-08 12:49:52
+# llm code started at 2024-08-08 12:49:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model openrouter/openai/claude-3-5-sonnet --msg hi  
 > Model openrouter/openai/claude-3-5-sonnet: Unknown context window size and costs, using sane defaults.  
@@ -11108,7 +11108,7 @@ This approach allows you to handle user interactions asynchronously without usin
 #### hi  
 > BadRequestError: litellm.BadRequestError: OpenrouterException - Error code: 400 - {'error': {'message': 'Model openai/claude-3-5-sonnet is not available', 'code': 400}, 'user_id': 'user_2bjiyGLMYbkFZIJPiSgrX4beinK'}  
 
-# llmcode chat started at 2024-08-08 12:50:03
+# llm code started at 2024-08-08 12:50:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --msg hi  
 > Llmcode v0.48.2-dev  
@@ -11129,10 +11129,10 @@ This approach allows you to handle user interactions asynchronously without usin
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 13:19:04
+# llm code started at 2024-08-08 13:19:04
 
 
-# llmcode chat started at 2024-08-08 13:32:35
+# llm code started at 2024-08-08 13:32:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4-mini  
 > Model gpt-4-mini: Unknown which environment variables are required.  
@@ -11149,7 +11149,7 @@ This approach allows you to handle user interactions asynchronously without usin
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-08 13:32:42
+# llm code started at 2024-08-08 13:32:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -11167,7 +11167,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-08 13:54:27
+# llm code started at 2024-08-08 13:54:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi  
 > Llmcode v0.48.2-dev  
@@ -11182,7 +11182,7 @@ Hello! I'm here to assist you. Since you haven't made any specific requests for 
 
 > Tokens: 10,697 sent, 94 received. Cost: $0.03 request, $0.03 session.  
 
-# llmcode chat started at 2024-08-08 13:54:36
+# llm code started at 2024-08-08 13:54:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi  
 > Llmcode v0.48.2-dev  
@@ -11203,7 +11203,7 @@ Hello! I'm here to assist you. Since you haven't made any specific requests for 
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 13:54:42
+# llm code started at 2024-08-08 13:54:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11214,11 +11214,11 @@ Hello! I'm here to assist you. Since you haven't made any specific requests for 
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 13:54:52
+# llm code started at 2024-08-08 13:54:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11239,7 +11239,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 13:55:09
+# llm code started at 2024-08-08 13:55:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11260,7 +11260,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 13:55:42
+# llm code started at 2024-08-08 13:55:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11281,7 +11281,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 13:58:23
+# llm code started at 2024-08-08 13:58:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11293,7 +11293,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: No active exception to reraise  
 
-# llmcode chat started at 2024-08-08 13:58:41
+# llm code started at 2024-08-08 13:58:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11314,7 +11314,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 13:59:21
+# llm code started at 2024-08-08 13:59:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11325,11 +11325,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 13:59:28
+# llm code started at 2024-08-08 13:59:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11341,7 +11341,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: litellm.InternalServerError: AnthropicException - Overloaded. Handle with `litellm.InternalServerError`.  
 
-# llmcode chat started at 2024-08-08 14:00:02
+# llm code started at 2024-08-08 14:00:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11362,7 +11362,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:00:58
+# llm code started at 2024-08-08 14:00:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11383,7 +11383,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:02:42
+# llm code started at 2024-08-08 14:02:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11404,7 +11404,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:03:13
+# llm code started at 2024-08-08 14:03:13
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11416,7 +11416,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: litellm.InternalServerError: AnthropicException - Overloaded. Handle with `litellm.InternalServerError`.  
 
-# llmcode chat started at 2024-08-08 14:03:34
+# llm code started at 2024-08-08 14:03:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11437,7 +11437,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:04:09
+# llm code started at 2024-08-08 14:04:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11449,7 +11449,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: No active exception to reraise  
 
-# llmcode chat started at 2024-08-08 14:04:27
+# llm code started at 2024-08-08 14:04:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11460,11 +11460,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:04:33
+# llm code started at 2024-08-08 14:04:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11485,7 +11485,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:05:57
+# llm code started at 2024-08-08 14:05:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11506,7 +11506,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:08:50
+# llm code started at 2024-08-08 14:08:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11527,7 +11527,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:09:13
+# llm code started at 2024-08-08 14:09:13
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11548,7 +11548,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:09:26
+# llm code started at 2024-08-08 14:09:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11569,7 +11569,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:10:36
+# llm code started at 2024-08-08 14:10:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11590,7 +11590,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:11:20
+# llm code started at 2024-08-08 14:11:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11611,7 +11611,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:15:15
+# llm code started at 2024-08-08 14:15:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11672,11 +11672,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:16:08
+# llm code started at 2024-08-08 14:16:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git --no-stream  
 > Llmcode v0.48.2-dev  
@@ -11695,7 +11695,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(  
 > litellm.llms.anthropic.AnthropicError: {"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}  
 
-# llmcode chat started at 2024-08-08 14:19:17
+# llm code started at 2024-08-08 14:19:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --4o llmcode/sendchat.py  
 > Llmcode v0.48.2-dev  
@@ -11937,7 +11937,7 @@ llmcode/sendchat.py
 > Commit 9e5724e fix: correct lazy_litellm_retry_decorator to properly return the backoff decorated function  
 > You can use /undo to revert and discard commit 9e5724e.  
 
-# llmcode chat started at 2024-08-08 14:20:15
+# llm code started at 2024-08-08 14:20:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git --no-stream  
 > Llmcode v0.48.2-dev  
@@ -11951,7 +11951,7 @@ llmcode/sendchat.py
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-08 14:20:25
+# llm code started at 2024-08-08 14:20:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11972,7 +11972,7 @@ llmcode/sendchat.py
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:20:59
+# llm code started at 2024-08-08 14:20:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11983,11 +11983,11 @@ llmcode/sendchat.py
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:21:06
+# llm code started at 2024-08-08 14:21:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -11998,11 +11998,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:21:14
+# llm code started at 2024-08-08 14:21:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12025,7 +12025,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### /diff  
 
-# llmcode chat started at 2024-08-08 14:21:58
+# llm code started at 2024-08-08 14:21:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12037,7 +12037,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: litellm.InternalServerError: AnthropicException - Overloaded. Handle with `litellm.InternalServerError`.  
 
-# llmcode chat started at 2024-08-08 14:22:20
+# llm code started at 2024-08-08 14:22:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12058,7 +12058,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:22:35
+# llm code started at 2024-08-08 14:22:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12079,7 +12079,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:22:57
+# llm code started at 2024-08-08 14:22:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12100,7 +12100,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:23:14
+# llm code started at 2024-08-08 14:23:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12121,7 +12121,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:23:57
+# llm code started at 2024-08-08 14:23:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12142,7 +12142,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:24:12
+# llm code started at 2024-08-08 14:24:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12163,7 +12163,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:24:29
+# llm code started at 2024-08-08 14:24:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12174,11 +12174,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:24:35
+# llm code started at 2024-08-08 14:24:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12205,7 +12205,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 14:24:54
+# llm code started at 2024-08-08 14:24:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --4o llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -12403,7 +12403,7 @@ By following these steps, you should be able to identify why `backoff` is not ca
 
 > Tokens: 12,666 sent, 812 received. Cost: $0.08 request, $0.15 session.  
 
-# llmcode chat started at 2024-08-08 14:26:08
+# llm code started at 2024-08-08 14:26:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12415,7 +12415,7 @@ By following these steps, you should be able to identify why `backoff` is not ca
 #### hi  
 > Unexpected error: APIConnectionError.__init__() missing 3 required positional arguments: 'message', 'llm_provider', and 'model'  
 
-# llmcode chat started at 2024-08-08 14:26:18
+# llm code started at 2024-08-08 14:26:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --4o llmcode/sendchat.py  
 > Llmcode v0.48.2-dev  
@@ -12431,7 +12431,7 @@ By following these steps, you should be able to identify why `backoff` is not ca
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 14:26:24
+# llm code started at 2024-08-08 14:26:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12625,7 +12625,7 @@ By following these steps, you should be able to identify why `backoff` is not ca
 
 #### /ex  
 
-# llmcode chat started at 2024-08-08 14:41:46
+# llm code started at 2024-08-08 14:41:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12636,11 +12636,11 @@ By following these steps, you should be able to identify why `backoff` is not ca
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:43:07
+# llm code started at 2024-08-08 14:43:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12661,7 +12661,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-# llmcode chat started at 2024-08-08 14:43:32
+# llm code started at 2024-08-08 14:43:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12673,7 +12673,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: litellm.APIConnectionError: None  
 
-# llmcode chat started at 2024-08-08 14:50:53
+# llm code started at 2024-08-08 14:50:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12684,7 +12684,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-# llmcode chat started at 2024-08-08 14:51:05
+# llm code started at 2024-08-08 14:51:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12695,7 +12695,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-# llmcode chat started at 2024-08-08 14:51:15
+# llm code started at 2024-08-08 14:51:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12706,7 +12706,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-# llmcode chat started at 2024-08-08 14:51:28
+# llm code started at 2024-08-08 14:51:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12727,11 +12727,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:51:36
+# llm code started at 2024-08-08 14:51:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12812,11 +12812,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > raise AnthropicError(status_code=response.status_code, message=response.read())  
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:53:16
+# llm code started at 2024-08-08 14:53:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12838,11 +12838,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 > Retrying in 0.2 seconds...  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:53:23
+# llm code started at 2024-08-08 14:53:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12853,11 +12853,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:53:29
+# llm code started at 2024-08-08 14:53:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12948,7 +12948,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-08 14:53:45
+# llm code started at 2024-08-08 14:53:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12959,11 +12959,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:53:51
+# llm code started at 2024-08-08 14:53:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -12974,11 +12974,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:53:58
+# llm code started at 2024-08-08 14:53:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13055,11 +13055,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > litellm.llms.anthropic.AnthropicError: b'{"type":"error","error":{"type":"overloaded_error","message":"Overloaded"}}'  
 > Retrying in 8.0 seconds...  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 14:55:05
+# llm code started at 2024-08-08 14:55:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.48.2-dev  
@@ -13068,7 +13068,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-08 14:55:09
+# llm code started at 2024-08-08 14:55:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.48.2-dev  
@@ -13077,7 +13077,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-08 14:55:23
+# llm code started at 2024-08-08 14:55:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -13088,13 +13088,13 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### /ex  
 
-# llmcode chat started at 2024-08-08 14:56:29
+# llm code started at 2024-08-08 14:56:29
 
 
-# llmcode chat started at 2024-08-08 14:57:59
+# llm code started at 2024-08-08 14:57:59
 
 
-# llmcode chat started at 2024-08-08 14:58:09
+# llm code started at 2024-08-08 14:58:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py --4o  
 > Llmcode v0.48.2-dev  
@@ -13132,7 +13132,7 @@ This will show a countdown in 0.1-second increments and clear the line after the
 > Commit 608c804 feat: implement countdown for retry in 0.1-second increments  
 > You can use /undo to revert and discard commit 608c804.  
 
-# llmcode chat started at 2024-08-08 14:59:02
+# llm code started at 2024-08-08 14:59:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13149,7 +13149,7 @@ This will show a countdown in 0.1-second increments and clear the line after the
 Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur
 
 
-# llmcode chat started at 2024-08-08 14:59:07
+# llm code started at 2024-08-08 14:59:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13166,7 +13166,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ?
 
 
-# llmcode chat started at 2024-08-08 14:59:12
+# llm code started at 2024-08-08 14:59:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13183,7 +13183,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ?
 
 
-# llmcode chat started at 2024-08-08 14:59:45
+# llm code started at 2024-08-08 14:59:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13195,7 +13195,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: name 'httpx' is not defined  
 
-# llmcode chat started at 2024-08-08 15:00:19
+# llm code started at 2024-08-08 15:00:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13207,7 +13207,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > Unexpected error: RequestError.__init__() missing 1 required positional argument: 'message'  
 
-# llmcode chat started at 2024-08-08 15:00:31
+# llm code started at 2024-08-08 15:00:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13231,7 +13231,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:00:40
+# llm code started at 2024-08-08 15:00:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13257,7 +13257,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:01:22
+# llm code started at 2024-08-08 15:01:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13281,7 +13281,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:01:33
+# llm code started at 2024-08-08 15:01:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13298,7 +13298,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 
 
-# llmcode chat started at 2024-08-08 15:01:59
+# llm code started at 2024-08-08 15:01:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13324,7 +13324,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:02:12
+# llm code started at 2024-08-08 15:02:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13350,7 +13350,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:02:31
+# llm code started at 2024-08-08 15:02:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13373,7 +13373,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:03:22
+# llm code started at 2024-08-08 15:03:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13399,7 +13399,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:04:10
+# llm code started at 2024-08-08 15:04:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13426,7 +13426,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:04:59
+# llm code started at 2024-08-08 15:04:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13449,31 +13449,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:05:14
-
-> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
-> Llmcode v0.48.2-dev  
-> Models: claude-3-5-sonnet-20240620 with diff edit format, weak model claude-3-haiku-20240307  
-> Git repo: none  
-> Repo-map: disabled  
-> Use /help <question> for help, run "llmcode --help" to see cmd line args  
-
-#### hi  
-> badness  
-> badness  
-> badness  
-> badness  
->  
->  
-> ^C again to exit  
-
-#### hi  
-> badness  
->  
->  
-> ^C KeyboardInterrupt  
-
-# llmcode chat started at 2024-08-08 15:10:40
+# llm code started at 2024-08-08 15:05:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13497,30 +13473,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:11:12
-
-> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
-> Llmcode v0.48.2-dev  
-> Models: claude-3-5-sonnet-20240620 with diff edit format, weak model claude-3-haiku-20240307  
-> Git repo: none  
-> Repo-map: disabled  
-> Use /help <question> for help, run "llmcode --help" to see cmd line args  
-
-#### hi  
-> badness  
-> badness  
->  
->  
-> ^C again to exit  
-
-#### hi  
-> badness  
-> badness  
->  
->  
-> ^C KeyboardInterrupt  
-
-# llmcode chat started at 2024-08-08 15:13:38
+# llm code started at 2024-08-08 15:10:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13544,7 +13497,54 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:14:05
+# llm code started at 2024-08-08 15:11:12
+
+> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
+> Llmcode v0.48.2-dev  
+> Models: claude-3-5-sonnet-20240620 with diff edit format, weak model claude-3-haiku-20240307  
+> Git repo: none  
+> Repo-map: disabled  
+> Use /help <question> for help, run "llmcode --help" to see cmd line args  
+
+#### hi  
+> badness  
+> badness  
+>  
+>  
+> ^C again to exit  
+
+#### hi  
+> badness  
+> badness  
+>  
+>  
+> ^C KeyboardInterrupt  
+
+# llm code started at 2024-08-08 15:13:38
+
+> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
+> Llmcode v0.48.2-dev  
+> Models: claude-3-5-sonnet-20240620 with diff edit format, weak model claude-3-haiku-20240307  
+> Git repo: none  
+> Repo-map: disabled  
+> Use /help <question> for help, run "llmcode --help" to see cmd line args  
+
+#### hi  
+> badness  
+> badness  
+> badness  
+> badness  
+>  
+>  
+> ^C again to exit  
+
+#### hi  
+> badness  
+>  
+>  
+> ^C KeyboardInterrupt  
+
+# llm code started at 2024-08-08 15:14:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13555,11 +13555,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je p
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 15:14:10
+# llm code started at 2024-08-08 15:14:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13576,7 +13576,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ?
 
 
-# llmcode chat started at 2024-08-08 15:14:14
+# llm code started at 2024-08-08 15:14:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13593,7 +13593,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter
 
 
-# llmcode chat started at 2024-08-08 15:14:22
+# llm code started at 2024-08-08 15:14:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model openrouter/openai/claude-3-5-sonnet --msg hi  
 > Model openrouter/openai/claude-3-5-sonnet: Unknown context window size and costs, using sane defaults.  
@@ -13610,11 +13610,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > BadRequestError: litellm.BadRequestError: OpenrouterException - Error code: 400 - {'error': {'message': 'Model openai/claude-3-5-sonnet is not available', 'code': 400}, 'user_id': 'user_2bjiyGLMYbkFZIJPiSgrX4beinK'}  
 
-# llmcode chat started at 2024-08-08 15:15:40
+# llm code started at 2024-08-08 15:15:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model openrouter/openai/claude-3-5-sonnet --msg hi  
 
-# llmcode chat started at 2024-08-08 15:16:04
+# llm code started at 2024-08-08 15:16:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13625,11 +13625,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 15:16:12
+# llm code started at 2024-08-08 15:16:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13640,11 +13640,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-08 15:16:18
+# llm code started at 2024-08-08 15:16:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13658,7 +13658,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-08 15:16:29
+# llm code started at 2024-08-08 15:16:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13677,7 +13677,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:16:33
+# llm code started at 2024-08-08 15:16:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13689,7 +13689,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 #### hi  
 > badness  
 
-# llmcode chat started at 2024-08-08 15:16:51
+# llm code started at 2024-08-08 15:16:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -13726,7 +13726,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:22:54
+# llm code started at 2024-08-08 15:22:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -13735,7 +13735,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > Repo-map: using 1024 tokens  
 > Commit 109f197 feat: Add tests for simple_send_with_retries function  
 
-# llmcode chat started at 2024-08-08 15:25:01
+# llm code started at 2024-08-08 15:25:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py  
 > Llmcode v0.48.2-dev  
@@ -14218,7 +14218,7 @@ This updated *SEARCH/REPLACE block* should now exactly match the existing code i
 > Removed: 5ae449c feat: Use prompt-toolkit's confirm() function for yes/no prompts  
 > HEAD is: 4abb2e7 Merge branch 'main' into async  
 
-# llmcode chat started at 2024-08-08 15:30:27
+# llm code started at 2024-08-08 15:30:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -14232,7 +14232,7 @@ This updated *SEARCH/REPLACE block* should now exactly match the existing code i
 
 #### /ex  
 
-# llmcode chat started at 2024-08-08 15:35:30
+# llm code started at 2024-08-08 15:35:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -14241,27 +14241,13 @@ This updated *SEARCH/REPLACE block* should now exactly match the existing code i
 > Repo-map: using 1024 tokens  
 > Commit 51ec18b fix: Replace `prompt` with `confirm` for yes/no questions  
 
-# llmcode chat started at 2024-08-08 15:43:12
+# llm code started at 2024-08-08 15:43:12
 
 
-# llmcode chat started at 2024-08-08 15:46:54
+# llm code started at 2024-08-08 15:46:54
 
 
-# llmcode chat started at 2024-08-08 15:52:34
-
-> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask llmcode/io.py llmcode/coders/base_coder.py  
-> Llmcode v0.48.2-dev  
-> Models: claude-3-5-sonnet-20240620 with ask edit format, weak model claude-3-haiku-20240307  
-> Git repo: .git with 303 files  
-> Repo-map: using 1024 tokens  
-> Added llmcode/coders/base_coder.py to the chat.  
-> Added llmcode/io.py to the chat.  
-> Use /help <question> for help, run "llmcode --help" to see cmd line args  
->  
->  
-> ^C again to exit  
-
-# llmcode chat started at 2024-08-08 15:52:51
+# llm code started at 2024-08-08 15:52:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask llmcode/io.py llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -14275,7 +14261,21 @@ This updated *SEARCH/REPLACE block* should now exactly match the existing code i
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-08 15:53:11
+# llm code started at 2024-08-08 15:52:51
+
+> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask llmcode/io.py llmcode/coders/base_coder.py  
+> Llmcode v0.48.2-dev  
+> Models: claude-3-5-sonnet-20240620 with ask edit format, weak model claude-3-haiku-20240307  
+> Git repo: .git with 303 files  
+> Repo-map: using 1024 tokens  
+> Added llmcode/coders/base_coder.py to the chat.  
+> Added llmcode/io.py to the chat.  
+> Use /help <question> for help, run "llmcode --help" to see cmd line args  
+>  
+>  
+> ^C again to exit  
+
+# llm code started at 2024-08-08 15:53:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -14593,7 +14593,7 @@ This updated *SEARCH/REPLACE block* should now exactly match the existing code i
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-08 15:54:43
+# llm code started at 2024-08-08 15:54:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -14608,7 +14608,7 @@ This updated *SEARCH/REPLACE block* should now exactly match the existing code i
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:55:29
+# llm code started at 2024-08-08 15:55:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --no-git tell me a long story  
 > Creating empty file /Users/gauthier/Projects/llmcode/tell me a long story  
@@ -14625,7 +14625,7 @@ This updated *SEARCH/REPLACE block* should now exactly match the existing code i
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-08 15:55:41
+# llm code started at 2024-08-08 15:55:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --no-git --msg tell me a long story  
 > Llmcode v0.48.2-dev  
@@ -14640,7 +14640,7 @@ I'm here to assist with code-related requests. If you have any specific code cha
 
 > Tokens: 642 sent, 25 received. Cost: $0.00011 request, $0.00011 session.  
 
-# llmcode chat started at 2024-08-08 15:55:46
+# llm code started at 2024-08-08 15:55:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --no-git --msg tell me a long story  
 > Llmcode v0.48.2-dev  
@@ -14651,7 +14651,7 @@ I'm here to assist with code-related requests. If you have any specific code cha
 
 #### tell me a long story  
 
-# llmcode chat started at 2024-08-08 15:55:54
+# llm code started at 2024-08-08 15:55:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --no-git --msg write me a large flask app  
 > Llmcode v0.48.2-dev  
@@ -14684,7 +14684,7 @@ Here's the structure of the application:
     └── static/
 
 
-# llmcode chat started at 2024-08-08 15:56:38
+# llm code started at 2024-08-08 15:56:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --no-git --msg write me a large flask app  
 > Llmcode v0.48.2-dev  
@@ -14706,7 +14706,7 @@ Here's the structure of the application:
 /flask_app
 
 
-# llmcode chat started at 2024-08-08 15:57:15
+# llm code started at 2024-08-08 15:57:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask llmcode/io.py llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -14717,7 +14717,7 @@ Here's the structure of the application:
 > Added llmcode/io.py to the chat.  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-08 15:57:29
+# llm code started at 2024-08-08 15:57:29
 
 
 #### this app is structured to work well as a cli app. i want to add a web ui as well. but the problem is that Coder expects to use `InputOutput` to ask the user to confirm certain things that come up during the main chat loop. IO uses prompt toolkit to ask the user a question in the terminal and then coder can proceed based on the answer.  
@@ -14830,7 +14830,7 @@ You'll need to adapt this structure to fit your specific application, but it pro
 
 #### /ex  
 
-# llmcode chat started at 2024-08-08 15:59:20
+# llm code started at 2024-08-08 15:59:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit-format ask llmcode/io.py llmcode/coders/base_coder.py --4o  
 > Llmcode v0.48.2-dev  
@@ -15183,7 +15183,7 @@ class InputOutput:
             self.console = Console(force_terminal=False, no_color=True)
 
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        self.append_chat_history(f"\n# llmcode chat started at {current_time}\n\n")
+        self.append_chat_history(f"\n# llm code started at {current_time}\n\n")
 
         self.pending_output = []
 
@@ -15243,7 +15243,7 @@ class InputOutput:
 > Added llmcode/coders/base_coder.py to the chat.  
 > Added llmcode/io.py to the chat.  
 
-# llmcode chat started at 2024-08-08 16:51:08
+# llm code started at 2024-08-08 16:51:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -15352,7 +15352,7 @@ llmcode/io.py
             self.console = Console(force_terminal=False, no_color=True)
 
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        self.append_chat_history(f"\n# llmcode chat started at {current_time}\n\n")
+        self.append_chat_history(f"\n# llm code started at {current_time}\n\n")
 =======
     def __init__(
         self,
@@ -15404,7 +15404,7 @@ llmcode/io.py
             self.console = Console(force_terminal=False, no_color=True)
 
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        self.append_chat_history(f"\n# llmcode chat started at {current_time}\n\n")
+        self.append_chat_history(f"\n# llm code started at {current_time}\n\n")
 
         self.pending_output = []
 >>>>>>> REPLACE
@@ -15715,7 +15715,7 @@ This change adds the `asyncio` import and the `List` import from `typing` withou
 
 #### /ex  
 
-# llmcode chat started at 2024-08-08 18:58:55
+# llm code started at 2024-08-08 18:58:55
 
 >  
 >  
@@ -15724,10 +15724,10 @@ This change adds the `asyncio` import and the `List` import from `typing` withou
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 07:52:36
+# llm code started at 2024-08-09 07:52:36
 
 
-# llmcode chat started at 2024-08-09 07:52:53
+# llm code started at 2024-08-09 07:52:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode commands.py  
 > Llmcode v0.48.2-dev  
@@ -16009,7 +16009,7 @@ This change modifies the `cmd_clipboard` function to use the provided argument a
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 07:59:31
+# llm code started at 2024-08-09 07:59:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -16077,7 +16077,7 @@ This approach will result in a cleaner, simpler file path for the saved image, m
 
 #### /diff  
 
-# llmcode chat started at 2024-08-09 08:00:55
+# llm code started at 2024-08-09 08:00:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -16104,7 +16104,7 @@ Thank you for providing the image. I understand that you've added the clipboard 
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-09 08:03:35
+# llm code started at 2024-08-09 08:03:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -16207,7 +16207,7 @@ This modification adds a check to see if a file with the same name already exist
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 08:06:56
+# llm code started at 2024-08-09 08:06:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py llmcode/main.py  
 > Llmcode v0.48.2-dev  
@@ -16220,7 +16220,7 @@ This modification adds a check to see if a file with the same name already exist
 
 #### add cmd_map that prints out the current repomap  
 
-# llmcode chat started at 2024-08-09 08:07:07
+# llm code started at 2024-08-09 08:07:07
 
 
 Certainly! I'll add a `cmd_map` command that prints out the current repository map. Here's how we can implement this in the `llmcode/commands.py` file:
@@ -16332,7 +16332,7 @@ Now users can use the `/map` command to print out the current repository map dur
 
 #### /diff  
 
-# llmcode chat started at 2024-08-09 08:07:43
+# llm code started at 2024-08-09 08:07:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -17725,10 +17725,10 @@ tests/scrape/test_scrape.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 08:08:35
+# llm code started at 2024-08-09 08:08:35
 
 
-# llmcode chat started at 2024-08-09 10:05:35
+# llm code started at 2024-08-09 10:05:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode requirements/requirements-browser.in requirements/requirements-dev.in requirements/requirements-help.in requirements/requirements-playwright.in requirements/requirements.in scripts/pip-compile.sh  
 > Llmcode v0.48.2-dev  
@@ -19221,7 +19221,7 @@ Given that `transformers` is not directly specified in our requirements files, i
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 10:08:30
+# llm code started at 2024-08-09 10:08:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode requirements/requirements-browser.in requirements/requirements-dev.in requirements/requirements-help.in requirements/requirements-playwright.in requirements/requirements.in scripts/pip-compile.sh --edit-format ask  
 > Llmcode v0.48.2-dev  
@@ -20220,7 +20220,7 @@ If you provide more information about which specific packages in your project re
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 11:04:21
+# llm code started at 2024-08-09 11:04:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/docs/leaderboards/index.md  
 > Llmcode v0.48.2-dev  
@@ -20301,10 +20301,10 @@ This approach will give you the last modified date based on Git history rather t
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 11:06:36
+# llm code started at 2024-08-09 11:06:36
 
 
-# llmcode chat started at 2024-08-09 11:11:41
+# llm code started at 2024-08-09 11:11:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -20320,7 +20320,7 @@ This approach will give you the last modified date based on Git history rather t
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 11:12:17
+# llm code started at 2024-08-09 11:12:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -20334,7 +20334,7 @@ This approach will give you the last modified date based on Git history rather t
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 11:55:10
+# llm code started at 2024-08-09 11:55:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -20352,7 +20352,7 @@ This approach will give you the last modified date based on Git history rather t
 > 189,848 tokens remaining in context window  
 > 200,000 tokens max context window size  
 
-# llmcode chat started at 2024-08-09 11:55:30
+# llm code started at 2024-08-09 11:55:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -20386,7 +20386,7 @@ This change will add the model name to the output of the `/tokens` command, prov
 > Commit f3089a7 style: Format code for better readability  
 > You can use /undo to revert and discard commit f3089a7.  
 
-# llmcode chat started at 2024-08-09 11:56:06
+# llm code started at 2024-08-09 11:56:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -20415,16 +20415,16 @@ This change will add the model name to the output of the `/tokens` command, prov
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 11:57:00
+# llm code started at 2024-08-09 11:57:00
 
 >  
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-09 12:16:11
+# llm code started at 2024-08-09 12:16:11
 
 
-# llmcode chat started at 2024-08-09 14:37:16
+# llm code started at 2024-08-09 14:37:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -20435,7 +20435,7 @@ This change will add the model name to the output of the `/tokens` command, prov
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 14:46:33
+# llm code started at 2024-08-09 14:46:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -20565,7 +20565,7 @@ These changes allow users to specify a custom filename with a valid extension wh
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 14:50:17
+# llm code started at 2024-08-09 14:50:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model vertex_ai/claude-3-5-sonnet@20240620  
 > Llmcode v0.48.2-dev  
@@ -20579,7 +20579,7 @@ These changes allow users to specify a custom filename with a valid extension wh
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 14:56:12
+# llm code started at 2024-08-09 14:56:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model vertex_ai/claude-3-5-sonnet@20240620  
 > Llmcode v0.48.2-dev  
@@ -20589,21 +20589,21 @@ These changes allow users to specify a custom filename with a valid extension wh
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
 #### hi  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.2 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.5 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 1.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 2.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 4.0 seconds...  
 >  
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-09 14:57:42
+# llm code started at 2024-08-09 14:57:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model vertex_ai/claude-3-5-sonnet@20240620  
 > Llmcode v0.48.2-dev  
@@ -20613,19 +20613,19 @@ These changes allow users to specify a custom filename with a valid extension wh
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
 #### hi  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.2 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.5 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 1.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 2.0 seconds...  
 >  
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-09 14:58:26
+# llm code started at 2024-08-09 14:58:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model vertex_ai/claude-3-5-sonnet@20240620 --msg hi  
 > Llmcode v0.48.2-dev  
@@ -20635,16 +20635,16 @@ These changes allow users to specify a custom filename with a valid extension wh
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
 #### hi  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.2 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.5 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 1.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 2.0 seconds...  
 
-# llmcode chat started at 2024-08-09 14:58:51
+# llm code started at 2024-08-09 14:58:51
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -20752,16 +20752,16 @@ Option settings:
 
 #### hi  
 > Repo-map: 8.7 k-tokens  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.2 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.5 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 1.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 2.0 seconds...  
 
-# llmcode chat started at 2024-08-09 14:59:02
+# llm code started at 2024-08-09 14:59:02
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -20868,22 +20868,22 @@ Option settings:
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
 #### hi  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.2 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.5 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 1.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 2.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 4.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 8.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 16.0 seconds...  
 
-# llmcode chat started at 2024-08-09 15:00:18
+# llm code started at 2024-08-09 15:00:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model vertex_ai/claude-3-5-sonnet@20240620 --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -20893,16 +20893,16 @@ Option settings:
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
 #### hi  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.2 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 0.5 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 1.0 seconds...  
-> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/applicatio was not found.  
+> litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application was not found.  
 > Retrying in 2.0 seconds...  
 
-# llmcode chat started at 2024-08-09 15:00:38
+# llm code started at 2024-08-09 15:00:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model vertex_ai/claude-3-5-sonnet@20240620 --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -20923,7 +20923,7 @@ Option settings:
 > litellm.InternalServerError: VertexAIException InternalServerError - File ~/.config/gcloud/application_default_credentials.json was not found.  
 > Retrying in 4.0 seconds...  
 
-# llmcode chat started at 2024-08-09 15:01:00
+# llm code started at 2024-08-09 15:01:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model vertex_ai/claude-3-5-sonnet@20240620 --msg hi --no-git  
 > Llmcode v0.48.2-dev  
@@ -20935,7 +20935,7 @@ Option settings:
 #### hi  
 > Unexpected error: litellm.NotFoundError: AnthropicException - b'[{\n  "error": {\n    "code": 404,\n    "message": "Publisher Model `projects/diesel-bee-349822/locations/us-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620` not found.",\n    "status": "NOT_FOUND"\n  }\n}\n]'  
 
-# llmcode chat started at 2024-08-09 15:01:22
+# llm code started at 2024-08-09 15:01:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -20950,7 +20950,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 15:01:27
+# llm code started at 2024-08-09 15:01:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -20979,7 +20979,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 15:02:02
+# llm code started at 2024-08-09 15:02:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -20999,7 +20999,7 @@ Option settings:
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 15:03:50
+# llm code started at 2024-08-09 15:03:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --4o  
 > Model gpt-4o: Missing these environment variables:  
@@ -21033,10 +21033,10 @@ Option settings:
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 15:12:37
+# llm code started at 2024-08-09 15:12:37
 
 
-# llmcode chat started at 2024-08-09 15:33:48
+# llm code started at 2024-08-09 15:33:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -21056,7 +21056,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 15:34:18
+# llm code started at 2024-08-09 15:34:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --vim  
 > Llmcode v0.48.2-dev  
@@ -21068,7 +21068,7 @@ Option settings:
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-09 15:50:18
+# llm code started at 2024-08-09 15:50:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.jpg setup.py --show-prompt  
 > Llmcode v0.48.2-dev  
@@ -21078,7 +21078,7 @@ Option settings:
 > Added setup.py to the chat.  
 > Added tmp.jpg to the chat.  
 
-# llmcode chat started at 2024-08-09 15:50:54
+# llm code started at 2024-08-09 15:50:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.jpg setup.py --show-prompt  
 > Llmcode v0.48.2-dev  
@@ -21088,7 +21088,7 @@ Option settings:
 > Added setup.py to the chat.  
 > Added tmp.jpg to the chat.  
 
-# llmcode chat started at 2024-08-09 15:51:32
+# llm code started at 2024-08-09 15:51:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.png setup.py --show-prompt  
 > Llmcode v0.48.2-dev  
@@ -21098,7 +21098,7 @@ Option settings:
 > Added setup.py to the chat.  
 > Added tmp.png to the chat.  
 
-# llmcode chat started at 2024-08-09 15:51:57
+# llm code started at 2024-08-09 15:51:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.png setup.py --show-prompt  
 > Llmcode v0.48.2-dev  
@@ -21108,7 +21108,7 @@ Option settings:
 > Added setup.py to the chat.  
 > Added tmp.png to the chat.  
 
-# llmcode chat started at 2024-08-09 15:55:39
+# llm code started at 2024-08-09 15:55:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.png setup.py --show-prompt  
 > Llmcode v0.48.2-dev  
@@ -21118,7 +21118,7 @@ Option settings:
 > Added setup.py to the chat.  
 > Added tmp.png to the chat.  
 
-# llmcode chat started at 2024-08-09 15:56:08
+# llm code started at 2024-08-09 15:56:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.png setup.py --no-git  
 > Llmcode v0.48.2-dev  
@@ -21137,7 +21137,7 @@ The image file name is tmp.png, and it appears to be a yellow smiley face emoji.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 15:56:40
+# llm code started at 2024-08-09 15:56:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/utils.py  
 > Llmcode v0.48.2-dev  
@@ -21206,7 +21206,7 @@ These modifications will ensure that all entries in the content array are displa
 
 #### /diff  
 
-# llmcode chat started at 2024-08-09 15:57:41
+# llm code started at 2024-08-09 15:57:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.png setup.py --show-prompt  
 > Llmcode v0.48.2-dev  
@@ -21218,7 +21218,7 @@ These modifications will ensure that all entries in the content array are displa
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 15:58:28
+# llm code started at 2024-08-09 15:58:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -21287,7 +21287,7 @@ This change modifies the `get_images_message` function to include the relative f
 > Commit 7e8d6a2 feat: Include relative filename of image in get_images_message  
 > You can use /undo to revert and discard commit 7e8d6a2.  
 
-# llmcode chat started at 2024-08-09 15:59:17
+# llm code started at 2024-08-09 15:59:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.png setup.py --show-prompt  
 > Llmcode v0.48.2-dev  
@@ -21301,7 +21301,7 @@ This change modifies the `get_images_message` function to include the relative f
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 16:00:37
+# llm code started at 2024-08-09 16:00:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -21863,7 +21863,7 @@ This modification ensures that the model is aware of the read-only files and the
 > Commit e7cdd1d feat: add read-only files messages with read_only_files_prefix before files_content  
 > You can use /undo to revert and discard commit e7cdd1d.  
 
-# llmcode chat started at 2024-08-09 16:16:42
+# llm code started at 2024-08-09 16:16:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -22621,7 +22621,7 @@ These changes will add the `--read` parameter, which can be used multiple times 
 > Commit 064b0d9 feat: Add --read parameter to specify read-only files  
 > You can use /undo to revert and discard commit 064b0d9.  
 
-# llmcode chat started at 2024-08-09 16:38:44
+# llm code started at 2024-08-09 16:38:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --read CONVENTIONS.md  
 > Llmcode v0.48.2-dev  
@@ -22684,7 +22684,7 @@ This modification ensures that only existing files are added to `self.abs_read_o
 > Commit a321764 fix: Check if read-only files exist in __init__  
 > You can use /undo to revert and discard commit a321764.  
 
-# llmcode chat started at 2024-08-09 16:40:00
+# llm code started at 2024-08-09 16:40:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --read CONVENTIONS.md  
 > Error: Read-only file /Users/gauthier/Projects/llmcode/CONVENTIONS.md does not exist. Skipping.  
@@ -22702,7 +22702,7 @@ This modification ensures that only existing files are added to `self.abs_read_o
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 16:25:49
+# llm code started at 2024-08-09 16:25:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -22801,7 +22801,7 @@ Would you like me to implement these changes in the `llmcode/commands.py` file?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 16:29:59
+# llm code started at 2024-08-09 16:29:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -22810,7 +22810,7 @@ Would you like me to implement these changes in the `llmcode/commands.py` file?
 > Repo-map: using 1024 tokens  
 > Commit d54f25d fix: Rename `completions_read` to `completions_add`  
 
-# llmcode chat started at 2024-08-09 16:37:59
+# llm code started at 2024-08-09 16:37:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py tests/basic/test_commands.py  
 > Llmcode v0.48.2-dev  
@@ -22953,7 +22953,7 @@ This test ensures that the `/read` command correctly adds files to `abs_read_onl
 
 #### /diff  
 
-# llmcode chat started at 2024-08-09 16:39:35
+# llm code started at 2024-08-09 16:39:35
 
 
 #### /drop  
@@ -23247,7 +23247,7 @@ This test ensures that the `cmd_read` method properly handles attempts to read f
 > Tokens: 18,484 sent, 687 received. Cost: $0.07 request, $0.26 session.  
 > Applied edit to tests/basic/test_commands.py  
 
-# llmcode chat started at 2024-08-09 16:51:14
+# llm code started at 2024-08-09 16:51:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_commands.py  
 > Llmcode v0.48.2-dev  
@@ -23825,10 +23825,10 @@ This should fix the issue in the test case where the external read-only file was
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 17:08:25
+# llm code started at 2024-08-09 17:08:25
 
 
-# llmcode chat started at 2024-08-09 17:11:44
+# llm code started at 2024-08-09 17:11:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -23914,7 +23914,7 @@ This modification will allow the scraped content to be displayed in a pager, whi
 > Commit 8734f2b feat: use prompt toolkit Pager to show scraped webpage content  
 > You can use /undo to revert and discard commit 8734f2b.  
 
-# llmcode chat started at 2024-08-09 17:12:53
+# llm code started at 2024-08-09 17:12:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -24204,7 +24204,7 @@ This updated SEARCH/REPLACE block should now correctly match the current content
 
 #### /diff  
 
-# llmcode chat started at 2024-08-09 17:18:01
+# llm code started at 2024-08-09 17:18:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -24616,7 +24616,7 @@ This change replaces the direct `print(diff)` with the use of `pypager` to displ
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 17:21:04
+# llm code started at 2024-08-09 17:21:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -24641,12 +24641,12 @@ index a37849ba..95836837 100644
  pyperclip
 +pypager
  
- # The proper depdendency is networkx[default], but this brings
+ # The proper dependency is networkx[default], but this brings
  # in matplotlib and a bunch of other deps  
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 17:24:22
+# llm code started at 2024-08-09 17:24:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -24655,7 +24655,7 @@ index a37849ba..95836837 100644
 > Repo-map: using 1024 tokens  
 > Commit e255c28 fix: Use consistent code fence syntax in file content display  
 
-# llmcode chat started at 2024-08-09 17:24:39
+# llm code started at 2024-08-09 17:24:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -25556,7 +25556,7 @@ Is there anything else you'd like me to do or any other changes you'd like to ma
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 17:30:20
+# llm code started at 2024-08-09 17:30:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -25573,7 +25573,7 @@ Is there anything else you'd like me to do or any other changes you'd like to ma
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 17:31:04
+# llm code started at 2024-08-09 17:31:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -25595,7 +25595,7 @@ It seems you have provided a link to a website and some content, but I don't see
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 17:31:41
+# llm code started at 2024-08-09 17:31:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -25614,7 +25614,7 @@ It seems you have shared a webpage content instead of code files. Please provide
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 17:33:03
+# llm code started at 2024-08-09 17:33:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -25732,7 +25732,7 @@ This change removes the f-string, which is unnecessary when there are no placeho
 > You can use /undo to revert and discard commit 996649f.  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-09 17:34:38
+# llm code started at 2024-08-09 17:34:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py  
 > Llmcode v0.48.2-dev  
@@ -25862,7 +25862,7 @@ This change removes the unused `confirm` import, which should resolve the flake8
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 17:35:45
+# llm code started at 2024-08-09 17:35:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py  
 > Llmcode v0.48.2-dev  
@@ -25874,7 +25874,7 @@ This change removes the unused `confirm` import, which should resolve the flake8
 
 #### /ex  
 
-# llmcode chat started at 2024-08-09 17:35:53
+# llm code started at 2024-08-09 17:35:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -25883,7 +25883,7 @@ This change removes the unused `confirm` import, which should resolve the flake8
 > Repo-map: using 1024 tokens  
 > Commit e591acb fix: Set paginate to True by default in cmd_diff method  
 
-# llmcode chat started at 2024-08-09 17:36:13
+# llm code started at 2024-08-09 17:36:13
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -26002,7 +26002,7 @@ Hello! How can I help you today?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 17:38:54
+# llm code started at 2024-08-09 17:38:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -26053,10 +26053,10 @@ Hello! How can I help you today?
 
 #### /e  
 
-# llmcode chat started at 2024-08-09 17:40:22
+# llm code started at 2024-08-09 17:40:22
 
 
-# llmcode chat started at 2024-08-09 18:04:09
+# llm code started at 2024-08-09 18:04:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -26175,7 +26175,7 @@ These changes ensure that any `abs_read_only_fnames` that are part of the repo a
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 18:06:06
+# llm code started at 2024-08-09 18:06:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -26268,7 +26268,7 @@ These changes will allow the pager to display the colorized git diff output. The
 > Commit a3fa097 style: format code using linter  
 > You can use /undo to revert and discard commit a3fa097.  
 
-# llmcode chat started at 2024-08-09 18:07:44
+# llm code started at 2024-08-09 18:07:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/args.py  
 > Llmcode v0.48.2-dev  
@@ -26342,7 +26342,7 @@ This change adds the `--mini` option to set the model to `gpt-4o-mini`. The new 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 18:09:27
+# llm code started at 2024-08-09 18:09:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/args.py  
 > Llmcode v0.48.2-dev  
@@ -26446,7 +26446,7 @@ Is there anything else you'd like me to modify or improve in this function or el
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 18:12:18
+# llm code started at 2024-08-09 18:12:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -26828,7 +26828,7 @@ This change will import `FormattedTextSource` along with the existing imports of
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 18:20:03
+# llm code started at 2024-08-09 18:20:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -26997,7 +26997,7 @@ These modifications will allow the diff output to be paginated using `FileSource
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 18:34:44
+# llm code started at 2024-08-09 18:34:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -27125,10 +27125,10 @@ This change removes the two unused imports: `Pager` from `pypager.pager` and `St
 > You can use /undo to revert and discard commit 81b64e2.  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-09 18:37:10
+# llm code started at 2024-08-09 18:37:10
 
 
-# llmcode chat started at 2024-08-09 18:37:24
+# llm code started at 2024-08-09 18:37:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -27586,7 +27586,7 @@ This SEARCH/REPLACE block should now match the existing code in llmcode/io.py an
 
 #### /diff  
 
-# llmcode chat started at 2024-08-09 18:40:28
+# llm code started at 2024-08-09 18:40:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --read source.py llmcode/io.py  
 > Llmcode v0.48.2-dev  
@@ -27599,7 +27599,7 @@ This SEARCH/REPLACE block should now match the existing code in llmcode/io.py an
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-09 18:42:18
+# llm code started at 2024-08-09 18:42:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -27608,10 +27608,10 @@ This SEARCH/REPLACE block should now match the existing code in llmcode/io.py an
 > Repo-map: using 1024 tokens  
 > Commit 46dc6a0 fix: Add abs_read_only_fnames to get_coder_state  
 
-# llmcode chat started at 2024-08-09 18:43:26
+# llm code started at 2024-08-09 18:43:26
 
 
-# llmcode chat started at 2024-08-09 18:45:35
+# llm code started at 2024-08-09 18:45:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py  
 > Llmcode v0.48.2-dev  
@@ -28125,10 +28125,10 @@ tests/basic/test_io.py ....                                              [100%]
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 18:48:36
+# llm code started at 2024-08-09 18:48:36
 
 
-# llmcode chat started at 2024-08-09 18:53:01
+# llm code started at 2024-08-09 18:53:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_commands.py  
 > Llmcode v0.48.2-dev  
@@ -28202,7 +28202,7 @@ This change replaces the simple string comparison with a `samefile` check, which
 
 #### /diff  
 
-# llmcode chat started at 2024-08-09 18:56:48
+# llm code started at 2024-08-09 18:56:48
 
 >  
 >  
@@ -28211,7 +28211,7 @@ This change replaces the simple string comparison with a `samefile` check, which
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 19:02:35
+# llm code started at 2024-08-09 19:02:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -28517,7 +28517,7 @@ This implementation addresses the TODO by automatically committing any dirty fil
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 19:19:18
+# llm code started at 2024-08-09 19:19:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/io.py  
 > Llmcode v0.48.2-dev  
@@ -28565,7 +28565,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 > Commit 04c3260 feat: Add bold=False param to tool_output  
 > You can use /undo to revert and discard commit 04c3260.  
 
-# llmcode chat started at 2024-08-09 19:20:07
+# llm code started at 2024-08-09 19:20:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -28574,17 +28574,17 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 > Removed: 04c3260 feat: Add bold=False param to tool_output  
 > HEAD is: 06934a9 style: Apply linter formatting to test_commands.py  
 
-# llmcode chat started at 2024-08-09 19:20:36
+# llm code started at 2024-08-09 19:20:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
 
-# llmcode chat started at 2024-08-09 19:21:18
+# llm code started at 2024-08-09 19:21:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
 
-# llmcode chat started at 2024-08-09 19:22:23
+# llm code started at 2024-08-09 19:22:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -28593,7 +28593,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-09 19:23:20
+# llm code started at 2024-08-09 19:23:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -28608,7 +28608,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 19:24:01
+# llm code started at 2024-08-09 19:24:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -28629,7 +28629,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 19:24:06
+# llm code started at 2024-08-09 19:24:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -28644,7 +28644,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 19:24:43
+# llm code started at 2024-08-09 19:24:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.48.2-dev  
@@ -28653,7 +28653,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-09 19:25:08
+# llm code started at 2024-08-09 19:25:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.48.2-dev  
@@ -28662,7 +28662,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-09 19:25:16
+# llm code started at 2024-08-09 19:25:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.48.2-dev  
@@ -28671,7 +28671,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-09 19:25:27
+# llm code started at 2024-08-09 19:25:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.48.2-dev  
@@ -28686,7 +28686,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 19:26:12
+# llm code started at 2024-08-09 19:26:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -28697,7 +28697,7 @@ This change adds the `bold=False` parameter to the `tool_output` method signatur
 feat: Add bold formatting to commit message output
 refactor: Simplify tool_output method in io.py  
 
-# llmcode chat started at 2024-08-09 19:32:47
+# llm code started at 2024-08-09 19:32:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.48.2-dev  
@@ -29349,7 +29349,7 @@ This change replaces the try-except block that was directly accessing `self.code
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-09 19:47:03
+# llm code started at 2024-08-09 19:47:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -29462,16 +29462,16 @@ This change removes the f-string, which was unnecessary since the string doesn't
 > Commit 5f32323 fix: Remove unnecessary f-string  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-09 19:52:02
+# llm code started at 2024-08-09 19:52:02
 
 
-# llmcode chat started at 2024-08-09 20:15:56
+# llm code started at 2024-08-09 20:15:56
 
 
-# llmcode chat started at 2024-08-09 17:57:39
+# llm code started at 2024-08-09 17:57:39
 
 
-# llmcode chat started at 2024-08-10 04:53:50
+# llm code started at 2024-08-10 04:53:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/scrape.py  
 > Llmcode v0.48.2-dev  
@@ -29481,7 +29481,7 @@ This change removes the f-string, which was unnecessary since the string doesn't
 > Added llmcode/scrape.py to the chat.  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-10 04:53:58
+# llm code started at 2024-08-10 04:53:58
 
 
 #### scrape should only turn html to markdown. if the web page is plain text or some non-html text, just return it as-is  
@@ -30425,7 +30425,7 @@ These new tests will help ensure that the `Scraper` class correctly handles diff
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 06:10:43
+# llm code started at 2024-08-10 06:10:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py llmcode/commands.py  
 > Llmcode v0.48.2-dev  
@@ -30819,10 +30819,10 @@ This change ensures that `commit_before_message` is initialized as an empty list
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 06:18:36
+# llm code started at 2024-08-10 06:18:36
 
 
-# llmcode chat started at 2024-08-10 08:04:43
+# llm code started at 2024-08-10 08:04:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py tests/basic/test_commands.py  
 > Llmcode v0.48.2-dev  
@@ -30973,7 +30973,7 @@ This test ensures that the `cmd_diff` command correctly shows the differences be
 #### /diff  
 > Diff since 1265f6a...  
 
-# llmcode chat started at 2024-08-10 08:14:35
+# llm code started at 2024-08-10 08:14:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repo.py  
 > Llmcode v0.48.2-dev  
@@ -31245,10 +31245,10 @@ This change adds a third modification to the file, commits it, and then checks t
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 08:56:45
+# llm code started at 2024-08-10 08:56:45
 
 
-# llmcode chat started at 2024-08-10 08:56:59
+# llm code started at 2024-08-10 08:56:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode test_coder.py  
 > Llmcode v0.48.2-dev  
@@ -31267,7 +31267,7 @@ This change adds a third modification to the file, commits it, and then checks t
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 08:57:46
+# llm code started at 2024-08-10 08:57:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg Coder.create no longer takes a pretty arg --test-cmd pytest  --auto-test  
 > Llmcode v0.48.2-dev  
@@ -31293,7 +31293,7 @@ I'll stop here so you can add this file to the chat if you want to proceed with 
 > llmcode/main.py  
 > Add these files to the chat? n  
 
-# llmcode chat started at 2024-08-10 08:58:09
+# llm code started at 2024-08-10 08:58:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg Coder.create no longer takes a pretty arg --test-cmd pytest  --auto-test  
 > Llmcode v0.48.2-dev  
@@ -31319,7 +31319,7 @@ Please add this file to the chat so we can make the necessary changes.
 > llmcode/coders/base_coder.py  
 > Add these files to the chat? n  
 
-# llmcode chat started at 2024-08-10 08:58:35
+# llm code started at 2024-08-10 08:58:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode test_coder.py --msg Coder.create no longer takes a pretty arg --test-cmd pytest test_coder.py --auto-test  
 > Llmcode v0.48.2-dev  
@@ -31807,7 +31807,7 @@ test_coder.py ....................                                       [100%]
 
 ============================== 20 passed in 6.41s ==============================  
 
-# llmcode chat started at 2024-08-10 08:59:37
+# llm code started at 2024-08-10 08:59:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode test_editblock.py --msg Coder.create no longer takes a pretty arg --test-cmd pytest test_editblock.py --auto-test  
 > Llmcode v0.48.2-dev  
@@ -31871,7 +31871,7 @@ test_editblock.py ..................                                     [100%]
 
 ============================== 18 passed in 2.17s ==============================  
 
-# llmcode chat started at 2024-08-10 08:59:58
+# llm code started at 2024-08-10 08:59:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode test_main.py --msg Coder.create no longer takes a pretty arg --test-cmd pytest test_main.py --auto-test  
 > Llmcode v0.48.2-dev  
@@ -31999,10 +31999,10 @@ test_main.py .............................                               [100%]
 
 ============================== 29 passed in 4.57s ==============================  
 
-# llmcode chat started at 2024-08-10 09:01:06
+# llm code started at 2024-08-10 09:01:06
 
 
-# llmcode chat started at 2024-08-10 09:01:08
+# llm code started at 2024-08-10 09:01:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode test_wholefile.py --msg Coder.create no longer takes a pretty arg --test-cmd pytest test_wholefile.py --auto-test  
 > Llmcode v0.48.2-dev  
@@ -32049,10 +32049,10 @@ test_wholefile.py ...........                                            [100%]
 
 ============================== 11 passed in 2.18s ==============================  
 
-# llmcode chat started at 2024-08-10 09:02:06
+# llm code started at 2024-08-10 09:02:06
 
 
-# llmcode chat started at 2024-08-10 09:07:50
+# llm code started at 2024-08-10 09:07:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_commands.py  
 > Llmcode v0.48.2-dev  
@@ -32175,7 +32175,7 @@ This change replaces the mock of `llmcode.sendchat.simple_send_with_retries` wit
 > Commit 9d0b3d1 style: Format code with linter  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-10 09:11:06
+# llm code started at 2024-08-10 09:11:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.48.2-dev  
@@ -32184,7 +32184,7 @@ This change replaces the mock of `llmcode.sendchat.simple_send_with_retries` wit
 > Repo-map: using 1024 tokens  
 > Commit 8769f31 fix: Handle empty commit history in cmd_diff  
 
-# llmcode chat started at 2024-08-10 09:12:00
+# llm code started at 2024-08-10 09:12:00
 
 >  
 >  
@@ -32193,10 +32193,10 @@ This change replaces the mock of `llmcode.sendchat.simple_send_with_retries` wit
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 10:20:56
+# llm code started at 2024-08-10 10:20:56
 
 
-# llmcode chat started at 2024-08-10 10:21:23
+# llm code started at 2024-08-10 10:21:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/docs/leaderboards/index.md  
 > Llmcode v0.48.2-dev  
@@ -32773,10 +32773,10 @@ These changes should make the table more responsive and easier to view on variou
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 10:30:40
+# llm code started at 2024-08-10 10:30:40
 
 
-# llmcode chat started at 2024-08-10 11:05:37
+# llm code started at 2024-08-10 11:05:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repo.py  
 > Llmcode v0.48.2-dev  
@@ -33027,7 +33027,7 @@ These changes add the new `--attribute-commit-message-committer` argument and up
 #### /diff  
 > Diff since e3ad45f...  
 
-# llmcode chat started at 2024-08-10 11:10:23
+# llm code started at 2024-08-10 11:10:23
 
 
 #### /drop main repo  
@@ -33087,10 +33087,10 @@ This update clarifies the new options for attributing commit messages and explai
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 11:11:56
+# llm code started at 2024-08-10 11:11:56
 
 
-# llmcode chat started at 2024-08-10 11:14:11
+# llm code started at 2024-08-10 11:14:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode HISTORY.md  
 > Llmcode v0.48.2-dev  
@@ -33549,13 +33549,13 @@ This update adds information about the new commit message attribution options to
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 11:19:19
+# llm code started at 2024-08-10 11:19:19
 
 
-# llmcode chat started at 2024-08-10 11:20:59
+# llm code started at 2024-08-10 11:20:59
 
 
-# llmcode chat started at 2024-08-10 13:20:28
+# llm code started at 2024-08-10 13:20:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.48.2-dev  
@@ -33584,22 +33584,22 @@ It looks like you've shared the content of a `setup.py` file. Please specify wha
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 13:26:52
+# llm code started at 2024-08-10 13:26:52
 
 
-# llmcode chat started at 2024-08-10 13:30:21
+# llm code started at 2024-08-10 13:30:21
 
 
-# llmcode chat started at 2024-08-10 13:31:15
+# llm code started at 2024-08-10 13:31:15
 
 
-# llmcode chat started at 2024-08-10 13:32:13
+# llm code started at 2024-08-10 13:32:13
 
 
-# llmcode chat started at 2024-08-10 13:42:50
+# llm code started at 2024-08-10 13:42:50
 
 
-# llmcode chat started at 2024-08-10 13:44:59
+# llm code started at 2024-08-10 13:44:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_includes/blame.md  
 > Llmcode v0.49.1-dev  
@@ -33730,10 +33730,10 @@ This new description clearly explains that the y-axis represents the percentage 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 13:51:13
+# llm code started at 2024-08-10 13:51:13
 
 
-# llmcode chat started at 2024-08-10 13:52:09
+# llm code started at 2024-08-10 13:52:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/main.py llmcode/commands.py  
 > Llmcode v0.49.1-dev  
@@ -33974,7 +33974,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 14:06:39
+# llm code started at 2024-08-10 14:06:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.1-dev  
@@ -33991,7 +33991,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:06:54
+# llm code started at 2024-08-10 14:06:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.1-dev  
@@ -34020,7 +34020,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -34055,7 +34055,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -34206,7 +34206,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -34297,7 +34297,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:08:34
+# llm code started at 2024-08-10 14:08:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.1-dev  
@@ -34338,7 +34338,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -34373,7 +34373,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -34544,7 +34544,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -34617,7 +34617,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:09:30
+# llm code started at 2024-08-10 14:09:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.0  
@@ -34661,7 +34661,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -34696,7 +34696,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -34867,7 +34867,7 @@ These changes remove the unused variables, which should resolve the flake8 error
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -34946,7 +34946,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 14:09:53
+# llm code started at 2024-08-10 14:09:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.0  
@@ -34957,7 +34957,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 
 #### /exit  
 
-# llmcode chat started at 2024-08-10 14:10:35
+# llm code started at 2024-08-10 14:10:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -34998,7 +34998,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -35033,7 +35033,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -35204,7 +35204,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -35277,7 +35277,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:10:54
+# llm code started at 2024-08-10 14:10:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -35318,7 +35318,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -35353,7 +35353,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -35524,7 +35524,7 @@ Here are some relevant links to the Llmcode documentation that might be helpful:
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -35600,7 +35600,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:11:16
+# llm code started at 2024-08-10 14:11:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -35641,7 +35641,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -35676,7 +35676,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -35847,7 +35847,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -35920,7 +35920,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:11:30
+# llm code started at 2024-08-10 14:11:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -35961,7 +35961,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -35996,7 +35996,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -36167,7 +36167,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -36240,7 +36240,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:11:43
+# llm code started at 2024-08-10 14:11:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -36281,7 +36281,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -36316,7 +36316,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -36487,7 +36487,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -36560,7 +36560,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:11:57
+# llm code started at 2024-08-10 14:11:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -36601,7 +36601,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -36636,7 +36636,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -36807,7 +36807,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -36880,7 +36880,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-10 14:12:16
+# llm code started at 2024-08-10 14:12:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -36921,7 +36921,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -36956,7 +36956,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -37127,7 +37127,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -37200,7 +37200,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-10 14:12:31
+# llm code started at 2024-08-10 14:12:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.48.2-dev  
@@ -37241,7 +37241,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -37276,7 +37276,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -37447,7 +37447,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -37520,7 +37520,7 @@ I'm doing well, thank you! How can I assist you with Llmcode today? If you have 
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-10 14:15:20
+# llm code started at 2024-08-10 14:15:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.1-dev  
@@ -37565,7 +37565,7 @@ Hello! How can I assist you today?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -37623,7 +37623,7 @@ Hello! How can I assist you today?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -37662,7 +37662,7 @@ Hello! How can I assist you today?
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -37777,7 +37777,7 @@ Hello! How can I assist you today?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:16:24
+# llm code started at 2024-08-10 14:16:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.1-dev  
@@ -37800,7 +37800,7 @@ Hello! How can I assist you today with Llmcode?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:16:58
+# llm code started at 2024-08-10 14:16:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.1-dev  
@@ -37823,7 +37823,7 @@ Hello! How can I assist you today with Llmcode?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:17:16
+# llm code started at 2024-08-10 14:17:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.1-dev  
@@ -37860,7 +37860,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -37918,7 +37918,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -37957,7 +37957,7 @@ Hello! How can I assist you today with Llmcode?
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -38072,7 +38072,7 @@ Hello! How can I assist you today with Llmcode?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:17:29
+# llm code started at 2024-08-10 14:17:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.1-dev  
@@ -38109,7 +38109,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38167,7 +38167,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38206,7 +38206,7 @@ Hello! How can I assist you today with Llmcode?
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -38331,7 +38331,7 @@ Hello! How can I assist you today with Llmcode?
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-10 14:20:12
+# llm code started at 2024-08-10 14:20:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.1-dev  
@@ -38368,7 +38368,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38426,7 +38426,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38465,7 +38465,7 @@ Hello! How can I assist you today with Llmcode?
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -38580,7 +38580,7 @@ Hello! How can I assist you today with Llmcode?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:20:31
+# llm code started at 2024-08-10 14:20:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.1-dev  
@@ -38617,7 +38617,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38675,7 +38675,7 @@ Hello! How can I assist you today with Llmcode?
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38714,7 +38714,7 @@ Hello! How can I assist you today with Llmcode?
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -38827,7 +38827,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 14:20:51
+# llm code started at 2024-08-10 14:20:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini --msg /tokens  
 > Llmcode v0.49.1-dev  
@@ -38844,22 +38844,22 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 > 127,494 tokens remaining in context window  
 > 128,000 tokens max context window size  
 
-# llmcode chat started at 2024-08-10 14:22:03
+# llm code started at 2024-08-10 14:22:03
 
 
-# llmcode chat started at 2024-08-10 14:23:53
+# llm code started at 2024-08-10 14:23:53
 
 
-# llmcode chat started at 2024-08-10 14:24:44
+# llm code started at 2024-08-10 14:24:44
 
 
-# llmcode chat started at 2024-08-10 14:25:38
+# llm code started at 2024-08-10 14:25:38
 
 
-# llmcode chat started at 2024-08-10 14:26:39
+# llm code started at 2024-08-10 14:26:39
 
 
-# llmcode chat started at 2024-08-10 14:30:34
+# llm code started at 2024-08-10 14:30:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -38896,7 +38896,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38954,7 +38954,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -38993,7 +38993,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -39111,7 +39111,7 @@ Let me know if you have any specific questions and I'll do my best to assist you
 
 > Tokens: 3,027 sent, 90 received. Cost: $0.01 request, $0.01 session.  
 
-# llmcode chat started at 2024-08-10 14:31:38
+# llm code started at 2024-08-10 14:31:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.2-dev  
@@ -39148,7 +39148,7 @@ Let me know if you have any specific questions and I'll do my best to assist you
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39206,7 +39206,7 @@ Let me know if you have any specific questions and I'll do my best to assist you
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39245,7 +39245,7 @@ Let me know if you have any specific questions and I'll do my best to assist you
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -39356,7 +39356,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 
 > Tokens: 3,044 sent, 40 received. Cost: $0.00048 request, $0.00048 session.  
 
-# llmcode chat started at 2024-08-10 14:34:48
+# llm code started at 2024-08-10 14:34:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.2-dev  
@@ -39393,7 +39393,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39451,7 +39451,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39490,7 +39490,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -39601,7 +39601,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 
 > Tokens: 3,026 sent, 45 received. Cost: $0.00048 request, $0.00048 session.  
 
-# llmcode chat started at 2024-08-10 14:35:41
+# llm code started at 2024-08-10 14:35:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.2-dev  
@@ -39638,7 +39638,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39696,7 +39696,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39735,7 +39735,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -39852,7 +39852,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 14:36:04
+# llm code started at 2024-08-10 14:36:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -39889,7 +39889,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39947,7 +39947,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -39986,7 +39986,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -40114,7 +40114,7 @@ Let me know if you have any particular questions and I'll do my best to assist!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:38:24
+# llm code started at 2024-08-10 14:38:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -40129,7 +40129,7 @@ Let me know if you have any particular questions and I'll do my best to assist!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:38:27
+# llm code started at 2024-08-10 14:38:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.2-dev  
@@ -40166,7 +40166,7 @@ Let me know if you have any particular questions and I'll do my best to assist!
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -40224,7 +40224,7 @@ Let me know if you have any particular questions and I'll do my best to assist!
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -40263,7 +40263,7 @@ Let me know if you have any particular questions and I'll do my best to assist!
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -40374,7 +40374,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 
 > Tokens: 3,022 sent, 45 received. Cost: $0.00048 request, $0.00048 session.  
 
-# llmcode chat started at 2024-08-10 14:38:57
+# llm code started at 2024-08-10 14:38:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.2-dev  
@@ -40411,7 +40411,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -40469,7 +40469,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -40508,7 +40508,7 @@ Hello! How can I assist you today with Llmcode? If you have any specific questio
 #### `--chat-history-file CHAT_HISTORY_FILE`  
 #### Specify the chat history file (default: .llm.khulnasoft.com.history.md)    
 #### Default: .llm.khulnasoft.com.history.md    
-#### Environment variable: `LLMCODE_CHAT_HISTORY_FILE`  
+#### Environment variable: `LLMCODE_HISTORY_FILE`  
 #### </doc>  
 ####   
 #### <doc>  
@@ -40625,7 +40625,7 @@ Hello! How can I assist you today? If you have any questions about using Llmcode
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:39:40
+# llm code started at 2024-08-10 14:39:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.2-dev  
@@ -40642,7 +40642,7 @@ Could you please provide more context or specify what you are referring to? This
 
 > Tokens: 66 sent, 22 received. Cost: $0.000023 request, $0.000023 session.  
 
-# llmcode chat started at 2024-08-10 14:39:57
+# llm code started at 2024-08-10 14:39:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-mini  
 > Llmcode v0.49.2-dev  
@@ -40669,7 +40669,7 @@ To provide an accurate answer, I would need more information about the repositor
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 14:40:12
+# llm code started at 2024-08-10 14:40:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -41064,7 +41064,7 @@ Let me know if you'd like to add any of these or if you have any specific questi
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 14:41:10
+# llm code started at 2024-08-10 14:41:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint  
 > Llmcode v0.49.2-dev  
@@ -41121,10 +41121,10 @@ Let me know if you'd like to add any of these or if you have any specific questi
 > 870│            edit_format=self.coder.edit_format,  
 > ...⋮...  
 
-# llmcode chat started at 2024-08-10 14:42:20
+# llm code started at 2024-08-10 14:42:20
 
 
-# llmcode chat started at 2024-08-10 14:42:27
+# llm code started at 2024-08-10 14:42:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_commands.py  
 > Llmcode v0.49.2-dev  
@@ -41861,7 +41861,7 @@ This change adds the import of `SwitchCoder` from the `llmcode.commands` module,
 > Tokens: 11,524 sent, 176 received. Cost: $0.04 request, $0.19 session.  
 > Applied edit to tests/basic/test_commands.py  
 
-# llmcode chat started at 2024-08-10 14:47:07
+# llm code started at 2024-08-10 14:47:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/help/test_help.py  
 > Llmcode v0.49.2-dev  
@@ -42263,7 +42263,7 @@ Now, when you run the test, it should pass because we're expecting and handling 
 > Now at:  e7c035d fix: Catch SwitchCoder exception in test_cmd_ask  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-10 14:49:49
+# llm code started at 2024-08-10 14:49:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -42272,10 +42272,10 @@ Now, when you run the test, it should pass because we're expecting and handling 
 > Repo-map: using 1024 tokens  
 > Commit 216ad3b fix: Add SwitchCoder exception handling in cmd_help  
 
-# llmcode chat started at 2024-08-10 14:50:39
+# llm code started at 2024-08-10 14:50:39
 
 
-# llmcode chat started at 2024-08-10 14:52:24
+# llm code started at 2024-08-10 14:52:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.49.2-dev  
@@ -42348,7 +42348,7 @@ This change will replace the individual listing of files not in the chat with a 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-10 14:53:01
+# llm code started at 2024-08-10 14:53:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg /ls  
 > Llmcode v0.49.2-dev  
@@ -42362,7 +42362,7 @@ This change will replace the individual listing of files not in the chat with a 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 15:37:18
+# llm code started at 2024-08-10 15:37:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --4o  
 > Llmcode v0.49.2-dev  
@@ -42373,7 +42373,7 @@ This change will replace the individual listing of files not in the chat with a 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-10 20:23:33
+# llm code started at 2024-08-10 20:23:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --mini  
 > Llmcode v0.49.2-dev  
@@ -42386,7 +42386,7 @@ This change will replace the individual listing of files not in the chat with a 
 > Scraping https://cloud.google.com/vertex-ai/docs...  
 > ... done.  
 
-# llmcode chat started at 2024-08-10 20:24:30
+# llm code started at 2024-08-10 20:24:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --mini --msg /web https://cloud.google.com/vertex-ai/docs  
 > Llmcode v0.49.2-dev  
@@ -42399,7 +42399,7 @@ This change will replace the individual listing of files not in the chat with a 
 > Scraping https://cloud.google.com/vertex-ai/docs...  
 > ... done.  
 
-# llmcode chat started at 2024-08-10 20:24:52
+# llm code started at 2024-08-10 20:24:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.49.2-dev  
@@ -42503,7 +42503,7 @@ This change adds a step to escape square brackets in the content before printing
 #### /diff  
 > Diff since d5aaa9a...  
 
-# llmcode chat started at 2024-08-10 20:25:40
+# llm code started at 2024-08-10 20:25:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --mini --msg /web https://cloud.google.com/vertex-ai/docs  
 > Llmcode v0.49.2-dev  
@@ -42687,7 +42687,7 @@ This change imports the `Text` class from the `rich.text` module, which should r
 > Commit cb709bd fix: Import Text class from rich.text module  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-10 20:27:18
+# llm code started at 2024-08-10 20:27:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --mini --msg /web https://cloud.google.com/vertex-ai/docs  
 > Llmcode v0.49.2-dev  
@@ -42700,10 +42700,10 @@ This change imports the `Text` class from the `rich.text` module, which should r
 > Scraping https://cloud.google.com/vertex-ai/docs...  
 > ... done.  
 
-# llmcode chat started at 2024-08-10 20:28:23
+# llm code started at 2024-08-10 20:28:23
 
 
-# llmcode chat started at 2024-08-11 09:54:57
+# llm code started at 2024-08-11 09:54:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/args.py  
 > Llmcode v0.49.2-dev  
@@ -42932,7 +42932,7 @@ These changes update the documentation to include the `/code` command and provid
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-11 09:59:57
+# llm code started at 2024-08-11 09:59:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -42941,10 +42941,10 @@ These changes update the documentation to include the `/code` command and provid
 > Repo-map: using 1024 tokens  
 > Commit a2128e5 fix: Use the correct edit format for the code command  
 
-# llmcode chat started at 2024-08-11 10:03:02
+# llm code started at 2024-08-11 10:03:02
 
 
-# llmcode chat started at 2024-08-11 10:09:31
+# llm code started at 2024-08-11 10:09:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -42953,12 +42953,12 @@ These changes update the documentation to include the `/code` command and provid
 > Repo-map: using 1024 tokens  
 > Commit 543fa68 fix: Use Text() to format user input in console.print()  
 
-# llmcode chat started at 2024-08-11 10:10:06
+# llm code started at 2024-08-11 10:10:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --chat-mode code  
 > Unknown edit format code  
 
-# llmcode chat started at 2024-08-11 10:11:01
+# llm code started at 2024-08-11 10:11:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --chat-mode code  
 > Llmcode v0.49.2-dev  
@@ -42973,7 +42973,7 @@ These changes update the documentation to include the `/code` command and provid
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-11 10:11:10
+# llm code started at 2024-08-11 10:11:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -42982,13 +42982,13 @@ These changes update the documentation to include the `/code` command and provid
 > Repo-map: using 1024 tokens  
 > Commit 7e5c5df fix: Set default edit_format to None if it is "code"  
 
-# llmcode chat started at 2024-08-11 10:12:20
+# llm code started at 2024-08-11 10:12:20
 
 
-# llmcode chat started at 2024-08-11 10:21:32
+# llm code started at 2024-08-11 10:21:32
 
 
-# llmcode chat started at 2024-08-11 10:26:17
+# llm code started at 2024-08-11 10:26:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -43004,7 +43004,7 @@ These changes update the documentation to include the `/code` command and provid
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-11 10:26:21
+# llm code started at 2024-08-11 10:26:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -43067,7 +43067,7 @@ This modification will include both the in-chat files and the read-only files in
 #### /diff  
 > Diff since 701d7f6...  
 
-# llmcode chat started at 2024-08-11 10:28:30
+# llm code started at 2024-08-11 10:28:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --read README.md  
 > Llmcode v0.49.2-dev  
@@ -43078,10 +43078,10 @@ This modification will include both the in-chat files and the read-only files in
 
 #### /ex  
 
-# llmcode chat started at 2024-08-11 10:29:21
+# llm code started at 2024-08-11 10:29:21
 
 
-# llmcode chat started at 2024-08-11 10:30:32
+# llm code started at 2024-08-11 10:30:32
 
 >  
 >  
@@ -43090,7 +43090,7 @@ This modification will include both the in-chat files and the read-only files in
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-11 16:57:18
+# llm code started at 2024-08-11 16:57:18
 
 > Loaded /Users/gauthier/.env  
 > Command Line Args:   --verbose
@@ -43203,7 +43203,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-11 16:58:51
+# llm code started at 2024-08-11 16:58:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet --no-git --msg hi  
 > Llmcode v0.49.2-dev  
@@ -43214,11 +43214,11 @@ Option settings:
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,497 sent, 57 received. Cost: $0.0053 request, $0.0053 session.  
 
-# llmcode chat started at 2024-08-11 16:59:37
+# llm code started at 2024-08-11 16:59:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.49.2-dev  
@@ -43866,7 +43866,7 @@ This change replaces the non-existent `is_tracked_file` method with a check usin
 > Commit 69dd55a fix: Fix cmd_add to use correct GitRepo method  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-12 09:08:19
+# llm code started at 2024-08-12 09:08:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit llmcode/commands.py  
 > Llmcode v0.49.2-dev  
@@ -43882,7 +43882,7 @@ This change replaces the non-existent `is_tracked_file` method with a check usin
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 09:46:12
+# llm code started at 2024-08-12 09:46:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/scrape.py  
 > Llmcode v0.49.2-dev  
@@ -44119,25 +44119,25 @@ These changes should resolve the UnboundLocalError mentioned in the issue.
 ####   File "<frozen runpy>", line 198, in _run_module_as_main  
 ####   File "<frozen runpy>", line 88, in _run_code  
 ####   File "C:\users\cp\.local\bin\llmcode.exe\__main__.py", line 7, in <module>  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\main.py", line 620, in main  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\main.py", line 620, in main  
 ####     coder.run()  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\coders\base_coder.py", line 685, in run  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\coders\base_coder.py", line 685, in run  
 ####     self.run_one(user_message, preproc)  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\coders\base_coder.py", line 717, in run_one  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\coders\base_coder.py", line 717, in run_one  
 ####     message = self.preproc_user_input(user_message)  
 ####               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\coders\base_coder.py", line 709, in preproc_user_input  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\coders\base_coder.py", line 709, in preproc_user_input  
 ####     self.check_for_urls(inp)  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\coders\base_coder.py", line 743, in check_for_urls  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\coders\base_coder.py", line 743, in check_for_urls  
 ####     inp += self.commands.cmd_web(url, paginate=False)  
 ####            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\commands.py", line 139, in cmd_web  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\commands.py", line 139, in cmd_web  
 ####     content = self.scraper.scrape(url) or ""  
 ####               ^^^^^^^^^^^^^^^^^^^^^^^^  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\scrape.py", line 97, in scrape  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\scrape.py", line 97, in scrape  
 ####     content, mime_type = self.scrape_with_playwright(url)  
 ####                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
-####   File "C:\Users\cp\pipx\venvs\llmcode-chat\Lib\site-packages\llmcode\scrape.py", line 146, in scrape_with_playwright  
+####   File "C:\Users\cp\pipx\venvs\llmcode\Lib\site-packages\llmcode\scrape.py", line 146, in scrape_with_playwright  
 ####     mime_type = response.header_value("content-type").split(";")[0]  
 ####                 ^^^^^^^^  
 #### UnboundLocalError: cannot access local variable 'response' where it is not associated with a value  
@@ -44207,7 +44207,7 @@ These modifications should prevent the UnboundLocalError by ensuring that `respo
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 09:52:14
+# llm code started at 2024-08-12 09:52:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -44239,10 +44239,10 @@ I'll wait for you to add this file to the chat before proceeding with any change
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 09:52:52
+# llm code started at 2024-08-12 09:52:52
 
 
-# llmcode chat started at 2024-08-12 09:52:56
+# llm code started at 2024-08-12 09:52:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > Llmcode v0.49.2-dev  
@@ -44256,7 +44256,7 @@ I'll wait for you to add this file to the chat before proceeding with any change
 > Timeout while loading https://docs.eraser.io/docs/icons  
 > ... done.  
 
-# llmcode chat started at 2024-08-12 09:53:34
+# llm code started at 2024-08-12 09:53:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/scrape.py  
 > Llmcode v0.49.2-dev  
@@ -44346,7 +44346,7 @@ These changes will allow the scraper to attempt HTML-to-Markdown conversion even
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 09:54:21
+# llm code started at 2024-08-12 09:54:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > Llmcode v0.49.2-dev  
@@ -44366,10 +44366,10 @@ I understand. I'll follow the *SEARCH/REPLACE block* rules you've outlined when 
 
 > Tokens: 10,994 sent, 90 received. Cost: $0.03 request, $0.03 session.  
 
-# llmcode chat started at 2024-08-12 09:55:50
+# llm code started at 2024-08-12 09:55:50
 
 
-# llmcode chat started at 2024-08-12 10:13:48
+# llm code started at 2024-08-12 10:13:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -44384,7 +44384,7 @@ I understand. I'll follow the *SEARCH/REPLACE block* rules you've outlined when 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 11:13:07
+# llm code started at 2024-08-12 11:13:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_commands.py  
 > Llmcode v0.49.2-dev  
@@ -44662,7 +44662,7 @@ This change simplifies the assertions by moving the `os.path.samefile` checks di
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 14:03:32
+# llm code started at 2024-08-12 14:03:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -44707,7 +44707,7 @@ I'm here to assist you with any coding requests or questions you may have. If yo
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 14:04:42
+# llm code started at 2024-08-12 14:04:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -44728,7 +44728,7 @@ Hello! How can I assist you today? If you have any code changes or requests, fee
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 14:04:52
+# llm code started at 2024-08-12 14:04:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -44773,7 +44773,7 @@ I'm here and ready to help! If you have any coding requests or questions, just l
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 14:05:16
+# llm code started at 2024-08-12 14:05:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -44811,7 +44811,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 14:05:32
+# llm code started at 2024-08-12 14:05:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -44856,7 +44856,7 @@ If you have any specific requests or changes you'd like to make to a code file, 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 14:05:47
+# llm code started at 2024-08-12 14:05:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -44922,10 +44922,10 @@ If you have any specific code or requests in mind, feel free to share, and I wil
 
 #### /ex  
 
-# llmcode chat started at 2024-08-12 14:10:35
+# llm code started at 2024-08-12 14:10:35
 
 
-# llmcode chat started at 2024-08-12 14:21:31
+# llm code started at 2024-08-12 14:21:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark-mode  
 > Llmcode v0.49.2-dev  
@@ -44934,7 +44934,7 @@ If you have any specific code or requests in mind, feel free to share, and I wil
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-12 14:24:19
+# llm code started at 2024-08-12 14:24:19
 
 > /usr/local/bin/llmcode  
 > Llmcode v0.48.0  
@@ -44946,10 +44946,10 @@ If you have any specific code or requests in mind, feel free to share, and I wil
 #### /help what is this tool?  
 > To use interactive /help you need to install the help extras:  
 >  
-> /usr/local/Cellar/llmcode/0.48.0/libexec/bin/python -m pip install llmcode-chat[help] --extra-index-url https://download.pytorch.org/whl/cpu  
+> /usr/local/Cellar/llmcode/0.48.0/libexec/bin/python -m pip install llmcode[help] --extra-index-url https://download.pytorch.org/whl/cpu  
 > Run pip install? y  
 
-# llmcode chat started at 2024-08-12 14:26:01
+# llm code started at 2024-08-12 14:26:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py tests/basic/test_coder.py  
 > Llmcode v0.49.2-dev  
@@ -45056,7 +45056,7 @@ This test ensures that when a file in `read_only_fnames` is mentioned, the user 
 > Commit 330c0fc style: Apply linter formatting to test_coder.py  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-12 14:28:55
+# llm code started at 2024-08-12 14:28:55
 
 > /usr/local/bin/llmcode  
 > Llmcode v0.48.0  
@@ -45089,7 +45089,7 @@ This test ensures that when a file in `read_only_fnames` is mentioned, the user 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -45115,7 +45115,7 @@ This test ensures that when a file in `read_only_fnames` is mentioned, the user 
 #### and share them with the LLM to do  
 #### retrieval augmented generation (RAG)  
 #### The LLM also has the full context of your ongoing  
-#### llmcode chat,  
+#### llm code,  
 #### so it can help with the exact issue you might be facing.  
 ####   
 ####   
@@ -45228,7 +45228,7 @@ This test ensures that when a file in `read_only_fnames` is mentioned, the user 
 #### You can get started quickly like this:  
 ####   
 #### ```  
-#### $ pip install llmcode-chat  
+#### $ pip install llmcode  
 ####   
 #### # Change directory into a git repo  
 #### $ cd /to/your/git/repo  
@@ -45264,7 +45264,7 @@ This test ensures that when a file in `read_only_fnames` is mentioned, the user 
 #### </doc>  
 ####   
 #### <doc>  
-#### Shared llmcode chat transcript  
+#### Shared llm code transcript  
 ####   
 #### A user has shared the following transcript of a pair programming chat session  
 #### created using <a href="https://llm.khulnasoft.com">llmcode</a>.  
@@ -45325,7 +45325,7 @@ This test ensures that when a file in `read_only_fnames` is mentioned, the user 
 #### Use the `--browser` switch to launch the browser version of llmcode:  
 ####   
 #### ```  
-#### pip install llmcode-chat  
+#### pip install llmcode  
 ####   
 #### export OPENAI_API_KEY=<key> # Mac/Linux  
 #### setx   OPENAI_API_KEY <key> # Windows, restart shell after setx  
@@ -45596,13 +45596,13 @@ This change modifies the `get_addable_relative_files` method to exclude both the
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 14:35:36
+# llm code started at 2024-08-12 14:35:36
 
 
-# llmcode chat started at 2024-08-12 14:39:44
+# llm code started at 2024-08-12 14:39:44
 
 
-# llmcode chat started at 2024-08-12 14:57:53
+# llm code started at 2024-08-12 14:57:53
 
 > Models which match "mixtral":  
 > - anyscale/mistralai/mixtral-8x22b-instruct-v0.1  
@@ -45627,7 +45627,7 @@ This change modifies the `get_addable_relative_files` method to exclude both the
 > - perplexity/mixtral-8x7b-instruct  
 > - replicate/mistralai/mixtral-8x7b-instruct-v0.1  
 
-# llmcode chat started at 2024-08-12 14:58:07
+# llm code started at 2024-08-12 14:58:07
 
 > Models which match "mistral":  
 > - anyscale/mistralai/mistral-7b-instruct-v0.1  
@@ -45698,7 +45698,7 @@ This change modifies the `get_addable_relative_files` method to exclude both the
 > - vertex_ai/mistral-nemo@2407  
 > - vertex_ai/mistral-nemo@latest  
 
-# llmcode chat started at 2024-08-12 14:58:13
+# llm code started at 2024-08-12 14:58:13
 
 > Models which match "mistral/":  
 > - cloudflare/@cf/mistral/mistral-7b-instruct-v0.1  
@@ -45721,7 +45721,7 @@ This change modifies the `get_addable_relative_files` method to exclude both the
 > - mistral/open-mixtral-8x22b  
 > - mistral/open-mixtral-8x7b  
 
-# llmcode chat started at 2024-08-12 15:00:32
+# llm code started at 2024-08-12 15:00:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/models.py  
 > Llmcode v0.49.2-dev  
@@ -45808,7 +45808,7 @@ llmcode/models.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:03:27
+# llm code started at 2024-08-12 15:03:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode sendchat.py  
 > Llmcode v0.49.2-dev  
@@ -45936,7 +45936,7 @@ This change adds the `--deepseek` option to the argument parser, which will set 
 >  
 > ^C again to exit  
 
-#### add a --deepseek-beta bool arg. descibe as uses deepseek coder via the beta api endpoint  
+#### add a --deepseek-beta bool arg. describe as uses deepseek coder via the beta api endpoint  
 
 Certainly! I'll add the `--deepseek-beta` boolean argument to the `llmcode/args.py` file. Here's the change:
 
@@ -46011,7 +46011,7 @@ Note that you'll need to pass the `--deepseek-beta` argument from the main scrip
 #### /add llmcode/main.py  
 > Added /Users/gauthier/Projects/llmcode/llmcode/main.py to the chat  
 
-#### add a --deepseek-beta bool arg. descibe as uses deepseek coder via the beta api endpoint. in main set the model name and DEEPSEEK_API_BASE=https://api.deepseek.com/beta  
+#### add a --deepseek-beta bool arg. describe as uses deepseek coder via the beta api endpoint. in main set the model name and DEEPSEEK_API_BASE=https://api.deepseek.com/beta  
 > Add https://api.deepseek.com/beta to the chat? n  
 
 Certainly! I'll add the `--deepseek-beta` boolean argument to the `llmcode/args.py` file and update the `main()` function in `llmcode/main.py` to set the model name and `DEEPSEEK_API_BASE` environment variable when the flag is used. Here are the necessary changes:
@@ -46155,7 +46155,7 @@ This SEARCH/REPLACE block should now correctly match the existing code in `llmco
 
 #### /ex  
 
-# llmcode chat started at 2024-08-12 15:10:31
+# llm code started at 2024-08-12 15:10:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode README.md  
 > Llmcode v0.49.2-dev  
@@ -46209,7 +46209,7 @@ Llmcode works best with GPT-4o & Claude 3.5 Sonnet and can
 
 Llmcode vous permet de programmer en binôme avec des LLMs,
 pour éditer du code dans votre dépôt git local.
-Commencez un nouveau projet ou travaillez avec un dépôt git existant.
+Commencez un nouveau project ou travaillez avec un dépôt git existent.
 Llmcode fonctionne mieux avec GPT-4o & Claude 3.5 Sonnet et peut
 [se connecter à presque tous les LLMs](https://llm.khulnasoft.com/docs/llms.html).
 
@@ -46239,7 +46239,7 @@ README.md
 You can get started quickly like this:
 
 ```
-python -m pip install llmcode-chat
+python -m pip install llmcode
 
 # Change directory into a git repo
 cd /to/your/git/repo
@@ -46256,7 +46256,7 @@ llmcode
 Vous pouvez commencer rapidement comme ceci :
 
 ```
-python -m pip install llmcode-chat
+python -m pip install llmcode
 
 # Changez de répertoire vers un dépôt git
 cd /vers/votre/depot/git
@@ -46312,7 +46312,7 @@ Pair program with AI.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:11:18
+# llm code started at 2024-08-12 15:11:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode HISTORY.md  
 > Llmcode v0.49.2-dev  
@@ -46448,9 +46448,9 @@ HISTORY.md
 
 - Default pip install size reduced by 3-12x.
 - Added 3 package extras, which llmcode will offer to install when needed:
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Improved regex for detecting URLs in user chat messages.
 - Bugfix to globbing logic when absolute paths are included in `/add`.
 - Simplified output of `--models`.
@@ -46750,7 +46750,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:15:37
+# llm code started at 2024-08-12 15:15:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307  
 > Llmcode v0.49.2-dev  
@@ -46765,7 +46765,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:15:40
+# llm code started at 2024-08-12 15:15:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md  
 > Llmcode v0.49.2-dev  
@@ -46801,7 +46801,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [scripting d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la bonne commande pour mettre à jour vers la dernière version.
@@ -46811,7 +46811,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Options améliorées d'attribution des messages de validation :
-  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les changements, remplace `--attribute-commit-message`.
+  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les changements, replace `--attribute-commit-message`.
   - Nouveau `--attribute-commit-message-committer` pour préfixer tous les messages de validation avec 'llmcode : '.
 - Llmcode a rédigé 61% du code de cette version.
 
@@ -46821,7 +46821,7 @@ HISTORY.md
 - Contourné un bug de litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Améliorations de l'indication de progression pendant le traitement de la carte du dépôt.
 - Instructions corrigées pour la mise à jour du conteneur docker vers la dernière version d'llmcode.
-- Supprimé la limite obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
+- Supprimé la limit obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -46856,7 +46856,7 @@ HISTORY.md
   - Nouvelle image docker `paulgauthier/llmcode-full`, qui inclut tous les extras.
 - Passer en mode code et demande ne résume plus l'historique de la discussion.
 - Ajouté un graphique de la contribution d'llmcode à chaque version.
-- Des auto-compléments génériques sont fournis pour `/commands` sans remplacement de complétion.
+- Des auto-compléments génériques sont fournis pour `/commands` sans replacement de complétion.
 - Correction d'un fichier de balises OCaml cassé.
 - Correction de bug dans la logique d'ajout à l'approbation de la discussion `/run`.
 - Llmcode a rédigé 58% du code de cette version.
@@ -46882,9 +46882,9 @@ HISTORY.md
 - Empêcher llmcode de demander d'ajouter la même URL à la discussion plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction d'une régression qui l'a cassé dans la v0.42.0.
-  - Désactive la vérification du certificat SSL lors du scraping de sites Web avec `/web`.
+  - Désactive la vérification du certificate SSL lors du scraping de sites Web avec `/web`.
 - Amélioration de la gestion des erreurs et des rapports dans la fonctionnalité de scraping `/web`
-- Correction d'une erreur de syntaxe dans le fichier scm d'Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm d'Elm (par @cjoach).
 - Gérer UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances vers les dernières versions.
 - Llmcode a rédigé 45% du code de cette version.
@@ -46907,9 +46907,9 @@ HISTORY.md
 
 - La taille d'installation pip par défaut réduite de 3 à 12 fois.
 - Ajouté 3 extras de paquets, qu'llmcode proposera d'installer au besoin :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de la regex pour détecter les URL dans les messages de discussion des utilisateurs.
 - Correction de bug dans la logique de globbing lors de l'inclusion de chemins absolus dans `/add`.
 - Sortie simplifiée de `--models`.
@@ -46975,12 +46975,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la conscience du contexte de la carte du dépôt.
-- Restauration du bon fonctionnement de `--help`.
+- Restoration du bon fonctionnement de `--help`.
 
 ### Llmcode v0.40.0
 
 - Amélioration de l'invite pour décourager Sonnet de gaspiller des tokens en émettant un code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de tokens.
+- Amélioration des information d'erreur pour les erreurs de limit de tokens.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de validateur git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utiliser `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de la carte du dépôt (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -47014,7 +47014,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:19:23
+# llm code started at 2024-08-12 15:19:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -47065,7 +47065,7 @@ This change adds a conditional statement to check if the model supports assistan
 
 #### /ex  
 
-# llmcode chat started at 2024-08-12 15:20:28
+# llm code started at 2024-08-12 15:20:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -47080,7 +47080,7 @@ This change adds a conditional statement to check if the model supports assistan
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:20:57
+# llm code started at 2024-08-12 15:20:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -47095,7 +47095,7 @@ This change adds a conditional statement to check if the model supports assistan
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:24:26
+# llm code started at 2024-08-12 15:24:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -47110,7 +47110,7 @@ This change adds a conditional statement to check if the model supports assistan
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:24:47
+# llm code started at 2024-08-12 15:24:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -47125,7 +47125,7 @@ This change adds a conditional statement to check if the model supports assistan
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:24:59
+# llm code started at 2024-08-12 15:24:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.49.2-dev  
@@ -47134,7 +47134,7 @@ This change adds a conditional statement to check if the model supports assistan
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-12 15:25:11
+# llm code started at 2024-08-12 15:25:11
 
 > Loaded /Users/gauthier/.env  
 > Command Line Args:   --exit --verb
@@ -47242,7 +47242,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-12 15:27:27
+# llm code started at 2024-08-12 15:27:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model deepseek/deepseek-coder  
 > Llmcode v0.49.2-dev  
@@ -47259,7 +47259,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:32:16
+# llm code started at 2024-08-12 15:32:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -47274,7 +47274,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:38:28
+# llm code started at 2024-08-12 15:38:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py  
 > Llmcode v0.49.2-dev  
@@ -47310,16 +47310,16 @@ If you specifically need to work with images in the VSCode environment, you migh
 
 > Tokens: 8,936 sent, 369 received. Cost: $0.03 request, $0.03 session.  
 
-# llmcode chat started at 2024-08-12 15:38:58
+# llm code started at 2024-08-12 15:38:58
 
 > You need to install the llmcode browser feature:  
 >  
-> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode-chat[browser]  
+> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode[browser]  
 > Run pip install? y  
 
 #### /ex  
 
-# llmcode chat started at 2024-08-12 15:43:15
+# llm code started at 2024-08-12 15:43:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --chat-mode ask  
 > Llmcode v0.49.2-dev  
@@ -47566,7 +47566,7 @@ Would you like to discuss any of these approaches further or explore other optio
 
 #### /ex  
 
-# llmcode chat started at 2024-08-12 16:00:14
+# llm code started at 2024-08-12 16:00:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/analytics.py llmcode/main.py llmcode/coders/base_coder.py  
 > Creating empty file /Users/gauthier/Projects/llmcode/llmcode/analytics.py  
@@ -48134,7 +48134,7 @@ These changes should be sufficient to implement the requested feature. Is there 
 > Tokens: 24,024 sent, 132 received. Cost: $0.07 request, $0.35 session.  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-12 16:10:12
+# llm code started at 2024-08-12 16:10:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -48781,7 +48781,7 @@ This change adds a `self.event()` call at the end of the `calculate_and_show_tok
 > Commit 65c0608 style: format code  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-12 16:17:38
+# llm code started at 2024-08-12 16:17:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics  
 > Llmcode v0.49.2-dev  
@@ -48796,7 +48796,7 @@ This change adds a `self.event()` call at the end of the `calculate_and_show_tok
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 16:17:42
+# llm code started at 2024-08-12 16:17:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics --mini  
 > Llmcode v0.49.2-dev  
@@ -48823,7 +48823,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 16:18:47
+# llm code started at 2024-08-12 16:18:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics --mini  
 > Llmcode v0.49.2-dev  
@@ -48840,7 +48840,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 
 #### /ex  
 
-# llmcode chat started at 2024-08-12 16:20:36
+# llm code started at 2024-08-12 16:20:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/analytics.py  
 > Llmcode v0.49.2-dev  
@@ -49151,7 +49151,7 @@ This modification will make the code more efficient by returning early if `self.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 16:41:09
+# llm code started at 2024-08-12 16:41:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/analytics.py  
 > Llmcode v0.49.2-dev  
@@ -49319,11 +49319,11 @@ This change removes the `properties` argument from the method signature and init
 #### /diff  
 > Diff since a628281...  
 
-# llmcode chat started at 2024-08-12 18:09:07
+# llm code started at 2024-08-12 18:09:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --ana  
 
-# llmcode chat started at 2024-08-12 18:09:18
+# llm code started at 2024-08-12 18:09:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --ana  
 > Llmcode v0.49.2-dev  
@@ -49334,7 +49334,7 @@ This change removes the `properties` argument from the method signature and init
 
 #### /ex  
 
-# llmcode chat started at 2024-08-12 18:09:27
+# llm code started at 2024-08-12 18:09:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --ana --model ollama/foobar  
 > Model ollama/foobar: Missing these environment variables:  
@@ -49353,7 +49353,7 @@ This change removes the `properties` argument from the method signature and init
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 18:10:31
+# llm code started at 2024-08-12 18:10:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --ana --model ollama/foobar  
 > Model ollama/foobar: Missing these environment variables:  
@@ -49372,16 +49372,16 @@ This change removes the `properties` argument from the method signature and init
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 18:14:40
+# llm code started at 2024-08-12 18:14:40
 
 
-# llmcode chat started at 2024-08-12 18:18:35
+# llm code started at 2024-08-12 18:18:35
 
 
-# llmcode chat started at 2024-08-12 18:18:53
+# llm code started at 2024-08-12 18:18:53
 
 
-# llmcode chat started at 2024-08-12 18:18:55
+# llm code started at 2024-08-12 18:18:55
 
 > /Users/gauthier/Projects/llmcode/llmcode/gui.py --browser  
 > Llmcode v0.49.2-dev  
@@ -49389,10 +49389,10 @@ This change removes the `properties` argument from the method signature and init
 > Git repo: .git with 305 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-12 18:19:17
+# llm code started at 2024-08-12 18:19:17
 
 
-# llmcode chat started at 2024-08-12 18:19:19
+# llm code started at 2024-08-12 18:19:19
 
 > /Users/gauthier/Projects/llmcode/llmcode/gui.py --browser  
 > Llmcode v0.49.2-dev  
@@ -49508,7 +49508,7 @@ This change removes the `[1:]` slice from `first_word` when creating the event n
 > Commit 9ed7329 fix: Remove unnecessary slice from event name in Commands.run  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-12 18:23:47
+# llm code started at 2024-08-12 18:23:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -49520,7 +49520,7 @@ This change removes the `[1:]` slice from `first_word` when creating the event n
 > ^C again to exit  
 > Commit 85fa78f fix: Correct command execution logic  
 
-# llmcode chat started at 2024-08-12 18:23:57
+# llm code started at 2024-08-12 18:23:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -49905,7 +49905,7 @@ These changes will add the `--analytics-log` argument to the command-line option
 > Commit 1a8763d feat: Add --analytics-log argument and pass it to Analytics  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-12 18:27:51
+# llm code started at 2024-08-12 18:27:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.log  
 > Llmcode v0.49.2-dev  
@@ -50242,7 +50242,7 @@ These changes will add the `--analytics-log` argument to the command-line option
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:36:47
+# llm code started at 2024-08-12 20:36:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -50251,7 +50251,7 @@ These changes will add the `--analytics-log` argument to the command-line option
 > Repo-map: using 1024 tokens  
 > Commit 4bad876 fix: Add event tracking for interactive help command  
 
-# llmcode chat started at 2024-08-12 20:37:15
+# llm code started at 2024-08-12 20:37:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -50266,7 +50266,7 @@ These changes will add the `--analytics-log` argument to the command-line option
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:37:38
+# llm code started at 2024-08-12 20:37:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/main.py  
 > Llmcode v0.49.2-dev  
@@ -50282,7 +50282,7 @@ These changes will add the `--analytics-log` argument to the command-line option
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:37:51
+# llm code started at 2024-08-12 20:37:51
 
 > Loaded /Users/gauthier/.env  
 > Command Line Args:   --verbose
@@ -50398,7 +50398,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:38:14
+# llm code started at 2024-08-12 20:38:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -50409,7 +50409,7 @@ Option settings:
 >  
 >  
 
-# llmcode chat started at 2024-08-12 20:38:19
+# llm code started at 2024-08-12 20:38:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -50430,7 +50430,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:39:20
+# llm code started at 2024-08-12 20:39:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/analytics.py  
 > Llmcode v0.49.2-dev  
@@ -51098,7 +51098,7 @@ This change moves the imports from llmcode to the top of the file, right after t
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:45:05
+# llm code started at 2024-08-12 20:45:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -51113,7 +51113,7 @@ This change moves the imports from llmcode to the top of the file, right after t
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:45:11
+# llm code started at 2024-08-12 20:45:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -51140,7 +51140,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:50:46
+# llm code started at 2024-08-12 20:50:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -51155,7 +51155,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:51:43
+# llm code started at 2024-08-12 20:51:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -51170,7 +51170,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:51:54
+# llm code started at 2024-08-12 20:51:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -51185,7 +51185,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:53:42
+# llm code started at 2024-08-12 20:53:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -51194,7 +51194,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-12 20:54:07
+# llm code started at 2024-08-12 20:54:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -51209,7 +51209,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:54:23
+# llm code started at 2024-08-12 20:54:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek  
 > Llmcode v0.49.2-dev  
@@ -51218,7 +51218,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-12 20:55:17
+# llm code started at 2024-08-12 20:55:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md  
 > Llmcode v0.49.2-dev  
@@ -51263,7 +51263,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:55:31
+# llm code started at 2024-08-12 20:55:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md --dry-run  
 > Llmcode v0.49.2-dev  
@@ -51275,7 +51275,7 @@ HISTORY.md
 
 #### translate it all to french  
 
-# llmcode chat started at 2024-08-12 20:55:57
+# llm code started at 2024-08-12 20:55:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek HISTORY.md --dry-run  
 > Llmcode v0.49.2-dev  
@@ -51334,7 +51334,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:56:40
+# llm code started at 2024-08-12 20:56:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek HISTORY.md --dry-run --edit whole  
 > Llmcode v0.49.2-dev  
@@ -51371,7 +51371,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [scripting d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la bonne commande pour mettre à jour vers la dernière version.
@@ -51381,7 +51381,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Options améliorées d'attribution des messages de validation :
-  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les changements, remplace `--attribute-commit-message`.
+  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les changements, replace `--attribute-commit-message`.
   - Nouveau `--attribute-commit-message-committer` pour préfixer tous les messages de validation avec 'llmcode : '.
 - Llmcode a rédigé 61% du code de cette version.
 
@@ -51391,7 +51391,7 @@ HISTORY.md
 - Contourné un bug de litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Correction des instructions pour la mise à jour du conteneur docker vers la dernière version d'llmcode.
-- Supprimé la limite obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
+- Supprimé la limit obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -51426,7 +51426,7 @@ HISTORY.md
   - Nouvelle image docker `paulgauthier/llmcode-full`, qui inclut tous les extras.
 - Passer en mode code et demande ne résume plus l'historique de la discussion.
 - Ajouté un graphique de la contribution d'llmcode à chaque version.
-- Des auto-compléments génériques sont fournis pour `/commands` sans remplacement de complétion.
+- Des auto-compléments génériques sont fournis pour `/commands` sans replacement de complétion.
 - Fichier de balises OCaml cassé corrigé.
 - Correction de bug dans la logique d'ajout à l'approbation de la discussion `/run`.
 - Llmcode a rédigé 58% du code de cette version.
@@ -51452,9 +51452,9 @@ HISTORY.md
 - Empêcher llmcode de demander d'ajouter la même URL à la discussion plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction d'une régression qui l'a cassé dans la v0.42.0.
-  - Désactive la vérification du certificat SSL lors du greffage de sites web `/web`.
+  - Désactive la vérification du certificate SSL lors du greffage de sites web `/web`.
 - Amélioration de la gestion des erreurs et des rapports dans la fonctionnalité de greffage `/web`
-- Correction d'une erreur de syntaxe dans le fichier scm d'Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm d'Elm (par @cjoach).
 - Gérer UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances vers les dernières versions.
 - Llmcode a rédigé 45% du code de cette version.
@@ -51477,9 +51477,9 @@ HISTORY.md
 
 - La taille d'installation pip par défaut réduite de 3 à 12 fois.
 - Ajouté 3 extras de paquets, qu'llmcode proposera d'installer au besoin :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de la regex pour détecter les URL dans les messages de discussion des utilisateurs.
 - Correction de bug dans la logique de globbing lors de l'inclusion de chemins absolus dans `/add`.
 - Sortie simplifiée de `--models`.
@@ -51545,12 +51545,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la conscience du contexte de la carte du dépôt.
-- Restauration du bon fonctionnement de `--help`.
+- Restoration du bon fonctionnement de `--help`.
 
 ### Llmcode v0.40.0
 
 - Amélioration de l'invite pour décourager Sonnet de gaspiller des jetons en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de jetons.
+- Amélioration des information d'erreur pour les erreurs de limit de jetons.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de validateur git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utiliser `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de la carte du dépôt (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -51589,7 +51589,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de chat avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de toutes les modifications résultant de votre demande, y compris les corrections de lint et de tests.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche le markdown scrapé lorsque vous ajoutez une URL avec `/web`.
 - Lorsque [scriptant llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes in-chat `/`.
 - L'image docker d'llmcode suggère maintenant la commande correcte pour mettre à jour vers la dernière version.
@@ -51599,7 +51599,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Améliorations des options d'attribution des messages de commit :
-  - Nouvelle option `--attribute-commit-message-author` pour préfixer les messages de commit avec 'llmcode: ' si llmcode a rédigé les modifications, remplace `--attribute-commit-message`.
+  - Nouvelle option `--attribute-commit-message-author` pour préfixer les messages de commit avec 'llmcode: ' si llmcode a rédigé les modifications, replace `--attribute-commit-message`.
   - Nouvelle option `--attribute-commit-message-committer` pour préfixer tous les messages de commit avec 'llmcode: '.
 - Llmcode a écrit 61% du code dans cette version.
 
@@ -51609,7 +51609,7 @@ HISTORY.md
 - Contournement d'un bogue litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Instructions corrigées pour mettre à jour le conteneur docker à la dernière version d'llmcode.
-- Suppression de la limite de 16k tokens sur les différences de commit, utilisation des limites par modèle.
+- Suppression de la limit de 16k tokens sur les différences de commit, utilisation des limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -51670,9 +51670,9 @@ HISTORY.md
 - Arrêter llmcode de demander d'ajouter la même URL au chat plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction de régression qui l'a cassé dans v0.42.0.
-  - Désactive la vérification du certificat SSL lorsque `/web` scrap les sites web.
+  - Désactive la vérification du certificate SSL lorsque `/web` scrap les sites web.
 - Amélioration de la gestion des erreurs et du rapport dans la fonctionnalité de scraping `/web`.
-- Correction d'erreur de syntaxe dans le fichier scm tree-sitter pour Elm (par @cjoach).
+- Correction d'erreur de syntax dans le fichier scm tree-sitter pour Elm (par @cjoach).
 - Gestion de l'erreur UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances aux dernières versions.
 - Llmcode a écrit 45% du code dans cette version.
@@ -51695,9 +51695,9 @@ HISTORY.md
 
 - Réduction de la taille d'installation pip par défaut de 3 à 12x.
 - Ajout de 3 extras de package, que llmcode proposera d'installer si nécessaire :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de l'expression régulière pour détecter les URLs dans les messages de chat utilisateur.
 - Correction de bogue dans la logique de globbing lorsque des chemins absolus sont inclus dans `/add`.
 - Simplification de la sortie de `--models`.
@@ -51720,7 +51720,7 @@ HISTORY.md
 
 ### Llmcode v0.43.1
 
-- Remplacement de la dépendance torch par la version CPU uniquement, car les versions GPU sont énormes.
+- Replacement de la dépendance torch par la version CPU uniquement, car les versions GPU sont énormes.
 
 ### Llmcode v0.43.0
 
@@ -51763,12 +51763,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la sensibilité contextuelle de repomap.
-- Restauration de la fonctionnalité `--help` appropriée.
+- Restoration de la fonctionnalité `--help` appropriée.
 
 ### Llmcode v0.40.0
 
 - Amélioration des invites pour décourager Sonnet de gaspiller des tokens en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de token.
+- Amélioration des information d'erreur pour les erreurs de limit de token.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de commettant git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utilisation de `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de repo-map (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -51785,7 +51785,7 @@ HISTORY.md
 
 - Utilisez `--vim` pour les [raccourcis clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans la discussion.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- [Messages d'erreur plus détaillés sur les erreurs de limite de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
+- [Messages d'erreur plus détaillés sur les erreurs de limit de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
 - Messages de validation sur une seule ligne, sans les récents messages de discussion.
 - S'assurer que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright jusqu'à l'inactivité du réseau pour mieux gratter les sites js.
@@ -51794,7 +51794,7 @@ HISTORY.md
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
 - Amélioration des invites lorsqu'aucun fichier n'a été ajouté à la discussion pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans la discussion et proposera de la gratter.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
@@ -51808,7 +51808,7 @@ HISTORY.md
 - [Llmcode peut maintenant analyser votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode analyse et corrige automatiquement après chaque modification LLM.
   - Vous pouvez manuellement analyser et corriger les fichiers avec `/lint` dans la discussion ou `--lint` en ligne de commande.
-  - Llmcode inclut des analyseurs de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des analyseurs de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre analyseur préféré avec `--lint-cmd`.
 - Llmcode a un support supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -51898,11 +51898,11 @@ HISTORY.md
 - Amélioration du support de la carte du dépôt pour typescript, par @ryanfreckleton.
 - Correction de bug : ne `/undo` que les fichiers qui faisaient partie du dernier commit, ne pas écraser les autres fichiers modifiés
 - Correction de bug : afficher un message d'erreur clair lorsque la clé API OpenAI n'est pas définie.
-- Correction de bug : capturer l'erreur pour les langages obscurs sans fichier tags.scm.
+- Correction de bug : capturer l'erreur pour les languages obscurs sans fichier tags.scm.
 
 ### Llmcode v0.26.1
 
-- Correction d'un bug affectant l'analyse de la configuration git dans certains environnements.
+- Correction d'un bug affectant l'analyse de la configuration git dans certains environments.
 
 ### Llmcode v0.26.0
 
@@ -51918,17 +51918,17 @@ HISTORY.md
 - Refuser vocalement d'ajouter des fichiers à la discussion qui correspondent à `.llmcodeignore`
   - Empêche un bug où la validation git ultérieure de ces fichiers échouera.
 - Ajouté l'argument `--openai-organization-id`.
-- Montrer à l'utilisateur un lien FAQ si les éditions échouent à s'appliquer.
+- Montrer à l'utilisateur un line FAQ si les éditions échouent à s'appliquer.
 - Intégré les anciens articles dans https://llm.khulnasoft.com/blog/
 
 ### Llmcode v0.24.1
 
-- Correction d'un bug avec les calculs de coût lorsque `--no-steam` est en vigueur
+- Correction d'un bug avec les calculus de coût lorsque `--no-steam` est en vigueur
 
 ### Llmcode v0.24.0
 
 - Nouvelle commande `/web <url>` qui gratte l'url, la transforme en markdown assez propre et l'ajoute à la discussion.
-- Mise à jour de tous les noms de modèles OpenAI, informations sur les tarifs
+- Mise à jour de tous les noms de modèles OpenAI, information sur les tarifs
 - Le modèle GPT 3.5 par défaut est maintenant `gpt-3.5-turbo-0125`.
 - Correction de bug sur l'alias `!` pour `/run`.
 
@@ -51946,7 +51946,7 @@ HISTORY.md
 
 - Améliorations du format d'édition des différences unifiées.
 - Ajouté ! comme alias de /run.
-- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des espaces.
+- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des escapes.
 - La commande /undo demande à GPT de ne pas simplement réessayer l'édition annulée.
 
 ### Llmcode v0.21.1
@@ -51995,7 +51995,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 - Utilisation de `--vim` pour [liaisons de clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans le chat.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- Messages d'erreur plus détaillés sur les erreurs de limite de token.
+- Messages d'erreur plus détaillés sur les erreurs de limit de token.
 - Messages de commit d'une ligne, sans les messages de chat récents.
 - Assurez-vous que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright pour un réseau inactif pour mieux scraper les pages js.
@@ -52004,12 +52004,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
 - Amélioration des invites lorsqu'aucun fichier n'a été ajouté au chat pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans le chat et proposera de la scraper.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
 - Llmcode ne proposera pas d'ajouter des noms de fichiers nus comme `make` ou `run` qui peuvent simplement être des mots.
-- Remplacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
+- Replacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
 - Détection des taux d'échantillonnage audio pris en charge pour `/voice`.
 - Autres petites corrections de bogues.
 
@@ -52018,7 +52018,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Llmcode peut maintenant lint votre code et corriger toutes les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode lint et corrige automatiquement après chaque édition LLM.
   - Vous pouvez lint-and-fix manuellement des fichiers avec `/lint` dans le chat ou `--lint` en ligne de commande.
-  - Llmcode inclut des linters de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des linters de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre linter préféré avec `--lint-cmd`.
 - Llmcode a une prise en charge supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -52031,7 +52031,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
   - GPT-4o occupe la première place sur le [classement de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) à 72.9%, contre 68.4% pour Opus.
   - GPT-4o prend la deuxième place sur le [classement de refactorisation d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/#code-refactoring-leaderboard) avec 62.9%, contre Opus à 72.3%.
 - Ajout de `--restore-chat-history` pour restaurer l'historique de chat précédent au lancement, afin de pouvoir continuer la dernière conversation.
-- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de bloc de diff.
+- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de block de diff.
 - Amélioration des tentatives sur les erreurs `httpx`.
 
 ### Llmcode v0.34.0
@@ -52052,7 +52052,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Classements de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) qui classent les modèles populaires selon leur capacité à éditer du code.
   - Les classements incluent GPT-3.5/4 Turbo, Opus, Sonnet, Gemini 1.5 Pro, Llama 3, Deepseek Coder & Command-R+.
 - Gemini 1.5 Pro utilise maintenant un nouveau format d'édition de style diff (diff-fenced), permettant de mieux travailler avec des bases de code plus grandes.
-- Support pour Deepseek-V2, via une configuration plus flexible des messages système dans le format d'édition de bloc de diff.
+- Support pour Deepseek-V2, via une configuration plus flexible des messages système dans le format d'édition de block de diff.
 - Amélioration de la gestion des erreurs de réessai sur les erreurs des API de modèles.
 - Sorties de benchmark en YAML, compatibles avec le classement.
 
@@ -52112,14 +52112,14 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - Refuser vocalement d'ajouter des fichiers au chat qui correspondent à `.llmcodeignore`
   - Empêche un bogue où le commit git ultérieur de ces fichiers échouera.
 - Ajout de l'argument `--openai-organization-id` en ligne de commande.
-- Afficher un lien FAQ si les éditions échouent à s'appliquer.
+- Afficher un line FAQ si les éditions échouent à s'appliquer.
 - Faire en sorte que les chemins de fichier in-chat soient tous relatifs à la racine git
 - Correction de bogue pour `/add` lorsque llmcode est lancé dans un sous-répertoire du dépôt
 - Afficher les modèles pris en charge par l'api/key si le modèle demandé n'est pas disponible
 
 ### Llmcode v0.26.1
 
-- Correction de bogue affectant l'analyse de la configuration git dans certains environnements.
+- Correction de bogue affectant l'analyse de la configuration git dans certains environments.
 
 ### Llmcode v0.26.0
 
@@ -52135,7 +52135,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - Refuser vocalement d'ajouter des fichiers au chat qui correspondent à `.llmcodeignore`
   - Empêche un bogue où le commit git ultérieur de ces fichiers échouera.
 - Ajout de l'argument `--openai-organization-id` en ligne de commande.
-- Afficher un lien FAQ si les éditions échouent à s'appliquer.
+- Afficher un line FAQ si les éditions échouent à s'appliquer.
 - Faire en sorte que les chemins de fichier in-chat soient tous relatifs à la racine git
 - Correction de bogue pour `/add` lorsque llmcode est lancé dans
 
@@ -52154,9 +52154,9 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
   - gpt-3.5-turbo-1106 avec une fenêtre de contexte de 16k
 - [Benchmarks pour les nouveaux modèles 11/06 d'OpenAI](https://llm.khulnasoft.com/docs/benchmarks-1106.html)
 - API simplifiée [pour le scripting d'llmcode, documentation ajoutée](https://llm.khulnasoft.com/docs/faq.html#can-i-script-llmcode)
-- Demander des blocs SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
+- Demander des blocks SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
 - Amélioration du support de la carte du dépôt pour elisp.
-- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondant à `.gitignore`
+- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondent à `.gitignore`
 - Correction de divers bugs pour capturer et gérer les erreurs de décodage Unicode.
 
 ### Llmcode v0.16.3
@@ -52174,18 +52174,18 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
 ### Llmcode v0.16.0
 
 - [Amélioration de la carte du dépôt à l'aide de tree-sitter](https://llm.khulnasoft.com/docs/repomap.html)
-- Passage du "bloc d'édition" au "bloc de recherche/remplacement", ce qui a réduit les blocs d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
-- Amélioration de la gestion des blocs d'édition mal formés ciblant plusieurs éditions dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
+- Passage du "block d'édition" au "block de recherche/replacement", ce qui a réduit les blocks d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
+- Amélioration de la gestion des blocks d'édition mal formés ciblant plusieurs éditions dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
 - Correction de bug pour gérer correctement les caractères génériques `/add` mal formés.
 
 
 ### Llmcode v0.15.0
 
 - Ajout du support du fichier `.llmcodeignore`, qui indique à llmcode d'ignorer certaines parties du dépôt git.
-- Nouveau argument de ligne de commande `--commit`, qui valide simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
+- Nouveau argument de ligne de commande `--commit`, qui valid simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
 - Ajout de ctags universels et de plusieurs architectures à l'[image docker d'llmcode](https://llm.khulnasoft.com/docs/install/docker.html)
 - `/run` et `/git` acceptent maintenant les commandes shell complètes, comme : `/run (cd subdir; ls)`
-- Restauration du commutateur de ligne de commande `--encoding` manquant.
+- Restoration du commutateur de ligne de commande `--encoding` manquant.
 
 ### Llmcode v0.14.2
 
@@ -52220,15 +52220,15 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
 
 - Prise en charge de la [conversion voix-en-code](https://llm.khulnasoft.com/docs/usage/voice.html), qui vous permet de coder à la voix.
 - Correction d'un bug où /diff provoquait un plantage.
-- Amélioration de l'invite pour gpt-4, refactorisation du codeur de bloc d'édition.
+- Amélioration de l'invite pour gpt-4, refactorisation du codeur de block d'édition.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,2% pour gpt-4/diff, sans régression.
 
 ### Llmcode v0.11.1
 
 - Ajout d'une barre de progression lors de la création initiale d'une carte du dépôt.
 - Correction d'un mauvais message de validation lors de l'ajout d'un nouveau fichier dans un dépôt vide.
-- Correction d'un cas limite d'historique de discussion en attente de résumé lors de la validation avec modifications.
-- Correction d'un cas limite de `text` non défini lors de l'utilisation de `--no-pretty`.
+- Correction d'un cas limit d'historique de discussion en attente de résumé lors de la validation avec modifications.
+- Correction d'un cas limit de `text` non défini lors de l'utilisation de `--no-pretty`.
 - Correction du bug /commit de la refonte du dépôt, ajout de la couverture des tests.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,4% pour gpt-3.5/entier (sans régression).
 
@@ -52243,16 +52243,16 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
 ### Llmcode v0.10.1
 
 - /add et /drop utilisent toujours des chemins relatifs à la racine git
-- Encourager GPT à utiliser un langage comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les éditer.
+- Encourager GPT à utiliser un language comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les éditer.
 
 ### Llmcode v0.10.0
 
 - Ajouté la commande `/git` pour exécuter git depuis l'intérieur des discussions llmcode.
-- Utilisez Meta-ENTER (Esc+ENTER dans certains environnements) pour saisir des messages de discussion sur plusieurs lignes.
+- Utilisez Meta-ENTER (Esc+ENTER dans certains environments) pour saisir des messages de discussion sur plusieurs lignes.
 - Créez un `.gitignore` avec `.llmcode*` pour empêcher les utilisateurs d'ajouter accidentellement des fichiers llmcode à git.
 - Vérifier pypi pour les nouvelles versions et notifier l'utilisateur.
 - Mise à jour de la logique d'interruption du clavier pour que 2 ^C en 2 secondes forcent toujours la sortie d'llmcode.
-- Fournir à GPT une erreur détaillée s'il fait un mauvais bloc d'édition, lui demander de réessayer.
+- Fournir à GPT une erreur détaillée s'il fait un mauvais block d'édition, lui demander de réessayer.
 - Forcer `--no-pretty` si llmcode détecte qu'il s'exécute dans un terminal VSCode.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 64,7% pour gpt-4/diff (sans régression)
 
@@ -52261,7 +52261,7 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
 
 - Prise en charge des modèles OpenAI dans [Azure](https://llm.khulnasoft.com/docs/faq.html#azure)
 - Ajouté `--show-repo-map`
-- Amélioration de la sortie lors de la nouvelle tentative de connexion à l'API OpenAI
+- Amélioration de la sortie lors de la nouvelle tentative de connection à l'API OpenAI
 - Clé API réduite dans la sortie `--verbose`
 - Correction de bug : reconnaître et ajouter les fichiers dans les sous-répertoires mentionnés par l'utilisateur ou GPT
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,8% pour gpt-3.5-turbo/entier (sans régression)
@@ -52269,7 +52269,7 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
 ### Llmcode v0.8.3
 
 - Ajouté `--dark-mode` et `--light-mode` pour sélectionner les couleurs optimisées pour l'arrière-plan du terminal
-- Lien de la documentation d'installation vers le [plugin NeoVim](https://github.com/joshuavial/llmcode.nvim) par @joshuavial
+- Line de la documentation d'installation vers le [plugin NeoVim](https://github.com/joshuavial/llmcode.nvim) par @joshuavial
 - Réorganisation de la sortie `--help`
 - Correction de bug/amélioration du format d'édition entier, peut améliorer l'édition de codage pour GPT-3.5
 - Correction de bug et tests autour des noms de fichiers git avec des caractères Unicode
@@ -52291,7 +52291,7 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
 - Marqué GPT-4 comme généralement disponible
 - Correction de bug pour les différences en direct du codeur entier avec des noms de fichiers manquants
 - Correction de bug pour les discussions avec plusieurs fichiers
-- Correction de bug dans l'invite du codeur de bloc d'édition
+- Correction de bug dans l'invite du codeur de block d'édition
 
 ### Llmcode v0.8.0
 
@@ -52303,7 +52303,7 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
   - Lire/écrire explicitement les fichiers texte avec l'encodage utf-8 par défaut (bénéficie principalement à Windows)
   - Ajouté le commutateur `--encoding` pour spécifier un autre encodage
   - Gestion gracieuse des erreurs de décodage
-- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocs de code (par @kwmiebach)
+- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocks de code (par @kwmiebach)
 - Meilleurs messages d'état expliquant la raison du désactivation de ctags
 
 ### Llmcode v0.7.2 :
@@ -52319,20 +52319,20 @@ de GPT-4 Turbo (`gpt-4-1106-preview`).
 - Gestion gracieuse de l'épuisement de la fenêtre de contexte, y compris des conseils utiles.
 - Ajouté `--message` pour donner à GPT cette seule instruction, puis quitter après sa réponse et l'application de toute édition.
 - Ajouté `--no-stream` pour désactiver le streaming des réponses de GPT.
-  - Les réponses non diffusées incluent les informations d'utilisation des jetons.
-  - Permet l'affichage des informations de coût basées sur les tarifs annoncés par OpenAI.
+  - Les réponses non diffusées incluent les information d'utilisation des jetons.
+  - Permet l'affichage des information de coût basées sur les tarifs annoncés par OpenAI.
 - Outil d'évaluation des compétences en codage par rapport à une suite de tâches de programmation basée sur le dépôt python d'Execism.
   - https://github.com/exercism/python
-- Refonte majeure en préparation de la prise en charge du nouvel API des appels de fonction.
-- Implémentation initiale d'un backend d'édition de code basé sur les fonctions pour 3.5.
-  - Les premières expériences montrent que l'utilisation de fonctions rend 3.5 moins compétent pour le codage.
+- Refonte majeure en préparation de la prise en charge du nouvel API des appels de function.
+- Implémentation initiale d'un backend d'édition de code basé sur les functions pour 3.5.
+  - Les premières expériences montrent que l'utilisation de functions rend 3.5 moins compétent pour le codage.
 - Limiter les nouvelles tentatives automatiques lorsque GPT renvoie une réponse d'édition mal formée.
 
 ### Llmcode v0.6.2
 
 * Prise en charge de `gpt-3.5-turbo-16k` et de tous les modèles de discussion OpenAI
-* Amélioration de la capacité à corriger lorsque gpt-4 omet les espaces de début de ligne dans les éditions de code
-* Ajouté `--openai-api-base` pour prendre en charge les proxys API, etc.
+* Amélioration de la capacité à corriger lorsque gpt-4 omet les escapes de début de ligne dans les éditions de code
+* Ajouté `--openai-api-base` pour prendre en charge les proxies API, etc.
 
 ### Llmcode v0.5.0
 
@@ -52356,7 +52356,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 - Utilisation de `--vim` pour [raccourcis vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans le chat.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- Messages d'erreur plus détaillés sur les erreurs de limite de token.
+- Messages d'erreur plus détaillés sur les erreurs de limit de token.
 - Messages de commit d'une ligne, sans les messages de chat récents.
 - Assurez-vous que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright pour un réseau inactif pour mieux scraper les pages js.
@@ -52365,12 +52365,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
 - Amélioration des invites lorsqu'aucun fichier n'a été ajouté au chat pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans le chat et proposera de la scraper.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
 - Llmcode ne proposera pas d'ajouter des noms de fichiers nus comme `make` ou `run` qui peuvent simplement être des mots.
-- Remplacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
+- Replacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
 - Détection des taux d'échantillonnage audio pris en charge pour `/voice`.
 - Autres petites corrections de bogues.
 
@@ -52379,7 +52379,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Llmcode peut maintenant lint votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode lint et corrige automatiquement après chaque édition LLM.
   - Vous pouvez lint-and-fix manuellement des fichiers avec `/lint` dans le chat ou `--lint` en ligne de commande.
-  - Llmcode inclut des linters de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des linters de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre linter préféré avec `--lint-cmd`.
 - Llmcode a une prise en charge supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -52392,7 +52392,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
   - GPT-4o occupe la première place sur le [classement de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) à 72.9%, contre 68.4% pour Opus.
   - GPT-4o prend la deuxième place sur le [classement de refactorisation d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/#code-refactoring-leaderboard) avec 62.9%, contre Opus à 72.3%.
 - Ajout de `--restore-chat-history` pour restaurer l'historique de chat précédent au lancement, afin de pouvoir continuer la dernière conversation.
-- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de bloc de diff.
+- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de block de diff.
 - Amélioration des tentatives sur les erreurs `httpx`.
 
 ### Llmcode v0.34.0
@@ -52491,7 +52491,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - Refuser vocalement d'ajouter des fichiers au chat qui correspondent à `.llmcodeignore`
   - Empêche un bogue où le commit git ultérieur de ces fichiers échouera.
 - Ajout de l'argument de ligne de commande `--openai-organization-id`.
-- Afficher un lien
+- Afficher un line
 
 > litellm.APIConnectionError: APIConnectionError: OpenAIException - peer closed connection without sending complete message body (incomplete chunked read)  
 > Retrying in 0.5 seconds...  
@@ -52502,7 +52502,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 - Utilisation de `--vim` pour [raccourcis vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans le chat.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- Messages d'erreur plus détaillés sur les erreurs de limite de token.
+- Messages d'erreur plus détaillés sur les erreurs de limit de token.
 - Messages de commit d'une ligne, sans les messages de chat récents.
 - Assurez-vous que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright pour un réseau inactif pour mieux scraper les pages js.
@@ -52511,12 +52511,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
 - Amélioration des invites lorsque aucun fichier n'a été ajouté au chat pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans le chat et proposera de la scraper.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
 - Llmcode ne proposera pas d'ajouter des noms de fichiers nus comme `make` ou `run` qui pourraient juste être des mots.
-- Remplacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
+- Replacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
 - Détection des taux d'échantillonnage audio pris en charge pour `/voice`.
 - Autres petites corrections de bogues.
 
@@ -52525,7 +52525,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Llmcode peut maintenant lint votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode lint et corrige automatiquement après chaque édition LLM.
   - Vous pouvez lint-and-fix manuellement des fichiers avec `/lint` dans le chat ou `--lint` en ligne de commande.
-  - Llmcode inclut des linters de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des linters de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre linter préféré avec `--lint-cmd`.
 - Llmcode a une prise en charge supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -52538,7 +52538,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
   - GPT-4o occupe la première place sur le [classement de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) à 72.9%, contre 68.4% pour Opus.
   - GPT-4o prend la deuxième place sur le [classement de refactorisation d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/#code-refactoring-leaderboard) avec 62.9%, contre Opus à 72.3%.
 - Ajout de `--restore-chat-history` pour restaurer l'historique de chat précédent au lancement, afin de pouvoir continuer la dernière conversation.
-- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de bloc de diff.
+- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de block de diff.
 - Amélioration des tentatives sur les erreurs `httpx`.
 
 ### Llmcode v0.34.0
@@ -52581,12 +52581,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 ### Llmcode v0.40.1
 
 - Amélioration de la sensibilité contextuelle de repomap.
-- Restauration de la fonctionnalité `--help` appropriée.
+- Restoration de la fonctionnalité `--help` appropriée.
 
 ### Llmcode v0.40.0
 
 - Amélioration des invites pour décourager Sonnet de gaspiller des tokens en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de token.
+- Amélioration des information d'erreur pour les erreurs de limit de token.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de commettant git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utilisation de `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de repo-map (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -52602,7 +52602,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 - Utilisation de `--vim` pour [raccourcis vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans le chat.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- Messages d'erreur plus détaillés sur les erreurs de limite de token.
+- Messages d'erreur plus détaillés sur les erreurs de limit de token.
 - Messages de commit d'une ligne, sans les messages de chat récents.
 - Assurez-vous que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright pour un réseau inactif pour mieux scraper les pages js.
@@ -52611,12 +52611,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
 - Amélioration des invites lorsque aucun fichier n'a été ajouté au chat pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans le chat et proposera de la scraper.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
 - Llmcode ne proposera pas d'ajouter des noms de fichiers nus comme `make` ou `run` qui pourraient juste être des mots.
-- Remplacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
+- Replacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
 - Détection des taux d'échantillonnage audio pris en charge pour `/voice`.
 - Autres petites corrections de bogues.
 
@@ -52625,7 +52625,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Llmcode peut maintenant lint votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode lint et corrige automatiquement après chaque édition LLM.
   - Vous pouvez lint-and-fix manuellement des fichiers avec `/lint` dans le chat ou `--lint` en ligne de commande.
-  - Llmcode inclut des linters de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des linters de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre linter préféré avec `--lint-cmd`.
 - Llmcode a une prise en charge supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -52638,7 +52638,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
   - GPT-4o occupe la première place sur le [classement de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) à 72.9%, contre 68.4% pour Opus.
   - GPT-4o prend la deuxième place sur le [classement de refactorisation d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/#code-refactoring-leaderboard) avec 62.9%, contre Opus à 72.3%.
 - Ajout de `--restore-chat-history` pour restaurer l'historique de chat précédent au lancement, afin de pouvoir continuer la dernière conversation.
-- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de bloc de diff.
+- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de block de diff.
 
 > litellm.APIConnectionError: APIConnectionError: OpenAIException - peer closed connection without sending complete message body (incomplete chunked read)  
 > Retrying in 1.0 seconds...  
@@ -52649,7 +52649,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 - Utilisation de `--vim` pour [liaisons de clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans le chat.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- Messages d'erreur plus détaillés sur les erreurs de limite de token.
+- Messages d'erreur plus détaillés sur les erreurs de limit de token.
 - Messages de commit d'une ligne, sans les messages de chat récents.
 - Assurer que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright pour un réseau inactif pour mieux scraper les pages js.
@@ -52658,12 +52658,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
 - Amélioration des invites lorsque aucun fichier n'a été ajouté au chat pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans le chat et proposera de la scraper.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
 - Llmcode ne proposera pas d'ajouter des noms de fichiers nus comme `make` ou `run` qui peuvent simplement être des mots.
-- Remplacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
+- Replacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
 - Détection des taux d'échantillonnage audio pris en charge pour `/voice`.
 - Autres petites corrections de bogues.
 
@@ -52672,7 +52672,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Llmcode peut maintenant lint votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode lint et corrige automatiquement après chaque édition LLM.
   - Vous pouvez lint-and-fix manuellement des fichiers avec `/lint` dans le chat ou `--lint` en ligne de commande.
-  - Llmcode inclut des linters de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des linters de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre linter préféré avec `--lint-cmd`.
 - Llmcode a une prise en charge supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -52685,7 +52685,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
   - GPT-4o occupe la première place sur le [classement de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) à 72.9%, contre 68.4% pour Opus.
   - GPT-4o prend la deuxième place sur le [classement de refactorisation d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/#code-refactoring-leaderboard) avec 62.9%, contre Opus à 72.3%.
 - Ajout de `--restore-chat-history` pour restaurer l'historique de chat précédent au lancement, afin de pouvoir continuer la dernière conversation.
-- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de bloc de diff.
+- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de block de diff.
 - Amélioration des tentatives sur les erreurs `httpx`.
 
 ### Llmcode v0.34.0
@@ -52706,7 +52706,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Classements de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) qui classent les modèles populaires selon leur capacité à modifier le code.
   - Les classements incluent GPT-3.5/4 Turbo, Opus, Sonnet, Gemini 1.5 Pro, Llama 3, Deepseek Coder & Command-R+.
 - Gemini 1.5 Pro utilise maintenant un nouveau format d'édition de style diff (diff-fenced), permettant de mieux travailler avec des bases de code plus grandes.
-- Support pour Deepseek-V2, via une configuration plus flexible des messages système dans le format d'édition de bloc de diff.
+- Support pour Deepseek-V2, via une configuration plus flexible des messages système dans le format d'édition de block de diff.
 - Amélioration de la gestion des tentatives sur les erreurs des API de modèle.
 - Sortie des résultats des benchmarks en YAML, compatible avec le classement.
 
@@ -52786,14 +52786,14 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - Refus vocal d'ajouter des fichiers au chat qui correspondent à `.llmcodeignore`.
   - Empêche un bogue où le commit git ultérieur de ces fichiers échouera.
 - Ajout de l'argument `--openai-organization-id` en ligne de commande.
-- Afficher un lien FAQ si les éditions échouent à s'appliquer.
+- Afficher un line FAQ si les éditions échouent à s'appliquer.
 - Fait en sorte que les chemins de fichiers dans le chat soient toujours relatifs à la racine git.
 - Correction de bogue pour `/add` lorsque llmcode est lancé dans un sous-répertoire du dépôt.
 - Afficher les modèles pris en charge par l'api/key si le modèle demandé n'est pas disponible.
 
 ### Llmcode v0.24.1
 
-- Correction de bogue avec les calculs de coût lorsque `--no-steam` est en vigueur.
+- Correction de bogue avec les calculus de coût lorsque `--no-steam` est en vigueur.
 
 ### Llmcode v0.2
 
@@ -52806,7 +52806,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 - Utilisation de `--vim` pour [liaisons de clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans le chat.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- Messages d'erreur plus détaillés sur les erreurs de limite de token.
+- Messages d'erreur plus détaillés sur les erreurs de limit de token.
 - Messages de commit d'une ligne, sans les messages de chat récents.
 - Assurez-vous que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright pour un réseau inactif pour mieux scraper les pages js.
@@ -52815,12 +52815,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique du chat ainsi que des fichiers ajoutés au chat.
 - Amélioration des invites lorsque aucun fichier n'a été ajouté au chat pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans le chat et proposera de la scraper.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
 - Llmcode ne proposera pas d'ajouter des noms de fichiers nus comme `make` ou `run` qui pourraient juste être des mots.
-- Remplacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
+- Replacement correct de `GIT_EDITOR` env pour les commits s'il est déjà défini.
 - Détection des taux d'échantillonnage audio pris en charge pour `/voice`.
 - Autres petites corrections de bogues.
 
@@ -52829,7 +52829,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 - [Llmcode peut maintenant lint votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode lint et corrige automatiquement après chaque édition LLM.
   - Vous pouvez lint-and-fix manuellement des fichiers avec `/lint` dans le chat ou `--lint` en ligne de commande.
-  - Llmcode inclut des linters de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des linters de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre linter préféré avec `--lint-cmd`.
 - Llmcode a une prise en charge supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -52842,7 +52842,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
   - GPT-4o est en tête du [classement de modification de code LLM d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/) à 72.9%, contre 68.4% pour Opus.
   - GPT-4o prend la deuxième place sur le [classement de refactorisation d'llmcode](https://llm.khulnasoft.com/docs/leaderboards/#code-refactoring-leaderboard) avec 62.9%, contre Opus à 72.3%.
 - Ajout de `--restore-chat-history` pour restaurer l'historique de chat précédent au lancement, afin de pouvoir continuer la dernière conversation.
-- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de bloc de diff.
+- Amélioration des commentaires de réflexion aux LLM utilisant le format de modification de block de diff.
 - Amélioration des tentatives sur les erreurs `httpx`.
 
 ### Llmcode v0.34.0
@@ -52916,12 +52916,12 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 
 - Améliorations pour le format d'édition de diff unifié.
 - Ajout de ! comme alias pour /run.
-- La complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des espaces.
+- La complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des escapes.
 - La commande /undo demande à GPT de ne pas simplement réessayer l'édition rejetée.
 
 ### Llmcode v0.26.1
 
-- Correction de bogue affectant l'analyse de la configuration git dans certains environnements.
+- Correction de bogue affectant l'analyse de la configuration git dans certains environments.
 
 ### Llmcode v0.26.0
 
@@ -52946,7 +52946,7 @@ Les messages de commit ne sont plus préfixés avec "llmcode:". Au lieu de cela,
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 05:24:57
+# llm code started at 2024-08-13 05:24:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/main.py tests/basic/test_main.py  
 > Llmcode v0.49.2-dev  
@@ -53122,7 +53122,7 @@ These changes add the `verbose` argument to the `check_version` function and pas
 > Commit 76a4b87 feat: Add verbose argument to check_version function  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-13 05:32:38
+# llm code started at 2024-08-13 05:32:38
 
 > Loaded /Users/gauthier/.env  
 > Too soon to check version: 7e+04 sec  
@@ -53230,7 +53230,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 05:33:15
+# llm code started at 2024-08-13 05:33:15
 
 > Loaded /Users/gauthier/.env  
 > Too soon to check version: 70670 sec  
@@ -53338,7 +53338,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 05:33:31
+# llm code started at 2024-08-13 05:33:31
 
 > Loaded /Users/gauthier/.env  
 > Too soon to check version: 20 hours  
@@ -53446,7 +53446,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 05:34:20
+# llm code started at 2024-08-13 05:34:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -53488,7 +53488,7 @@ Option settings:
 > 23│    # To keep startup fast, avoid importing this unless needed  
 > ...⋮...  
 
-# llmcode chat started at 2024-08-13 05:34:48
+# llm code started at 2024-08-13 05:34:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -53497,7 +53497,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Commit 9701a91 fix: Add verbose output for version check  
 
-# llmcode chat started at 2024-08-13 05:35:10
+# llm code started at 2024-08-13 05:35:10
 
 > Loaded /Users/gauthier/.env  
 > Too soon to check version: 19.7 hours  
@@ -53611,7 +53611,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 05:36:40
+# llm code started at 2024-08-13 05:36:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -54962,7 +54962,7 @@ llmcode/coders/base_coder.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 05:47:36
+# llm code started at 2024-08-13 05:47:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -54972,7 +54972,7 @@ llmcode/coders/base_coder.py
 > Added llmcode/coders/base_coder.py to the chat.  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-#### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result inthe request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`  
+#### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result in the request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`  
 >  
 >  
 > ^C again to exit  
@@ -55019,7 +55019,7 @@ llmcode/coders/base_coder.py
 
 #### /clear  
 
-#### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result inthe request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`  
+#### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result in the request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`  
 
 To address this issue, we need to modify the `send` method in the `Coder` class to ensure that `calculate_and_show_tokens_and_cost` is called even when a `FinishReasonLength` exception is raised. Here's how we can do that:
 
@@ -55158,9 +55158,9 @@ These modifications ensure that the token count and cost are always calculated a
 
 #### /clear  
 
-#### /ask self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result inthe request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`. Shouldn't it be called, since it's in finally: ?  
+#### /ask self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result in the request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`. Shouldn't it be called, since it's in finally: ?  
 
-####  self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result inthe request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`. Shouldn't it be called, since it's in finally: ?  
+####  self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result in the request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost`. Shouldn't it be called, since it's in finally: ?  
 
 You're absolutely right, and this is a good catch. The `calculate_and_show_tokens_and_cost` method should indeed be called even when a `FinishReasonLength` exception is raised, as it's crucial to keep track of costs and token usage for all requests, including those that hit the length limit.
 
@@ -55236,7 +55236,7 @@ This change will ensure that all token usage and costs are properly tracked and 
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-13 05:52:25
+# llm code started at 2024-08-13 05:52:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md --dry-run  
 > Llmcode v0.49.2-dev  
@@ -55299,7 +55299,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [script d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la bonne commande pour mettre à jour vers la dernière version.
@@ -55336,7 +55336,7 @@ I apologize for the confusion. You're absolutely correct, and I made a mistake i
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 05:54:07
+# llm code started at 2024-08-13 05:54:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -55464,7 +55464,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [script d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la bonne commande pour mettre à jour vers la dernière version.
@@ -55474,7 +55474,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Options améliorées d'attribution des messages de validation :
-  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, remplace `--attribute-commit-message`.
+  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, replace `--attribute-commit-message`.
   - Nouveau `--attribute-commit-message-committer` pour préfixer tous les messages de validation avec 'llmcode : '.
 - Llmcode a rédigé 61% du code de cette version.
 
@@ -55484,7 +55484,7 @@ HISTORY.md
 - Contourné un bug de litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Correction des instructions pour la mise à jour du conteneur docker vers la dernière version d'llmcode.
-- Supprimé la limite obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
+- Supprimé la limit obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -55519,7 +55519,7 @@ HISTORY.md
   - Nouvelle image docker `paulgauthier/llmcode-full`, qui inclut tous les extras.
 - Passer en mode code et demande ne résume plus l'historique de la discussion.
 - Ajouté un graphique de la contribution d'llmcode à chaque version.
-- Des auto-compléments génériques sont fournis pour `/commands` sans remplacement de complétion.
+- Des auto-compléments génériques sont fournis pour `/commands` sans replacement de complétion.
 - Correction de fichier de balises OCaml cassé.
 - Correction de bug dans la logique d'ajout à la discussion `/run`.
 - Llmcode a rédigé 58% du code de cette version.
@@ -55545,9 +55545,9 @@ HISTORY.md
 - Empêcher llmcode de demander d'ajouter la même URL à la discussion plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction d'une régression qui l'a cassé dans la v0.42.0.
-  - Désactive la vérification du certificat SSL lors du greffage de sites web `/web`.
+  - Désactive la vérification du certificate SSL lors du greffage de sites web `/web`.
 - Amélioration de la gestion des erreurs et des rapports dans la fonctionnalité de greffage `/web`
-- Correction d'une erreur de syntaxe dans le fichier scm d'Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm d'Elm (par @cjoach).
 - Gérer UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances vers les dernières versions.
 - Llmcode a rédigé 45% du code de cette version.
@@ -55570,9 +55570,9 @@ HISTORY.md
 
 - Taille d'installation pip par défaut réduite de 3 à 12 fois.
 - Ajouté 3 extras de paquets, qu'llmcode proposera d'installer au besoin :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de la regex pour détecter les URL dans les messages de discussion des utilisateurs.
 - Correction de bug dans la logique de globbing lors de l'inclusion de chemins absolus dans `/add`.
 - Simplification de la sortie de `--models`.
@@ -55638,12 +55638,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la conscience du contexte de la carte du dépôt.
-- Restauration du bon fonctionnement de `--help`.
+- Restoration du bon fonctionnement de `--help`.
 
 ### Llmcode v0.40.0
 
 - Amélioration de l'invite pour décourager Sonnet de gaspiller des jetons en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de jetons.
+- Amélioration des information d'erreur pour les erreurs de limit de jetons.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de validateur git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utiliser `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de la carte du dépôt (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -55663,7 +55663,7 @@ HISTORY.md
 
 - Utilisez `--vim` pour les [raccourcis clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans la discussion.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- [Messages d'erreur plus détaillés sur les erreurs de limite de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
+- [Messages d'erreur plus détaillés sur les erreurs de limit de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
 - Messages de validation sur une seule ligne, sans les récents messages de discussion.
 - S'assurer que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright jusqu'à l'inactivité du réseau pour mieux gratter les sites js.
@@ -55672,7 +55672,7 @@ HISTORY.md
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
 - Amélioration des invites lorsqu'aucun fichier n'a été ajouté à la discussion pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans la discussion et proposera de la gratter.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
@@ -55686,7 +55686,7 @@ HISTORY.md
 - [Llmcode peut maintenant analyser votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode analyse et corrige automatiquement après chaque modification LLM.
   - Vous pouvez manuellement analyser et corriger les fichiers avec `/lint` dans la discussion ou `--lint` en ligne de commande.
-  - Llmcode inclut des analyseurs de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des analyseurs de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre analyseur préféré avec `--lint-cmd`.
 - Llmcode a un support supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -55776,11 +55776,11 @@ HISTORY.md
 - Amélioration du support de la carte du dépôt pour typescript, par @ryanfreckleton.
 - Correction de bug : ne `/undo` que les fichiers qui faisaient partie du dernier commit, ne pas écraser les autres fichiers modifiés
 - Correction de bug : afficher un message d'erreur clair lorsque la clé API OpenAI n'est pas définie.
-- Correction de bug : capturer l'erreur pour les langages obscurs sans fichier tags.scm.
+- Correction de bug : capturer l'erreur pour les languages obscurs sans fichier tags.scm.
 
 ### Llmcode v0.26.1
 
-- Correction d'un bug affectant l'analyse de la configuration git dans certains environnements.
+- Correction d'un bug affectant l'analyse de la configuration git dans certains environments.
 
 ### Llmcode v0.26.0
 
@@ -55796,17 +55796,17 @@ HISTORY.md
 - Refuser vocalement d'ajouter des fichiers à la discussion qui correspondent à `.llmcodeignore`
   - Empêche un bug où la validation git ultérieure de ces fichiers échouera.
 - Ajouté l'argument `--openai-organization-id`.
-- Montrer à l'utilisateur un lien FAQ si les modifications échouent à s'appliquer.
+- Montrer à l'utilisateur un line FAQ si les modifications échouent à s'appliquer.
 - Intégré les anciens articles dans https://llm.khulnasoft.com/blog/
 
 ### Llmcode v0.24.1
 
-- Correction d'un bug avec les calculs de coût lorsque `--no-steam` est en vigueur
+- Correction d'un bug avec les calculus de coût lorsque `--no-steam` est en vigueur
 
 ### Llmcode v0.24.0
 
 - Nouvelle commande `/web <url>` qui gratte l'url, la transforme en markdown assez propre et l'ajoute à la discussion.
-- Mise à jour de tous les noms de modèles OpenAI, informations sur les tarifs
+- Mise à jour de tous les noms de modèles OpenAI, information sur les tarifs
 - Le modèle GPT 3.5 par défaut est maintenant `gpt-3.5-turbo-0125`.
 - Correction de bug sur l'alias `!` pour `/run`.
 
@@ -55824,7 +55824,7 @@ HISTORY.md
 
 - Améliorations du format d'édition des différences unifiées.
 - Ajouté ! comme alias de /run.
-- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des espaces.
+- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des escapes.
 - La commande /undo demande à GPT de ne pas simplement réessayer l'édition annulée.
 
 ### Llmcode v0.21.1
@@ -55882,9 +55882,9 @@ HISTORY.md
   - gpt-3.5-turbo-1106 avec une fenêtre de contexte de 16k
 - [Benchmarks pour les nouveaux modèles 11/06 d'OpenAI](https://llm.khulnasoft.com/docs/benchmarks-1106.html)
 - API simplifiée [pour le script d'llmcode, documentation ajoutée](https://llm.khulnasoft.com/docs/faq.html#can-i-script-llmcode)
-- Demander des blocs SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
+- Demander des blocks SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
 - Amélioration du support de la carte du dépôt pour elisp.
-- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondant à `.gitignore`
+- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondent à `.gitignore`
 - Correction de divers bugs pour capturer et gérer les erreurs de décodage Unicode.
 
 ### Llmcode v0.16.3
@@ -55902,18 +55902,18 @@ HISTORY.md
 ### Llmcode v0.16.0
 
 - [Amélioration de la carte du dépôt à l'aide de tree-sitter](https://llm.khulnasoft.com/docs/repomap.html)
-- Passage du "bloc d'édition" au "bloc de recherche/remplacement", ce qui a réduit les blocs d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
-- Amélioration de la gestion des blocs d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
+- Passage du "block d'édition" au "block de recherche/replacement", ce qui a réduit les blocks d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
+- Amélioration de la gestion des blocks d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
 - Correction de bug pour gérer correctement les wildcards `/add` mal formés.
 
 
 ### Llmcode v0.15.0
 
 - Ajout du support du fichier `.llmcodeignore`, qui indique à llmcode d'ignorer certaines parties du dépôt git.
-- Nouveau argument de ligne de commande `--commit`, qui valide simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
+- Nouveau argument de ligne de commande `--commit`, qui valid simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
 - Ajout de ctags universels et de plusieurs architectures à l'[image docker d'llmcode](https://llm.khulnasoft.com/docs/install/docker.html)
 - `/run` et `/git` acceptent maintenant les commandes shell complètes, comme : `/run (cd subdir; ls)`
-- Restauration du commutateur de ligne de commande `--encoding` manquant.
+- Restoration du commutateur de ligne de commande `--encoding` manquant.
 
 ### Llmcode v0.14.2
 
@@ -55948,15 +55948,15 @@ HISTORY.md
 
 - Prise en charge de la [conversion voix-en-code](https://llm.khulnasoft.com/docs/usage/voice.html), qui vous permet de coder à la voix.
 - Correction d'un bug où /diff provoquait un plantage.
-- Amélioration de l'invite pour gpt-4, refactorisation du codeur de bloc d'édition.
+- Amélioration de l'invite pour gpt-4, refactorisation du codeur de block d'édition.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,2% pour gpt-4/diff, sans régression.
 
 ### Llmcode v0.11.1
 
 - Ajouté une barre de progression lors de la création initiale d'une carte du dépôt.
 - Correction d'un mauvais message de validation lors de l'ajout d'un nouveau fichier à un dépôt vide.
-- Correction d'un cas limite de résumé de l'historique de discussion en attente lors de la validation sale.
-- Correction d'un cas limite de `text` non défini lors de l'utilisation de `--no-pretty`.
+- Correction d'un cas limit de résumé de l'historique de discussion en attente lors de la validation sale.
+- Correction d'un cas limit de `text` non défini lors de l'utilisation de `--no-pretty`.
 - Correction du bug /commit de la refonte du dépôt, ajout de la couverture des tests.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,4% pour gpt-3.5/entier (sans régression).
 
@@ -55971,16 +55971,16 @@ HISTORY.md
 ### Llmcode v0.10.1
 
 - /add et /drop utilisent toujours des chemins relatifs à la racine git
-- Encourager GPT à utiliser un langage comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
+- Encourager GPT à utiliser un language comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
 
 ### Llmcode v0.10.0
 
 - Ajouté la commande `/git` pour exécuter git depuis l'intérieur des discussions llmcode.
-- Utilisez Meta-ENTER (Esc+ENTER dans certains environnements) pour saisir des messages de discussion sur plusieurs lignes.
+- Utilisez Meta-ENTER (Esc+ENTER dans certains environments) pour saisir des messages de discussion sur plusieurs lignes.
 - Créez un `.gitignore` avec `.llmcode*` pour empêcher les utilisateurs d'ajouter accidentellement des fichiers llmcode à git.
 - Vérifier pypi pour les nouvelles versions et notifier l'utilisateur.
 - Mise à jour de la logique d'interruption du clavier pour que 2 ^C en 2 secondes forcent toujours la sortie d'llmcode.
-- Fournir à GPT une erreur détaillée s'il fait un mauvais bloc d'édition, lui demander de réessayer.
+- Fournir à GPT une erreur détaillée s'il fait un mauvais block d'édition, lui demander de réessayer.
 - Forcer `--no-pretty` si llmcode détecte qu'il s'exécute dans un terminal VSCode.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 64,7% pour gpt-4/diff (sans régression)
 
@@ -55989,7 +55989,7 @@ HISTORY.md
 
 - Prise en charge des modèles OpenAI dans [Azure](https://llm.khulnasoft.com/docs/faq.html#azure)
 - Ajouté `--show-repo-map`
-- Amélioration de la sortie lors de la nouvelle tentative de connexion à l'API OpenAI
+- Amélioration de la sortie lors de la nouvelle tentative de connection à l'API OpenAI
 - Clé API rédactée dans la sortie `--verbose`
 - Correction de bug : reconnaître et ajouter les fichiers dans les sous-répertoires mentionnés par l'utilisateur ou GPT
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,8% pour gpt-3.5-turbo/entier (sans régression)
@@ -56019,7 +56019,7 @@ HISTORY.md
 - Marqué GPT-4 comme généralement disponible
 - Correction de bug pour les différences en direct du codeur entier avec des noms de fichiers manquants
 - Correction de bug pour les discussions avec plusieurs fichiers
-- Correction de bug dans l'invite du codeur de bloc d'édition
+- Correction de bug dans l'invite du codeur de block d'édition
 
 ### Llmcode v0.8.0
 
@@ -56031,7 +56031,7 @@ HISTORY.md
   - Lire/écrire explicitement les fichiers texte avec l'encodage utf-8 par défaut (bénéficie principalement à Windows)
   - Ajouté le commutateur `--encoding` pour spécifier un autre encodage
   - Gérer gracieusement les erreurs de décodage
-- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocs de code (par @kwmiebach)
+- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocks de code (par @kwmiebach)
 - Meilleurs messages d'état expliquant la raison lorsque ctags est désactivé
 
 ### Llmcode v0.7.2 :
@@ -56054,7 +56054,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 06:09:20
+# llm code started at 2024-08-13 06:09:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md --dry-run --no-pretty  
 > Llmcode v0.49.2-dev  
@@ -56092,7 +56092,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [script d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la bonne commande pour mettre à jour vers la dernière version.
@@ -56102,7 +56102,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Options améliorées d'attribution des messages de validation :
-  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, remplace `--attribute-commit-message`.
+  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, replace `--attribute-commit-message`.
   - Nouveau `--attribute-commit-message-committer` pour préfixer tous les messages de validation avec 'llmcode : '.
 - Llmcode a rédigé 61% du code de cette version.
 
@@ -56112,7 +56112,7 @@ HISTORY.md
 - Contourné un bug de litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Correction des instructions pour la mise à jour du conteneur docker vers la dernière version d'llmcode.
-- Supprimé la limite obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
+- Supprimé la limit obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -56147,7 +56147,7 @@ HISTORY.md
   - Nouvelle image docker `paulgauthier/llmcode-full`, qui inclut tous les extras.
 - Passer en mode code et demande ne résume plus l'historique de la discussion.
 - Ajouté un graphique de la contribution d'llmcode à chaque version.
-- Des auto-compléments génériques sont fournis pour `/commands` sans remplacement de complétion.
+- Des auto-compléments génériques sont fournis pour `/commands` sans replacement de complétion.
 - Correction de fichier de balises OCaml cassé.
 - Correction de bug dans la logique d'ajout à la discussion `/run`.
 - Llmcode a rédigé 58% du code de cette version.
@@ -56173,9 +56173,9 @@ HISTORY.md
 - Empêcher llmcode de demander d'ajouter la même URL à la discussion plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction d'une régression qui l'a cassé dans la v0.42.0.
-  - Désactive la vérification du certificat SSL lors du greffage de sites web `/web`.
+  - Désactive la vérification du certificate SSL lors du greffage de sites web `/web`.
 - Amélioration de la gestion des erreurs et des rapports dans la fonctionnalité de greffage `/web`
-- Correction d'une erreur de syntaxe dans le fichier scm d'Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm d'Elm (par @cjoach).
 - Gérer UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances vers les dernières versions.
 - Llmcode a rédigé 45% du code de cette version.
@@ -56198,9 +56198,9 @@ HISTORY.md
 
 - Taille d'installation pip par défaut réduite de 3 à 12 fois.
 - Ajouté 3 extras de paquets, qu'llmcode proposera d'installer au besoin :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de la regex pour détecter les URL dans les messages de discussion des utilisateurs.
 - Correction de bug dans la logique de globbing lors de l'inclusion de chemins absolus dans `/add`.
 - Simplification de la sortie de `--models`.
@@ -56266,12 +56266,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la conscience du contexte de la carte du dépôt.
-- Restauration du bon fonctionnement de `--help`.
+- Restoration du bon fonctionnement de `--help`.
 
 ### Llmcode v0.40.0
 
 - Amélioration de l'invite pour décourager Sonnet de gaspiller des jetons en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de jetons.
+- Amélioration des information d'erreur pour les erreurs de limit de jetons.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de validateur git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utiliser `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de la carte du dépôt (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -56291,7 +56291,7 @@ HISTORY.md
 
 - Utilisez `--vim` pour les [raccourcis clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans la discussion.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- [Messages d'erreur plus détaillés sur les erreurs de limite de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
+- [Messages d'erreur plus détaillés sur les erreurs de limit de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
 - Messages de validation sur une seule ligne, sans les récents messages de discussion.
 - S'assurer que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright jusqu'à l'inactivité du réseau pour mieux gratter les sites js.
@@ -56300,7 +56300,7 @@ HISTORY.md
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
 - Amélioration des invites lorsqu'aucun fichier n'a été ajouté à la discussion pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans la discussion et proposera de la gratter.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
@@ -56314,7 +56314,7 @@ HISTORY.md
 - [Llmcode peut maintenant analyser votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode analyse et corrige automatiquement après chaque modification LLM.
   - Vous pouvez manuellement analyser et corriger les fichiers avec `/lint` dans la discussion ou `--lint` en ligne de commande.
-  - Llmcode inclut des analyseurs de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des analyseurs de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre analyseur préféré avec `--lint-cmd`.
 - Llmcode a un support supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -56404,11 +56404,11 @@ HISTORY.md
 - Amélioration du support de la carte du dépôt pour typescript, par @ryanfreckleton.
 - Correction de bug : ne `/undo` que les fichiers qui faisaient partie du dernier commit, ne pas écraser les autres fichiers modifiés
 - Correction de bug : afficher un message d'erreur clair lorsque la clé API OpenAI n'est pas définie.
-- Correction de bug : capturer l'erreur pour les langages obscurs sans fichier tags.scm.
+- Correction de bug : capturer l'erreur pour les languages obscurs sans fichier tags.scm.
 
 ### Llmcode v0.26.1
 
-- Correction d'un bug affectant l'analyse de la configuration git dans certains environnements.
+- Correction d'un bug affectant l'analyse de la configuration git dans certains environments.
 
 ### Llmcode v0.26.0
 
@@ -56424,17 +56424,17 @@ HISTORY.md
 - Refuser vocalement d'ajouter des fichiers à la discussion qui correspondent à `.llmcodeignore`
   - Empêche un bug où la validation git ultérieure de ces fichiers échouera.
 - Ajouté l'argument `--openai-organization-id`.
-- Montrer à l'utilisateur un lien FAQ si les modifications échouent à s'appliquer.
+- Montrer à l'utilisateur un line FAQ si les modifications échouent à s'appliquer.
 - Intégré les anciens articles dans https://llm.khulnasoft.com/blog/
 
 ### Llmcode v0.24.1
 
-- Correction d'un bug avec les calculs de coût lorsque `--no-steam` est en vigueur
+- Correction d'un bug avec les calculus de coût lorsque `--no-steam` est en vigueur
 
 ### Llmcode v0.24.0
 
 - Nouvelle commande `/web <url>` qui gratte l'url, la transforme en markdown assez propre et l'ajoute à la discussion.
-- Mise à jour de tous les noms de modèles OpenAI, informations sur les tarifs
+- Mise à jour de tous les noms de modèles OpenAI, information sur les tarifs
 - Le modèle GPT 3.5 par défaut est maintenant `gpt-3.5-turbo-0125`.
 - Correction de bug sur l'alias `!` pour `/run`.
 
@@ -56452,7 +56452,7 @@ HISTORY.md
 
 - Améliorations du format d'édition des différences unifiées.
 - Ajouté ! comme alias de /run.
-- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des espaces.
+- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des escapes.
 - La commande /undo demande à GPT de ne pas simplement réessayer l'édition annulée.
 
 ### Llmcode v0.21.1
@@ -56507,9 +56507,9 @@ HISTORY.md
   - gpt-3.5-turbo-1106 avec une fenêtre de contexte de 16k
 - [Benchmarks pour les nouveaux modèles 11/06 d'OpenAI](https://llm.khulnasoft.com/docs/benchmarks-1106.html)
 - API simplifiée [pour le script d'llmcode, documentation ajoutée](https://llm.khulnasoft.com/docs/faq.html#can-i-script-llmcode)
-- Demander des blocs SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
+- Demander des blocks SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
 - Amélioration du support de la carte du dépôt pour elisp.
-- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondant à `.gitignore`
+- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondent à `.gitignore`
 - Correction de divers bugs pour capturer et gérer les erreurs de décodage Unicode.
 
 ### Llmcode v0.16.3
@@ -56527,18 +56527,18 @@ HISTORY.md
 ### Llmcode v0.16.0
 
 - [Amélioration de la carte du dépôt à l'aide de tree-sitter](https://llm.khulnasoft.com/docs/repomap.html)
-- Passage du "bloc d'édition" au "bloc de recherche/remplacement", ce qui a réduit les blocs d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
-- Amélioration de la gestion des blocs d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
+- Passage du "block d'édition" au "block de recherche/replacement", ce qui a réduit les blocks d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
+- Amélioration de la gestion des blocks d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
 - Correction de bug pour gérer correctement les wildcards `/add` mal formés.
 
 
 ### Llmcode v0.15.0
 
 - Ajout du support du fichier `.llmcodeignore`, qui indique à llmcode d'ignorer certaines parties du dépôt git.
-- Nouveau argument de ligne de commande `--commit`, qui valide simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
+- Nouveau argument de ligne de commande `--commit`, qui valid simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
 - Ajout de ctags universels et de plusieurs architectures à l'[image docker d'llmcode](https://llm.khulnasoft.com/docs/install/docker.html)
 - `/run` et `/git` acceptent maintenant les commandes shell complètes, comme : `/run (cd subdir; ls)`
-- Restauration du commutateur de ligne de commande `--encoding` manquant.
+- Restoration du commutateur de ligne de commande `--encoding` manquant.
 
 ### Llmcode v0.14.2
 
@@ -56573,15 +56573,15 @@ HISTORY.md
 
 - Prise en charge de la [conversion voix-en-code](https://llm.khulnasoft.com/docs/usage/voice.html), qui vous permet de coder à la voix.
 - Correction d'un bug où /diff provoquait un plantage.
-- Amélioration de l'invite pour gpt-4, refactorisation du codeur de bloc d'édition.
+- Amélioration de l'invite pour gpt-4, refactorisation du codeur de block d'édition.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,2% pour gpt-4/diff, sans régression.
 
 ### Llmcode v0.11.1
 
 - Ajouté une barre de progression lors de la création initiale d'une carte du dépôt.
 - Correction d'un mauvais message de validation lors de l'ajout d'un nouveau fichier à un dépôt vide.
-- Correction d'un cas limite de résumé de l'historique de discussion en attente lors de la validation sale.
-- Correction d'un cas limite de `text` non défini lors de l'utilisation de `--no-pretty`.
+- Correction d'un cas limit de résumé de l'historique de discussion en attente lors de la validation sale.
+- Correction d'un cas limit de `text` non défini lors de l'utilisation de `--no-pretty`.
 - Correction du bug /commit de la refonte du dépôt, ajout de la couverture des tests.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,4% pour gpt-3.5/entier (sans régression).
 
@@ -56596,16 +56596,16 @@ HISTORY.md
 ### Llmcode v0.10.1
 
 - /add et /drop utilisent toujours des chemins relatifs à la racine git
-- Encourager GPT à utiliser un langage comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
+- Encourager GPT à utiliser un language comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
 
 ### Llmcode v0.10.0
 
 - Ajouté la commande `/git` pour exécuter git depuis l'intérieur des discussions llmcode.
-- Utilisez Meta-ENTER (Esc+ENTER dans certains environnements) pour saisir des messages de discussion sur plusieurs lignes.
+- Utilisez Meta-ENTER (Esc+ENTER dans certains environments) pour saisir des messages de discussion sur plusieurs lignes.
 - Créez un `.gitignore` avec `.llmcode*` pour empêcher les utilisateurs d'ajouter accidentellement des fichiers llmcode à git.
 - Vérifier pypi pour les nouvelles versions et notifier l'utilisateur.
 - Mise à jour de la logique d'interruption du clavier pour que 2 ^C en 2 secondes forcent toujours la sortie d'llmcode.
-- Fournir à GPT une erreur détaillée s'il fait un mauvais bloc d'édition, lui demander de réessayer.
+- Fournir à GPT une erreur détaillée s'il fait un mauvais block d'édition, lui demander de réessayer.
 - Forcer `--no-pretty` si llmcode détecte qu'il s'exécute dans un terminal VSCode.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 64,7% pour gpt-4/diff (sans régression)
 
@@ -56614,7 +56614,7 @@ HISTORY.md
 
 - Prise en charge des modèles OpenAI dans [Azure](https://llm.khulnasoft.com/docs/faq.html#azure)
 - Ajouté `--show-repo-map`
-- Amélioration de la sortie lors de la nouvelle tentative de connexion à l'API OpenAI
+- Amélioration de la sortie lors de la nouvelle tentative de connection à l'API OpenAI
 - Clé API rédactée dans la sortie `--verbose`
 - Correction de bug : reconnaître et ajouter les fichiers dans les sous-répertoires mentionnés par l'utilisateur ou GPT
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,8% pour gpt-3.5-turbo/entier (sans régression)
@@ -56644,7 +56644,7 @@ HISTORY.md
 - Marqué GPT-4 comme généralement disponible
 - Correction de bug pour les différences en direct du codeur entier avec des noms de fichiers manquants
 - Correction de bug pour les discussions avec plusieurs fichiers
-- Correction de bug dans l'invite du codeur de bloc d'édition
+- Correction de bug dans l'invite du codeur de block d'édition
 
 ### Llmcode v0.8.0
 
@@ -56656,7 +56656,7 @@ HISTORY.md
   - Lire/écrire explicitement les fichiers texte avec l'encodage utf-8 par défaut (bénéficie principalement à Windows)
   - Ajouté le commutateur `--encoding` pour spécifier un autre encodage
   - Gérer gracieusement les erreurs de décodage
-- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocs de code (par @kwmiebach)
+- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocks de code (par @kwmiebach)
 - Meilleurs messages d'état expliquant la raison lorsque ctags est désactivé
 
 ### Llmcode v0.7.2 :
@@ -56672,20 +56672,20 @@ HISTORY.md
 - Gestion gracieuse de l'épuisement de la fenêtre de contexte, y compris des conseils utiles.
 - Ajouté `--message` pour donner à GPT cette seule instruction et ensuite sortir après sa réponse et les éventuelles modifications effectuées.
 - Ajouté `--no-stream` pour désactiver le streaming des réponses de GPT.
-  - Les réponses non diffusées incluent les informations d'utilisation des jetons.
-  - Permet l'affichage des informations de coût basées sur les tarifs annoncés par OpenAI.
+  - Les réponses non diffusées incluent les information d'utilisation des jetons.
+  - Permet l'affichage des information de coût basées sur les tarifs annoncés par OpenAI.
 - Outil de référence de la compétence en codage contre une suite de tâches de programmation basée sur le dépôt python d'Execism.
   - https://github.com/exercism/python
-- Refonte majeure en préparation de la prise en charge du nouvel API des appels de fonction.
-- Implémentation initiale d'un backend d'édition de code basé sur les fonctions pour 3.5.
-  - Les premières expériences montrent que l'utilisation de fonctions rend 3.5 moins compétent pour le codage.
+- Refonte majeure en préparation de la prise en charge du nouvel API des appels de function.
+- Implémentation initiale d'un backend d'édition de code basé sur les functions pour 3.5.
+  - Les premières expériences montrent que l'utilisation de functions rend 3.5 moins compétent pour le codage.
 - Limiter les nouvelles tentatives automatiques lorsque GPT renvoie une réponse d'édition mal formée.
 
 ### Llmcode v0.6.2
 
 * Prise en charge de `gpt-3.5-turbo-16k` et de tous les modèles de discussion OpenAI
 * Amélioration de la capacité à corriger lorsque gpt-4 omet l'indentation initiale dans les modifications de code
-* Ajouté `--openai-api-base` pour prendre en charge les proxys API, etc.
+* Ajouté `--openai-api-base` pour prendre en charge les proxies API, etc.
 
 ### Llmcode v0.5.0
 
@@ -56830,7 +56830,7 @@ HISTORY.md
 
 > Tokens: 8,315 sent, 526 received. Cost: $0.0027 request, $0.02 session.  
 
-# llmcode chat started at 2024-08-13 06:13:32
+# llm code started at 2024-08-13 06:13:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -57049,7 +57049,7 @@ These changes will accumulate the cost in `self.message_cost`, update the `usage
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 06:17:28
+# llm code started at 2024-08-13 06:17:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md --dry-run --no-pretty  
 > Llmcode v0.49.2-dev  
@@ -57090,7 +57090,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [script d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les
 
@@ -57099,7 +57099,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 06:17:41
+# llm code started at 2024-08-13 06:17:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md --dry-run  
 > Llmcode v0.49.2-dev  
@@ -57117,7 +57117,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 06:18:25
+# llm code started at 2024-08-13 06:18:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -57132,7 +57132,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 06:18:35
+# llm code started at 2024-08-13 06:18:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --mini  
 > Llmcode v0.49.2-dev  
@@ -57188,7 +57188,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [script d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la bonne commande pour mettre à jour vers la dernière version.
@@ -57198,7 +57198,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Options améliorées d'attribution des messages de validation :
-  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, remplace `--attribute-commit-message`.
+  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, replace `--attribute-commit-message`.
   - Nouveau `--attribute-commit-message-committer` pour préfixer tous les messages de validation avec 'llmcode : '.
 - Llmcode a rédigé 61% du code de cette version.
 
@@ -57208,7 +57208,7 @@ HISTORY.md
 - Contourné un bug de litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Correction des instructions pour la mise à jour du conteneur docker vers la dernière version d'llmcode.
-- Supprimé la limite obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
+- Supprimé la limit obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -57243,7 +57243,7 @@ HISTORY.md
   - Nouvelle image docker `paulgauthier/llmcode-full`, qui inclut tous les extras.
 - Passer en mode code et demande ne résume plus l'historique de la discussion.
 - Ajouté un graphique de la contribution d'llmcode à chaque version.
-- Des auto-compléments génériques sont fournis pour `/commands` sans remplacement de complétion.
+- Des auto-compléments génériques sont fournis pour `/commands` sans replacement de complétion.
 - Correction de fichier de balises OCaml cassé.
 - Correction de bug dans la logique d'ajout à la discussion `/run`.
 - Llmcode a rédigé 58% du code de cette version.
@@ -57269,9 +57269,9 @@ HISTORY.md
 - Empêcher llmcode de demander d'ajouter la même URL à la discussion plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction d'une régression qui l'a cassé dans la v0.42.0.
-  - Désactive la vérification du certificat SSL lors du greffage de sites web `/web`.
+  - Désactive la vérification du certificate SSL lors du greffage de sites web `/web`.
 - Amélioration de la gestion des erreurs et des rapports dans la fonctionnalité de greffage `/web`
-- Correction d'une erreur de syntaxe dans le fichier scm d'Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm d'Elm (par @cjoach).
 - Gérer UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances vers les dernières versions.
 - Llmcode a rédigé 45% du code de cette version.
@@ -57316,7 +57316,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 06:20:20
+# llm code started at 2024-08-13 06:20:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --mini  
 > Llmcode v0.49.2-dev  
@@ -57353,7 +57353,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 06:20:47
+# llm code started at 2024-08-13 06:20:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md --dry-run --msg translate it all to french  
 > Llmcode v0.49.2-dev  
@@ -57391,7 +57391,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [script d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la bonne commande pour mettre à jour vers la dernière version.
@@ -57401,7 +57401,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Options améliorées d'attribution des messages de validation :
-  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, remplace `--attribute-commit-message`.
+  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, replace `--attribute-commit-message`.
   - Nouveau `--attribute-commit-message-committer` pour préfixer tous les messages de validation avec 'llmcode : '.
 - Llmcode a rédigé 61% du code de cette version.
 
@@ -57411,7 +57411,7 @@ HISTORY.md
 - Contourné un bug de litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Correction des instructions pour la mise à jour du conteneur docker vers la dernière version d'llmcode.
-- Supprimé la limite obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
+- Supprimé la limit obsolète de 16k tokens sur les différences de validation, utiliser les limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -57446,7 +57446,7 @@ HISTORY.md
   - Nouvelle image docker `paulgauthier/llmcode-full`, qui inclut tous les extras.
 - Passer en mode code et demande ne résume plus l'historique de la discussion.
 - Ajouté un graphique de la contribution d'llmcode à chaque version.
-- Des auto-compléments génériques sont fournis pour `/commands` sans remplacement de complétion.
+- Des auto-compléments génériques sont fournis pour `/commands` sans replacement de complétion.
 - Correction de fichier de balises OCaml cassé.
 - Correction de bug dans la logique d'ajout à la discussion `/run`.
 - Llmcode a rédigé 58% du code de cette version.
@@ -57472,9 +57472,9 @@ HISTORY.md
 - Empêcher llmcode de demander d'ajouter la même URL à la discussion plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction d'une régression qui l'a cassé dans la v0.42.0.
-  - Désactive la vérification du certificat SSL lors du greffage de sites web `/web`.
+  - Désactive la vérification du certificate SSL lors du greffage de sites web `/web`.
 - Amélioration de la gestion des erreurs et des rapports dans la fonctionnalité de greffage `/web`
-- Correction d'une erreur de syntaxe dans le fichier scm d'Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm d'Elm (par @cjoach).
 - Gérer UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances vers les dernières versions.
 - Llmcode a rédigé 45% du code de cette version.
@@ -57497,9 +57497,9 @@ HISTORY.md
 
 - Taille d'installation pip par défaut réduite de 3 à 12 fois.
 - Ajouté 3 extras de paquets, qu'llmcode proposera d'installer au besoin :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de la regex pour détecter les URL dans les messages de discussion des utilisateurs.
 - Correction de bug dans la logique de globbing lors de l'inclusion de chemins absolus dans `/add`.
 - Simplification de la sortie de `--models`.
@@ -57565,12 +57565,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la conscience du contexte de la carte du dépôt.
-- Restauration du bon fonctionnement de `--help`.
+- Restoration du bon fonctionnement de `--help`.
 
 ### Llmcode v0.40.0
 
 - Amélioration de l'invite pour décourager Sonnet de gaspiller des jetons en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de jetons.
+- Amélioration des information d'erreur pour les erreurs de limit de jetons.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de validateur git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utiliser `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de la carte du dépôt (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -57590,7 +57590,7 @@ HISTORY.md
 
 - Utilisez `--vim` pour les [raccourcis clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans la discussion.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- [Messages d'erreur plus détaillés sur les erreurs de limite de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
+- [Messages d'erreur plus détaillés sur les erreurs de limit de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
 - Messages de validation sur une seule ligne, sans les récents messages de discussion.
 - S'assurer que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright jusqu'à l'inactivité du réseau pour mieux gratter les sites js.
@@ -57599,7 +57599,7 @@ HISTORY.md
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
 - Amélioration des invites lorsqu'aucun fichier n'a été ajouté à la discussion pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans la discussion et proposera de la gratter.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
@@ -57613,7 +57613,7 @@ HISTORY.md
 - [Llmcode peut maintenant analyser votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode analyse et corrige automatiquement après chaque modification LLM.
   - Vous pouvez manuellement analyser et corriger les fichiers avec `/lint` dans la discussion ou `--lint` en ligne de commande.
-  - Llmcode inclut des analyseurs de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des analyseurs de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre analyseur préféré avec `--lint-cmd`.
 - Llmcode a un support supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -57703,11 +57703,11 @@ HISTORY.md
 - Amélioration du support de la carte du dépôt pour typescript, par @ryanfreckleton.
 - Correction de bug : ne `/undo` que les fichiers qui faisaient partie du dernier commit, ne pas écraser les autres fichiers modifiés
 - Correction de bug : afficher un message d'erreur clair lorsque la clé API OpenAI n'est pas définie.
-- Correction de bug : capturer l'erreur pour les langages obscurs sans fichier tags.scm.
+- Correction de bug : capturer l'erreur pour les languages obscurs sans fichier tags.scm.
 
 ### Llmcode v0.26.1
 
-- Correction d'un bug affectant l'analyse de la configuration git dans certains environnements.
+- Correction d'un bug affectant l'analyse de la configuration git dans certains environments.
 
 ### Llmcode v0.26.0
 
@@ -57723,17 +57723,17 @@ HISTORY.md
 - Refuser vocalement d'ajouter des fichiers à la discussion qui correspondent à `.llmcodeignore`
   - Empêche un bug où la validation git ultérieure de ces fichiers échouera.
 - Ajouté l'argument `--openai-organization-id`.
-- Montrer à l'utilisateur un lien FAQ si les modifications échouent à s'appliquer.
+- Montrer à l'utilisateur un line FAQ si les modifications échouent à s'appliquer.
 - Intégré les anciens articles dans https://llm.khulnasoft.com/blog/
 
 ### Llmcode v0.24.1
 
-- Correction d'un bug avec les calculs de coût lorsque `--no-steam` est en vigueur
+- Correction d'un bug avec les calculus de coût lorsque `--no-steam` est en vigueur
 
 ### Llmcode v0.24.0
 
 - Nouvelle commande `/web <url>` qui gratte l'url, la transforme en markdown assez propre et l'ajoute à la discussion.
-- Mise à jour de tous les noms de modèles OpenAI, informations sur les tarifs
+- Mise à jour de tous les noms de modèles OpenAI, information sur les tarifs
 - Le modèle GPT 3.5 par défaut est maintenant `gpt-3.5-turbo-0125`.
 - Correction de bug sur l'alias `!` pour `/run`.
 
@@ -57751,7 +57751,7 @@ HISTORY.md
 
 - Améliorations du format d'édition des différences unifiées.
 - Ajouté ! comme alias de /run.
-- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des espaces.
+- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des escapes.
 - La commande /undo demande à GPT de ne pas simplement réessayer l'édition annulée.
 
 ### Llmcode v0.21.1
@@ -57794,7 +57794,7 @@ HISTORY.md
   - Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`
 
 
-# llmcode chat started at 2024-08-13 06:31:30
+# llm code started at 2024-08-13 06:31:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git ./llmcode/website/docs/more/analytics.md  
 > Llmcode v0.49.2-dev  
@@ -57898,9 +57898,9 @@ These changes provide more detailed information about privacy law compliance, wh
   - gpt-3.5-turbo-1106 avec une fenêtre de contexte de 16k
 - [Benchmarks pour les nouveaux modèles 11/06 d'OpenAI](https://llm.khulnasoft.com/docs/benchmarks-1106.html)
 - API simplifiée [pour scripter llmcode, ajout de documentation](https://llm.khulnasoft.com/docs/faq.html#can-i-script-llmcode)
-- Demander des blocs SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
+- Demander des blocks SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
 - Amélioration du support de la carte du dépôt pour elisp.
-- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondant à `.gitignore`
+- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondent à `.gitignore`
 - Correction de divers bugs pour capturer et gérer les erreurs de décodage Unicode.
 
 ### Llmcode v0.16.3
@@ -57918,18 +57918,18 @@ These changes provide more detailed information about privacy law compliance, wh
 ### Llmcode v0.16.0
 
 - [Amélioration de la carte du dépôt à l'aide de tree-sitter](https://llm.khulnasoft.com/docs/repomap.html)
-- Passage du "bloc d'édition" au "bloc de recherche/remplacement", ce qui a réduit les blocs d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
-- Amélioration de la gestion des blocs d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
+- Passage du "block d'édition" au "block de recherche/replacement", ce qui a réduit les blocks d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
+- Amélioration de la gestion des blocks d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
 - Correction de bug pour gérer correctement les wildcards `/add` mal formés.
 
 
 ### Llmcode v0.15.0
 
 - Ajout du support du fichier `.llmcodeignore`, qui indique à llmcode d'ignorer certaines parties du dépôt git.
-- Nouveau argument de ligne de commande `--commit`, qui valide simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
+- Nouveau argument de ligne de commande `--commit`, qui valid simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
 - Ajout de ctags universels et de plusieurs architectures à l'[image docker d'llmcode](https://llm.khulnasoft.com/docs/install/docker.html)
 - `/run` et `/git` acceptent maintenant les commandes shell complètes, comme : `/run (cd subdir; ls)`
-- Restauration du commutateur `--encoding` manquant.
+- Restoration du commutateur `--encoding` manquant.
 
 ### Llmcode v0.14.2
 
@@ -57964,15 +57964,15 @@ These changes provide more detailed information about privacy law compliance, wh
 
 - Prise en charge de la [conversion voix-en-code](https://llm.khulnasoft.com/docs/usage/voice.html), qui vous permet de coder à la voix.
 - Correction d'un bug où /diff provoquait un plantage.
-- Amélioration de l'invite pour gpt-4, refactorisation du codeur de bloc d'édition.
+- Amélioration de l'invite pour gpt-4, refactorisation du codeur de block d'édition.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,2% pour gpt-4/diff, sans régression.
 
 ### Llmcode v0.11.1
 
 - Ajouté une barre de progression lors de la création initiale d'une carte du dépôt.
 - Correction d'un mauvais message de validation lors de l'ajout d'un nouveau fichier à un dépôt vide.
-- Correction d'un cas limite de résumé de l'historique de discussion en attente lors de la validation sale.
-- Correction d'un cas limite de `text` non défini lors de l'utilisation de `--no-pretty`.
+- Correction d'un cas limit de résumé de l'historique de discussion en attente lors de la validation sale.
+- Correction d'un cas limit de `text` non défini lors de l'utilisation de `--no-pretty`.
 - Correction du bug /commit de la refonte du dépôt, ajout de la couverture des tests.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,4% pour gpt-3.5/entier (sans régression).
 
@@ -57987,16 +57987,16 @@ These changes provide more detailed information about privacy law compliance, wh
 ### Llmcode v0.10.1
 
 - /add et /drop utilisent toujours des chemins relatifs à la racine git
-- Encourager GPT à utiliser un langage comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
+- Encourager GPT à utiliser un language comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
 
 ### Llmcode v0.10.0
 
 - Ajouté la commande `/git` pour exécuter git depuis l'intérieur des discussions llmcode.
-- Utilisez Meta-ENTER (Esc+ENTER dans certains environnements) pour saisir des messages de discussion sur plusieurs lignes.
+- Utilisez Meta-ENTER (Esc+ENTER dans certains environments) pour saisir des messages de discussion sur plusieurs lignes.
 - Créez un `.gitignore` avec `.llmcode*` pour empêcher les utilisateurs d'ajouter accidentellement des fichiers llmcode à git.
 - Vérifier pypi pour les nouvelles versions et notifier l'utilisateur.
 - Mise à jour de la logique d'interruption du clavier pour que 2 ^C en 2 secondes forcent toujours la sortie d'llmcode.
-- Fournir à GPT une erreur détaillée s'il fait un mauvais bloc d'édition, lui demander de réessayer.
+- Fournir à GPT une erreur détaillée s'il fait un mauvais block d'édition, lui demander de réessayer.
 - Forcer `--no-pretty` si llmcode détecte qu'il s'exécute dans un terminal VSCode.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 64,7% pour gpt-4/diff (sans régression)
 
@@ -58005,7 +58005,7 @@ These changes provide more detailed information about privacy law compliance, wh
 
 - Prise en charge des modèles OpenAI dans [Azure](https://llm.khulnasoft.com/docs/faq.html#azure)
 - Ajouté `--show-repo-map`
-- Amélioration de la sortie lors de la nouvelle tentative de connexion à l'API OpenAI
+- Amélioration de la sortie lors de la nouvelle tentative de connection à l'API OpenAI
 - Clé API rédactée dans la sortie `--verbose`
 - Correction de bug : reconnaître et ajouter les fichiers dans les sous-répertoires mentionnés par l'utilisateur ou GPT
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,8% pour gpt-3.5-turbo/entier (sans régression)
@@ -58035,7 +58035,7 @@ These changes provide more detailed information about privacy law compliance, wh
 - Marqué GPT-4 comme généralement disponible
 - Correction de bug pour les différences en direct du codeur entier avec des noms de fichiers manquants
 - Correction de bug pour les discussions avec plusieurs fichiers
-- Correction de bug dans l'invite du codeur de bloc d'édition
+- Correction de bug dans l'invite du codeur de block d'édition
 
 ### Llmcode v0.8.0
 
@@ -58047,7 +58047,7 @@ These changes provide more detailed information about privacy law compliance, wh
   - Lire/écrire explicitement les fichiers texte avec l'encodage utf-8 par défaut (bénéficie principalement à Windows)
   - Ajouté le commutateur `--encoding` pour spécifier un autre encodage
   - Gérer gracieusement les erreurs de décodage
-- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocs de code (par @kwmiebach)
+- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocks de code (par @kwmiebach)
 - Meilleurs messages d'état expliquant la raison lorsque ctags est désactivé
 
 ### Llmcode v0.7.2 :
@@ -58063,20 +58063,20 @@ These changes provide more detailed information about privacy law compliance, wh
 - Gestion gracieuse de l'épuisement de la fenêtre de contexte, y compris des conseils utiles.
 - Ajouté `--message` pour donner à GPT cette seule instruction et ensuite sortir après sa réponse et les éventuelles modifications effectuées.
 - Ajouté `--no-stream` pour désactiver le streaming des réponses de GPT.
-  - Les réponses non diffusées incluent les informations d'utilisation des jetons.
-  - Permet l'affichage des informations de coût basées sur les tarifs annoncés par OpenAI.
+  - Les réponses non diffusées incluent les information d'utilisation des jetons.
+  - Permet l'affichage des information de coût basées sur les tarifs annoncés par OpenAI.
 - Outil d'évaluation de la compétence en codage par rapport à une suite de tâches de programmation basée sur le dépôt python d'Execism.
   - https://github.com/exercism/python
-- Refonte majeure en préparation de la prise en charge du nouvel API des appels de fonction.
-- Implémentation initiale d'un backend d'édition de code basé sur les fonctions pour 3.5.
-  - Les premières expériences montrent que l'utilisation de fonctions rend 3.5 moins compétent pour le codage.
+- Refonte majeure en préparation de la prise en charge du nouvel API des appels de function.
+- Implémentation initiale d'un backend d'édition de code basé sur les functions pour 3.5.
+  - Les premières expériences montrent que l'utilisation de functions rend 3.5 moins compétent pour le codage.
 - Limiter les nouvelles tentatives automatiques lorsque GPT renvoie une réponse d'édition malformée.
 
 ### Llmcode v0.6.2
 
 * Prise en charge de `gpt-3.5-turbo-16k` et de tous les modèles de discussion OpenAI
-* Amélioration de la capacité à corriger lorsque gpt-4 omet les espaces de début de code dans les modifications
-* Ajouté `--openai-api-base` pour prendre en charge les proxys API, etc.
+* Amélioration de la capacité à corriger lorsque gpt-4 omet les escapes de début de code dans les modifications
+* Ajouté `--openai-api-base` pour prendre en charge les proxies API, etc.
 
 ### Llmcode v0.5.0
 
@@ -58092,7 +58092,7 @@ These changes provide more detailed information about privacy law compliance, wh
 > llmcode/website/HISTORY.md  
 > requirements.txt  
 
-# llmcode chat started at 2024-08-13 06:41:05
+# llm code started at 2024-08-13 06:41:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -58102,7 +58102,7 @@ These changes provide more detailed information about privacy law compliance, wh
 > Added llmcode/coders/base_coder.py to the chat.  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-#### `calculate_and_show_tokens_and_cost` might get called multiple times before self.usage_report is printed. this happens if `FinishReasonLength` triggers prefill repetitions. the tokens sent and received will onyl reflect the final message.  
+#### `calculate_and_show_tokens_and_cost` might get called multiple times before self.usage_report is printed. this happens if `FinishReasonLength` triggers prefill repetitions. the tokens sent and received will only reflect the final message.  
 ####   
 #### instead, accumulate them like self.message_cost. when we print `usage_report`, zero them out again  
 
@@ -58285,7 +58285,7 @@ These changes will accumulate the tokens sent and received across multiple calls
 #### /diff  
 > Diff since 26305a9...  
 
-# llmcode chat started at 2024-08-13 06:42:32
+# llm code started at 2024-08-13 06:42:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md --dry-run --msg translate it all to french  
 > Llmcode v0.49.2-dev  
@@ -58325,7 +58325,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de discussion avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de tous les changements résultant de votre demande, y compris les corrections de lint et de test.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown extrait lorsque vous ajoutez une URL avec `/web`.
 - Lors du [script d'llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes `/` dans la discussion.
 - L'image docker d'llmcode suggère maintenant la commande correcte pour mettre à jour vers la dernière version.
@@ -58335,7 +58335,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Options améliorées d'attribution des messages de validation :
-  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, remplace `--attribute-commit-message`.
+  - Nouveau `--attribute-commit-message-author` pour préfixer les messages de validation avec 'llmcode : ' si llmcode a rédigé les modifications, replace `--attribute-commit-message`.
   - Nouveau `--attribute-commit-message-committer` pour préfixer tous les messages de validation avec 'llmcode : '.
 - Llmcode a rédigé 61% du code de cette version.
 
@@ -58345,7 +58345,7 @@ HISTORY.md
 - Contourné un bug de litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Correction des instructions pour la mise à jour du conteneur docker vers la dernière version d'llmcode.
-- Supprimé la limite obsolète de 16k jetons sur les différences de validation, utiliser les limites par modèle.
+- Supprimé la limit obsolète de 16k jetons sur les différences de validation, utiliser les limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -58380,7 +58380,7 @@ HISTORY.md
   - Nouvelle image docker `paulgauthier/llmcode-full`, qui inclut tous les extras.
 - Passer en mode code et demande ne résume plus l'historique de la discussion.
 - Ajouté un graphique de la contribution d'llmcode à chaque version.
-- Les auto-compléments génériques sont fournis pour `/commands` sans remplacement de complétion.
+- Les auto-compléments génériques sont fournis pour `/commands` sans replacement de complétion.
 - Fichier de balises OCaml cassé corrigé.
 - Correction de bug dans la logique d'ajout à la discussion pour `/run`.
 - Llmcode a rédigé 58% du code de cette version.
@@ -58406,9 +58406,9 @@ HISTORY.md
 - Empêcher llmcode de demander d'ajouter la même URL à la discussion plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction d'une régression qui l'a cassé dans la v0.42.0.
-  - Désactive la vérification du certificat SSL lors du greffage de sites web avec `/web`.
+  - Désactive la vérification du certificate SSL lors du greffage de sites web avec `/web`.
 - Amélioration de la gestion des erreurs et des rapports dans la fonctionnalité de greffage `/web`
-- Correction d'une erreur de syntaxe dans le fichier scm d'Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm d'Elm (par @cjoach).
 - Gérer UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances vers les dernières versions.
 - Llmcode a rédigé 45% du code de cette version.
@@ -58431,9 +58431,9 @@ HISTORY.md
 
 - Taille d'installation pip par défaut réduite de 3 à 12 fois.
 - Ajouté 3 extras de paquets, qu'llmcode proposera d'installer au besoin :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de la regex pour détecter les URL dans les messages de discussion des utilisateurs.
 - Correction de bug dans la logique de globbing lors de l'inclusion de chemins absolus dans `/add`.
 - Simplification de la sortie de `--models`.
@@ -58499,12 +58499,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la conscience du contexte de la carte du dépôt.
-- Restauration du bon fonctionnement de `--help`.
+- Restoration du bon fonctionnement de `--help`.
 
 ### Llmcode v0.40.0
 
 - Amélioration du guidage pour décourager Sonnet de gaspiller des jetons en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de jetons.
+- Amélioration des information d'erreur pour les erreurs de limit de jetons.
 - Options pour supprimer l'ajout de "(llmcode)" aux [noms d'auteur et de validateur git](https://llm.khulnasoft.com/docs/git.html#commit-attribution).
 - Utiliser `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de la carte du dépôt (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -58524,7 +58524,7 @@ HISTORY.md
 
 - Utilisez `--vim` pour les [raccourcis clavier vim](https://llm.khulnasoft.com/docs/usage/commands.html#vi) dans la discussion.
 - [Ajout de métadonnées LLM](https://llm.khulnasoft.com/docs/llms/warnings.html#specifying-context-window-size-and-token-costs) via le fichier `.llmcode.models.json` (par @caseymcc).
-- [Messages d'erreur plus détaillés sur les erreurs de limite de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
+- [Messages d'erreur plus détaillés sur les erreurs de limit de jetons](https://llm.khulnasoft.com/docs/troubleshooting/token-limits.html).
 - Messages de validation sur une seule ligne, sans les derniers messages de discussion.
 - S'assurer que `--commit --dry-run` ne fait rien.
 - Faire attendre playwright jusqu'à l'inactivité du réseau pour mieux gratter les sites js.
@@ -58533,7 +58533,7 @@ HISTORY.md
 
 ### Llmcode v0.37.0
 
-- La carte du dépôt est maintenant optimisée en fonction du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
+- La carte du dépôt est maintenant optimisée en function du texte de l'historique de la discussion ainsi que des fichiers ajoutés à la discussion.
 - Amélioration des invites lorsqu'aucun fichier n'a été ajouté à la discussion pour solliciter des suggestions de fichiers LLM.
 - Llmcode remarquera si vous collez une URL dans la discussion et proposera de la gratter.
 - Améliorations des performances de la carte du dépôt, en particulier dans les grands dépôts.
@@ -58547,7 +58547,7 @@ HISTORY.md
 - [Llmcode peut maintenant analyser votre code et corriger les erreurs](https://llm.khulnasoft.com/2024/05/22/linting.html).
   - Llmcode analyse et corrige automatiquement après chaque modification LLM.
   - Vous pouvez manuellement analyser et corriger les fichiers avec `/lint` dans la discussion ou `--lint` en ligne de commande.
-  - Llmcode inclut des linters de base intégrés pour tous les langages tree-sitter pris en charge.
+  - Llmcode inclut des linters de base intégrés pour tous les languages tree-sitter pris en charge.
   - Vous pouvez également configurer llmcode pour utiliser votre linter préféré avec `--lint-cmd`.
 - Llmcode a un support supplémentaire pour l'exécution de tests et la correction des problèmes.
   - Configurez votre commande de test avec `--test-cmd`.
@@ -58637,11 +58637,11 @@ HISTORY.md
 - Amélioration du support de la carte du dépôt pour typescript, par @ryanfreckleton.
 - Correction de bug : ne `/undo` que les fichiers qui faisaient partie du dernier commit, ne pas écraser les autres fichiers modifiés
 - Correction de bug : afficher un message d'erreur clair lorsque la clé API OpenAI n'est pas définie.
-- Correction de bug : capturer l'erreur pour les langages obscurs sans fichier tags.scm.
+- Correction de bug : capturer l'erreur pour les languages obscurs sans fichier tags.scm.
 
 ### Llmcode v0.26.1
 
-- Correction d'un bug affectant l'analyse de la configuration git dans certains environnements.
+- Correction d'un bug affectant l'analyse de la configuration git dans certains environments.
 
 ### Llmcode v0.26.0
 
@@ -58657,17 +58657,17 @@ HISTORY.md
 - Refuser vocalement d'ajouter des fichiers à la discussion qui correspondent à `.llmcodeignore`
   - Empêche un bug où la validation git ultérieure de ces fichiers échouera.
 - Ajouté l'argument `--openai-organization-id`.
-- Montrer à l'utilisateur un lien FAQ si les modifications échouent à s'appliquer.
+- Montrer à l'utilisateur un line FAQ si les modifications échouent à s'appliquer.
 - Intégré les anciens articles dans https://llm.khulnasoft.com/blog/
 
 ### Llmcode v0.24.1
 
-- Correction d'un bug avec les calculs de coût lorsque `--no-steam` est en vigueur
+- Correction d'un bug avec les calculus de coût lorsque `--no-steam` est en vigueur
 
 ### Llmcode v0.24.0
 
 - Nouvelle commande `/web <url>` qui gratte l'url, la transforme en markdown assez propre et l'ajoute à la discussion.
-- Mise à jour de tous les noms de modèles OpenAI, informations sur les tarifs
+- Mise à jour de tous les noms de modèles OpenAI, information sur les tarifs
 - Le modèle GPT 3.5 par défaut est maintenant `gpt-3.5-turbo-0125`.
 - Correction de bug sur l'alias `!` pour `/run`.
 
@@ -58685,7 +58685,7 @@ HISTORY.md
 
 - Améliorations du format d'édition de différence unifiée.
 - Ajouté ! comme alias de /run.
-- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des espaces.
+- L'auto-complétion pour /add et /drop cite maintenant correctement les noms de fichiers avec des escapes.
 - La commande /undo demande à GPT de ne pas simplement réessayer l'édition annulée.
 
 ### Llmcode v0.21.1
@@ -58740,9 +58740,9 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
   - gpt-3.5-turbo-1106 avec une fenêtre de contexte de 16k
 - [Benchmarks pour les nouveaux modèles 11/06 d'OpenAI](https://llm.khulnasoft.com/docs/benchmarks-1106.html)
 - API simplifiée [pour le script d'llmcode, documentation ajoutée](https://llm.khulnasoft.com/docs/faq.html#can-i-script-llmcode)
-- Demander des blocs SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
+- Demander des blocks SEARCH/REPLACE plus concis. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,9%, sans régression.
 - Amélioration du support de la carte du dépôt pour elisp.
-- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondant à `.gitignore`
+- Correction d'un bug d'écrasement lors de l'utilisation de `/add` sur un fichier correspondent à `.gitignore`
 - Correction de divers bugs pour capturer et gérer les erreurs de décodage Unicode.
 
 ### Llmcode v0.16.3
@@ -58760,18 +58760,18 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 ### Llmcode v0.16.0
 
 - [Amélioration de la carte du dépôt à l'aide de tree-sitter](https://llm.khulnasoft.com/docs/repomap.html)
-- Passage du "bloc d'édition" au "bloc de recherche/remplacement", ce qui a réduit les blocs d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
-- Amélioration de la gestion des blocs d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
+- Passage du "block d'édition" au "block de recherche/replacement", ce qui a réduit les blocks d'édition mal formés. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 66,2%, sans régression.
+- Amélioration de la gestion des blocks d'édition mal formés ciblant plusieurs modifications dans le même fichier. [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 65,4%, sans régression.
 - Correction de bug pour gérer correctement les wildcards `/add` mal formés.
 
 
 ### Llmcode v0.15.0
 
 - Ajout du support du fichier `.llmcodeignore`, qui indique à llmcode d'ignorer certaines parties du dépôt git.
-- Nouveau argument de ligne de commande `--commit`, qui valide simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
+- Nouveau argument de ligne de commande `--commit`, qui valid simplement tous les changements en attente avec un message de validation sensé généré par gpt-3.5.
 - Ajout de ctags universels et de plusieurs architectures à l'[image docker d'llmcode](https://llm.khulnasoft.com/docs/install/docker.html)
 - `/run` et `/git` acceptent maintenant les commandes shell complètes, comme : `/run (cd subdir; ls)`
-- Restauration du commutateur `--encoding` manquant.
+- Restoration du commutateur `--encoding` manquant.
 
 ### Llmcode v0.14.2
 
@@ -58806,15 +58806,15 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 
 - Prise en charge de la [conversion voix-en-code](https://llm.khulnasoft.com/docs/usage/voice.html), qui vous permet de coder à la voix.
 - Correction d'un bug où /diff provoquait un plantage.
-- Amélioration du guidage pour gpt-4, refactorisation du codeur de bloc d'édition.
+- Amélioration du guidage pour gpt-4, refactorisation du codeur de block d'édition.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 63,2% pour gpt-4/diff, sans régression.
 
 ### Llmcode v0.11.1
 
 - Ajout d'une barre de progression lors de la création initiale d'une carte du dépôt.
 - Correction d'un mauvais message de validation lors de l'ajout d'un nouveau fichier à un dépôt vide.
-- Correction d'un cas limite de résumé de l'historique de discussion en attente lors de la validation sale.
-- Correction d'un cas limite de `text` non défini lors de l'utilisation de `--no-pretty`.
+- Correction d'un cas limit de résumé de l'historique de discussion en attente lors de la validation sale.
+- Correction d'un cas limit de `text` non défini lors de l'utilisation de `--no-pretty`.
 - Correction du bug /commit de la refonte du dépôt, ajout de la couverture des tests.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,4% pour gpt-3.5/entier (sans régression).
 
@@ -58829,16 +58829,16 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 ### Llmcode v0.10.1
 
 - /add et /drop utilisent toujours des chemins relatifs à la racine git
-- Encourager GPT à utiliser un langage comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
+- Encourager GPT à utiliser un language comme "ajouter des fichiers à la discussion" pour demander aux utilisateurs la permission de les modifier.
 
 ### Llmcode v0.10.0
 
 - Ajouté la commande `/git` pour exécuter git depuis l'intérieur des discussions llmcode.
-- Utilisez Meta-ENTER (Esc+ENTER dans certains environnements) pour saisir des messages de discussion sur plusieurs lignes.
+- Utilisez Meta-ENTER (Esc+ENTER dans certains environments) pour saisir des messages de discussion sur plusieurs lignes.
 - Créer un `.gitignore` avec `.llmcode*` pour empêcher les utilisateurs d'ajouter accidentellement des fichiers llmcode à git.
 - Vérifier pypi pour les nouvelles versions et notifier l'utilisateur.
 - Mise à jour de la logique d'interruption du clavier pour que 2 ^C en 2 secondes forcent toujours la sortie d'llmcode.
-- Fournir à GPT une erreur détaillée s'il fait un mauvais bloc d'édition, lui demander de réessayer.
+- Fournir à GPT une erreur détaillée s'il fait un mauvais block d'édition, lui demander de réessayer.
 - Forcer `--no-pretty` si llmcode détecte qu'il s'exécute dans un terminal VSCode.
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 64,7% pour gpt-4/diff (sans régression)
 
@@ -58847,7 +58847,7 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 
 - Prise en charge des modèles OpenAI dans [Azure](https://llm.khulnasoft.com/docs/faq.html#azure)
 - Ajouté `--show-repo-map`
-- Amélioration de la sortie lors de la nouvelle tentative de connexion à l'API OpenAI
+- Amélioration de la sortie lors de la nouvelle tentative de connection à l'API OpenAI
 - Clé API réduite dans la sortie `--verbose`
 - Correction de bug : reconnaître et ajouter les fichiers dans les sous-répertoires mentionnés par l'utilisateur ou GPT
 - [Référencé](https://llm.khulnasoft.com/docs/benchmarks.html) à 53,8% pour gpt-3.5-turbo/entier (sans régression)
@@ -58855,7 +58855,7 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 ### Llmcode v0.8.3
 
 - Ajouté `--dark-mode` et `--light-mode` pour sélectionner les couleurs optimisées pour l'arrière-plan du terminal
-- Lien de la documentation d'installation vers le [plugin NeoVim](https://github.com/joshuavial/llmcode.nvim) par @joshuavial
+- Line de la documentation d'installation vers le [plugin NeoVim](https://github.com/joshuavial/llmcode.nvim) par @joshuavial
 - Réorganisation de la sortie `--help`
 - Correction de bug/amélioration du format d'édition entier, peut améliorer l'édition de codage pour GPT-3.5
 - Correction de bug et tests autour des noms de fichiers git avec des caractères Unicode
@@ -58877,7 +58877,7 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 - Marqué GPT-4 comme généralement disponible
 - Correction de bug pour les différences en direct du codeur entier avec des noms de fichiers manquants
 - Correction de bug pour les discussions avec plusieurs fichiers
-- Correction de bug dans l'invite du codeur de bloc d'édition
+- Correction de bug dans l'invite du codeur de block d'édition
 
 ### Llmcode v0.8.0
 
@@ -58889,7 +58889,7 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
   - Lire/écrire explicitement les fichiers texte avec l'encodage utf-8 par défaut (bénéficie principalement à Windows)
   - Ajouté le commutateur `--encoding` pour spécifier un autre encodage
   - Gérer gracieusement les erreurs de décodage
-- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocs de code (par @kwmiebach)
+- Ajouté le commutateur `--code-theme` pour contrôler le style pygments des blocks de code (par @kwmiebach)
 - Meilleurs messages d'état expliquant la raison lorsque ctags est désactivé
 
 ### Llmcode v0.7.2 :
@@ -58905,20 +58905,20 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 - Gestion gracieuse de l'épuisement de la fenêtre de contexte, y compris des conseils utiles.
 - Ajouté `--message` pour donner à GPT cette seule instruction, puis quitter après sa réponse et l'application des modifications.
 - Ajouté `--no-stream` pour désactiver le streaming des réponses de GPT.
-  - Les réponses non diffusées incluent les informations d'utilisation des jetons.
-  - Permet l'affichage des informations de coût basées sur les tarifs annoncés par OpenAI.
+  - Les réponses non diffusées incluent les information d'utilisation des jetons.
+  - Permet l'affichage des information de coût basées sur les tarifs annoncés par OpenAI.
 - Outil d'évaluation de la compétence en codage par rapport à une suite de tâches de programmation basée sur le dépôt python d'Execism.
   - https://github.com/exercism/python
-- Refonte majeure en préparation de la prise en charge du nouvel API des appels de fonction.
-- Implémentation initiale d'un backend d'édition de code basé sur les fonctions pour 3.5.
-  - Les premières expériences montrent que l'utilisation de fonctions rend 3.5 moins compétent pour le codage.
+- Refonte majeure en préparation de la prise en charge du nouvel API des appels de function.
+- Implémentation initiale d'un backend d'édition de code basé sur les functions pour 3.5.
+  - Les premières expériences montrent que l'utilisation de functions rend 3.5 moins compétent pour le codage.
 - Limiter les nouvelles tentatives automatiques lorsque GPT renvoie une réponse d'édition malformée.
 
 ### Llmcode v0.6.2
 
 * Prise en charge de `gpt-3.5-turbo-16k` et de tous les modèles de discussion OpenAI
-* Amélioration de la capacité à corriger lorsque gpt-4 omet les espaces de début de ligne dans les modifications de code
-* Ajouté `--openai-api-base` pour prendre en charge les proxys d'API, etc.
+* Amélioration de la capacité à corriger lorsque gpt-4 omet les escapes de début de ligne dans les modifications de code
+* Ajouté `--openai-api-base` pour prendre en charge les proxies d'API, etc.
 
 ### Llmcode v0.5.0
 
@@ -58940,7 +58940,7 @@ Beaucoup moins d'erreurs d'édition de GPT-4 Turbo (`gpt-4-1106-preview`).
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:02:48
+# llm code started at 2024-08-13 07:02:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -59012,7 +59012,7 @@ This *SEARCH/REPLACE block* correctly follows the format you specified. It will 
 > Applied edit to llmcode/coders/base_coder.py  
 > Commit 1eb5441 feat: Use Rich to color infinity symbol with user input color  
 
-# llmcode chat started at 2024-08-13 07:03:28
+# llm code started at 2024-08-13 07:03:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -59029,7 +59029,7 @@ This *SEARCH/REPLACE block* correctly follows the format you specified. It will 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:03:33
+# llm code started at 2024-08-13 07:03:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -59060,7 +59060,7 @@ This *SEARCH/REPLACE block* correctly follows the format you specified. It will 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:05:08
+# llm code started at 2024-08-13 07:05:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-5-sonnet  
 > Model claude-3-5-sonnet: Unknown which environment variables are required.  
@@ -59085,7 +59085,7 @@ This *SEARCH/REPLACE block* correctly follows the format you specified. It will 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:05:21
+# llm code started at 2024-08-13 07:05:21
 
 > Models which match "sonnet":  
 > - anthropic.claude-3-5-sonnet-20240620-v1:0  
@@ -59103,7 +59103,7 @@ This *SEARCH/REPLACE block* correctly follows the format you specified. It will 
 > - vertex_ai/claude-3-5-sonnet@20240620  
 > - vertex_ai/claude-3-sonnet@20240229  
 
-# llmcode chat started at 2024-08-13 07:05:34
+# llm code started at 2024-08-13 07:05:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek  
 > Llmcode v0.49.2-dev  
@@ -59118,14 +59118,14 @@ This *SEARCH/REPLACE block* correctly follows the format you specified. It will 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:09:02
+# llm code started at 2024-08-13 07:09:02
 
 > You need to install the llmcode browser feature:  
 >  
-> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode-chat[browser]  
+> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install llmcode[browser]  
 > Run pip install? y  
 
-# llmcode chat started at 2024-08-13 07:18:37
+# llm code started at 2024-08-13 07:18:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/args.py  
 > Llmcode v0.49.2-dev  
@@ -59201,7 +59201,7 @@ These changes will move the analytics arguments to their own section, placed abo
 
 > Tokens: 6,861 sent, 378 received. Cost: $0.03 message, $0.03 session.  
 
-# llmcode chat started at 2024-08-13 07:19:29
+# llm code started at 2024-08-13 07:19:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -59274,7 +59274,7 @@ This change ensures that even if `self.usage_report` is not set, we still output
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 07:20:33
+# llm code started at 2024-08-13 07:20:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -59354,7 +59354,7 @@ This modification ensures that we're using the correct values for the usage repo
 
 > Tokens: 14,462 sent, 405 received. Cost: $0.05 message, $0.05 session.  
 
-# llmcode chat started at 2024-08-13 07:21:10
+# llm code started at 2024-08-13 07:21:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -59370,7 +59370,7 @@ This modification ensures that we're using the correct values for the usage repo
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:23:20
+# llm code started at 2024-08-13 07:23:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/args.py  
 > Llmcode v0.49.2-dev  
@@ -59547,10 +59547,10 @@ These *SEARCH/REPLACE* blocks will correctly move the analytics arguments to the
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:35:08
+# llm code started at 2024-08-13 07:35:08
 
 
-# llmcode chat started at 2024-08-13 07:35:20
+# llm code started at 2024-08-13 07:35:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59567,7 +59567,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 07:40:31
+# llm code started at 2024-08-13 07:40:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.49.2-dev  
@@ -59584,7 +59584,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:40:39
+# llm code started at 2024-08-13 07:40:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59601,7 +59601,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 07:43:59
+# llm code started at 2024-08-13 07:43:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -59805,7 +59805,7 @@ This change imports the Analytics class from the llmcode.analytics module, which
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 07:52:13
+# llm code started at 2024-08-13 07:52:13
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59822,10 +59822,10 @@ Hello! How can I assist you today? If you have any requests or need help with co
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 07:52:50
+# llm code started at 2024-08-13 07:52:50
 
 
-# llmcode chat started at 2024-08-13 07:53:25
+# llm code started at 2024-08-13 07:53:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini --analytics-disable  
 > Llmcode v0.49.2-dev  
@@ -59846,7 +59846,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:55:03
+# llm code started at 2024-08-13 07:55:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59861,7 +59861,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:55:20
+# llm code started at 2024-08-13 07:55:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59876,7 +59876,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:56:34
+# llm code started at 2024-08-13 07:56:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59891,7 +59891,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:56:56
+# llm code started at 2024-08-13 07:56:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59906,7 +59906,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:57:26
+# llm code started at 2024-08-13 07:57:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59921,7 +59921,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:57:29
+# llm code started at 2024-08-13 07:57:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59936,10 +59936,10 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 07:59:51
+# llm code started at 2024-08-13 07:59:51
 
 
-# llmcode chat started at 2024-08-13 08:00:34
+# llm code started at 2024-08-13 08:00:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59960,7 +59960,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 08:01:44
+# llm code started at 2024-08-13 08:01:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.49.2-dev  
@@ -59977,7 +59977,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 08:07:59
+# llm code started at 2024-08-13 08:07:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -59986,7 +59986,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 > Repo-map: using 1024 tokens  
 > Commit aeadf2f fix: Disable analytics by default and provide option to enable  
 
-# llmcode chat started at 2024-08-13 08:10:41
+# llm code started at 2024-08-13 08:10:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode args.py main.py website/docs/more/analytics.md  
 > Llmcode v0.49.2-dev  
@@ -60068,10 +60068,10 @@ These changes will replace `--analytics-disable` with `--disable-analytics` in t
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 08:13:51
+# llm code started at 2024-08-13 08:13:51
 
 
-# llmcode chat started at 2024-08-13 09:18:14
+# llm code started at 2024-08-13 09:18:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/models.py  
 > Llmcode v0.49.2-dev  
@@ -60264,7 +60264,7 @@ The changes will provide helpful information to Windows users about potentially 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 09:21:34
+# llm code started at 2024-08-13 09:21:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek  
 > Model deepseek/deepseek-coder: Missing these environment variables:  
@@ -60282,7 +60282,7 @@ The changes will provide helpful information to Windows users about potentially 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 09:21:47
+# llm code started at 2024-08-13 09:21:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --exit  
 > Model deepseek/deepseek-coder: Missing these environment variables:  
@@ -60295,7 +60295,7 @@ The changes will provide helpful information to Windows users about potentially 
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 09:22:22
+# llm code started at 2024-08-13 09:22:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --exit  
 > Model deepseek/deepseek-coder: Missing these environment variables:  
@@ -60308,7 +60308,7 @@ The changes will provide helpful information to Windows users about potentially 
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 09:22:50
+# llm code started at 2024-08-13 09:22:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --exit  
 > Model deepseek/deepseek-coder: Missing these environment variables:  
@@ -60321,7 +60321,7 @@ The changes will provide helpful information to Windows users about potentially 
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 09:24:17
+# llm code started at 2024-08-13 09:24:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --exit  
 > Model deepseek/deepseek-coder: Missing these environment variables:  
@@ -60334,7 +60334,7 @@ The changes will provide helpful information to Windows users about potentially 
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 09:24:23
+# llm code started at 2024-08-13 09:24:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --exit  
 > Model deepseek/deepseek-coder: Missing these environment variables:  
@@ -60347,7 +60347,7 @@ The changes will provide helpful information to Windows users about potentially 
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 09:36:08
+# llm code started at 2024-08-13 09:36:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode pyproject.toml llmcode/help_pats.py  
 > Llmcode v0.49.2-dev  
@@ -60368,7 +60368,7 @@ pyproject.toml
 ```toml
 <<<<<<< SEARCH
 [project]
-name = "llmcode-chat"
+name = "llmcode"
 =======
 # [[[cog
 # from llmcode.help_pats import exclude_website_pats
@@ -60376,7 +60376,7 @@ name = "llmcode-chat"
 # [[[end]]]
 
 [project]
-name = "llmcode-chat"
+name = "llmcode"
 >>>>>>> REPLACE
 ```
 
@@ -60491,7 +60491,7 @@ These changes will add a new function `check_cog_pyproject` that runs `cog -r` o
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 09:47:13
+# llm code started at 2024-08-13 09:47:13
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.49.2-dev  
@@ -60602,13 +60602,13 @@ These changes will remove the unused imports and resolve the flake8 errors.
 > Commit 14fb59f fix: Remove unused imports of `filecmp` and `tempfile` in `scripts/versionbump.py`  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-13 09:49:30
+# llm code started at 2024-08-13 09:49:30
 
 
-# llmcode chat started at 2024-08-13 09:50:47
+# llm code started at 2024-08-13 09:50:47
 
 
-# llmcode chat started at 2024-08-13 10:03:44
+# llm code started at 2024-08-13 10:03:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -60661,19 +60661,19 @@ This change adds the `edit_format=self.edit_format` parameter to the `event()` c
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 12:11:58
+# llm code started at 2024-08-13 12:11:58
 
 
-# llmcode chat started at 2024-08-13 12:14:19
+# llm code started at 2024-08-13 12:14:19
 
 
-# llmcode chat started at 2024-08-13 12:15:07
+# llm code started at 2024-08-13 12:15:07
 
 
-# llmcode chat started at 2024-08-13 12:16:04
+# llm code started at 2024-08-13 12:16:04
 
 
-# llmcode chat started at 2024-08-13 12:17:56
+# llm code started at 2024-08-13 12:17:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --exit  
 > Model deepseek/deepseek-coder: Missing these environment variables:  
@@ -60686,7 +60686,7 @@ This change adds the `edit_format=self.edit_format` parameter to the `event()` c
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 12:18:07
+# llm code started at 2024-08-13 12:18:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --exit  
 > Llmcode v0.50.1-dev  
@@ -60695,7 +60695,7 @@ This change adds the `edit_format=self.edit_format` parameter to the `event()` c
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 12:28:22
+# llm code started at 2024-08-13 12:28:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode scripts/blame.py  
 > Llmcode v0.50.1-dev  
@@ -61405,10 +61405,10 @@ This change adds the `import sys` statement to the list of imports at the beginn
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 12:45:44
+# llm code started at 2024-08-13 12:45:44
 
 
-# llmcode chat started at 2024-08-13 12:52:31
+# llm code started at 2024-08-13 12:52:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --chat-mode ask README.md  
 > Llmcode v0.50.1-dev  
@@ -61778,7 +61778,7 @@ These changes will update the `analytics.py` file to include PostHog alongside M
 > Commit 46489f1 feat: Add PostHog analytics integration  
 > Commit b722572 style: format analytics.py file  
 
-# llmcode chat started at 2024-08-13 13:04:04
+# llm code started at 2024-08-13 13:04:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.1-dev  
@@ -61793,7 +61793,7 @@ These changes will update the `analytics.py` file to include PostHog alongside M
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 13:08:58
+# llm code started at 2024-08-13 13:08:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.1-dev  
@@ -61808,7 +61808,7 @@ These changes will update the `analytics.py` file to include PostHog alongside M
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 13:09:17
+# llm code started at 2024-08-13 13:09:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.1-dev  
@@ -61823,7 +61823,7 @@ These changes will update the `analytics.py` file to include PostHog alongside M
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 13:09:39
+# llm code started at 2024-08-13 13:09:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.1-dev  
@@ -61832,7 +61832,7 @@ These changes will update the `analytics.py` file to include PostHog alongside M
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-13 13:12:20
+# llm code started at 2024-08-13 13:12:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.50.1-dev  
@@ -61855,7 +61855,7 @@ It seems like you might have accidentally sent a system message. If you have any
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 13:41:47
+# llm code started at 2024-08-13 13:41:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_includes/blame.md  
 > Llmcode v0.50.1-dev  
@@ -61871,7 +61871,7 @@ It seems like you might have accidentally sent a system message. If you have any
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 13:42:45
+# llm code started at 2024-08-13 13:42:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode ./scripts/jekyll_run.sh ./scripts/Dockerfile.jekyll  
 > Llmcode v0.50.1-dev  
@@ -63533,10 +63533,10 @@ This change reduces the height of both canvas elements from 450 pixels to 360 pi
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 14:21:31
+# llm code started at 2024-08-13 14:21:31
 
 
-# llmcode chat started at 2024-08-13 14:22:07
+# llm code started at 2024-08-13 14:22:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/analytics.py  
 > Llmcode v0.50.1-dev  
@@ -63592,7 +63592,7 @@ This way, if a UUID already exists, it will be preserved when marking analytics 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 14:26:18
+# llm code started at 2024-08-13 14:26:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --subtree  
 > Llmcode v0.50.1-dev  
@@ -63609,7 +63609,7 @@ This way, if a UUID already exists, it will be preserved when marking analytics 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 14:31:00
+# llm code started at 2024-08-13 14:31:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode repomap.py  
 > Llmcode v0.50.1-dev  
@@ -65052,7 +65052,7 @@ All of these variables and imports are now properly defined within the scope of 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 14:36:39
+# llm code started at 2024-08-13 14:36:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode repomap.py --no-git  
 > Llmcode v0.50.1-dev  
@@ -65411,7 +65411,7 @@ These changes convert the local variables `defines`, `references`, `definitions`
 #### /undo  
 > No git repository found.  
 
-# llmcode chat started at 2024-08-13 16:57:56
+# llm code started at 2024-08-13 16:57:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/analytics.py  
 > Creating empty file /Users/gauthier/Projects/llmcode/llmcode/llmcode/analytics.py  
@@ -65469,7 +65469,7 @@ PostHog does have ways to log exceptions, although it's not primarily designed a
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 16:59:53
+# llm code started at 2024-08-13 16:59:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/analytics.py --edit ask  
 > Llmcode v0.50.1-dev  
@@ -65529,7 +65529,7 @@ Would you like me to add this `capture_exception` method to the `Analytics` clas
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 17:30:54
+# llm code started at 2024-08-13 17:30:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.50.1-dev  
@@ -65664,7 +65664,7 @@ These changes should prevent the `UnboundLocalError` by ensuring that `completio
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 17:34:24
+# llm code started at 2024-08-13 17:34:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet  
 > Llmcode v0.50.1-dev  
@@ -65685,7 +65685,7 @@ Understood. I'll follow those rules for any code changes. Since you haven't made
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 17:42:08
+# llm code started at 2024-08-13 17:42:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode benchmark/benchmark.py  
 > Llmcode v0.50.1-dev  
@@ -65836,7 +65836,7 @@ These changes add the required whitespace around the arithmetic operators, which
 
 #### /ex  
 
-# llmcode chat started at 2024-08-13 17:57:28
+# llm code started at 2024-08-13 17:57:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/gpt-4o-2024-08-06  
 > Llmcode v0.50.1-dev  
@@ -65851,7 +65851,7 @@ These changes add the required whitespace around the arithmetic operators, which
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 17:57:34
+# llm code started at 2024-08-13 17:57:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/gpt-4o-2024-08-06 --no-git  
 > Llmcode v0.50.1-dev  
@@ -65868,7 +65868,7 @@ Hello! How can I assist you with your code today? If you have any requests or ne
 
 #### /ex  
 
-# llmcode chat started at 2024-08-14 01:00:43
+# llm code started at 2024-08-14 01:00:43
 
 > /usr/local/bin/llmcode --model openai/gpt-4o-2024-08-06  
 > Llmcode v0.50.1-dev  
@@ -65889,25 +65889,25 @@ Hello! How can I assist you today with your code?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 18:45:10
+# llm code started at 2024-08-13 18:45:10
 
 
-# llmcode chat started at 2024-08-13 18:46:13
+# llm code started at 2024-08-13 18:46:13
 
 
-# llmcode chat started at 2024-08-13 18:48:47
+# llm code started at 2024-08-13 18:48:47
 
 
-# llmcode chat started at 2024-08-13 18:49:41
+# llm code started at 2024-08-13 18:49:41
 
 
-# llmcode chat started at 2024-08-13 18:50:45
+# llm code started at 2024-08-13 18:50:45
 
 
-# llmcode chat started at 2024-08-13 18:53:59
+# llm code started at 2024-08-13 18:53:59
 
 
-# llmcode chat started at 2024-08-14 06:05:26
+# llm code started at 2024-08-14 06:05:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/gpt-4o-2024-08-08  
 > Model openai/gpt-4o-2024-08-08: Unknown context window size and costs, using sane defaults.  
@@ -65926,7 +65926,7 @@ Hello! How can I assist you today with your code?
 > Error during API call: litellm.NotFoundError: OpenAIException - Error code: 404 - {'error': {'message': 'The model `gpt-4o-2024-08-08` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}  
 > Tokens: 2,431 sent, 0 received.  
 
-# llmcode chat started at 2024-08-14 06:05:52
+# llm code started at 2024-08-14 06:05:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/gpt-4o-latest --map 0 --msg hi  
 > Model openai/gpt-4o-latest: Unknown context window size and costs, using sane defaults.  
@@ -65943,7 +65943,7 @@ Hello! How can I assist you today with your code?
 > Error during API call: litellm.NotFoundError: OpenAIException - Error code: 404 - {'error': {'message': 'The model `gpt-4o-latest` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}  
 > Tokens: 1,169 sent, 0 received.  
 
-# llmcode chat started at 2024-08-14 06:06:10
+# llm code started at 2024-08-14 06:06:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/chatgpt-4o-latest --map 0 --msg hi  
 > Llmcode v0.50.2-dev  
@@ -65958,7 +65958,7 @@ It looks like you've shared the *SEARCH/REPLACE block* rules with me. If you hav
 
 > Tokens: 1,601 sent, 43 received. Cost: $0.0086 message, $0.0086 session.  
 
-# llmcode chat started at 2024-08-14 06:06:25
+# llm code started at 2024-08-14 06:06:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/chatgpt-4o-2024-08-08 --map 0 --msg hi  
 > Model openai/chatgpt-4o-2024-08-08: Unknown context window size and costs, using sane defaults.  
@@ -65976,7 +65976,7 @@ It looks like you've shared the *SEARCH/REPLACE block* rules with me. If you hav
 > Error during API call: litellm.NotFoundError: OpenAIException - Error code: 404 - {'error': {'message': 'The model `chatgpt-4o-2024-08-08` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}  
 > Tokens: 1,169 sent, 0 received.  
 
-# llmcode chat started at 2024-08-14 06:06:31
+# llm code started at 2024-08-14 06:06:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openai/chatgpt-4o-latest --map 0 --msg hi  
 > Llmcode v0.50.2-dev  
@@ -65991,10 +65991,10 @@ It looks like you've shared the *SEARCH/REPLACE block* rules with me. If you hav
 
 > Tokens: 1,601 sent, 44 received. Cost: $0.0087 message, $0.0087 session.  
 
-# llmcode chat started at 2024-08-14 06:14:32
+# llm code started at 2024-08-14 06:14:32
 
 
-# llmcode chat started at 2024-08-14 06:20:09
+# llm code started at 2024-08-14 06:20:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode benchmark/over_time.py tmp_over_time.png  
 > Llmcode v0.50.2-dev  
@@ -66535,7 +66535,7 @@ This change replaces "blue" with "lightblue" in the color assignment for models 
 > Commit 0a3c6bf feat: Change blue color to light blue in plot_over_time function  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-14 06:32:04
+# llm code started at 2024-08-14 06:32:04
 
 >  
 >  
@@ -66544,7 +66544,7 @@ This change replaces "blue" with "lightblue" in the color assignment for models 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-14 07:11:10
+# llm code started at 2024-08-14 07:11:10
 
 > Models which match "groq":  
 > - groq/gemma-7b-it  
@@ -66558,7 +66558,7 @@ This change replaces "blue" with "lightblue" in the color assignment for models 
 > - groq/llama3-groq-8b-8192-tool-use-preview  
 > - groq/mixtral-8x7b-32768  
 
-# llmcode chat started at 2024-08-14 09:50:32
+# llm code started at 2024-08-14 09:50:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_main.py  
 > Llmcode v0.50.2-dev  
@@ -67468,7 +67468,7 @@ This change will add an "[EXISTS]" marker next to each file in the `default_conf
 > Commit cdab3fd feat: mark which of the default_config_files exist in the verbose output  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-14 10:06:05
+# llm code started at 2024-08-14 10:06:05
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -67579,7 +67579,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-14 10:06:45
+# llm code started at 2024-08-14 10:06:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -67588,7 +67588,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Commit 7534fab fix: Update config file existence indicator in main.py  
 
-# llmcode chat started at 2024-08-14 10:07:47
+# llm code started at 2024-08-14 10:07:47
 
 >  
 >  
@@ -67597,7 +67597,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-14 10:10:23
+# llm code started at 2024-08-14 10:10:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -67606,10 +67606,10 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Commit fb7bbb9 fix: Change default prompt option to uppercase 'Y'  
 
-# llmcode chat started at 2024-08-14 10:11:14
+# llm code started at 2024-08-14 10:11:14
 
 
-# llmcode chat started at 2024-08-14 11:10:54
+# llm code started at 2024-08-14 11:10:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/single_wholefile_func_coder.py  
 > Llmcode v0.50.2-dev  
@@ -67727,7 +67727,7 @@ Would you like me to make this change to the file?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-14 12:46:30
+# llm code started at 2024-08-14 12:46:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 llmcode/args.py --dry-run --msg translate it all to french  
 > Llmcode v0.50.2-dev  
@@ -67868,7 +67868,7 @@ def get_parser(default_config_files, git_root):
     group.add_argument(
         "--models",
         metavar="MODÈLE",
-        help="Lister les modèles connus correspondant au nom de (partie du) MODÈLE",
+        help="Lister les modèles connus correspondent au nom de (partie du) MODÈLE",
     )
     group.add_argument(
         "--openai-api-base",
@@ -67916,7 +67916,7 @@ def get_parser(default_config_files, git_root):
         "--verify-ssl",
         action=argparse.BooleanOptionalAction,
         default=True,
-        help="Vérifier le certificat SSL lors de la connexion aux modèles (par défaut : Vrai)",
+        help="Vérifier le certificate SSL lors de la connection aux modèles (par défaut : Vrai)",
     )
     group.add_argument(
         "--edit-format",
@@ -67994,7 +67994,7 @@ def get_parser(default_config_files, git_root):
         "--llm-history-file",
         metavar="LLM_HISTORY_FILE",
         default=None,
-        help="Journaliser la conversation avec le LLM dans ce fichier (par exemple, .llmcode.llm.history)",
+        help="Journaliser la conversation avec le LLM dans ce fichier (par example, .llmcode.llm.history)",
     )
 
     ##########
@@ -68036,7 +68036,7 @@ def get_parser(default_config_files, git_root):
     group.add_argument(
         "--tool-error-color",
         default="#FF2222",
-        help="Définir la couleur pour les messages d'erreur de l'outil (par défaut : rouge)",
+        help="Définir la couleur pour les messages d'erreur de l'outil (par défaut : rogue)",
     )
     group.add_argument(
         "--assistant-output-color",
@@ -68154,7 +68154,7 @@ les messages d'engagement avec 'llmcode : ' si llmcode a rédigé les modificati
         "--lint-cmd",
         action="append",
         help=(
-            'Spécifier les commandes d''analyse à exécuter pour différents langages, par ex. : "python: flake8'
+            'Spécifier les commandes d''analyse à exécuter pour différents languages, par ex. : "python: flake8'
             ' --select=..." (peut être utilisé plusieurs fois)'
         ),
         default=[],
@@ -68370,7 +68370,7 @@ if __name__ == "__main__":
 > .gitignore  
 > Add these files to the chat? n  
 
-# llmcode chat started at 2024-08-14 13:14:58
+# llm code started at 2024-08-14 13:14:58
 
 > Models which match "sonnet":  
 > - anthropic.claude-3-5-sonnet-20240620-v1:0  
@@ -68388,7 +68388,7 @@ if __name__ == "__main__":
 > - vertex_ai/claude-3-5-sonnet@20240620  
 > - vertex_ai/claude-3-sonnet@20240229  
 
-# llmcode chat started at 2024-08-14 15:41:33
+# llm code started at 2024-08-14 15:41:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -68396,7 +68396,7 @@ if __name__ == "__main__":
 > Git repo: .git with 303 files  
 > Repo-map: using 1024 tokens  
 
-# llmcode chat started at 2024-08-14 16:14:47
+# llm code started at 2024-08-14 16:14:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --sonnet  
 > Llmcode v0.50.2-dev  
@@ -68411,7 +68411,7 @@ if __name__ == "__main__":
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-14 16:41:33
+# llm code started at 2024-08-14 16:41:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md llmcode/website/_data/code-in-json.yml  
 > Llmcode v0.50.2-dev  
@@ -68857,10 +68857,10 @@ llmcode/website/_data/code-in-json.yml
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-14 16:50:59
+# llm code started at 2024-08-14 16:50:59
 
 
-# llmcode chat started at 2024-08-14 20:04:37
+# llm code started at 2024-08-14 20:04:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md --read llmcode/website/_data/code-in-json.yml  
 > Llmcode v0.50.2-dev  
@@ -69042,7 +69042,7 @@ This SEARCH/REPLACE block should now correctly match the existing content and ap
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 05:57:37
+# llm code started at 2024-08-15 05:57:37
 
 > Models which match "gpt-4o":  
 > - azure/global-standard/gpt-4o-mini  
@@ -69065,7 +69065,7 @@ This SEARCH/REPLACE block should now correctly match the existing content and ap
 > - openrouter/openai/gpt-4o  
 > - openrouter/openai/gpt-4o-2024-05-13  
 
-# llmcode chat started at 2024-08-15 06:15:07
+# llm code started at 2024-08-15 06:15:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git tmp.code-in-json.sh  
 > Llmcode v0.50.2-dev  
@@ -69109,7 +69109,7 @@ This change will correctly assign the multi-line string to the MODELS variable, 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 07:34:14
+# llm code started at 2024-08-15 07:34:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-2024-08-06  
 > Llmcode v0.50.2-dev  
@@ -69126,7 +69126,7 @@ This change will correctly assign the multi-line string to the MODELS variable, 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 07:34:21
+# llm code started at 2024-08-15 07:34:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model gpt-4o-2024-08-06 --no-git  
 > Llmcode v0.50.2-dev  
@@ -69143,7 +69143,7 @@ Hello! How can I assist you with your code today? If you have any requests or ne
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 08:07:29
+# llm code started at 2024-08-15 08:07:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md --read llmcode/website/_data/code-in-json.yml  
 > Llmcode v0.50.2-dev  
@@ -69211,7 +69211,7 @@ Now the graph will display the average pass rate for each model/edit_format comb
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 08:29:25
+# llm code started at 2024-08-15 08:29:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md --read llmcode/website/_data/code-in-json.yml  
 > Llmcode v0.50.2-dev  
@@ -69245,7 +69245,7 @@ This change adds the `.sort()` method to the array of unique model names, which 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 09:50:24
+# llm code started at 2024-08-15 09:50:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode benchmark/over_time.py  
 > Llmcode v0.50.2-dev  
@@ -69321,10 +69321,10 @@ These changes will refactor the color assignment logic into a separate function,
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 09:53:07
+# llm code started at 2024-08-15 09:53:07
 
 
-# llmcode chat started at 2024-08-15 10:04:27
+# llm code started at 2024-08-15 10:04:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md  
 > Llmcode v0.50.2-dev  
@@ -69344,7 +69344,7 @@ These changes will refactor the color assignment logic into a separate function,
 
 ####  on narrow screen like phone, the graph looks bad because there's not enough vertical room for the title, legend, x-axis. can we make the graph responsive, so that if its on a very narrow screen the aspect ratio changes to more of a square?  
 
-# llmcode chat started at 2024-08-15 10:07:30
+# llm code started at 2024-08-15 10:07:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md  
 > Llmcode v0.50.2-dev  
@@ -69712,10 +69712,10 @@ This solution will make the chart taller on screens narrower than 600px, giving 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 10:11:23
+# llm code started at 2024-08-15 10:11:23
 
 
-# llmcode chat started at 2024-08-15 10:15:20
+# llm code started at 2024-08-15 10:15:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md  
 > Llmcode v0.50.2-dev  
@@ -69726,7 +69726,7 @@ This solution will make the chart taller on screens narrower than 600px, giving 
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
 
-# llmcode chat started at 2024-08-15 10:20:37
+# llm code started at 2024-08-15 10:20:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md  
 > Llmcode v0.50.2-dev  
@@ -70038,7 +70038,7 @@ These changes will add the number to the top of each bar in both graphs. The num
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 10:50:12
+# llm code started at 2024-08-15 10:50:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md llmcode/website/_includes/code-in-json-benchmark.js  
 > Creating empty file /Users/gauthier/Projects/llmcode/llmcode/website/_includes/code-in-json-benchmark.js  
@@ -70339,7 +70339,7 @@ These changes will move the JavaScript code for Figure 1 from the Markdown file 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 10:57:16
+# llm code started at 2024-08-15 10:57:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_includes/code-in-json-benchmark.js llmcode/website/_includes/code-in-json-syntax.js  
 > Llmcode v0.50.2-dev  
@@ -70595,10 +70595,10 @@ The values will be displayed in black text just above each bar, making it easy f
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 11:14:09
+# llm code started at 2024-08-15 11:14:09
 
 
-# llmcode chat started at 2024-08-15 12:17:30
+# llm code started at 2024-08-15 12:17:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode pyproject.toml --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -70607,7 +70607,7 @@ The values will be displayed in black text just above each bar, making it easy f
 > Repo-map: using 1024 tokens  
 > Added pyproject.toml to the chat.  
 
-# llmcode chat started at 2024-08-15 12:22:20
+# llm code started at 2024-08-15 12:22:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -70627,7 +70627,7 @@ The values will be displayed in black text just above each bar, making it easy f
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 12:30:17
+# llm code started at 2024-08-15 12:30:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -70647,7 +70647,7 @@ The values will be displayed in black text just above each bar, making it easy f
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 12:49:41
+# llm code started at 2024-08-15 12:49:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0  
 > Model bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0: Missing these environment variables:  
@@ -70670,13 +70670,13 @@ The values will be displayed in black text just above each bar, making it easy f
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 13:28:20
+# llm code started at 2024-08-15 13:28:20
 
 
-# llmcode chat started at 2024-08-15 13:44:32
+# llm code started at 2024-08-15 13:44:32
 
 
-# llmcode chat started at 2024-08-15 13:52:23
+# llm code started at 2024-08-15 13:52:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_includes/code-in-json-benchmark.js  
 > Llmcode v0.50.2-dev  
@@ -71389,10 +71389,10 @@ This change replaces `data.toFixed(1)` with `Math.round(data)`, which will round
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 14:03:44
+# llm code started at 2024-08-15 14:03:44
 
 
-# llmcode chat started at 2024-08-15 14:08:57
+# llm code started at 2024-08-15 14:08:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -71520,7 +71520,7 @@ These changes should provide a more reliable way to convert images to data URLs 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 14:12:00
+# llm code started at 2024-08-15 14:12:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode simplified-asset-graph.jpg  
 > Llmcode v0.50.2-dev  
@@ -71541,7 +71541,7 @@ These changes should provide a more reliable way to convert images to data URLs 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 14:12:24
+# llm code started at 2024-08-15 14:12:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode simplified-asset-graph.jpg  
 > Llmcode v0.50.2-dev  
@@ -71566,7 +71566,7 @@ These changes should provide a more reliable way to convert images to data URLs 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 14:12:35
+# llm code started at 2024-08-15 14:12:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode simplified-asset-graph.jpg --mini  
 > Llmcode v0.50.2-dev  
@@ -71582,7 +71582,7 @@ These changes should provide a more reliable way to convert images to data URLs 
 > ^C again to exit  
 > Tokens: 0 sent, 0 received. Cost: $0.00 message, $0.00 session.  
 
-# llmcode chat started at 2024-08-15 14:12:50
+# llm code started at 2024-08-15 14:12:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode simplified-asset-graph.jpg --mini  
 > Llmcode v0.50.2-dev  
@@ -71604,7 +71604,7 @@ These changes should provide a more reliable way to convert images to data URLs 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 14:13:18
+# llm code started at 2024-08-15 14:13:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode simplified-asset-graph.jpg --mini  
 > Llmcode v0.50.2-dev  
@@ -71616,7 +71616,7 @@ These changes should provide a more reliable way to convert images to data URLs 
 
 #### what is this?  
 
-# llmcode chat started at 2024-08-15 14:14:30
+# llm code started at 2024-08-15 14:14:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode simplified-asset-graph.jpg --mini  
 > Llmcode v0.50.2-dev  
@@ -71635,7 +71635,7 @@ These changes should provide a more reliable way to convert images to data URLs 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 14:14:50
+# llm code started at 2024-08-15 14:14:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.jpg --mini  
 > Llmcode v0.50.2-dev  
@@ -71659,7 +71659,7 @@ I can't identify the image, but it appears to be a simple smiley face. If you ha
 
 #### <blank>  
 
-# llmcode chat started at 2024-08-15 14:16:12
+# llm code started at 2024-08-15 14:16:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.jpg --mini --msg what is this image?  
 > Llmcode v0.50.2-dev  
@@ -71675,7 +71675,7 @@ I can't identify or describe the content of the image. If you have any questions
 
 > Tokens: 0 sent, 28 received. Cost: $0.000017 message, $0.000017 session.  
 
-# llmcode chat started at 2024-08-15 14:21:51
+# llm code started at 2024-08-15 14:21:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tmp.jpg --mini --msg what is this image?  
 > Llmcode v0.50.2-dev  
@@ -71691,10 +71691,10 @@ I can't identify the content of the image. If you have any questions or need ass
 
 > Tokens: 0 sent, 26 received. Cost: $0.000016 message, $0.000016 session.  
 
-# llmcode chat started at 2024-08-15 14:28:41
+# llm code started at 2024-08-15 14:28:41
 
 
-# llmcode chat started at 2024-08-15 14:35:46
+# llm code started at 2024-08-15 14:35:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_includes/code-in-json-benchmark.js  
 > Llmcode v0.50.2-dev  
@@ -71831,10 +71831,10 @@ This modification will show the numbers with one decimal point on wide screens a
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 14:39:28
+# llm code started at 2024-08-15 14:39:28
 
 
-# llmcode chat started at 2024-08-15 14:39:44
+# llm code started at 2024-08-15 14:39:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.50.2-dev  
@@ -71845,7 +71845,7 @@ This modification will show the numbers with one decimal point on wide screens a
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 14:42:07
+# llm code started at 2024-08-15 14:42:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model deepseek-chat  
 > Error loading model metadata models: Error loading model definition from /Users/gauthier/Projects/llmcode/.llmcode.model.metadata.json: Expecting value: line 1 column 1 (char 0)  
@@ -71859,7 +71859,7 @@ This modification will show the numbers with one decimal point on wide screens a
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 14:42:35
+# llm code started at 2024-08-15 14:42:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model deepseek-chat  
 > Model deepseek-chat: Unknown which environment variables are required.  
@@ -71884,7 +71884,7 @@ This modification will show the numbers with one decimal point on wide screens a
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 14:42:48
+# llm code started at 2024-08-15 14:42:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model deepseek-chat  
 > Model deepseek-chat: Unknown which environment variables are required.  
@@ -71905,7 +71905,7 @@ This modification will show the numbers with one decimal point on wide screens a
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 14:43:28
+# llm code started at 2024-08-15 14:43:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_main.py  
 > Llmcode v0.50.2-dev  
@@ -72086,7 +72086,7 @@ These changes will add the new test for the `--model-metadata-file` option and e
 
 #### /ex  
 
-# llmcode chat started at 2024-08-15 14:46:26
+# llm code started at 2024-08-15 14:46:26
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -72203,7 +72203,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-15 14:47:58
+# llm code started at 2024-08-15 14:47:58
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -72314,7 +72314,7 @@ Option settings:
 > Repo-map: disabled  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-15 14:48:13
+# llm code started at 2024-08-15 14:48:13
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -72435,7 +72435,7 @@ Option settings:
 > 31,573 tokens remaining in context window  
 > 32,000 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:48:59
+# llm code started at 2024-08-15 14:48:59
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -72556,7 +72556,7 @@ Option settings:
 > 31,573 tokens remaining in context window  
 > 32,000 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:51:22
+# llm code started at 2024-08-15 14:51:22
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -72677,7 +72677,7 @@ Option settings:
 > 31,573 tokens remaining in context window  
 > 32,000 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:53:15
+# llm code started at 2024-08-15 14:53:15
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -72798,7 +72798,7 @@ Option settings:
 > 3,328 tokens remaining in context window  
 > 8,192 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:54:12
+# llm code started at 2024-08-15 14:54:12
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -72918,7 +72918,7 @@ Option settings:
 > 2,936 tokens remaining in context window  
 > 8,192 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:54:26
+# llm code started at 2024-08-15 14:54:26
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -73038,7 +73038,7 @@ Option settings:
 > 2,938 tokens remaining in context window  
 > 8,192 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:54:55
+# llm code started at 2024-08-15 14:54:55
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -73158,7 +73158,7 @@ Option settings:
 > 2,936 tokens remaining in context window  
 > 8,192 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:55:08
+# llm code started at 2024-08-15 14:55:08
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -73278,7 +73278,7 @@ Option settings:
 > 2,936 tokens remaining in context window  
 > 8,192 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:56:40
+# llm code started at 2024-08-15 14:56:40
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -73382,7 +73382,7 @@ Option settings:
 > - /Users/gauthier/.llmcode.model.settings.yml  
 > - /Users/gauthier/Projects/llmcode/.llmcode.model.settings.yml  
 
-# llmcode chat started at 2024-08-15 14:56:46
+# llm code started at 2024-08-15 14:56:46
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -73503,7 +73503,7 @@ Option settings:
 > -1,190 tokens remaining, window exhausted (use /drop or /clear to make space)  
 > 1,223 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 14:57:01
+# llm code started at 2024-08-15 14:57:01
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -73624,10 +73624,10 @@ Option settings:
 > -1,190 tokens remaining, window exhausted (use /drop or /clear to make space)  
 > 1,223 tokens max context window size  
 
-# llmcode chat started at 2024-08-15 15:00:17
+# llm code started at 2024-08-15 15:00:17
 
 
-# llmcode chat started at 2024-08-15 15:40:29
+# llm code started at 2024-08-15 15:40:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --edit func --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -73635,7 +73635,7 @@ Option settings:
 > Git repo: .git with 307 files  
 > Repo-map: disabled  
 
-# llmcode chat started at 2024-08-15 15:41:03
+# llm code started at 2024-08-15 15:41:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode pyproject.toml --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -73644,7 +73644,7 @@ Option settings:
 > Repo-map: using 1024 tokens  
 > Added pyproject.toml to the chat.  
 
-# llmcode chat started at 2024-08-15 15:42:53
+# llm code started at 2024-08-15 15:42:53
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -73762,16 +73762,16 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-16 06:14:55
+# llm code started at 2024-08-16 06:14:55
 
 
-# llmcode chat started at 2024-08-16 06:40:12
+# llm code started at 2024-08-16 06:40:12
 
 
-# llmcode chat started at 2024-08-16 07:04:25
+# llm code started at 2024-08-16 07:04:25
 
 
-# llmcode chat started at 2024-08-16 08:16:52
+# llm code started at 2024-08-16 08:16:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > Llmcode v0.50.2-dev  
@@ -73822,7 +73822,7 @@ Overall, Llmcode appears to be a tool designed to enhance coding productivity by
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-16 08:18:04
+# llm code started at 2024-08-16 08:18:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > Llmcode v0.50.2-dev  
@@ -73860,7 +73860,7 @@ The website you've shared is llm.khulnasoft.com, which is the official website f
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-16 11:22:23
+# llm code started at 2024-08-16 11:22:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl  
 > Llmcode v0.50.2-dev  
@@ -73883,7 +73883,7 @@ Hello! How can I assist you today? If you have any requests or need changes to y
 
 #### /ex  
 
-# llmcode chat started at 2024-08-16 11:22:58
+# llm code started at 2024-08-16 11:22:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl  
 > Llmcode v0.50.2-dev  
@@ -73894,7 +73894,7 @@ Hello! How can I assist you today? If you have any requests or need changes to y
 
 #### /ex  
 
-# llmcode chat started at 2024-08-16 11:26:59
+# llm code started at 2024-08-16 11:26:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -73905,7 +73905,7 @@ Hello! How can I assist you today? If you have any requests or need changes to y
 
 #### /ex  
 
-# llmcode chat started at 2024-08-16 11:27:06
+# llm code started at 2024-08-16 11:27:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl  
 > Llmcode v0.50.2-dev  
@@ -73923,7 +73923,7 @@ Hello! How can I assist you today? If you have any requests or need changes to y
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-16 11:27:14
+# llm code started at 2024-08-16 11:27:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl --mini  
 > Llmcode v0.50.2-dev  
@@ -73932,22 +73932,7 @@ Hello! How can I assist you today? If you have any requests or need changes to y
 > Repo-map: disabled  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-16 11:27:19
-
-> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl --mini  
-> Llmcode v0.50.2-dev  
-> Model: gpt-4o-mini with whole edit format  
-> Git repo: .git with 311 files  
-> Repo-map: disabled  
-> Use /help <question> for help, run "llmcode --help" to see cmd line args  
->  
->  
-> ^C again to exit  
->  
->  
-> ^C KeyboardInterrupt  
-
-# llmcode chat started at 2024-08-16 11:27:25
+# llm code started at 2024-08-16 11:27:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl --mini  
 > Llmcode v0.50.2-dev  
@@ -73962,7 +73947,22 @@ Hello! How can I assist you today? If you have any requests or need changes to y
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-16 11:27:40
+# llm code started at 2024-08-16 11:27:25
+
+> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl --mini  
+> Llmcode v0.50.2-dev  
+> Model: gpt-4o-mini with whole edit format  
+> Git repo: .git with 311 files  
+> Repo-map: disabled  
+> Use /help <question> for help, run "llmcode --help" to see cmd line args  
+>  
+>  
+> ^C again to exit  
+>  
+>  
+> ^C KeyboardInterrupt  
+
+# llm code started at 2024-08-16 11:27:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --analytics-log tmp.jsonl --mini  
 > Llmcode v0.50.2-dev  
@@ -73973,10 +73973,10 @@ Hello! How can I assist you today? If you have any requests or need changes to y
 
 #### /ex  
 
-# llmcode chat started at 2024-08-16 11:40:18
+# llm code started at 2024-08-16 11:40:18
 
 
-# llmcode chat started at 2024-08-16 12:59:19
+# llm code started at 2024-08-16 12:59:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -74223,7 +74223,7 @@ The main `format_messages` method now calls these helper methods to assemble the
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-16 16:33:19
+# llm code started at 2024-08-16 16:33:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -74238,7 +74238,7 @@ The main `format_messages` method now calls these helper methods to assemble the
 
 #### /ex  
 
-# llmcode chat started at 2024-08-16 16:33:27
+# llm code started at 2024-08-16 16:33:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -74247,7 +74247,7 @@ The main `format_messages` method now calls these helper methods to assemble the
 > Repo-map: using 1024 tokens  
 > Added llmcode/coders/base_coder.py to the chat.  
 
-# llmcode chat started at 2024-08-16 16:33:55
+# llm code started at 2024-08-16 16:33:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -74256,7 +74256,7 @@ The main `format_messages` method now calls these helper methods to assemble the
 > Repo-map: using 1024 tokens  
 > Added llmcode/coders/base_coder.py to the chat.  
 
-# llmcode chat started at 2024-08-16 16:34:18
+# llm code started at 2024-08-16 16:34:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -74627,38 +74627,11 @@ This updated *SEARCH/REPLACE block* should now correctly match the existing cont
 > Applied edit to llmcode/coders/base_coder.py  
 > Commit 5095b7c feat: Move all_messages method to ChatChunks class  
 
-# llmcode chat started at 2024-08-16 16:38:54
+# llm code started at 2024-08-16 16:38:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt  
 
-# llmcode chat started at 2024-08-16 16:39:00
-
-> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt  
-> Llmcode v0.50.2-dev  
-> Models: claude-3-5-sonnet-20240620 with ♾️ diff edit format, weak model claude-3-haiku-20240307  
-> Git repo: ../../.git with 308 files  
-> Repo-map: using 1024 tokens  
-> Added llmcode/coders/base_coder.py to the chat.  
-
-# llmcode chat started at 2024-08-16 16:39:10
-
-> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt --4o  
-> Llmcode v0.50.2-dev  
-> Models: gpt-4o with diff edit format, weak model gpt-4o-mini  
-> Git repo: ../../.git with 308 files  
-> Repo-map: using 1024 tokens  
-> Added llmcode/coders/base_coder.py to the chat.  
-
-# llmcode chat started at 2024-08-16 16:39:21
-
-> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt --4o  
-> Llmcode v0.50.2-dev  
-> Models: gpt-4o with diff edit format, weak model gpt-4o-mini  
-> Git repo: ../../.git with 308 files  
-> Repo-map: using 1024 tokens  
-> Added llmcode/coders/base_coder.py to the chat.  
-
-# llmcode chat started at 2024-08-16 16:39:33
+# llm code started at 2024-08-16 16:39:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -74667,7 +74640,34 @@ This updated *SEARCH/REPLACE block* should now correctly match the existing cont
 > Repo-map: using 1024 tokens  
 > Added llmcode/coders/base_coder.py to the chat.  
 
-# llmcode chat started at 2024-08-16 16:40:58
+# llm code started at 2024-08-16 16:39:10
+
+> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt --4o  
+> Llmcode v0.50.2-dev  
+> Models: gpt-4o with diff edit format, weak model gpt-4o-mini  
+> Git repo: ../../.git with 308 files  
+> Repo-map: using 1024 tokens  
+> Added llmcode/coders/base_coder.py to the chat.  
+
+# llm code started at 2024-08-16 16:39:21
+
+> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt --4o  
+> Llmcode v0.50.2-dev  
+> Models: gpt-4o with diff edit format, weak model gpt-4o-mini  
+> Git repo: ../../.git with 308 files  
+> Repo-map: using 1024 tokens  
+> Added llmcode/coders/base_coder.py to the chat.  
+
+# llm code started at 2024-08-16 16:39:33
+
+> /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt  
+> Llmcode v0.50.2-dev  
+> Models: claude-3-5-sonnet-20240620 with ♾️ diff edit format, weak model claude-3-haiku-20240307  
+> Git repo: ../../.git with 308 files  
+> Repo-map: using 1024 tokens  
+> Added llmcode/coders/base_coder.py to the chat.  
+
+# llm code started at 2024-08-16 16:40:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -74970,7 +74970,7 @@ feat: Refactor ChatChunks class to include new attributes
 #### /diff  
 > Diff since 52b6e76...  
 
-# llmcode chat started at 2024-08-16 16:42:59
+# llm code started at 2024-08-16 16:42:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode pyproject.toml --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -74985,7 +74985,7 @@ feat: Refactor ChatChunks class to include new attributes
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-16 16:43:13
+# llm code started at 2024-08-16 16:43:13
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode base_coder.py --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -74994,7 +74994,7 @@ feat: Refactor ChatChunks class to include new attributes
 > Repo-map: using 1024 tokens  
 > Added llmcode/coders/base_coder.py to the chat.  
 
-# llmcode chat started at 2024-08-16 16:46:20
+# llm code started at 2024-08-16 16:46:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode chunks.py coders/base_coder.py  
 > Creating empty file /Users/gauthier/Projects/llmcode/llmcode/chunks.py  
@@ -75015,7 +75015,7 @@ feat: Refactor ChatChunks class to include new attributes
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 06:19:07
+# llm code started at 2024-08-17 06:19:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py  
 > Llmcode v0.50.2-dev  
@@ -76109,7 +76109,7 @@ These changes will pass the `map_refresh` argument from the command line all the
 > Applied edit to llmcode/coders/base_coder.py  
 > Commit f9ed868 feat: Add map_refresh parameter to Coder and pass it to RepoMap  
 
-# llmcode chat started at 2024-08-17 06:36:24
+# llm code started at 2024-08-17 06:36:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > You can use /undo to undo and discard each llmcode commit.  
@@ -76127,7 +76127,7 @@ These changes will pass the `map_refresh` argument from the command line all the
 #### /drop  
 > Dropping all files from the chat session.  
 
-# llmcode chat started at 2024-08-17 06:45:04
+# llm code started at 2024-08-17 06:45:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/main.py llmcode/args.py  
 > Llmcode v0.50.2-dev  
@@ -76648,7 +76648,7 @@ This change removes the duplicate assignment of `self.cache_prompts`. The `cache
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 06:57:37
+# llm code started at 2024-08-17 06:57:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/models.py  
 > Llmcode v0.50.2-dev  
@@ -77026,7 +77026,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 > Attempt to fix lint errors? n  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-17 07:02:50
+# llm code started at 2024-08-17 07:02:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -77035,7 +77035,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 > Repo-map: using 1024 tokens  
 > Commit 022d103 fix: Add cache control headers to chat messages  
 
-# llmcode chat started at 2024-08-17 07:04:00
+# llm code started at 2024-08-17 07:04:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -77044,7 +77044,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 > Repo-map: using 1024 tokens (auto)  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-17 07:04:11
+# llm code started at 2024-08-17 07:04:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -77053,7 +77053,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 > Repo-map: using 1024 tokens (auto refresh)  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-17 07:04:18
+# llm code started at 2024-08-17 07:04:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -77068,11 +77068,11 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 #### /add llmcode/coders/base_coder.py  
 > Added /Users/gauthier/Projects/llmcode/llmcode/coders/base_coder.py to the chat  
 
-# llmcode chat started at 2024-08-17 07:05:24
+# llm code started at 2024-08-17 07:05:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 
-# llmcode chat started at 2024-08-17 07:05:32
+# llm code started at 2024-08-17 07:05:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -77081,7 +77081,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-17 07:05:37
+# llm code started at 2024-08-17 07:05:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -77092,7 +77092,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 
 #### /ex  
 
-# llmcode chat started at 2024-08-17 07:06:05
+# llm code started at 2024-08-17 07:06:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --map-refresh files  
 > Llmcode v0.50.2-dev  
@@ -77103,7 +77103,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 
 #### /ex  
 
-# llmcode chat started at 2024-08-17 07:06:26
+# llm code started at 2024-08-17 07:06:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -77115,7 +77115,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-17 07:07:20
+# llm code started at 2024-08-17 07:07:20
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -77127,7 +77127,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 #### /add llmcode/coders/base_coder.py  
 > Added /Users/gauthier/Projects/llmcode/llmcode/coders/base_coder.py to the chat  
 
-# llmcode chat started at 2024-08-17 07:09:43
+# llm code started at 2024-08-17 07:09:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > Llmcode v0.50.2-dev  
@@ -77145,7 +77145,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:10:15
+# llm code started at 2024-08-17 07:10:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > Llmcode v0.50.2-dev  
@@ -77156,7 +77156,7 @@ These changes introduce a new constant `ANTHROPIC_BETA_HEADER` at the top of the
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 
@@ -77169,7 +77169,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:10:44
+# llm code started at 2024-08-17 07:10:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -77303,7 +77303,7 @@ The rest of the method remains largely the same, ensuring that the cost calculat
 
 #### /ex  
 
-# llmcode chat started at 2024-08-17 07:11:27
+# llm code started at 2024-08-17 07:11:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode pyproject.toml  
 > Llmcode v0.50.2-dev  
@@ -77331,7 +77331,7 @@ I understand. Thank you for providing the rules for the *SEARCH/REPLACE block* f
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:13:01
+# llm code started at 2024-08-17 07:13:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git  
 > Llmcode v0.50.2-dev  
@@ -77342,7 +77342,7 @@ I understand. Thank you for providing the rules for the *SEARCH/REPLACE block* f
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 >  
@@ -77352,7 +77352,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:13:17
+# llm code started at 2024-08-17 07:13:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache  
 > Llmcode v0.50.2-dev  
@@ -77363,7 +77363,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 
@@ -77379,7 +77379,7 @@ Hello! I understand you've provided the rules for *SEARCH/REPLACE* blocks, but y
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:14:11
+# llm code started at 2024-08-17 07:14:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77390,11 +77390,11 @@ Hello! I understand you've provided the rules for *SEARCH/REPLACE* blocks, but y
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 
-# llmcode chat started at 2024-08-17 07:14:41
+# llm code started at 2024-08-17 07:14:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77405,11 +77405,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 
-# llmcode chat started at 2024-08-17 07:15:06
+# llm code started at 2024-08-17 07:15:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77433,7 +77433,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > Received Messages=[{'role': 'system', 'content': {'type': 'text', 'text': 'Act as an expert software developer.\nAlways use best practices when coding.\nRespect and use existing conventions, libraries, etc that are already present in the code base.\n\nTake requests for changes to the supplied code.\nIf the request is ambiguous, ask questions.\n\nAlways reply to the user in the same language they are using.\n\nOnce you understand the request you MUST:\n1. Decide if you need to propose *SEARCH/REPLACE* edits to any files that haven\'t been added to the chat. You can create new files without asking. But if you need to propose edits to existing files not already added to the chat, you *MUST* tell the user their full path names and ask them to *add the files to the chat*. End your reply and wait for their approval. You can keep asking if you then decide you need to edit more files.\n2. Think step-by-step and explain the needed changes with a numbered list of short sentences.\n3. Describe each change with a *SEARCH/REPLACE block* per the examples below. All changes to files must use this *SEARCH/REPLACE block* format. ONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n\nAll changes to files must use the *SEARCH/REPLACE block* format.\n\nKeep this info about the user\'s system in mind:\n- Platform: macOS-14.6-x86_64-i386-64bit\n- Shell: SHELL=/usr/local/Cellar/bash/5.2.26/bin/bash\n- Language: en_US\n- Current date/time: 2024-08-17T07:15:07-0700\n\n# Example conversations:\n\n## USER: Change get_factorial() to use math.factorial\n\n## ASSISTANT: To make this change we need to modify `mathweb/flask/app.py` to:\n\n1. Import the math package.\n2. Remove the existing factorial() function.\n3. Update get_factorial() to call math.factorial instead.\n\nHere are the *SEARCH/REPLACE* blocks:\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\nfrom flask import Flask\n=======\nimport math\nfrom flask import Flask\n>>>>>>> REPLACE\n```\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\ndef factorial(n):\n    "compute factorial"\n\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\n=======\n>>>>>>> REPLACE\n```\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\n    return str(factorial(n))\n=======\n    return str(math.factorial(n))\n>>>>>>> REPLACE\n```\n\n\n## USER: Refactor hello() into its own file.\n\n## ASSISTANT: To make this change we need to modify `main.py` and make a new file `hello.py`:\n\n1. Make a new hello.py file with hello() in it.\n2. Remove hello() from main.py and replace it with an import.\n\nHere are the *SEARCH/REPLACE* blocks:\n\nhello.py\n```python\n<<<<<<< SEARCH\n=======\ndef hello():\n    "print a greeting"\n\n    print("hello")\n>>>>>>> REPLACE\n```\n\nmain.py\n```python\n<<<<<<< SEARCH\ndef hello():\n    "print a greeting"\n\n    print("hello")\n=======\nfrom hello import hello\n>>>>>>> REPLACE\n```\n# *SEARCH/REPLACE block* Rules:\n\nEvery *SEARCH/REPLACE block* must use this format:\n1. The file path alone on a line, verbatim. No bold asterisks, no quotes around it, no escaping of characters, etc.\n2. The opening fence and code language, eg: ```python\n3. The start of search block: <<<<<<< SEARCH\n4. A contiguous chunk of lines to search for in the existing source code\n5. The dividing line: =======\n6. The lines to replace into the source code\n7. The end of the replace block: >>>>>>> REPLACE\n8. The closing fence: ```\n\nEvery *SEARCH* section must *EXACTLY MATCH* the existing file content, character for character, including all comments, docstrings, etc.\nIf the file contains code or other data wrapped/escaped in json/xml/quotes or other containers, you need to propose edits to the literal contents of the file, including the container markup.\n\n*SEARCH/REPLACE* blocks will replace *all* matching occurrences.\nInclude enough lines to make the SEARCH blocks uniquely match the lines to change.\n\nKeep *SEARCH/REPLACE* blocks concise.\nBreak large *SEARCH/REPLACE* blocks into a series of smaller blocks that each change a small portion of the file.\nInclude just the changing lines, and a few surrounding lines if needed for uniqueness.\nDo not include long runs of unchanging lines in *SEARCH/REPLACE* blocks.\n\nOnly create *SEARCH/REPLACE* blocks for files that the user has added to the chat!\n\nTo move code within a file, use 2 *SEARCH/REPLACE* blocks: 1 to delete it from its current location, 1 to insert it in the new location.\n\nIf you want to put code in a new file, use a *SEARCH/REPLACE block* with:\n- A new file path, including dir name if needed\n- An empty `SEARCH` section\n- The new file\'s contents in the `REPLACE` section\n\n\nONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n', 'cache_control': {'type': 'ephemeral'}}}, {'role': 'user', 'content': 'I am not sharing any files that you can edit yet.'}, {'role': 'assistant', 'content': {'type': 'text', 'text': 'Ok.', 'cache_control': {'type': 'ephemeral'}}}, {'role': 'user', 'content': "hi\n\n# *SEARCH/REPLACE block* Rules:\n\nEvery *SEARCH/REPLACE block* must use this format:\n1. The file path alone on a line, verbatim. No bold asterisks, no quotes around it, no escaping of characters, etc.\n2. The opening fence and code language, eg: ```python\n3. The start of search block: <<<<<<< SEARCH\n4. A contiguous chunk of lines to search for in the existing source code\n5. The dividing line: =======\n6. The lines to replace into the source code\n7. The end of the replace block: >>>>>>> REPLACE\n8. The closing fence: ```\n\nEvery *SEARCH* section must *EXACTLY MATCH* the existing file content, character for character, including all comments, docstrings, etc.\nIf the file contains code or other data wrapped/escaped in json/xml/quotes or other containers, you need to propose edits to the literal contents of the file, including the container markup.\n\n*SEARCH/REPLACE* blocks will replace *all* matching occurrences.\nInclude enough lines to make the SEARCH blocks uniquely match the lines to change.\n\nKeep *SEARCH/REPLACE* blocks concise.\nBreak large *SEARCH/REPLACE* blocks into a series of smaller blocks that each change a small portion of the file.\nInclude just the changing lines, and a few surrounding lines if needed for uniqueness.\nDo not include long runs of unchanging lines in *SEARCH/REPLACE* blocks.\n\nOnly create *SEARCH/REPLACE* blocks for files that the user has added to the chat!\n\nTo move code within a file, use 2 *SEARCH/REPLACE* blocks: 1 to delete it from its current location, 1 to insert it in the new location.\n\nIf you want to put code in a new file, use a *SEARCH/REPLACE block* with:\n- A new file path, including dir name if needed\n- An empty `SEARCH` section\n- The new file's contents in the `REPLACE` section\n\n\nONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n"}]  
 
-# llmcode chat started at 2024-08-17 07:15:56
+# llm code started at 2024-08-17 07:15:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77446,7 +77446,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > BadRequestError: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Invalid Message passed in {'role': 'system', 'content': {'type': 'text', 'text': 'Act as an expert software developer.\nAlways use best practices when coding.\nRespect and use existing conventions, libraries, etc that are already present in the code base.\n\nTake requests for changes to the supplied code.\nIf the request is ambiguous, ask questions.\n\nAlways reply to the user in the same language they are using.\n\nOnce you understand the request you MUST:\n1. Decide if you need to propose *SEARCH/REPLACE* edits to any files that haven\'t been added to the chat. You can create new files without asking. But if you need to propose edits to existing files not already added to the chat, you *MUST* tell the user their full path names and ask them to *add the files to the chat*. End your reply and wait for their approval. You can keep asking if you then decide you need to edit more files.\n2. Think step-by-step and explain the needed changes with a numbered list of short sentences.\n3. Describe each change with a *SEARCH/REPLACE block* per the examples below. All changes to files must use this *SEARCH/REPLACE block* format. ONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n\nAll changes to files must use the *SEARCH/REPLACE block* format.\n\nKeep this info about the user\'s system in mind:\n- Platform: macOS-14.6-x86_64-i386-64bit\n- Shell: SHELL=/usr/local/Cellar/bash/5.2.26/bin/bash\n- Language: en_US\n- Current date/time: 2024-08-17T07:15:58-0700\n\n# Example conversations:\n\n## USER: Change get_factorial() to use math.factorial\n\n## ASSISTANT: To make this change we need to modify `mathweb/flask/app.py` to:\n\n1. Import the math package.\n2. Remove the existing factorial() function.\n3. Update get_factorial() to call math.factorial instead.\n\nHere are the *SEARCH/REPLACE* blocks:\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\nfrom flask import Flask\n=======\nimport math\nfrom flask import Flask\n>>>>>>> REPLACE\n```\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\ndef factorial(n):\n    "compute factorial"\n\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\n=======\n>>>>>>> REPLACE\n```\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\n    return str(factorial(n))\n=======\n    return str(math.factorial(n))\n>>>>>>> REPLACE\n```\n\n\n## USER: Refactor hello() into its own file.\n\n## ASSISTANT: To make this change we need to modify `main.py` and make a new file `hello.py`:\n\n1. Make a new hello.py file with hello() in it.\n2. Remove hello() from main.py and replace it with an import.\n\nHere are the *SEARCH/REPLACE* blocks:\n\nhello.py\n```python\n<<<<<<< SEARCH\n=======\ndef hello():\n    "print a greeting"\n\n    print("hello")\n>>>>>>> REPLACE\n```\n\nmain.py\n```python\n<<<<<<< SEARCH\ndef hello():\n    "print a greeting"\n\n    print("hello")\n=======\nfrom hello import hello\n>>>>>>> REPLACE\n```\n# *SEARCH/REPLACE block* Rules:\n\nEvery *SEARCH/REPLACE block* must use this format:\n1. The file path alone on a line, verbatim. No bold asterisks, no quotes around it, no escaping of characters, etc.\n2. The opening fence and code language, eg: ```python\n3. The start of search block: <<<<<<< SEARCH\n4. A contiguous chunk of lines to search for in the existing source code\n5. The dividing line: =======\n6. The lines to replace into the source code\n7. The end of the replace block: >>>>>>> REPLACE\n8. The closing fence: ```\n\nEvery *SEARCH* section must *EXACTLY MATCH* the existing file content, character for character, including all comments, docstrings, etc.\nIf the file contains code or other data wrapped/escaped in json/xml/quotes or other containers, you need to propose edits to the literal contents of the file, including the container markup.\n\n*SEARCH/REPLACE* blocks will replace *all* matching occurrences.\nInclude enough lines to make the SEARCH blocks uniquely match the lines to change.\n\nKeep *SEARCH/REPLACE* blocks concise.\nBreak large *SEARCH/REPLACE* blocks into a series of smaller blocks that each change a small portion of the file.\nInclude just the changing lines, and a few surrounding lines if needed for uniqueness.\nDo not include long runs of unchanging lines in *SEARCH/REPLACE* blocks.\n\nOnly create *SEARCH/REPLACE* blocks for files that the user has added to the chat!\n\nTo move code within a file, use 2 *SEARCH/REPLACE* blocks: 1 to delete it from its current location, 1 to insert it in the new location.\n\nIf you want to put code in a new file, use a *SEARCH/REPLACE block* with:\n- A new file path, including dir name if needed\n- An empty `SEARCH` section\n- The new file\'s contents in the `REPLACE` section\n\n\nONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n', 'cache_control': {'type': 'ephemeral'}}}  
 > Received Messages=[{'role': 'system', 'content': {'type': 'text', 'text': 'Act as an expert software developer.\nAlways use best practices when coding.\nRespect and use existing conventions, libraries, etc that are already present in the code base.\n\nTake requests for changes to the supplied code.\nIf the request is ambiguous, ask questions.\n\nAlways reply to the user in the same language they are using.\n\nOnce you understand the request you MUST:\n1. Decide if you need to propose *SEARCH/REPLACE* edits to any files that haven\'t been added to the chat. You can create new files without asking. But if you need to propose edits to existing files not already added to the chat, you *MUST* tell the user their full path names and ask them to *add the files to the chat*. End your reply and wait for their approval. You can keep asking if you then decide you need to edit more files.\n2. Think step-by-step and explain the needed changes with a numbered list of short sentences.\n3. Describe each change with a *SEARCH/REPLACE block* per the examples below. All changes to files must use this *SEARCH/REPLACE block* format. ONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n\nAll changes to files must use the *SEARCH/REPLACE block* format.\n\nKeep this info about the user\'s system in mind:\n- Platform: macOS-14.6-x86_64-i386-64bit\n- Shell: SHELL=/usr/local/Cellar/bash/5.2.26/bin/bash\n- Language: en_US\n- Current date/time: 2024-08-17T07:15:58-0700\n\n# Example conversations:\n\n## USER: Change get_factorial() to use math.factorial\n\n## ASSISTANT: To make this change we need to modify `mathweb/flask/app.py` to:\n\n1. Import the math package.\n2. Remove the existing factorial() function.\n3. Update get_factorial() to call math.factorial instead.\n\nHere are the *SEARCH/REPLACE* blocks:\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\nfrom flask import Flask\n=======\nimport math\nfrom flask import Flask\n>>>>>>> REPLACE\n```\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\ndef factorial(n):\n    "compute factorial"\n\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\n=======\n>>>>>>> REPLACE\n```\n\nmathweb/flask/app.py\n```python\n<<<<<<< SEARCH\n    return str(factorial(n))\n=======\n    return str(math.factorial(n))\n>>>>>>> REPLACE\n```\n\n\n## USER: Refactor hello() into its own file.\n\n## ASSISTANT: To make this change we need to modify `main.py` and make a new file `hello.py`:\n\n1. Make a new hello.py file with hello() in it.\n2. Remove hello() from main.py and replace it with an import.\n\nHere are the *SEARCH/REPLACE* blocks:\n\nhello.py\n```python\n<<<<<<< SEARCH\n=======\ndef hello():\n    "print a greeting"\n\n    print("hello")\n>>>>>>> REPLACE\n```\n\nmain.py\n```python\n<<<<<<< SEARCH\ndef hello():\n    "print a greeting"\n\n    print("hello")\n=======\nfrom hello import hello\n>>>>>>> REPLACE\n```\n# *SEARCH/REPLACE block* Rules:\n\nEvery *SEARCH/REPLACE block* must use this format:\n1. The file path alone on a line, verbatim. No bold asterisks, no quotes around it, no escaping of characters, etc.\n2. The opening fence and code language, eg: ```python\n3. The start of search block: <<<<<<< SEARCH\n4. A contiguous chunk of lines to search for in the existing source code\n5. The dividing line: =======\n6. The lines to replace into the source code\n7. The end of the replace block: >>>>>>> REPLACE\n8. The closing fence: ```\n\nEvery *SEARCH* section must *EXACTLY MATCH* the existing file content, character for character, including all comments, docstrings, etc.\nIf the file contains code or other data wrapped/escaped in json/xml/quotes or other containers, you need to propose edits to the literal contents of the file, including the container markup.\n\n*SEARCH/REPLACE* blocks will replace *all* matching occurrences.\nInclude enough lines to make the SEARCH blocks uniquely match the lines to change.\n\nKeep *SEARCH/REPLACE* blocks concise.\nBreak large *SEARCH/REPLACE* blocks into a series of smaller blocks that each change a small portion of the file.\nInclude just the changing lines, and a few surrounding lines if needed for uniqueness.\nDo not include long runs of unchanging lines in *SEARCH/REPLACE* blocks.\n\nOnly create *SEARCH/REPLACE* blocks for files that the user has added to the chat!\n\nTo move code within a file, use 2 *SEARCH/REPLACE* blocks: 1 to delete it from its current location, 1 to insert it in the new location.\n\nIf you want to put code in a new file, use a *SEARCH/REPLACE block* with:\n- A new file path, including dir name if needed\n- An empty `SEARCH` section\n- The new file\'s contents in the `REPLACE` section\n\n\nONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n', 'cache_control': {'type': 'ephemeral'}}}, {'role': 'user', 'content': 'I am not sharing any files that you can edit yet.'}, {'role': 'assistant', 'content': {'type': 'text', 'text': 'Ok.', 'cache_control': {'type': 'ephemeral'}}}, {'role': 'user', 'content': "hi\n\n# *SEARCH/REPLACE block* Rules:\n\nEvery *SEARCH/REPLACE block* must use this format:\n1. The file path alone on a line, verbatim. No bold asterisks, no quotes around it, no escaping of characters, etc.\n2. The opening fence and code language, eg: ```python\n3. The start of search block: <<<<<<< SEARCH\n4. A contiguous chunk of lines to search for in the existing source code\n5. The dividing line: =======\n6. The lines to replace into the source code\n7. The end of the replace block: >>>>>>> REPLACE\n8. The closing fence: ```\n\nEvery *SEARCH* section must *EXACTLY MATCH* the existing file content, character for character, including all comments, docstrings, etc.\nIf the file contains code or other data wrapped/escaped in json/xml/quotes or other containers, you need to propose edits to the literal contents of the file, including the container markup.\n\n*SEARCH/REPLACE* blocks will replace *all* matching occurrences.\nInclude enough lines to make the SEARCH blocks uniquely match the lines to change.\n\nKeep *SEARCH/REPLACE* blocks concise.\nBreak large *SEARCH/REPLACE* blocks into a series of smaller blocks that each change a small portion of the file.\nInclude just the changing lines, and a few surrounding lines if needed for uniqueness.\nDo not include long runs of unchanging lines in *SEARCH/REPLACE* blocks.\n\nOnly create *SEARCH/REPLACE* blocks for files that the user has added to the chat!\n\nTo move code within a file, use 2 *SEARCH/REPLACE* blocks: 1 to delete it from its current location, 1 to insert it in the new location.\n\nIf you want to put code in a new file, use a *SEARCH/REPLACE block* with:\n- A new file path, including dir name if needed\n- An empty `SEARCH` section\n- The new file's contents in the `REPLACE` section\n\n\nONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!\n"}]  
 
-# llmcode chat started at 2024-08-17 07:17:00
+# llm code started at 2024-08-17 07:17:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77457,11 +77457,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 
-# llmcode chat started at 2024-08-17 07:17:09
+# llm code started at 2024-08-17 07:17:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache  
 > Llmcode v0.50.2-dev  
@@ -77472,7 +77472,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 
@@ -77492,7 +77492,7 @@ In the meantime, if you have any questions about software development, best prac
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:18:03
+# llm code started at 2024-08-17 07:18:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache  
 > Llmcode v0.50.2-dev  
@@ -77503,7 +77503,7 @@ In the meantime, if you have any questions about software development, best prac
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 >  
@@ -77513,7 +77513,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:18:28
+# llm code started at 2024-08-17 07:18:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77524,11 +77524,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,573 sent, 57 received. Cost: $0.0056 message, $0.0056 session.  
 
-# llmcode chat started at 2024-08-17 07:18:44
+# llm code started at 2024-08-17 07:18:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77539,7 +77539,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Unexpected error: 'CustomStreamWrapper' object has no attribute 'usage'  
 > Traceback (most recent call last):  
@@ -77552,7 +77552,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 > ^^^^^^^^^^^^^^^^  
 > AttributeError: 'CustomStreamWrapper' object has no attribute 'usage'  
 
-# llmcode chat started at 2024-08-17 07:20:07
+# llm code started at 2024-08-17 07:20:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77563,11 +77563,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:20:22
+# llm code started at 2024-08-17 07:20:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77578,11 +77578,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:20:40
+# llm code started at 2024-08-17 07:20:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77593,11 +77593,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:21:41
+# llm code started at 2024-08-17 07:21:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77608,11 +77608,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:21:47
+# llm code started at 2024-08-17 07:21:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77623,11 +77623,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 1,278 cached, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:22:59
+# llm code started at 2024-08-17 07:22:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77638,11 +77638,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:23:06
+# llm code started at 2024-08-17 07:23:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77653,11 +77653,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 1,290 cached, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:37:14
+# llm code started at 2024-08-17 07:37:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -77668,7 +77668,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 1,563 sent, 57 received. Cost: $0.0055 message, $0.0055 session.  
 >  
@@ -77678,7 +77678,7 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-17 07:40:32
+# llm code started at 2024-08-17 07:40:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77689,11 +77689,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 1,290 cached, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 07:40:40
+# llm code started at 2024-08-17 07:40:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -77704,11 +77704,11 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 
 #### hi  
 
-Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un projet en particulier ?
+Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peux éditer. Comment puis-je vous llmcode aujourd'hui ? Avez-vous des questions sur le développement logiciel ou souhaitez-vous discuter d'un project en particulier ?
 
 > Tokens: 492 sent, 1,290 cached, 72 received. Cost: $0.0026 message, $0.0026 session.  
 
-# llmcode chat started at 2024-08-17 08:47:37
+# llm code started at 2024-08-17 08:47:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -77719,10 +77719,10 @@ Bonjour! Je comprends que vous n'avez pas encore partagé de fichiers que je peu
 feat: Add date-based caching for prompts
 refactor: Simplify current date/time formatting in Coder class  
 
-# llmcode chat started at 2024-08-17 08:49:33
+# llm code started at 2024-08-17 08:49:33
 
 
-# llmcode chat started at 2024-08-18 13:03:33
+# llm code started at 2024-08-18 13:03:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -77733,7 +77733,7 @@ refactor: Simplify current date/time formatting in Coder class
 
 #### /map-refresh  
 
-# llmcode chat started at 2024-08-18 13:04:43
+# llm code started at 2024-08-18 13:04:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py llmcode/repomap.py llmcode/coders/base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -77750,7 +77750,7 @@ refactor: Simplify current date/time formatting in Coder class
 
 #### /ex  
 
-# llmcode chat started at 2024-08-18 13:04:57
+# llm code started at 2024-08-18 13:04:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/commands.py llmcode/repomap.py --read llmcode/coders/base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -77930,7 +77930,7 @@ These changes should resolve the TypeError by adding the `force_refresh` paramet
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 13:06:02
+# llm code started at 2024-08-18 13:06:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -79164,7 +79164,7 @@ scripts/versionbump.py:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 13:07:00
+# llm code started at 2024-08-18 13:07:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -79175,7 +79175,7 @@ scripts/versionbump.py:
 
 #### /map-refresh  
 
-# llmcode chat started at 2024-08-18 13:07:18
+# llm code started at 2024-08-18 13:07:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -80410,7 +80410,7 @@ scripts/versionbump.py:
 
 #### /ex  
 
-# llmcode chat started at 2024-08-18 13:07:32
+# llm code started at 2024-08-18 13:07:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -80419,10 +80419,10 @@ scripts/versionbump.py:
 > Repo-map: using 1024 tokens, auto refresh  
 > Commit ded270e feat: Add force_refresh option to get_repo_map method  
 
-# llmcode chat started at 2024-08-18 13:08:26
+# llm code started at 2024-08-18 13:08:26
 
 
-# llmcode chat started at 2024-08-18 13:11:22
+# llm code started at 2024-08-18 13:11:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -80437,7 +80437,7 @@ scripts/versionbump.py:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 13:11:30
+# llm code started at 2024-08-18 13:11:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache  
 > Llmcode v0.50.2-dev  
@@ -80452,7 +80452,7 @@ scripts/versionbump.py:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 13:13:40
+# llm code started at 2024-08-18 13:13:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -80523,7 +80523,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 13:15:51
+# llm code started at 2024-08-18 13:15:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -80538,7 +80538,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 13:16:05
+# llm code started at 2024-08-18 13:16:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache  
 > Llmcode v0.50.2-dev  
@@ -80553,7 +80553,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 13:17:04
+# llm code started at 2024-08-18 13:17:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --exit  
 > Llmcode v0.50.2-dev  
@@ -80562,7 +80562,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 > Repo-map: using 1024 tokens, files refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-18 13:17:13
+# llm code started at 2024-08-18 13:17:13
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -80571,7 +80571,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-18 13:17:22
+# llm code started at 2024-08-18 13:17:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -80580,10 +80580,10 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 > Repo-map: using 1024 tokens, auto refresh  
 > Commit 53db8cf fix: Update model output formatting in base_coder.py  
 
-# llmcode chat started at 2024-08-18 13:18:09
+# llm code started at 2024-08-18 13:18:09
 
 
-# llmcode chat started at 2024-08-18 16:17:09
+# llm code started at 2024-08-18 16:17:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -80592,7 +80592,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-18 16:22:40
+# llm code started at 2024-08-18 16:22:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307  
 > Llmcode v0.50.2-dev  
@@ -80607,7 +80607,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 16:22:46
+# llm code started at 2024-08-18 16:22:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 --cache  
 > Llmcode v0.50.2-dev  
@@ -80622,7 +80622,7 @@ This change adds the ⚡ symbol to the model announcement if both `main_model.ca
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 16:25:32
+# llm code started at 2024-08-18 16:25:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache  
 > Llmcode v0.50.2-dev  
@@ -80655,7 +80655,7 @@ Hola, entiendo que aún no has proporcionado ningún archivo para que pueda suge
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 16:26:02
+# llm code started at 2024-08-18 16:26:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -80663,7 +80663,7 @@ Hola, entiendo que aún no has proporcionado ningún archivo para que pueda suge
 > Git repo: .git with 308 files  
 > Repo-map: disabled  
 
-# llmcode chat started at 2024-08-18 16:26:57
+# llm code started at 2024-08-18 16:26:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md  
 > Llmcode v0.50.2-dev  
@@ -80718,7 +80718,7 @@ Please let me know if you have any files you would like me to review and propose
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 16:27:49
+# llm code started at 2024-08-18 16:27:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md  
 > Llmcode v0.50.2-dev  
@@ -80729,7 +80729,7 @@ Please let me know if you have any files you would like me to review and propose
 
 #### /ex  
 
-# llmcode chat started at 2024-08-18 16:29:14
+# llm code started at 2024-08-18 16:29:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --read README.md  
 > Llmcode v0.50.2-dev  
@@ -80781,7 +80781,7 @@ However, without seeing the contents of these files, I can't be certain about th
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 16:29:53
+# llm code started at 2024-08-18 16:29:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --read README.md --cache  
 > Llmcode v0.50.2-dev  
@@ -80841,11 +80841,11 @@ If you want to explore or modify any particular aspect of the app, please let me
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 16:30:46
+# llm code started at 2024-08-18 16:30:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache  
 
-# llmcode chat started at 2024-08-18 16:31:03
+# llm code started at 2024-08-18 16:31:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream  
 > Llmcode v0.50.2-dev  
@@ -80885,7 +80885,7 @@ To change the greeting to be more casual, I've updated the `greeting()` function
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-18 16:31:48
+# llm code started at 2024-08-18 16:31:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --no-stream  
 > Llmcode v0.50.2-dev  
@@ -80908,7 +80908,7 @@ Entiendo, no has proporcionado ningún archivo aún. Una vez que me envíes los 
 
 #### /ex  
 
-# llmcode chat started at 2024-08-18 16:32:03
+# llm code started at 2024-08-18 16:32:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream  
 > Llmcode v0.50.2-dev  
@@ -80939,7 +80939,7 @@ Bonjour!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 10:17:02
+# llm code started at 2024-08-19 10:17:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-chat  
 > Model openrouter/deepseek/deepseek-chat: Unknown context window size and costs, using sane defaults.  
@@ -80955,7 +80955,7 @@ Bonjour!
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 10:18:02
+# llm code started at 2024-08-19 10:18:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek  
 > Llmcode v0.50.2-dev  
@@ -80966,7 +80966,7 @@ Bonjour!
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 10:20:55
+# llm code started at 2024-08-19 10:20:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder HISTORY.md --dry-run --msg translate it all to french  
 > Llmcode v0.50.2-dev  
@@ -80978,7 +80978,7 @@ Bonjour!
 
 #### translate it all to french  
 
-# llmcode chat started at 2024-08-19 10:21:28
+# llm code started at 2024-08-19 10:21:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder  
 > Llmcode v0.50.2-dev  
@@ -80993,7 +80993,7 @@ Bonjour!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 10:21:44
+# llm code started at 2024-08-19 10:21:44
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -81109,7 +81109,7 @@ Option settings:
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 10:22:27
+# llm code started at 2024-08-19 10:22:27
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -81225,7 +81225,7 @@ Option settings:
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 10:27:58
+# llm code started at 2024-08-19 10:27:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder  
 > Llmcode v0.50.2-dev  
@@ -81244,7 +81244,7 @@ Option settings:
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 10:28:38
+# llm code started at 2024-08-19 10:28:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81253,7 +81253,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:29:42
+# llm code started at 2024-08-19 10:29:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81262,7 +81262,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:32:30
+# llm code started at 2024-08-19 10:32:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81271,7 +81271,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:33:16
+# llm code started at 2024-08-19 10:33:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81280,7 +81280,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:34:03
+# llm code started at 2024-08-19 10:34:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81289,7 +81289,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:34:35
+# llm code started at 2024-08-19 10:34:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81298,7 +81298,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:34:53
+# llm code started at 2024-08-19 10:34:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81307,11 +81307,11 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:35:01
+# llm code started at 2024-08-19 10:35:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 
-# llmcode chat started at 2024-08-19 10:35:15
+# llm code started at 2024-08-19 10:35:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -81320,7 +81320,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:35:17
+# llm code started at 2024-08-19 10:35:17
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -81329,7 +81329,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:36:21
+# llm code started at 2024-08-19 10:36:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --exit  
 > Llmcode v0.50.2-dev  
@@ -81338,7 +81338,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:38:32
+# llm code started at 2024-08-19 10:38:32
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder --exit  
 > Llmcode v0.50.2-dev  
@@ -81347,7 +81347,7 @@ Option settings:
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 10:38:46
+# llm code started at 2024-08-19 10:38:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder HISTORY.md --dry-run --msg translate it all to french  
 > Llmcode v0.50.2-dev  
@@ -81417,7 +81417,7 @@ HISTORY.md
 
 > Tokens: 17,647 sent, 267 received. Cost: $0.0025 message, $0.0025 session.  
 
-# llmcode chat started at 2024-08-19 10:39:14
+# llm code started at 2024-08-19 10:39:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder HISTORY.md --dry-run --msg translate it all to french --edit-format whole  
 > Llmcode v0.50.2-dev  
@@ -81467,7 +81467,7 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de chat avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de toutes les modifications résultant de votre demande, y compris les corrections de lint et de tests.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown scrapé lorsque vous ajoutez une url avec `/web`.
 - Lorsque [scriptant llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes in-chat `/`.
 - L'image docker d'Llmcode suggère maintenant la commande correcte pour mettre à jour vers la dernière version.
@@ -81477,7 +81477,7 @@ HISTORY.md
 - Améliorations des performances pour le calcul de la carte du dépôt.
 - `/tokens` affiche maintenant le modèle actif.
 - Amélioration des options d'attribution des messages de commit :
-  - Nouvelle option `--attribute-commit-message-author` pour préfixer les messages de commit avec 'llmcode: ' si llmcode a rédigé les modifications, remplace `--attribute-commit-message`.
+  - Nouvelle option `--attribute-commit-message-author` pour préfixer les messages de commit avec 'llmcode: ' si llmcode a rédigé les modifications, replace `--attribute-commit-message`.
   - Nouvelle option `--attribute-commit-message-committer` pour préfixer tous les messages de commit avec 'llmcode: '.
 - Llmcode a écrit 61% du code dans cette version.
 
@@ -81487,7 +81487,7 @@ HISTORY.md
 - Contournement d'un bug litellm qui supprime les en-têtes d'application OpenRouter lors de l'utilisation de `extra_headers`.
 - Amélioration de l'indication de progression pendant le traitement de la carte du dépôt.
 - Instructions corrigées pour mettre à jour le conteneur docker à la dernière version d'Llmcode.
-- Suppression de la limite de 16k tokens sur les différences de commit, utilisation des limites par modèle.
+- Suppression de la limit de 16k tokens sur les différences de commit, utilisation des limites par modèle.
 
 ### Llmcode v0.48.0
 
@@ -81548,9 +81548,9 @@ HISTORY.md
 - Empêche Llmcode de demander d'ajouter la même url au chat plusieurs fois.
 - Mises à jour et corrections de `--no-verify-ssl` :
   - Correction de régression qui l'a cassée dans v0.42.0.
-  - Désactive la vérification du certificat SSL lorsque `/web` scrap les sites web.
+  - Désactive la vérification du certificate SSL lorsque `/web` scrap les sites web.
 - Amélioration de la gestion des erreurs et du rapport dans la fonctionnalité de scraping `/web`.
-- Correction d'une erreur de syntaxe dans le fichier scm de tree-sitter pour Elm (par @cjoach).
+- Correction d'une erreur de syntax dans le fichier scm de tree-sitter pour Elm (par @cjoach).
 - Gestion de l'erreur UnicodeEncodeError lors du streaming de texte vers le terminal.
 - Mise à jour des dépendances aux dernières versions.
 - Llmcode a écrit 45% du code dans cette version.
@@ -81573,9 +81573,9 @@ HISTORY.md
 
 - Réduction de la taille d'installation pip par défaut de 3 à 12x.
 - Ajout de 3 extras de package, que Llmcode proposera d'installer si nécessaire :
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Amélioration de l'expression régulière pour détecter les URLs dans les messages de chat utilisateur.
 - Correction de la logique de globbing lorsque des chemins absolus sont inclus dans `/add`.
 - Simplification de la sortie de `--models`.
@@ -81598,7 +81598,7 @@ HISTORY.md
 
 ### Llmcode v0.43.1
 
-- Remplacement de la dépendance torch par la version CPU uniquement, car les versions GPU sont énormes.
+- Replacement de la dépendance torch par la version CPU uniquement, car les versions GPU sont énormes.
 
 ### Llmcode v0.43.0
 
@@ -81641,12 +81641,12 @@ HISTORY.md
 ### Llmcode v0.40.1
 
 - Amélioration de la sensibilité contextuelle de repomap.
-- Restauration de la fonctionnalité `--help` appropriée.
+- Restoration de la fonctionnalité `--help` appropriée.
 
 ### Llmcode v0.40.0
 
 - Amélioration des invites pour décourager Sonnet de gaspiller des tokens en émettant du code inchangé (#705).
-- Amélioration des informations d'erreur pour les erreurs de limite de token.
+- Amélioration des information d'erreur pour les erreurs de limit de token.
 - Options pour supprimer l'ajout de "(llmcode)" aux noms d'auteur et de commettant git.
 - Utilisation de `--model-settings-file` pour personnaliser les paramètres par modèle, comme l'utilisation de repo-map (par @caseymcc).
 - Amélioration de l'invocation du linter flake8 pour le code python.
@@ -81694,14 +81694,14 @@ HISTORY.md
 
 - Ajout de fichiers en lecture seule au contexte de chat avec `/read` et `--read`, y compris en dehors du dépôt git.
 - `/diff` affiche maintenant les différences de toutes les modifications résultant de votre demande, y compris les corrections de lint et de tests.
-- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, remplace `/add-clipboard-image`.
+- Nouvelle commande `/clipboard` pour coller des images ou du texte depuis le presse-papiers, replace `/add-clipboard-image`.
 - Affiche maintenant le markdown scrapé lorsque vous ajoutez une url avec `/web`.
 - Lorsque [scriptant llmcode](https://llm.khulnasoft.com/docs/scripting.html), les messages peuvent maintenant contenir des commandes in-chat `/`.
 - L'image docker d'A
 
 > Tokens: 36,594 sent, 3,857 received. Cost: $0.0062 message, $0.0062 session.  
 
-# llmcode chat started at 2024-08-19 11:53:27
+# llm code started at 2024-08-19 11:53:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --subtree  
 > Llmcode v0.50.2-dev  
@@ -81718,7 +81718,7 @@ HISTORY.md
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 11:54:53
+# llm code started at 2024-08-19 11:54:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini -m hi  
 > Llmcode v0.50.2-dev  
@@ -81733,7 +81733,7 @@ Hello! How can I assist you today? If you have any requests or need help with co
 
 > Tokens: 638 sent, 25 received. Cost: $0.00011 message, $0.00011 session.  
 
-# llmcode chat started at 2024-08-19 11:55:01
+# llm code started at 2024-08-19 11:55:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini -m /ask hi  
 > Llmcode v0.50.2-dev  
@@ -81750,7 +81750,7 @@ Hello! How can I assist you today?
 
 > Tokens: 63 sent, 9 received. Cost: $0.000015 message, $0.000015 session.  
 
-# llmcode chat started at 2024-08-19 11:55:39
+# llm code started at 2024-08-19 11:55:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/main.py  
 > Llmcode v0.50.2-dev  
@@ -81871,10 +81871,10 @@ This change wraps the `coder.run(with_message=args.message)` call in a try-excep
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 11:57:17
+# llm code started at 2024-08-19 11:57:17
 
 
-# llmcode chat started at 2024-08-19 12:08:59
+# llm code started at 2024-08-19 12:08:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -81883,7 +81883,7 @@ This change wraps the `coder.run(with_message=args.message)` call in a try-excep
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 12:09:04
+# llm code started at 2024-08-19 12:09:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache  
 > Llmcode v0.50.2-dev  
@@ -81892,10 +81892,10 @@ This change wraps the `coder.run(with_message=args.message)` call in a try-excep
 > Repo-map: using 1024 tokens, files refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 12:12:14
+# llm code started at 2024-08-19 12:12:14
 
 
-# llmcode chat started at 2024-08-19 12:36:38
+# llm code started at 2024-08-19 12:36:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode README.md HISTORY.md  
 > Llmcode v0.50.2-dev  
@@ -81921,7 +81921,7 @@ This change wraps the `coder.run(with_message=args.message)` call in a try-excep
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 12:47:47
+# llm code started at 2024-08-19 12:47:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream  
 > Llmcode v0.50.2-dev  
@@ -81942,7 +81942,7 @@ Bonjour!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 12:48:16
+# llm code started at 2024-08-19 12:48:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -81957,7 +81957,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cached, 7 received. Cost: $0.000057 message, $0.000057 session.  
 
-# llmcode chat started at 2024-08-19 12:48:21
+# llm code started at 2024-08-19 12:48:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -81972,7 +81972,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cached, 7 received. Cost: $0.000057 message, $0.000057 session.  
 
-# llmcode chat started at 2024-08-19 12:48:42
+# llm code started at 2024-08-19 12:48:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi --show-prompt  
 > Llmcode v0.50.2-dev  
@@ -81980,7 +81980,7 @@ Bonjour!
 > Git repo: .git with 308 files  
 > Repo-map: disabled  
 
-# llmcode chat started at 2024-08-19 12:53:26
+# llm code started at 2024-08-19 12:53:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/utils.py  
 > Llmcode v0.50.2-dev  
@@ -82018,7 +82018,7 @@ def format_messages(messages, title=None):
 
 > Tokens: 4,537 sent, 180 received. Cost: $0.02 message, $0.02 session.  
 
-# llmcode chat started at 2024-08-19 12:53:59
+# llm code started at 2024-08-19 12:53:59
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -82136,7 +82136,7 @@ Bonjour!
 
 > Tokens: 194 sent, 7 received. Cost: $0.000057 message, $0.000057 session.  
 
-# llmcode chat started at 2024-08-19 12:54:44
+# llm code started at 2024-08-19 12:54:44
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -82254,11 +82254,11 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cached, 7 received. Cost: $0.000057 message, $0.000057 session.  
 
-# llmcode chat started at 2024-08-19 12:59:53
+# llm code started at 2024-08-19 12:59:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307  
 
-# llmcode chat started at 2024-08-19 12:59:56
+# llm code started at 2024-08-19 12:59:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307  
 > Llmcode v0.50.2-dev  
@@ -82273,7 +82273,7 @@ Bonjour!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 13:00:31
+# llm code started at 2024-08-19 13:00:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --exit  
 > Llmcode v0.50.2-dev  
@@ -82282,7 +82282,7 @@ Bonjour!
 > Repo-map: disabled  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 13:00:39
+# llm code started at 2024-08-19 13:00:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --exit --cache  
 > Llmcode v0.50.2-dev  
@@ -82291,7 +82291,7 @@ Bonjour!
 > Repo-map: disabled  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 13:00:54
+# llm code started at 2024-08-19 13:00:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --4o --cache  
 > Model does not support prompt caching.  
@@ -82303,7 +82303,7 @@ Bonjour!
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 13:04:14
+# llm code started at 2024-08-19 13:04:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache  
 > Llmcode v0.50.2-dev  
@@ -82333,7 +82333,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 13:04:47
+# llm code started at 2024-08-19 13:04:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache  
 > Llmcode v0.50.2-dev  
@@ -82348,7 +82348,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 
 > Tokens: 529 sent, 90 received, cache costs not included. Cost: $0.00024 message, $0.00024 session.  
 
-# llmcode chat started at 2024-08-19 13:05:36
+# llm code started at 2024-08-19 13:05:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82363,11 +82363,11 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 
 > Tokens: 529 sent, 90 received. Cost: $0.00024 message, $0.00024 session, cache costs not included.  
 
-# llmcode chat started at 2024-08-19 13:05:44
+# llm code started at 2024-08-19 13:05:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi  
 
-# llmcode chat started at 2024-08-19 13:05:55
+# llm code started at 2024-08-19 13:05:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82382,7 +82382,7 @@ Bonjour!
 
 > Tokens: 194 sent, 7 received. Cost: $0.000057 message, $0.000057 session, cache costs not included.  
 
-# llmcode chat started at 2024-08-19 13:10:09
+# llm code started at 2024-08-19 13:10:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82397,11 +82397,11 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cached, 7 received. Cost: $0.000057 message, $0.000057 session, cache costs not included.  
 
-# llmcode chat started at 2024-08-19 13:10:42
+# llm code started at 2024-08-19 13:10:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 
-# llmcode chat started at 2024-08-19 13:10:53
+# llm code started at 2024-08-19 13:10:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82416,7 +82416,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cached, 7 received. Cost: $0.000057 message, $0.000057 session, cache costs not included.  
 
-# llmcode chat started at 2024-08-19 13:11:02
+# llm code started at 2024-08-19 13:11:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -82426,7 +82426,7 @@ Bonjour!
 > Repo-map: using 1024 tokens, auto refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 13:11:10
+# llm code started at 2024-08-19 13:11:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --4o  
 > Llmcode v0.50.2-dev  
@@ -82442,7 +82442,7 @@ Bonjour!
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 13:11:23
+# llm code started at 2024-08-19 13:11:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache  
 > Llmcode v0.50.2-dev  
@@ -82452,7 +82452,7 @@ Bonjour!
 > Repo-map: using 1024 tokens, files refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-19 13:11:55
+# llm code started at 2024-08-19 13:11:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82467,7 +82467,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cached, 7 received. Cost: $0.000057 message, $0.000057 session, cache costs not included.  
 
-# llmcode chat started at 2024-08-19 13:12:19
+# llm code started at 2024-08-19 13:12:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82482,7 +82482,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cached, 7 received. Cost: $0.000057 message, $0.000057 session, cache costs not available.  
 
-# llmcode chat started at 2024-08-19 13:19:08
+# llm code started at 2024-08-19 13:19:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --cache --read HISTORY.md --no-stream --msg hi  
 > Prompt caching not supported for deepseek/deepseek-coder.  
@@ -82498,7 +82498,7 @@ Bonjour!
 > ^C again to exit  
 > Tokens: 17,681 sent, 0 received. Cost: $0.0025 message, $0.0025 session.  
 
-# llmcode chat started at 2024-08-19 13:19:19
+# llm code started at 2024-08-19 13:19:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --cache --read HISTORY.md --no-stream --msg hi  
 > Prompt caching not supported for deepseek/deepseek-coder.  
@@ -82514,7 +82514,7 @@ Hello! How can I assist you today?
 
 > Tokens: 21,539 sent, 320 cached, 9 received. Cost: $0.0030 message, $0.0030 session.  
 
-# llmcode chat started at 2024-08-19 13:20:42
+# llm code started at 2024-08-19 13:20:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek  
 > Llmcode v0.50.2-dev  
@@ -82535,7 +82535,7 @@ Hello! How can I assist you today?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 13:20:53
+# llm code started at 2024-08-19 13:20:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --cache  
 > Prompt caching not supported for deepseek/deepseek-coder.  
@@ -82557,7 +82557,7 @@ Hello! How can I assist you today?
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 13:21:03
+# llm code started at 2024-08-19 13:21:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --cache --read HISTORY.md --no-stream --msg hi  
 > Prompt caching not supported for deepseek/deepseek-coder.  
@@ -82573,7 +82573,7 @@ It seems like your request was not specific enough for me to determine which fil
 
 > Tokens: 21,580 sent, 320 cached, 36 received. Cost: $0.0030 message, $0.0030 session.  
 
-# llmcode chat started at 2024-08-19 13:21:36
+# llm code started at 2024-08-19 13:21:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek  
 > Llmcode v0.50.2-dev  
@@ -82584,7 +82584,7 @@ It seems like your request was not specific enough for me to determine which fil
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 13:21:42
+# llm code started at 2024-08-19 13:21:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --cache  
 > Prompt caching not supported for deepseek/deepseek-coder.  
@@ -82600,7 +82600,7 @@ It seems like your request was not specific enough for me to determine which fil
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 13:21:56
+# llm code started at 2024-08-19 13:21:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --cache --read HISTORY.md --no-stream --msg hi  
 > Prompt caching not supported for deepseek/deepseek-coder.  
@@ -82616,7 +82616,7 @@ Hello! How can I assist you today?
 
 > Tokens: 21,533 sent, 320 cached, 9 received. Cost: $0.0030 message, $0.0030 session.  
 
-# llmcode chat started at 2024-08-19 13:22:16
+# llm code started at 2024-08-19 13:22:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --cache --read HISTORY.md --no-stream --msg hi  
 > Prompt caching not supported for deepseek/deepseek-coder.  
@@ -82632,7 +82632,7 @@ Hello! How can I assist you today?
 
 > Tokens: 21,430 sent, 320 cached, 9 received. Cost: $0.0030 message, $0.0030 session.  
 
-# llmcode chat started at 2024-08-19 13:22:55
+# llm code started at 2024-08-19 13:22:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82647,7 +82647,7 @@ Hello! How can I assist you today?
 
 > Tokens: 21,457 sent, 320 cached, 9 received. Cost: $0.0030 message, $0.0030 session.  
 
-# llmcode chat started at 2024-08-19 13:34:49
+# llm code started at 2024-08-19 13:34:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -82657,7 +82657,7 @@ Hello! How can I assist you today?
 > Repo-map: using 1024 tokens, auto refresh  
 > Commit b200bde fix: Add cache headers for prompts when using a model with cache control  
 
-# llmcode chat started at 2024-08-19 13:35:52
+# llm code started at 2024-08-19 13:35:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82672,7 +82672,7 @@ Hello! How can I assist you today?
 
 > Tokens: 21,530 sent, 320 cached, 9 received. Cost: $0.0030 message, $0.0030 session.  
 
-# llmcode chat started at 2024-08-19 13:36:49
+# llm code started at 2024-08-19 13:36:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82687,7 +82687,7 @@ Bonjour!
 
 > Tokens: 194 sent, 7 received. Cost: $0.000057 message, $0.000057 session.  
 
-# llmcode chat started at 2024-08-19 13:42:16
+# llm code started at 2024-08-19 13:42:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82702,7 +82702,7 @@ Hello! How can I assist you today?
 
 > Tokens: 17,761 sent, 9 received. Cost: $0.0025 message, $0.0025 session.  
 
-# llmcode chat started at 2024-08-19 13:46:38
+# llm code started at 2024-08-19 13:46:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82717,7 +82717,7 @@ Hello! How can I assist you today?
 
 > Tokens: 17,773 sent, 9 received. Cost: $0.0025 message, $0.0025 session.  
 
-# llmcode chat started at 2024-08-19 13:46:54
+# llm code started at 2024-08-19 13:46:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -82732,7 +82732,7 @@ Hello! How can I assist you today?
 
 > Tokens: 21,523 sent, 13,952 cache hit, 9 received. Cost: $0.0030 message, $0.0030 session.  
 
-# llmcode chat started at 2024-08-19 13:54:38
+# llm code started at 2024-08-19 13:54:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82747,7 +82747,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cache write, 7 received. Cost: $0.0000088 message, $0.0000088 session.  
 
-# llmcode chat started at 2024-08-19 13:55:09
+# llm code started at 2024-08-19 13:55:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82762,7 +82762,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cache hit, 7 received. Cost: $0.00029 message, $0.00029 session.  
 
-# llmcode chat started at 2024-08-19 13:56:45
+# llm code started at 2024-08-19 13:56:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read HISTORY.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82777,7 +82777,7 @@ Bonjour!
 
 > Tokens: 194 sent, 9,474 cache hit, 7 received. Cost: $0.00029 message, $0.00029 session.  
 
-# llmcode chat started at 2024-08-19 13:56:57
+# llm code started at 2024-08-19 13:56:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82792,7 +82792,7 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui ?
 
 > Tokens: 202 sent, 2,728 cache write, 18 received. Cost: $0.00093 message, $0.00093 session.  
 
-# llmcode chat started at 2024-08-19 13:57:03
+# llm code started at 2024-08-19 13:57:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82807,7 +82807,7 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui ?
 
 > Tokens: 202 sent, 2,728 cache hit, 18 received. Cost: $0.00014 message, $0.00014 session.  
 
-# llmcode chat started at 2024-08-19 13:59:18
+# llm code started at 2024-08-19 13:59:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82822,7 +82822,7 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui ?
 
 > Tokens: 202 sent, 2,728 cache hit, 18 received. Cost: $0.00014 message, $0.00014 session.  
 
-# llmcode chat started at 2024-08-19 14:03:19
+# llm code started at 2024-08-19 14:03:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cach  
 > Llmcode v0.50.2-dev  
@@ -82843,7 +82843,7 @@ Costs do not reflect caching, use --no-stream
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 14:03:30
+# llm code started at 2024-08-19 14:03:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82860,7 +82860,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 Cost: $0.00024 message, $0.00024 session.
 Costs do not reflect caching, use --no-stream  
 
-# llmcode chat started at 2024-08-19 14:04:09
+# llm code started at 2024-08-19 14:04:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82876,7 +82876,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 > Tokens: 529 sent, 90 received.
 Cost: $0.00024 message, $0.00024 session.Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-19 14:04:54
+# llm code started at 2024-08-19 14:04:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -82900,7 +82900,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 > ^^^^^^^^^^^^^^^^^  
 > NameError: name 'cache_miss_tokens' is not defined. Did you mean: 'cache_hit_tokens'?  
 
-# llmcode chat started at 2024-08-19 14:05:07
+# llm code started at 2024-08-19 14:05:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -82915,7 +82915,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 
 > Tokens: 581 sent, 111 received. Cost: $0.00028 message, $0.00028 session.  
 
-# llmcode chat started at 2024-08-19 14:05:21
+# llm code started at 2024-08-19 14:05:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -82931,7 +82931,7 @@ Hello! How can I assist you today?
 > Tokens: 23,172 sent, 10,496 cache hit, 9 received.
 Cost: $0.0034 message, $0.0034 session.  
 
-# llmcode chat started at 2024-08-19 14:05:41
+# llm code started at 2024-08-19 14:05:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -82946,7 +82946,7 @@ Hello! How can I assist you today?
 
 > Tokens: 23,142 sent, 10,496 cache hit, 9 received. Cost: $0.0034 message, $0.0034 session.  
 
-# llmcode chat started at 2024-08-19 14:06:09
+# llm code started at 2024-08-19 14:06:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --msg hi  
 > Llmcode v0.50.2-dev  
@@ -82961,7 +82961,7 @@ Hello! How can I assist you today?
 
 > Tokens: 17,737 sent, 9 received. Cost: $0.0025 message, $0.0025 session.  
 
-# llmcode chat started at 2024-08-19 14:08:35
+# llm code started at 2024-08-19 14:08:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek --read HISTORY.md --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -82976,7 +82976,7 @@ Hello! How can I assist you today?
 
 > Tokens: 23,125 sent, 10,496 cache hit, 9 received. Cost: $0.0034 message, $0.0034 session.  
 
-# llmcode chat started at 2024-08-19 14:09:03
+# llm code started at 2024-08-19 14:09:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -82991,7 +82991,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 
 > Tokens: 581 sent, 111 received. Cost: $0.00028 message, $0.00028 session.  
 
-# llmcode chat started at 2024-08-19 14:17:27
+# llm code started at 2024-08-19 14:17:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --msg hi --no-stream  
 > Llmcode v0.50.2-dev  
@@ -83006,7 +83006,7 @@ Hola! Puedo ayudarte con los cambios que necesites en el código, pero primero n
 
 > Tokens: 581 sent, 111 received. Cost: $0.00028 message, $0.00028 session.  
 
-# llmcode chat started at 2024-08-19 14:17:35
+# llm code started at 2024-08-19 14:17:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -83021,7 +83021,7 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui ?
 
 > Tokens: 202 sent, 2,728 cache write, 18 received. Cost: $0.00093 message, $0.00093 session.  
 
-# llmcode chat started at 2024-08-19 14:18:01
+# llm code started at 2024-08-19 14:18:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -83045,7 +83045,7 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui ?
 > ^^^^^^^^^^^^^^^^^  
 > NameError: name 'cache_miss_tokens' is not defined. Did you mean: 'cache_hit_tokens'?  
 
-# llmcode chat started at 2024-08-19 14:18:11
+# llm code started at 2024-08-19 14:18:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -83060,10 +83060,10 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui ?
 
 > Tokens: 2,930 sent, 2,728 cache hit, 18 received. Cost: $0.00014 message, $0.00014 session.  
 
-# llmcode chat started at 2024-08-19 14:24:16
+# llm code started at 2024-08-19 14:24:16
 
 
-# llmcode chat started at 2024-08-19 21:31:09
+# llm code started at 2024-08-19 21:31:09
 
 > /venv/bin/llmcode --mini  
 > Llmcode v0.50.2-dev  
@@ -83093,7 +83093,7 @@ See https://llm.khulnasoft.com/docs/install/optional.html#enable-playwright for 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 21:41:34
+# llm code started at 2024-08-19 21:41:34
 
 > /venv/bin/llmcode --mini  
 > Llmcode v0.50.2-dev  
@@ -83108,26 +83108,10 @@ See https://llm.khulnasoft.com/docs/install/optional.html#enable-playwright for 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 14:55:36
+# llm code started at 2024-08-19 14:55:36
 
 
-# llmcode chat started at 2024-08-19 21:55:37
-
-> /venv/bin/llmcode  
-> Llmcode v0.50.2-dev  
-> Main model: claude-3-5-sonnet-20240620 with diff edit format, infinite output  
-> Weak model: claude-3-haiku-20240307  
-> Git repo: .git with 308 files  
-> Repo-map: using 1024 tokens, auto refresh  
-> Use /help <question> for help, run "llmcode --help" to see cmd line args  
->  
->  
-> ^C again to exit  
->  
->  
-> ^C KeyboardInterrupt  
-
-# llmcode chat started at 2024-08-19 21:55:48
+# llm code started at 2024-08-19 21:55:37
 
 > /venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -83143,7 +83127,23 @@ See https://llm.khulnasoft.com/docs/install/optional.html#enable-playwright for 
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 21:55:54
+# llm code started at 2024-08-19 21:55:48
+
+> /venv/bin/llmcode  
+> Llmcode v0.50.2-dev  
+> Main model: claude-3-5-sonnet-20240620 with diff edit format, infinite output  
+> Weak model: claude-3-haiku-20240307  
+> Git repo: .git with 308 files  
+> Repo-map: using 1024 tokens, auto refresh  
+> Use /help <question> for help, run "llmcode --help" to see cmd line args  
+>  
+>  
+> ^C again to exit  
+>  
+>  
+> ^C KeyboardInterrupt  
+
+# llm code started at 2024-08-19 21:55:54
 
 > /venv/bin/llmcode --mini  
 > Llmcode v0.50.2-dev  
@@ -83156,7 +83156,7 @@ See https://llm.khulnasoft.com/docs/install/optional.html#enable-playwright for 
 > Scraping https://llm.khulnasoft.com...  
 > For the best web scraping, install Playwright:
 
-/venv/bin/python -m pip install llmcode-chat[playwright]
+/venv/bin/python -m pip install llmcode[playwright]
 /venv/bin/python -m playwright install --with-deps chromium
 
 See https://llm.khulnasoft.com/docs/install/optional.html#enable-playwright for more info.  
@@ -83176,7 +83176,7 @@ It seems you have shared a webpage content instead of code files. Please provide
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 22:02:27
+# llm code started at 2024-08-19 22:02:27
 
 > /venv/bin/llmcode --mini  
 > Llmcode v0.50.2-dev  
@@ -83199,7 +83199,7 @@ It seems you have shared a link and some content, but I don't see any specific c
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 15:23:30
+# llm code started at 2024-08-19 15:23:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.50.2-dev  
@@ -83238,7 +83238,7 @@ It seems you have shared a link and some content, but I don't see any specific c
 > /web         Scrape a webpage, convert to markdown and add to the chat  
 > Use `/help <question>` to ask questions about how to use llmcode.  
 
-# llmcode chat started at 2024-08-19 15:30:56
+# llm code started at 2024-08-19 15:30:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_main.py  
 > Llmcode v0.50.2-dev  
@@ -83847,7 +83847,7 @@ This approach is more flexible and will allow the test to pass even if additiona
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 15:35:49
+# llm code started at 2024-08-19 15:35:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -83993,7 +83993,7 @@ This change removes the `as temp_dir` part from the `GitTemporaryDirectory()` co
 > Commit a42de79 fix: Remove unused variable `temp_dir` in `test_sonnet_and_cache_options`  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-19 15:36:51
+# llm code started at 2024-08-19 15:36:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_repomap.py llmcode/repomap.py  
 > Llmcode v0.50.2-dev  
@@ -84011,7 +84011,7 @@ This change removes the `as temp_dir` part from the `GitTemporaryDirectory()` co
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 15:37:01
+# llm code started at 2024-08-19 15:37:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_repomap.py --read llmcode/repomap.py  
 > Llmcode v0.50.2-dev  
@@ -84406,7 +84406,7 @@ These changes replace the use of `IgnorantTemporaryDirectory` with `GitTemporary
 
 #### /ex  
 
-# llmcode chat started at 2024-08-19 15:49:14
+# llm code started at 2024-08-19 15:49:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/repomap.py  
 > Llmcode v0.50.2-dev  
@@ -84507,7 +84507,7 @@ These modifications ensure that the cache is invalidated when the file is modifi
 > Applied edit to llmcode/repomap.py  
 > Commit 884ee53 feat: Add file modification time to cache key for render_tree  
 
-# llmcode chat started at 2024-08-19 15:49:46
+# llm code started at 2024-08-19 15:49:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_repomap.py --read llmcode/repomap.py  
 > Llmcode v0.50.2-dev  
@@ -84526,7 +84526,7 @@ These modifications ensure that the cache is invalidated when the file is modifi
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 15:50:02
+# llm code started at 2024-08-19 15:50:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -84536,7 +84536,7 @@ These modifications ensure that the cache is invalidated when the file is modifi
 > Repo-map: using 1024 tokens, auto refresh  
 > Commit d875e7e feat: Add a new source file and update the RepoMap test  
 
-# llmcode chat started at 2024-08-19 15:50:43
+# llm code started at 2024-08-19 15:50:43
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_repomap.py --read llmcode/repomap.py  
 > Llmcode v0.50.2-dev  
@@ -84938,7 +84938,7 @@ These changes align the test case with the approach of using only `other_files`,
 #### /diff  
 > Diff since 1f29186...  
 
-# llmcode chat started at 2024-08-19 15:56:06
+# llm code started at 2024-08-19 15:56:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -84954,10 +84954,10 @@ These changes align the test case with the approach of using only `other_files`,
 > ^C KeyboardInterrupt  
 > Commit e7fdce0 fix: Update test_repomap.py to ensure RepoMap does not change with refresh='files'  
 
-# llmcode chat started at 2024-08-19 15:59:48
+# llm code started at 2024-08-19 15:59:48
 
 
-# llmcode chat started at 2024-08-19 16:00:07
+# llm code started at 2024-08-19 16:00:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_commands.py  
 > Llmcode v0.50.2-dev  
@@ -85191,7 +85191,7 @@ I apologize for the confusion. You're right, and I made a mistake in my previous
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 16:00:59
+# llm code started at 2024-08-19 16:00:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_commands.py  
 > Llmcode v0.50.2-dev  
@@ -85208,7 +85208,7 @@ I apologize for the confusion. You're right, and I made a mistake in my previous
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 16:01:12
+# llm code started at 2024-08-19 16:01:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -85218,10 +85218,10 @@ I apologize for the confusion. You're right, and I made a mistake in my previous
 > Repo-map: using 1024 tokens, auto refresh  
 > Commit f9471fc fix: Rename cmd_read to cmd_read_only  
 
-# llmcode chat started at 2024-08-19 16:02:03
+# llm code started at 2024-08-19 16:02:03
 
 
-# llmcode chat started at 2024-08-19 16:03:38
+# llm code started at 2024-08-19 16:03:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_coder.py --read llmcode/coders/base_coder.py  
 > Llmcode v0.50.2-dev  
@@ -85396,7 +85396,7 @@ Cost: $0.07 message, $0.20 session. Use --no-stream for accurate caching costs.
 > Commit 621f91c feat: Add test case for --4o and --cache options  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-19 16:07:34
+# llm code started at 2024-08-19 16:07:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.50.2-dev  
@@ -85412,10 +85412,10 @@ Cost: $0.07 message, $0.20 session. Use --no-stream for accurate caching costs.
 > ^C KeyboardInterrupt  
 > Commit ad93265 fix: Remove unnecessary assertion in test_main.py  
 
-# llmcode chat started at 2024-08-19 16:08:53
+# llm code started at 2024-08-19 16:08:53
 
 
-# llmcode chat started at 2024-08-19 16:20:02
+# llm code started at 2024-08-19 16:20:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini  
 > Llmcode v0.50.2-dev  
@@ -85475,7 +85475,7 @@ pip install --upgrade pandas
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 16:20:52
+# llm code started at 2024-08-19 16:20:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --mini --edit-format diff  
 > Llmcode v0.50.2-dev  
@@ -85505,7 +85505,7 @@ This command will download and install the pandas library along with its depende
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 16:21:00
+# llm code started at 2024-08-19 16:21:00
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -85662,7 +85662,7 @@ If you need further assistance or have any specific requirements, feel free to a
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-19 16:22:04
+# llm code started at 2024-08-19 16:22:04
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -85813,7 +85813,7 @@ If you need further assistance or have any specific requirements regarding the i
 
 > Tokens: 1,686 sent, 91 received. Cost: $0.00031 message, $0.00031 session.  
 
-# llmcode chat started at 2024-08-19 16:22:36
+# llm code started at 2024-08-19 16:22:36
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -85964,7 +85964,7 @@ If you need further assistance or have any specific requirements, feel free to a
 
 > Tokens: 1,686 sent, 88 received. Cost: $0.00031 message, $0.00031 session.  
 
-# llmcode chat started at 2024-08-19 16:22:58
+# llm code started at 2024-08-19 16:22:58
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -86109,13 +86109,13 @@ To install pandas, you can use pip, which is the package installer for Python. S
 > Tokens: 1,567 sent, 34 received.
 Cost: $0.0052 message, $0.0052 session. Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-19 20:45:36
+# llm code started at 2024-08-19 20:45:36
 
 
-# llmcode chat started at 2024-08-20 07:58:30
+# llm code started at 2024-08-20 07:58:30
 
 
-# llmcode chat started at 2024-08-20 07:59:50
+# llm code started at 2024-08-20 07:59:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream --msg hi  
 > Llmcode v0.50.2-dev  
@@ -86130,7 +86130,7 @@ Bonjour! Comment puis-je vous llmcode aujourd'hui ?
 
 > Tokens: 2,930 sent, 2,728 cache write, 18 received. Cost: $0.00093 message, $0.00093 session.  
 
-# llmcode chat started at 2024-08-20 08:00:34
+# llm code started at 2024-08-20 08:00:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model anthropic/claude-3-haiku-20240307 --cache --read README.md --no-stream  
 > Llmcode v0.50.2-dev  
@@ -86151,7 +86151,7 @@ Llmcode is an AI pair programming assistant that allows you to edit code in your
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 08:06:14
+# llm code started at 2024-08-20 08:06:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/utils.py  
 > Llmcode v0.50.2-dev  
@@ -86193,13 +86193,13 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 08:07:18
+# llm code started at 2024-08-20 08:07:18
 
 
-# llmcode chat started at 2024-08-20 08:11:21
+# llm code started at 2024-08-20 08:11:21
 
 
-# llmcode chat started at 2024-08-20 08:18:08
+# llm code started at 2024-08-20 08:18:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/utils.py  
 > Llmcode v0.50.2-dev  
@@ -86283,16 +86283,16 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 08:20:01
+# llm code started at 2024-08-20 08:20:01
 
 
-# llmcode chat started at 2024-08-20 08:50:41
+# llm code started at 2024-08-20 08:50:41
 
 
-# llmcode chat started at 2024-08-20 08:51:38
+# llm code started at 2024-08-20 08:51:38
 
 
-# llmcode chat started at 2024-08-20 08:52:30
+# llm code started at 2024-08-20 08:52:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache  
 > Llmcode v0.51.1-dev  
@@ -86304,7 +86304,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### hi  
 
-# llmcode chat started at 2024-08-20 08:52:43
+# llm code started at 2024-08-20 08:52:43
 
 >  
 >  
@@ -86315,7 +86315,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 08:52:49
+# llm code started at 2024-08-20 08:52:49
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache  
 > Llmcode v0.51.1-dev  
@@ -86350,7 +86350,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 08:53:23
+# llm code started at 2024-08-20 08:53:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --no-stream  
 > Llmcode v0.51.1-dev  
@@ -86381,7 +86381,7 @@ Cost: $0.05 message, $0.05 session.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 08:53:54
+# llm code started at 2024-08-20 08:53:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --no-stream  
 > Llmcode v0.51.1-dev  
@@ -86397,7 +86397,7 @@ Cost: $0.05 message, $0.05 session.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 08:54:18
+# llm code started at 2024-08-20 08:54:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --no-stream --edit-format ask  
 > Llmcode v0.51.1-dev  
@@ -86425,10 +86425,10 @@ This repository contains the source code for "llmcode", an AI-powered coding ass
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 09:18:16
+# llm code started at 2024-08-20 09:18:16
 
 
-# llmcode chat started at 2024-08-20 09:22:06
+# llm code started at 2024-08-20 09:22:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --no-stream --edit-format ask  
 > Llmcode v0.51.1-dev  
@@ -86456,7 +86456,7 @@ The repository appears to be primarily written in Python, as evidenced by the nu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 09:24:09
+# llm code started at 2024-08-20 09:24:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --no-stream --edit-format ask --map-tokens 128  
 > Llmcode v0.51.1-dev  
@@ -86484,7 +86484,7 @@ The repository appears to be primarily written in Python, as evidenced by the nu
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 09:34:31
+# llm code started at 2024-08-20 09:34:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.1-dev  
@@ -86620,7 +86620,7 @@ Cost: $0.05 message, $0.10 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 09:36:29
+# llm code started at 2024-08-20 09:36:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --no-stream --edit-format ask --map-tokens 128  
 > Llmcode v0.51.1-dev  
@@ -86636,7 +86636,7 @@ Based on the file structure and names, this appears to be a repository for a too
 
 > Tokens: 1.6k sent, 1.6k cache write, 51 received. Cost: $0.0069 message, $0.0069 session.  
 
-# llmcode chat started at 2024-08-20 09:36:53
+# llm code started at 2024-08-20 09:36:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.1-dev  
@@ -86738,7 +86738,7 @@ Cost: $0.05 message, $0.10 session. Use --no-stream for accurate caching costs.
 > Commit 455487e fix: Round token counts properly for large numbers  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-20 09:38:26
+# llm code started at 2024-08-20 09:38:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --cache --no-stream --edit-format ask --map-tokens 128  
 > Llmcode v0.51.1-dev  
@@ -86756,7 +86756,7 @@ Based on the file structure and names, this appears to be a repository for a too
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 09:41:45
+# llm code started at 2024-08-20 09:41:45
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -86897,7 +86897,7 @@ To install pandas, you can use pip, which is the package installer for Python. S
 > Tokens: 1.6k sent, 34 received.
 Cost: $0.0052 message, $0.0052 session. Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-20 09:42:51
+# llm code started at 2024-08-20 09:42:51
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -87038,7 +87038,7 @@ To install pandas, you can use pip, which is the package installer for Python. S
 > Tokens: 1.6k sent, 34 received.
 Cost: $0.0052 message, $0.0052 session. Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-20 09:43:13
+# llm code started at 2024-08-20 09:43:13
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -87178,7 +87178,7 @@ To install pandas, you can use pip, which is the package installer for Python. S
 
 > Tokens: 2.3k sent, 1.8k cache hit, 91 received. Cost: $0.0034 message, $0.0034 session.  
 
-# llmcode chat started at 2024-08-20 09:44:09
+# llm code started at 2024-08-20 09:44:09
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -87328,7 +87328,7 @@ To proceed, please add the llmcode/commands.py file to the chat so we can examin
 Cost: $0.05 message, $0.05 session.  
 > llmcode/commands.py  
 
-# llmcode chat started at 2024-08-20 09:44:49
+# llm code started at 2024-08-20 09:44:49
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -87498,7 +87498,7 @@ Remember to ensure that you have all the necessary dependencies installed (like 
 
 > Tokens: 11k sent, 11k cache write, 281 received. Cost: $0.05 message, $0.05 session.  
 
-# llmcode chat started at 2024-08-20 09:47:23
+# llm code started at 2024-08-20 09:47:23
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -87668,7 +87668,7 @@ Would you like me to add a command to run the tests directly from the `test_code
 
 > Tokens: 11k sent, 11k cache write, 283 received. Cost: $0.05 message, $0.05 session.  
 
-# llmcode chat started at 2024-08-20 09:47:47
+# llm code started at 2024-08-20 09:47:47
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -87838,7 +87838,7 @@ Here's a shell command you can use to install pandas:
 
 > Tokens: 2.3k sent, 1.8k cache write, 268 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:48:53
+# llm code started at 2024-08-20 09:48:53
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -87985,7 +87985,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.3k sent, 1.8k cache write, 129 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:53:15
+# llm code started at 2024-08-20 09:53:15
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -88132,7 +88132,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 129 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:54:07
+# llm code started at 2024-08-20 09:54:07
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -88279,7 +88279,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 135 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:55:10
+# llm code started at 2024-08-20 09:55:10
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -88426,7 +88426,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 129 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:56:04
+# llm code started at 2024-08-20 09:56:04
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -88573,7 +88573,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 129 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:56:54
+# llm code started at 2024-08-20 09:56:54
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -88720,7 +88720,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 129 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:58:41
+# llm code started at 2024-08-20 09:58:41
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -88867,7 +88867,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 129 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:58:59
+# llm code started at 2024-08-20 09:58:59
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -89014,7 +89014,7 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 129 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 09:59:48
+# llm code started at 2024-08-20 09:59:48
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -89157,10 +89157,10 @@ To install pandas, you can use pip, which is the package installer for Python. H
 
 > Tokens: 2.4k sent, 1.9k cache write, 99 received. Cost: $0.01 message, $0.01 session.  
 
-# llmcode chat started at 2024-08-20 10:07:47
+# llm code started at 2024-08-20 10:07:47
 
 
-# llmcode chat started at 2024-08-20 10:52:34
+# llm code started at 2024-08-20 10:52:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_main.py  
 > Llmcode v0.51.1-dev  
@@ -89260,7 +89260,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 10:55:58
+# llm code started at 2024-08-20 10:55:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_main.py  
 > Llmcode v0.51.1-dev  
@@ -89362,7 +89362,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 10:57:25
+# llm code started at 2024-08-20 10:57:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode tests/basic/test_main.py  
 > Llmcode v0.51.1-dev  
@@ -89510,10 +89510,10 @@ tests/basic/test_main.py .                                               [100%]
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 12:46:48
+# llm code started at 2024-08-20 12:46:48
 
 
-# llmcode chat started at 2024-08-20 12:50:09
+# llm code started at 2024-08-20 12:50:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.1-dev  
@@ -90154,7 +90154,7 @@ Cost: $0.11 message, $0.36 session. Use --no-stream for accurate caching costs.
 > Commit 425dc0b fix: Add map_multiplier_no_files parameter to Coder.__init__  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-20 12:58:51
+# llm code started at 2024-08-20 12:58:51
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --map-mul 1.5  
 > Llmcode v0.51.1-dev  
@@ -90166,7 +90166,7 @@ Cost: $0.11 message, $0.36 session. Use --no-stream for accurate caching costs.
 
 #### hi  
 
-# llmcode chat started at 2024-08-20 12:59:18
+# llm code started at 2024-08-20 12:59:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --map-mul 1.5  
 > Llmcode v0.51.1-dev  
@@ -90199,7 +90199,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 12:59:34
+# llm code started at 2024-08-20 12:59:34
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --map-mul 100  
 > Llmcode v0.51.1-dev  
@@ -90220,7 +90220,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 12:59:47
+# llm code started at 2024-08-20 12:59:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.1-dev  
@@ -90232,7 +90232,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 13:24:42
+# llm code started at 2024-08-20 13:24:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/editblock_coder.py  
 > Llmcode v0.51.1-dev  
@@ -90693,7 +90693,7 @@ Cost: $0.03 message, $0.16 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 16:21:53
+# llm code started at 2024-08-20 16:21:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.1-dev  
@@ -90975,7 +90975,7 @@ Cost: $0.04 message, $0.07 session. Use --no-stream for accurate caching costs.
 > Applied edit to llmcode/coders/editblock_coder.py  
 > Commit 72bc851 fix: Implement line-by-line processing for SEARCH/REPLACE and shell code blocks  
 
-# llmcode chat started at 2024-08-20 17:04:14
+# llm code started at 2024-08-20 17:04:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.1-dev  
@@ -91079,22 +91079,22 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Commit 9f3cdf1 fix: Remove unused variable `shell_type`  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-20 17:06:59
+# llm code started at 2024-08-20 17:06:59
 
 
-# llmcode chat started at 2024-08-20 17:08:01
+# llm code started at 2024-08-20 17:08:01
 
 
-# llmcode chat started at 2024-08-20 17:22:16
+# llm code started at 2024-08-20 17:22:16
 
 
-# llmcode chat started at 2024-08-20 17:23:12
+# llm code started at 2024-08-20 17:23:12
 
 
-# llmcode chat started at 2024-08-20 17:24:17
+# llm code started at 2024-08-20 17:24:17
 
 
-# llmcode chat started at 2024-08-20 17:27:30
+# llm code started at 2024-08-20 17:27:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.1-dev  
@@ -91187,7 +91187,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 17:30:56
+# llm code started at 2024-08-20 17:30:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode hi.py --msg make it say yoyo world --no-pretty --no-git --4o  
 > Creating empty file /Users/gauthier/Projects/llmcode/hi.py  
@@ -91201,7 +91201,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 
 #### make it say yoyo world  
 
-# llmcode chat started at 2024-08-20 17:30:59
+# llm code started at 2024-08-20 17:30:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.1-dev  
@@ -91272,7 +91272,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 17:33:19
+# llm code started at 2024-08-20 17:33:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.1-dev  
@@ -91282,7 +91282,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit fa7be35 fix: Handle errors in EditBlockCoder more gracefully  
 
-# llmcode chat started at 2024-08-20 17:35:16
+# llm code started at 2024-08-20 17:35:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --read editblock_coder.py tmp.editblock_coder.py --chat-mode ask  
 > Llmcode v0.51.2-dev  
@@ -91338,7 +91338,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 17:37:02
+# llm code started at 2024-08-20 17:37:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -91351,7 +91351,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 #### /add llmcode/coders/editblock_coder.py  
 > Added /Users/gauthier/Projects/llmcode/llmcode/coders/editblock_coder.py to the chat  
 
-# llmcode chat started at 2024-08-20 17:37:18
+# llm code started at 2024-08-20 17:37:18
 
 
 #### /read `tests/basic/test_editblock.py`  
@@ -91411,7 +91411,7 @@ FAILED tests/basic/test_editblock.py::TestUtils::test_find_original_update_block
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 17:45:04
+# llm code started at 2024-08-20 17:45:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.51.2-dev  
@@ -91420,7 +91420,7 @@ FAILED tests/basic/test_editblock.py::TestUtils::test_find_original_update_block
 > Git repo: .git with 308 files  
 > Repo-map: using 1024 tokens, files refresh  
 
-# llmcode chat started at 2024-08-20 17:45:25
+# llm code started at 2024-08-20 17:45:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -91432,7 +91432,7 @@ FAILED tests/basic/test_editblock.py::TestUtils::test_find_original_update_block
 
 #### /ex  
 
-# llmcode chat started at 2024-08-20 17:45:31
+# llm code started at 2024-08-20 17:45:31
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.51.2-dev  
@@ -91441,7 +91441,7 @@ FAILED tests/basic/test_editblock.py::TestUtils::test_find_original_update_block
 > Git repo: .git with 308 files  
 > Repo-map: using 1024 tokens, files refresh  
 
-# llmcode chat started at 2024-08-20 17:45:46
+# llm code started at 2024-08-20 17:45:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.51.2-dev  
@@ -91450,7 +91450,7 @@ FAILED tests/basic/test_editblock.py::TestUtils::test_find_original_update_block
 > Git repo: .git with 308 files  
 > Repo-map: using 1024 tokens, files refresh  
 
-# llmcode chat started at 2024-08-20 17:46:17
+# llm code started at 2024-08-20 17:46:17
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  
@@ -91578,7 +91578,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 17:46:28
+# llm code started at 2024-08-20 17:46:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.51.2-dev  
@@ -91587,7 +91587,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 > Git repo: .git with 308 files  
 > Repo-map: using 1024 tokens, files refresh  
 
-# llmcode chat started at 2024-08-20 17:46:42
+# llm code started at 2024-08-20 17:46:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.51.2-dev  
@@ -91596,7 +91596,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 > Git repo: .git with 308 files  
 > Repo-map: using 1024 tokens, files refresh  
 
-# llmcode chat started at 2024-08-20 17:48:01
+# llm code started at 2024-08-20 17:48:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --show-prompt  
 > Llmcode v0.51.2-dev  
@@ -91605,7 +91605,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 > Git repo: .git with 308 files  
 > Repo-map: using 1024 tokens, files refresh  
 
-# llmcode chat started at 2024-08-20 18:07:26
+# llm code started at 2024-08-20 18:07:26
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -91621,7 +91621,7 @@ Cost: $0.01 message, $0.01 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 19:20:39
+# llm code started at 2024-08-20 19:20:39
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92023,7 +92023,7 @@ Cost: $0.05 message, $0.10 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-20 19:24:08
+# llm code started at 2024-08-20 19:24:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92229,7 +92229,7 @@ Cost: $0.03 message, $0.06 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 05:06:42
+# llm code started at 2024-08-21 05:06:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet  
 > Llmcode v0.51.2-dev  
@@ -92239,7 +92239,7 @@ Cost: $0.03 message, $0.06 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Use /help <question> for help, run "llmcode --help" to see cmd line args  
 
-# llmcode chat started at 2024-08-21 05:16:05
+# llm code started at 2024-08-21 05:16:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92317,7 +92317,7 @@ Cost: $0.04 message, $0.04 session. Use --no-stream for accurate caching costs.
 
 #### /e  
 
-# llmcode chat started at 2024-08-21 05:20:01
+# llm code started at 2024-08-21 05:20:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92422,7 +92422,7 @@ Cost: $0.03 message, $0.06 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 05:24:35
+# llm code started at 2024-08-21 05:24:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92498,25 +92498,25 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 05:34:58
+# llm code started at 2024-08-21 05:34:58
 
 > Current version: 0.51.2-dev  
 > Latest version: 0.51.1  
 > No update available  
 
-# llmcode chat started at 2024-08-21 05:35:15
+# llm code started at 2024-08-21 05:35:15
 
 > Current version: 0.51.2-dev  
 > Latest version: 0.51.1  
 > Update available  
 
-# llmcode chat started at 2024-08-21 05:36:45
+# llm code started at 2024-08-21 05:36:45
 
 > Newer llmcode version v0.51.1 is available. To upgrade, run:  
 >  
-> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install --upgrade llmcode-chat  
+> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install --upgrade llmcode  
 
-# llmcode chat started at 2024-08-21 05:37:06
+# llm code started at 2024-08-21 05:37:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92532,10 +92532,10 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 05:37:10
+# llm code started at 2024-08-21 05:37:10
 
 > Newer llmcode version v0.51.1 is available. To upgrade, run:  
-> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install --upgrade llmcode-chat  
+> /Users/gauthier/Projects/llmcode/.venv/bin/python3.12 -m pip install --upgrade llmcode  
 > Run pip install? n  
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92551,7 +92551,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 05:37:54
+# llm code started at 2024-08-21 05:37:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -92688,7 +92688,7 @@ Cost: $0.05 message, $0.05 session. Use --no-stream for accurate caching costs.
 > Commit 9fb3a6f fix: Update string formatting in confirm_ask calls  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-21 05:44:27
+# llm code started at 2024-08-21 05:44:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92855,7 +92855,7 @@ Cost: $0.03 message, $0.05 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 05:47:18
+# llm code started at 2024-08-21 05:47:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet  
 > Llmcode v0.51.2-dev  
@@ -92871,7 +92871,7 @@ Cost: $0.03 message, $0.05 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 05:47:36
+# llm code started at 2024-08-21 05:47:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet  
 > Llmcode v0.50.1  
@@ -92882,7 +92882,7 @@ Cost: $0.03 message, $0.05 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 06:16:47
+# llm code started at 2024-08-21 06:16:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -92903,7 +92903,7 @@ Cost: $0.04 message, $0.04 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 07:26:18
+# llm code started at 2024-08-21 07:26:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode rich_confirm_demo.py  
 > Creating empty file /Users/gauthier/Projects/llmcode/rich_confirm_demo.py  
@@ -92921,7 +92921,7 @@ Cost: $0.04 message, $0.04 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 07:31:27
+# llm code started at 2024-08-21 07:31:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/anthropic/claude-3.5-sonnet  
 > Llmcode v0.51.2-dev  
@@ -92933,7 +92933,7 @@ Cost: $0.04 message, $0.04 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 08:03:48
+# llm code started at 2024-08-21 08:03:48
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-pretty  
 > Llmcode v0.51.2-dev  
@@ -92949,7 +92949,7 @@ Cost: $0.04 message, $0.04 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 08:04:02
+# llm code started at 2024-08-21 08:04:02
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg https://llm.khulnasoft.com --no-pretty  
 > Llmcode v0.51.2-dev  
@@ -92962,7 +92962,7 @@ Cost: $0.04 message, $0.04 session. Use --no-stream for accurate caching costs.
 #### https://llm.khulnasoft.com  
 > https://llm.khulnasoft.com  
 
-# llmcode chat started at 2024-08-21 08:04:12
+# llm code started at 2024-08-21 08:04:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --msg https://llm.khulnasoft.com --no-pretty  
 > Llmcode v0.51.2-dev  
@@ -92983,7 +92983,7 @@ Is there anything specific you'd like to know about the llm.khulnasoft.com websi
 > Tokens: 1.3k sent, 93 received.
 Cost: $0.0052 message, $0.0052 session. Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-21 08:08:22
+# llm code started at 2024-08-21 08:08:22
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -92993,7 +92993,7 @@ Cost: $0.0052 message, $0.0052 session. Use --no-stream for accurate caching cos
 > Repo-map: using 1024 tokens, files refresh  
 > Commit 3e5554c fix: Update confirm_ask prompts to use consistent formatting  
 
-# llmcode chat started at 2024-08-21 08:08:40
+# llm code started at 2024-08-21 08:08:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -93078,7 +93078,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 08:12:24
+# llm code started at 2024-08-21 08:12:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -93150,7 +93150,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 08:17:29
+# llm code started at 2024-08-21 08:17:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -93160,7 +93160,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit 454d020 fix: Update prompt_ask function to use default value correctly  
 
-# llmcode chat started at 2024-08-21 08:30:36
+# llm code started at 2024-08-21 08:30:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --apply tmp.bad-edit.md  
 > Llmcode v0.51.2-dev  
@@ -93170,7 +93170,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > llmcode/coders/editblock_coder.py  
 
-# llmcode chat started at 2024-08-21 08:30:46
+# llm code started at 2024-08-21 08:30:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --apply tmp.bad-edit.md --dry-run  
 > Llmcode v0.51.2-dev  
@@ -93197,7 +93197,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >   
 > The SEARCH section must exactly match an existing block of lines including all white space, comments, indentation, docstrings, etc  
 
-# llmcode chat started at 2024-08-21 09:02:25
+# llm code started at 2024-08-21 09:02:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --apply tmp.bad-edit.md --dry-run  
 > Llmcode v0.51.2-dev  
@@ -93224,7 +93224,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >   
 > The SEARCH section must exactly match an existing block of lines including all white space, comments, indentation, docstrings, etc  
 
-# llmcode chat started at 2024-08-21 09:08:47
+# llm code started at 2024-08-21 09:08:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -93800,11 +93800,11 @@ Cost: $0.04 message, $0.17 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 09:30:45
+# llm code started at 2024-08-21 09:30:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 
-# llmcode chat started at 2024-08-21 09:31:03
+# llm code started at 2024-08-21 09:31:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -94078,7 +94078,7 @@ Cost: $0.02 message, $0.09 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 09:33:33
+# llm code started at 2024-08-21 09:33:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -94097,13 +94097,13 @@ Cost: $0.02 message, $0.09 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 09:34:48
+# llm code started at 2024-08-21 09:34:48
 
 
-# llmcode chat started at 2024-08-21 09:39:25
+# llm code started at 2024-08-21 09:39:25
 
 
-# llmcode chat started at 2024-08-21 10:49:44
+# llm code started at 2024-08-21 10:49:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -94113,7 +94113,7 @@ Cost: $0.02 message, $0.09 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit 9eac88f fix: Remove unused WordCompleter import from llmcode/io.py  
 
-# llmcode chat started at 2024-08-21 10:54:35
+# llm code started at 2024-08-21 10:54:35
 
 > Models which match "gpt-4o":  
 > - azure/global-standard/gpt-4o-mini  
@@ -94136,10 +94136,10 @@ Cost: $0.02 message, $0.09 session. Use --no-stream for accurate caching costs.
 > - openrouter/openai/gpt-4o  
 > - openrouter/openai/gpt-4o-2024-05-13  
 
-# llmcode chat started at 2024-08-21 11:13:56
+# llm code started at 2024-08-21 11:13:56
 
 
-# llmcode chat started at 2024-08-21 11:16:05
+# llm code started at 2024-08-21 11:16:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -94376,10 +94376,10 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 11:32:24
+# llm code started at 2024-08-21 11:32:24
 
 
-# llmcode chat started at 2024-08-21 12:12:07
+# llm code started at 2024-08-21 12:12:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -94389,7 +94389,7 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit b104b0e fix: Exclude 'prompts.py' file from blame analysis  
 
-# llmcode chat started at 2024-08-21 12:32:16
+# llm code started at 2024-08-21 12:32:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -94432,7 +94432,7 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 12:34:52
+# llm code started at 2024-08-21 12:34:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -94442,10 +94442,10 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit c7ee5db fix: Update default model to gpt-4o-2024-08-06  
 
-# llmcode chat started at 2024-08-21 12:35:49
+# llm code started at 2024-08-21 12:35:49
 
 
-# llmcode chat started at 2024-08-21 13:08:07
+# llm code started at 2024-08-21 13:08:07
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -94506,7 +94506,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 13:11:09
+# llm code started at 2024-08-21 13:11:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -94538,7 +94538,7 @@ Cost: $0.05 message, $0.05 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 13:11:44
+# llm code started at 2024-08-21 13:11:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -94894,7 +94894,7 @@ Cost: $0.04 message, $0.10 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 15:14:00
+# llm code started at 2024-08-21 15:14:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -94906,7 +94906,7 @@ Cost: $0.04 message, $0.10 session. Use --no-stream for accurate caching costs.
 > Run shell command(s)? [Y/n] y  
 > Running ls  
 
-# llmcode chat started at 2024-08-21 15:14:18
+# llm code started at 2024-08-21 15:14:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -94920,7 +94920,7 @@ date
 > Running date  
 > Running date  
 
-# llmcode chat started at 2024-08-21 15:14:47
+# llm code started at 2024-08-21 15:14:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -94934,7 +94934,7 @@ echo $RANDOM
 > Running date  
 > Running echo $RANDOM  
 
-# llmcode chat started at 2024-08-21 15:14:59
+# llm code started at 2024-08-21 15:14:59
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -94946,7 +94946,7 @@ echo $RANDOM
 > Run shell command(s)? [Y/n] y  
 > Running python  
 
-# llmcode chat started at 2024-08-21 15:16:42
+# llm code started at 2024-08-21 15:16:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -94958,7 +94958,7 @@ echo $RANDOM
 > Run shell command(s)? [Y/n] y  
 > Running emacs -nw  
 
-# llmcode chat started at 2024-08-21 15:16:54
+# llm code started at 2024-08-21 15:16:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -95245,7 +95245,7 @@ Cost: $0.03 message, $0.09 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 15:19:38
+# llm code started at 2024-08-21 15:19:38
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -95257,7 +95257,7 @@ Cost: $0.03 message, $0.09 session. Use --no-stream for accurate caching costs.
 > Run shell command(s)? [Y/n] y  
 > Running emacs -nw  
 
-# llmcode chat started at 2024-08-21 15:20:16
+# llm code started at 2024-08-21 15:20:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -95268,7 +95268,7 @@ Cost: $0.03 message, $0.09 session. Use --no-stream for accurate caching costs.
 > date
 emacs -nw /tmp/foo.txt  
 
-# llmcode chat started at 2024-08-21 15:20:23
+# llm code started at 2024-08-21 15:20:23
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -95356,7 +95356,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Commit b8ed449 fix: Remove unused 'os' import from editblock_coder.py  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-21 15:20:53
+# llm code started at 2024-08-21 15:20:53
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -95435,7 +95435,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Commit 9fc8b00 style: Improve string formatting in io.py  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-21 15:21:36
+# llm code started at 2024-08-21 15:21:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -95456,7 +95456,7 @@ emacs -nw /tmp/foo.txt
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 15:22:24
+# llm code started at 2024-08-21 15:22:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -95504,7 +95504,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Commit 7eb761f style: format code with linter  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-21 15:23:21
+# llm code started at 2024-08-21 15:23:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -95520,7 +95520,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 15:23:25
+# llm code started at 2024-08-21 15:23:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -95532,7 +95532,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 emacs -nw /tmp/foo.txt  
 > Run shell commands? [Y/n] n  
 
-# llmcode chat started at 2024-08-21 15:23:35
+# llm code started at 2024-08-21 15:23:35
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -95545,7 +95545,7 @@ emacs -nw /tmp/foo.txt
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 15:23:55
+# llm code started at 2024-08-21 15:23:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -95555,10 +95555,10 @@ emacs -nw /tmp/foo.txt
 > Repo-map: using 1024 tokens, files refresh  
 > Commit 023c59d fix: Remove unnecessary output when dropping all files  
 
-# llmcode chat started at 2024-08-21 15:24:51
+# llm code started at 2024-08-21 15:24:51
 
 
-# llmcode chat started at 2024-08-21 15:31:40
+# llm code started at 2024-08-21 15:31:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -95643,7 +95643,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 #### /diff  
 > Diff since 00988f4...  
 
-# llmcode chat started at 2024-08-21 15:35:24
+# llm code started at 2024-08-21 15:35:24
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -95659,7 +95659,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 > /run date && exit 1  
 > You can find this in your input history with up-arrow.  
 
-# llmcode chat started at 2024-08-21 15:36:11
+# llm code started at 2024-08-21 15:36:11
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -95680,7 +95680,7 @@ Cost: $0.03 message, $0.03 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 15:36:29
+# llm code started at 2024-08-21 15:36:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -95797,7 +95797,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 > Commit 6e866d7 fix: Remove unnecessary f-string prefix  
 > No more changes to commit.  
 
-# llmcode chat started at 2024-08-21 15:37:21
+# llm code started at 2024-08-21 15:37:21
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -95820,13 +95820,13 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 15:39:23
+# llm code started at 2024-08-21 15:39:23
 
 
-# llmcode chat started at 2024-08-21 15:51:01
+# llm code started at 2024-08-21 15:51:01
 
 
-# llmcode chat started at 2024-08-21 16:02:08
+# llm code started at 2024-08-21 16:02:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96214,7 +96214,7 @@ OK
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 16:04:44
+# llm code started at 2024-08-21 16:04:44
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96305,7 +96305,7 @@ Now, we need to update the place where `get_input` is called to pass the `edit_f
 Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.  
 > Applied edit to llmcode/io.py  
 
-# llmcode chat started at 2024-08-21 16:05:47
+# llm code started at 2024-08-21 16:05:47
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96322,7 +96322,7 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 16:05:50
+# llm code started at 2024-08-21 16:05:50
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96340,7 +96340,7 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 16:05:55
+# llm code started at 2024-08-21 16:05:55
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96359,7 +96359,7 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 #### /diff  
 > Diff since 25f9886...  
 
-# llmcode chat started at 2024-08-21 16:07:14
+# llm code started at 2024-08-21 16:07:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96371,7 +96371,7 @@ Cost: $0.02 message, $0.05 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 16:07:18
+# llm code started at 2024-08-21 16:07:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode README.md  
 > Llmcode v0.51.2-dev  
@@ -96433,7 +96433,7 @@ Cost: $0.06 message, $0.11 session. Use --no-stream for accurate caching costs.
 > Commit 70fb4c2 feat: Pass coder.edit_format into get_input  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-21 16:07:54
+# llm code started at 2024-08-21 16:07:54
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode README.md  
 > Llmcode v0.51.2-dev  
@@ -96495,7 +96495,7 @@ Cost: $0.07 message, $0.18 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 16:08:27
+# llm code started at 2024-08-21 16:08:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode README.md  
 > Llmcode v0.51.2-dev  
@@ -96532,7 +96532,7 @@ Cost: $0.07 message, $0.18 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 16:08:45
+# llm code started at 2024-08-21 16:08:45
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -96542,7 +96542,7 @@ Cost: $0.07 message, $0.18 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit 99f330f fix: Improve formatting of file list and edit format in input prompt  
 
-# llmcode chat started at 2024-08-21 16:17:00
+# llm code started at 2024-08-21 16:17:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --msg /ask what is this?  
 > Llmcode v0.51.2-dev  
@@ -96563,7 +96563,7 @@ If you'd like me to help you with some code or explain something specific, pleas
 > Tokens: 66 sent, 97 received.
 Cost: $0.0017 message, $0.0017 session. Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-21 16:17:15
+# llm code started at 2024-08-21 16:17:15
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --msg /ask how are you?  
 > Llmcode v0.51.2-dev  
@@ -96582,10 +96582,10 @@ Je vais bien, merci de demander ! Comment allez-vous aujourd'hui ? Je suis prêt
 > Tokens: 66 sent, 38 received.
 Cost: $0.00077 message, $0.00077 session. Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-21 16:21:44
+# llm code started at 2024-08-21 16:21:44
 
 
-# llmcode chat started at 2024-08-21 21:26:10
+# llm code started at 2024-08-21 21:26:10
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96773,7 +96773,7 @@ Cost: $0.06 message, $0.13 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 21:28:41
+# llm code started at 2024-08-21 21:28:41
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -96956,7 +96956,7 @@ Cost: $0.04 message, $0.07 session. Use --no-stream for accurate caching costs.
 #### /undo  
 > The file python was not in the repository in the previous commit. Cannot undo safely.  
 
-# llmcode chat started at 2024-08-21 21:33:08
+# llm code started at 2024-08-21 21:33:08
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --apply tmp.bad-edit.md --dry-run llmcode/coders/editblock_coder.py  
 > Llmcode v0.51.2-dev  
@@ -96967,7 +96967,7 @@ Cost: $0.04 message, $0.07 session. Use --no-stream for accurate caching costs.
 > Added llmcode/coders/editblock_coder.py to the chat.  
 > Did not apply edit to llmcode/coders/editblock_coder.py (--dry-run)  
 
-# llmcode chat started at 2024-08-21 21:33:25
+# llm code started at 2024-08-21 21:33:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --apply tmp.bad-edit.md llmcode/coders/editblock_coder.py  
 > Llmcode v0.51.2-dev  
@@ -96978,7 +96978,7 @@ Cost: $0.04 message, $0.07 session. Use --no-stream for accurate caching costs.
 > Added llmcode/coders/editblock_coder.py to the chat.  
 > Applied edit to llmcode/coders/editblock_coder.py  
 
-# llmcode chat started at 2024-08-21 21:34:57
+# llm code started at 2024-08-21 21:34:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --apply tmp.bad-edit.md llmcode/coders/editblock_coder.py  
 > Llmcode v0.51.2-dev  
@@ -96989,7 +96989,7 @@ Cost: $0.04 message, $0.07 session. Use --no-stream for accurate caching costs.
 > Added llmcode/coders/editblock_coder.py to the chat.  
 > Applied edit to llmcode/coders/editblock_coder.py  
 
-# llmcode chat started at 2024-08-21 21:36:58
+# llm code started at 2024-08-21 21:36:58
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --apply tmp.bad-edit.md llmcode/coders/editblock_coder.py  
 > Llmcode v0.51.2-dev  
@@ -97000,7 +97000,7 @@ Cost: $0.04 message, $0.07 session. Use --no-stream for accurate caching costs.
 > Added llmcode/coders/editblock_coder.py to the chat.  
 > Applied edit to llmcode/coders/editblock_coder.py  
 
-# llmcode chat started at 2024-08-21 21:37:03
+# llm code started at 2024-08-21 21:37:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -97154,7 +97154,7 @@ Cost: $0.02 message, $0.13 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:41:00
+# llm code started at 2024-08-21 21:41:00
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd  
 > Llmcode v0.51.2-dev  
@@ -97166,7 +97166,7 @@ Cost: $0.02 message, $0.13 session. Use --no-stream for accurate caching costs.
 > Run shell command? [Y/n] y  
 > Running date  
 
-# llmcode chat started at 2024-08-21 21:41:04
+# llm code started at 2024-08-21 21:41:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --no-git --apply tmp.cmd --yes  
 > Llmcode v0.51.2-dev  
@@ -97177,7 +97177,7 @@ Cost: $0.02 message, $0.13 session. Use --no-stream for accurate caching costs.
 > date  
 > Run shell command? [Y/n] n  
 
-# llmcode chat started at 2024-08-21 21:41:16
+# llm code started at 2024-08-21 21:41:16
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -97440,7 +97440,7 @@ Cost: $0.03 message, $0.10 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:45:37
+# llm code started at 2024-08-21 21:45:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -97601,7 +97601,7 @@ OK
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 21:47:05
+# llm code started at 2024-08-21 21:47:05
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -97612,7 +97612,7 @@ OK
 > Commit b2488af fix: Handle path-specific edits in base_coder.py
 test: Update test_main.py to check for explicit approval of shell commands  
 
-# llmcode chat started at 2024-08-21 21:48:03
+# llm code started at 2024-08-21 21:48:03
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -97713,7 +97713,7 @@ Note that these changes assume that `self.user_input_color` is a valid color nam
 > Tokens: 4.7k sent, 702 received.
 Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.  
 
-# llmcode chat started at 2024-08-21 21:48:56
+# llm code started at 2024-08-21 21:48:56
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -97729,7 +97729,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:49:01
+# llm code started at 2024-08-21 21:49:01
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -97745,7 +97745,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:49:09
+# llm code started at 2024-08-21 21:49:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark-mode  
 > Llmcode v0.51.2-dev  
@@ -97761,7 +97761,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:49:19
+# llm code started at 2024-08-21 21:49:19
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --light  
 > Llmcode v0.51.2-dev  
@@ -97773,7 +97773,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 21:49:28
+# llm code started at 2024-08-21 21:49:28
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -97785,7 +97785,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 21:50:30
+# llm code started at 2024-08-21 21:50:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -97797,7 +97797,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-21 21:50:33
+# llm code started at 2024-08-21 21:50:33
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -97813,7 +97813,7 @@ Cost: $0.02 message, $0.02 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:50:42
+# llm code started at 2024-08-21 21:50:42
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -98111,7 +98111,7 @@ Cost: $0.03 message, $0.11 session. Use --no-stream for accurate caching costs.
 #### /diff  
 > Diff since b2488af...  
 
-# llmcode chat started at 2024-08-21 21:51:40
+# llm code started at 2024-08-21 21:51:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -98127,7 +98127,7 @@ Cost: $0.03 message, $0.11 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:52:12
+# llm code started at 2024-08-21 21:52:12
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -98140,7 +98140,7 @@ Cost: $0.03 message, $0.11 session. Use --no-stream for accurate caching costs.
 >  
 > ^C again to exit  
 
-# llmcode chat started at 2024-08-21 21:52:30
+# llm code started at 2024-08-21 21:52:30
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -98156,7 +98156,7 @@ Cost: $0.03 message, $0.11 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:52:57
+# llm code started at 2024-08-21 21:52:57
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -98172,7 +98172,7 @@ Cost: $0.03 message, $0.11 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:53:29
+# llm code started at 2024-08-21 21:53:29
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -98402,7 +98402,7 @@ Cost: $0.03 message, $0.18 session. Use --no-stream for accurate caching costs.
 > Commit e835d23 fix: Handle Style object in AutoCompleter  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-21 21:55:09
+# llm code started at 2024-08-21 21:55:09
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --dark  
 > Llmcode v0.51.2-dev  
@@ -98437,7 +98437,7 @@ Cost: $0.03 message, $0.18 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-21 21:56:49
+# llm code started at 2024-08-21 21:56:49
 
 >  
 >  
@@ -98446,10 +98446,10 @@ Cost: $0.03 message, $0.18 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-22 06:28:44
+# llm code started at 2024-08-22 06:28:44
 
 
-# llmcode chat started at 2024-08-22 06:29:25
+# llm code started at 2024-08-22 06:29:25
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode testsr.py  
 > Creating empty file /Users/gauthier/Projects/llmcode/testsr.py  
@@ -99014,7 +99014,7 @@ Cost: $0.04 message, $0.21 session. Use --no-stream for accurate caching costs.
 
 #### /ex  
 
-# llmcode chat started at 2024-08-22 08:12:14
+# llm code started at 2024-08-22 08:12:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode  
 > Llmcode v0.51.2-dev  
@@ -99241,7 +99241,7 @@ Cost: $0.02 message, $0.06 session. Use --no-stream for accurate caching costs.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-22 08:18:06
+# llm code started at 2024-08-22 08:18:06
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode testsr.py  
 > Llmcode v0.51.2-dev  
@@ -99858,7 +99858,7 @@ Cost: $0.03 message, $0.15 session. Use --no-stream for accurate caching costs.
 > Commit f064820 fix: Remove unused import of DEFAULT_FENCE  
 > You can use /undo to undo and discard each llmcode commit.  
 
-# llmcode chat started at 2024-08-22 08:23:52
+# llm code started at 2024-08-22 08:23:52
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -99868,7 +99868,7 @@ Cost: $0.03 message, $0.15 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit f8a1db5 feat: Add all_fences list to base_coder.py  
 
-# llmcode chat started at 2024-08-22 08:46:46
+# llm code started at 2024-08-22 08:46:46
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  
@@ -99878,7 +99878,7 @@ Cost: $0.03 message, $0.15 session. Use --no-stream for accurate caching costs.
 > Repo-map: using 1024 tokens, files refresh  
 > Commit 52ddef9 fix: Remove unnecessary checks and simplify content extraction in process_markdown function  
 
-# llmcode chat started at 2024-08-22 08:47:04
+# llm code started at 2024-08-22 08:47:04
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --lint --commit  
 > Llmcode v0.51.2-dev  

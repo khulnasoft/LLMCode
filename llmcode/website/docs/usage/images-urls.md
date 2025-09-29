@@ -6,7 +6,7 @@ description: Add images and web pages to the llmcode coding chat.
 
 # Images & web pages
 
-You can add images and URLs to the llmcode chat.
+You can add images and URLs to the llm code.
 
 ## Images
 

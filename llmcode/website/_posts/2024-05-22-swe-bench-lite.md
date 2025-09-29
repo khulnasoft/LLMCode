@@ -76,7 +76,7 @@ The held out "acceptance tests" were *only* used
 after benchmarking to compute statistics on which problems llmcode
 correctly resolved.
 
-The [full harness to run llmcode on SWE Bench Lite is available on GitHub](https://github.com/khulnasoft-lab/llmcode-swe-bench).
+The [full harness to run llmcode on SWE Bench Lite is available on GitHub](https://github.com/khulnasoft/llmcode-swe-bench).
 
 The benchmarking process was similar to how a developer might use llmcode to
 resolve a GitHub issue:

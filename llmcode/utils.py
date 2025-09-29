@@ -1,9 +1,5 @@
-from llmcode.exceptions import (
-    DependencyError,
-    FileOperationError,
-    NetworkError,
-    ValidationError,
-)
+from llmcode.exceptions import (DependencyError, FileOperationError,
+                                NetworkError, ValidationError)
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".bmp", ".tiff", ".webp", ".pdf"}
 
@@ -186,7 +182,9 @@ def format_messages(messages: List[Dict[str, Any]], title: Optional[str] = None)
                 if isinstance(item, dict):
                     for key, value in item.items():
                         if isinstance(value, dict) and "url" in value:
-                            output.append(f"{role} {key.capitalize()} URL: {value['url']}")
+                            output.append(
+                                f"{role} {key.capitalize()} URL: {value['url']}"
+                            )
                         else:
                             output.append(f"{role} {key}: {value}")
                 else:
@@ -200,7 +198,11 @@ def format_messages(messages: List[Dict[str, Any]], title: Optional[str] = None)
     return "\n".join(output)
 
 
-def show_messages(messages: List[Dict[str, Any]], title: Optional[str] = None, functions: Optional[Any] = None) -> None:
+def show_messages(
+    messages: List[Dict[str, Any]],
+    title: Optional[str] = None,
+    functions: Optional[Any] = None,
+) -> None:
     """
     Display formatted messages to stdout.
 
@@ -216,7 +218,9 @@ def show_messages(messages: List[Dict[str, Any]], title: Optional[str] = None, f
         dump(functions)
 
 
-def split_chat_history_markdown(text: str, include_tool: bool = False) -> List[Dict[str, str]]:
+def split_chat_history_markdown(
+    text: str, include_tool: bool = False
+) -> List[Dict[str, str]]:
     """
     Parse markdown-formatted chat history into structured messages.
 
@@ -419,7 +423,13 @@ def touch_file(fname: Union[str, Path]) -> bool:
         return False
 
 
-def check_pip_install_extra(io, module: Optional[str], prompt: Optional[str], pip_install_cmd: List[str], self_update: bool = False) -> Optional[bool]:
+def check_pip_install_extra(
+    io,
+    module: Optional[str],
+    prompt: Optional[str],
+    pip_install_cmd: List[str],
+    self_update: bool = False,
+) -> Optional[bool]:
     """
     Check if a module is installed and offer to install it if not.
 
@@ -455,7 +465,9 @@ def check_pip_install_extra(io, module: Optional[str], prompt: Optional[str], pi
         print(printable_shell_command(cmd))  # plain print so it doesn't line-wrap
         return
 
-    if not io.confirm_ask("Run pip install?", default="y", subject=printable_shell_command(cmd)):
+    if not io.confirm_ask(
+        "Run pip install?", default="y", subject=printable_shell_command(cmd)
+    ):
         return
 
     try:
@@ -476,9 +488,13 @@ def check_pip_install_extra(io, module: Optional[str], prompt: Optional[str], pi
             print(printable_shell_command(cmd))
             return False
     except subprocess.CalledProcessError as e:
-        raise NetworkError(f"Failed to install dependency: {e}", package_name=module or "unknown") from e
+        raise NetworkError(
+            f"Failed to install dependency: {e}", package_name=module or "unknown"
+        ) from e
     except Exception as e:
-        raise DependencyError(f"Failed to install dependency: {e}", package_name=module or "unknown") from e
+        raise DependencyError(
+            f"Failed to install dependency: {e}", package_name=module or "unknown"
+        ) from e
 
 
 def printable_shell_command(cmd_list: List[str]) -> str:

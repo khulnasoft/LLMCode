@@ -17,7 +17,7 @@ It uses the question to find relevant docs
 and share them with the LLM to do
 retrieval augmented generation (RAG)
 The LLM also has the full context of your ongoing
-llmcode chat,
+llm code,
 so it can help with the exact issue you might be facing.
 
 

@@ -22,7 +22,7 @@ requires.
 If this happens, you may see errors like these when running pip installs:
 
 ```
-llmcode-chat 0.23.0 requires somepackage==X.Y.Z, but you have somepackage U.W.V which is incompatible.
+llmcode 0.23.0 requires somepackage==X.Y.Z, but you have somepackage U.W.V which is incompatible.
 ```
 
 ## Install with llmcode-install, uv or pipx
@@ -50,7 +50,7 @@ llmcode uses.
 
 In particular, be careful with the packages with pinned versions 
 noted at the end of
-[llmcode's requirements.in file](https://github.com/khulnasoft-lab/llmcode/blob/main/requirements/requirements.in).
+[llmcode's requirements.in file](https://github.com/khulnasoft/llmcode/blob/main/requirements/requirements.in).
 These versions are pinned because llmcode is known not to work with the
 latest versions of these libraries.
 

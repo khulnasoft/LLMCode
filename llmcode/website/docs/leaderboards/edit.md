@@ -99,10 +99,10 @@ since it is the easiest format for an LLM to use.
 
 Contributions of benchmark results are welcome!
 See the
-[benchmark README](https://github.com/khulnasoft-lab/llmcode/blob/main/benchmark/README.md)
+[benchmark README](https://github.com/khulnasoft/llmcode/blob/main/benchmark/README.md)
 for information on running llmcode's code editing benchmarks.
 Submit results by opening a PR with edits to the
-[benchmark results data files](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/website/_data/).
+[benchmark results data files](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/_data/).
 
 
 <p class="post-date">

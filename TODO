@@ -1,0 +1,92 @@
+## **Phase 1 – Developer Essentials (MVP Upgrade)**
+
+🎯 Goal: Make Llmcode more usable for day-to-day devs.
+
+* [ ] **GUI/TUI foundation**
+
+  * Add Bubbletea/Lipgloss TUI (file tree + chat + diff viewer).
+  * Basic scrollback & command palette.
+* [ ] **Context expansion (lightweight)**
+
+  * Configurable folder/file scope selection.
+  * Basic repo chunking by file size.
+* [ ] **Git quality of life**
+
+  * Auto branch creation for sessions.
+  * AI-generated commit messages.
+* [ ] **Error log ingestion** (feed stack traces/logs into AI).
+
+✅ *Outcome: Llmcode looks and feels like a developer tool, not just a chatbot.*
+* [x] **GUI/TUI foundation** (textual-based TUI scaffolded)
+* [x] **Context expansion (lightweight)** (scope selection & repo chunking utilities)
+* [x] **Git quality of life** (auto branch creation, commit message helpers)
+* [x] **Error log ingestion** (log ingestion utility)
+
+✅ *Outcome: Llmcode looks and feels like a developer tool, not just a chatbot.*
+---
+
+## **Phase 2 – Code Intelligence**
+
+🎯 Goal: Give Llmcode **IDE-level awareness**.
+
+* [ ] **Vector DB integration** (Chroma, Weaviate, or SQLite+embeddings) for semantic code search.
+* [ ] **Cross-file awareness** → follow function calls across repo.
+* [ ] **LSP bridge (minimal)** → type errors + go-to-definition.
+* [ ] **Inline editing support** (not only diff patches).
+* [ ] **Unit test generation + run feedback loop**.
+
+✅ *Outcome: Llmcode understands your repo deeply, reduces context/token issues, starts acting like a coding partner.*
+* [x] **Vector DB integration** (ChromaDB scaffolded)
+* [x] **Cross-file awareness** (symbol index, repo-wide)
+* [x] **LSP bridge (minimal)** (go-to-def, diagnostics, hover, caching)
+* [x] **Inline editing support** (diff intake, preview, conflict handling, diagnostics/tests loop)
+* [x] **Unit test generation + run feedback loop** (test_loop.py: diagnostics/tests, feedback JSON)
+
+✅ *Outcome: Llmcode understands your repo deeply, reduces context/token issues, starts acting like a coding partner.*
+---
+
+## **Phase 3 – Workflow Automation**
+
+🎯 Goal: Move from assistant → **co-pilot for entire dev workflow**.
+
+* [ ] **Autofix mode** → automatically fix lint/test failures.
+* [ ] **Task automation flows** (lint → fix → test → commit → PR).
+* [ ] **GitHub/GitLab API integration** (open PRs, close issues).
+* [ ] **Undo/rollback AI edits** with simple command.
+* [ ] **Plugin system** → allow custom AI actions (e.g., deploy, run migrations).
+
+✅ *Outcome: Llmcode doesn’t just write code — it runs the dev loop end-to-end.*
+
+---
+
+## **Phase 4 – Collaboration & Team Features**
+
+🎯 Goal: Enable **multi-user, team-scale workflows**.
+
+* [ ] **Shared sessions** (multiple devs with one AI).
+* [ ] **Session persistence** (save/reload chat + context).
+* [ ] **Workspace syncing** across devices.
+* [ ] **Secrets management** (safe storage for API keys).
+
+✅ *Outcome: Llmcode becomes usable across teams, not just solo devs.*
+
+---
+
+## **Phase 5 – Observability & Enterprise Readiness**
+
+🎯 Goal: Make Llmcode enterprise-ready.
+
+* [ ] **Telemetry dashboard** (track usage, tokens, costs).
+* [ ] **Debug mode** (raw prompts/responses for transparency).
+* [ ] **Session replay** (audit trail of AI changes).
+* [ ] **Multi-model orchestration** (Claude, GPT, Gemini, Llama, etc.).
+
+✅ *Outcome: Llmcode becomes a platform, not just a tool.*
+
+---
+
+## 📌 Summary Priority
+
+1. **Phase 1–2** → Critical for individual dev adoption.
+2. **Phase 3** → Makes it competitive with Gemini/Cursor.
+3. **Phase 4–5** → Needed for scale, teams, and enterprises.

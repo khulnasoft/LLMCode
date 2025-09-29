@@ -17,7 +17,7 @@ warnings.simplefilter("ignore", category=FutureWarning)
 
 def install_help_extra(io):
     pip_install_cmd = [
-        "llmcode-chat[help]",
+        "llmcode[help]",
         "--extra-index-url",
         "https://download.pytorch.org/whl/cpu",
     ]
@@ -82,12 +82,8 @@ def fname_to_url(filepath):
 
 
 def get_index():
-    from llama_index.core import (
-        Document,
-        StorageContext,
-        VectorStoreIndex,
-        load_index_from_storage,
-    )
+    from llama_index.core import (Document, StorageContext, VectorStoreIndex,
+                                  load_index_from_storage)
     from llama_index.core.node_parser import MarkdownNodeParser
 
     dname = Path.home() / ".llmcode" / "caches" / ("help." + __version__)

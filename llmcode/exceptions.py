@@ -28,7 +28,9 @@ EXCEPTIONS = [
         True,
         "The API provider has refused the request due to a safety policy about the content.",
     ),
-    ExInfo("ContextWindowExceededError", False, None),  # special case handled in base_coder
+    ExInfo(
+        "ContextWindowExceededError", False, None
+    ),  # special case handled in base_coder
     ExInfo(
         "InternalServerError",
         True,
@@ -88,7 +90,9 @@ class ConfigurationError(LlmcodeError):
     API keys, model settings, and other configuration-related issues.
     """
 
-    def __init__(self, message: str, config_key: Optional[str] = None, **kwargs: Any) -> None:
+    def __init__(
+        self, message: str, config_key: Optional[str] = None, **kwargs: Any
+    ) -> None:
         """
         Initialize the ConfigurationError.
 
@@ -100,7 +104,7 @@ class ConfigurationError(LlmcodeError):
         super().__init__(message, kwargs)
         self.config_key = config_key
         if config_key:
-            self.details['config_key'] = config_key
+            self.details["config_key"] = config_key
 
 
 class ModelError(LlmcodeError):
@@ -111,7 +115,9 @@ class ModelError(LlmcodeError):
     model compatibility, and model-specific operations.
     """
 
-    def __init__(self, message: str, model_name: Optional[str] = None, **kwargs: Any) -> None:
+    def __init__(
+        self, message: str, model_name: Optional[str] = None, **kwargs: Any
+    ) -> None:
         """
         Initialize the ModelError.
 
@@ -123,7 +129,7 @@ class ModelError(LlmcodeError):
         super().__init__(message, kwargs)
         self.model_name = model_name
         if model_name:
-            self.details['model_name'] = model_name
+            self.details["model_name"] = model_name
 
 
 class RepositoryError(LlmcodeError):
@@ -134,7 +140,9 @@ class RepositoryError(LlmcodeError):
     git operations, and repository state management.
     """
 
-    def __init__(self, message: str, repo_path: Optional[str] = None, **kwargs: Any) -> None:
+    def __init__(
+        self, message: str, repo_path: Optional[str] = None, **kwargs: Any
+    ) -> None:
         """
         Initialize the RepositoryError.
 
@@ -146,7 +154,7 @@ class RepositoryError(LlmcodeError):
         super().__init__(message, kwargs)
         self.repo_path = repo_path
         if repo_path:
-            self.details['repo_path'] = repo_path
+            self.details["repo_path"] = repo_path
 
 
 class FileOperationError(LlmcodeError):
@@ -157,7 +165,13 @@ class FileOperationError(LlmcodeError):
     manipulating files in the project.
     """
 
-    def __init__(self, message: str, file_path: Optional[str] = None, operation: Optional[str] = None, **kwargs: Any) -> None:
+    def __init__(
+        self,
+        message: str,
+        file_path: Optional[str] = None,
+        operation: Optional[str] = None,
+        **kwargs: Any,
+    ) -> None:
         """
         Initialize the FileOperationError.
 
@@ -171,9 +185,9 @@ class FileOperationError(LlmcodeError):
         self.file_path = file_path
         self.operation = operation
         if file_path:
-            self.details['file_path'] = file_path
+            self.details["file_path"] = file_path
         if operation:
-            self.details['operation'] = operation
+            self.details["operation"] = operation
 
 
 class ValidationError(LlmcodeError):
@@ -184,7 +198,13 @@ class ValidationError(LlmcodeError):
     and other forms of input checking.
     """
 
-    def __init__(self, message: str, field_name: Optional[str] = None, value: Any = None, **kwargs: Any) -> None:
+    def __init__(
+        self,
+        message: str,
+        field_name: Optional[str] = None,
+        value: Any = None,
+        **kwargs: Any,
+    ) -> None:
         """
         Initialize the ValidationError.
 
@@ -198,9 +218,9 @@ class ValidationError(LlmcodeError):
         self.field_name = field_name
         self.value = value
         if field_name:
-            self.details['field_name'] = field_name
+            self.details["field_name"] = field_name
         if value is not None:
-            self.details['value'] = str(value)
+            self.details["value"] = str(value)
 
 
 class DependencyError(LlmcodeError):
@@ -211,7 +231,13 @@ class DependencyError(LlmcodeError):
     and dependency installation failures.
     """
 
-    def __init__(self, message: str, package_name: Optional[str] = None, required_version: Optional[str] = None, **kwargs: Any) -> None:
+    def __init__(
+        self,
+        message: str,
+        package_name: Optional[str] = None,
+        required_version: Optional[str] = None,
+        **kwargs: Any,
+    ) -> None:
         """
         Initialize the DependencyError.
 
@@ -225,9 +251,9 @@ class DependencyError(LlmcodeError):
         self.package_name = package_name
         self.required_version = required_version
         if package_name:
-            self.details['package_name'] = package_name
+            self.details["package_name"] = package_name
         if required_version:
-            self.details['required_version'] = required_version
+            self.details["required_version"] = required_version
 
 
 class NetworkError(LlmcodeError):
@@ -250,7 +276,7 @@ class NetworkError(LlmcodeError):
         super().__init__(message, kwargs)
         self.url = url
         if url:
-            self.details['url'] = url
+            self.details["url"] = url
 
 
 class LiteLLMExceptions:
@@ -266,7 +292,9 @@ class LiteLLMExceptions:
         for var in dir(litellm):
             if var.endswith("Error"):
                 if var not in self.exception_info:
-                    raise ValueError(f"{var} is in litellm but not in llmcode's exceptions list")
+                    raise ValueError(
+                        f"{var} is in litellm but not in llmcode's exceptions list"
+                    )
 
         for var in self.exception_info:
             ex = getattr(litellm, var)
@@ -287,7 +315,9 @@ class LiteLLMExceptions:
                     "You need to: pip install google-generativeai",
                 )
             if "boto3" in str(ex):
-                return ExInfo("APIConnectionError", False, "You need to: pip install boto3")
+                return ExInfo(
+                    "APIConnectionError", False, "You need to: pip install boto3"
+                )
             if "OpenrouterException" in str(ex) and "'choices'" in str(ex):
                 return ExInfo(
                     "APIConnectionError",

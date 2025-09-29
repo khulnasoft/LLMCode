@@ -24,7 +24,7 @@ llmcode --model o3-mini --reasoning-effort high
 llmcode --model r1
 ```
 
-Inside the llmcode chat, you can use `/thinking-tokens 4k` or `/reasoning-effort low` to change
+Inside the llm code, you can use `/thinking-tokens 4k` or `/reasoning-effort low` to change
 the amount of reasoning. Use `/thinking-tokens 0` to disable thinking tokens.
 
 The rest of this document describes more advanced details which are mainly needed
@@ -170,7 +170,7 @@ Reasoning models often have specific requirements for these settings:
 | `use_system_prompt` | Whether to use system prompt | Some reasoning models don't support system prompts |
 
 It may be helpful to find one of the 
-[existing model setting configuration entries](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/resources/model-settings.yml)
+[existing model setting configuration entries](https://github.com/khulnasoft/llmcode/blob/main/llmcode/resources/model-settings.yml)
 for the model you are interested in, say o3-mini:
 
 ```yaml

@@ -26,7 +26,7 @@ If the files above exist, they will be loaded in that order. Files loaded last w
 
 Below is a sample `.env` file, which you
 can also
-[download from GitHub](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/website/assets/sample.env).
+[download from GitHub](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/assets/sample.env).
 
 <!--[[[cog
 from llmcode.args import get_sample_dotenv
@@ -176,7 +176,7 @@ cog.outl("```")
 #LLMCODE_INPUT_HISTORY_FILE=.llmcode.input.history
 
 ## Specify the chat history file (default: .llm.khulnasoft.com.history.md)
-#LLMCODE_CHAT_HISTORY_FILE=.llm.khulnasoft.com.history.md
+#LLMCODE_HISTORY_FILE=.llm.khulnasoft.com.history.md
 
 ## Restore the previous chat history messages (default: False)
 #LLMCODE_RESTORE_CHAT_HISTORY=false
@@ -404,7 +404,7 @@ cog.outl("```")
 #LLMCODE_VIM=false
 
 ## Specify the language to use in the chat (default: None, uses system settings)
-#LLMCODE_CHAT_LANGUAGE=
+#LLMCODE_LANGUAGE=
 
 ## Specify the language to use in the commit message (default: None, user language)
 #LLMCODE_COMMIT_LANGUAGE=

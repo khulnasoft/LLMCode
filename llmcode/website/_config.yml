@@ -30,7 +30,7 @@ exclude:
 
 aux_links:
   "GitHub":
-    - "https://github.com/khulnasoft-lab/llmcode"
+    - "https://github.com/khulnasoft/llmcode"
   "Discord":
     - "https://discord.gg/Y7X7bhMQFV"
   "Blog":
@@ -38,11 +38,11 @@ aux_links:
 
 nav_external_links:
   - title: "GitHub"
-    url: "https://github.com/khulnasoft-lab/llmcode"
+    url: "https://github.com/khulnasoft/llmcode"
   - title: "Discord"
     url: "https://discord.gg/Y7X7bhMQFV"
 
-repository: khulnasoft-lab/llmcode
+repository: khulnasoft/llmcode
 
 callouts:
   tip:

@@ -77,3 +77,7 @@ install-hooks:
 # Run pre-commit on all files
 pre-commit-all:
 	pre-commit run --all-files
+
+######################
+# CODE QUALITY
+######################

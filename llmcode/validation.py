@@ -32,12 +32,14 @@ def validate_url(url: str) -> bool:
 
     # Basic URL pattern validation
     url_pattern = re.compile(
-        r'^https?://'  # http:// or https://
-        r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+[A-Z]{2,6}\.?|'  # domain...
-        r'localhost|'  # localhost...
-        r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'  # ...or ip
-        r'(?::\d+)?'  # optional port
-        r'(?:/?|[/?]\S+)$', re.IGNORECASE)
+        r"^https?://"  # http:// or https://
+        r"(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+[A-Z]{2,6}\.?|"  # domain...
+        r"localhost|"  # localhost...
+        r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})"  # ...or ip
+        r"(?::\d+)?"  # optional port
+        r"(?:/?|[/?]\S+)$",
+        re.IGNORECASE,
+    )
 
     if not url_pattern.match(url):
         raise ValidationError(f"Invalid URL format: {url}", field_name="url", value=url)
@@ -45,7 +47,9 @@ def validate_url(url: str) -> bool:
     return True
 
 
-def validate_file_path(file_path: Union[str, Path], allow_absolute: bool = True, check_exists: bool = False) -> Path:
+def validate_file_path(
+    file_path: Union[str, Path], allow_absolute: bool = True, check_exists: bool = False
+) -> Path:
     """
     Validate and sanitize a file path.
 
@@ -66,17 +70,29 @@ def validate_file_path(file_path: Union[str, Path], allow_absolute: bool = True,
     try:
         path = Path(file_path).resolve()
     except (OSError, ValueError) as e:
-        raise ValidationError(f"Invalid file path: {file_path}", field_name="file_path", value=file_path) from e
+        raise ValidationError(
+            f"Invalid file path: {file_path}", field_name="file_path", value=file_path
+        ) from e
 
     # Prevent directory traversal attacks
     if ".." in str(path):
-        raise ValidationError(f"Directory traversal not allowed in path: {file_path}", field_name="file_path", value=file_path)
+        raise ValidationError(
+            f"Directory traversal not allowed in path: {file_path}",
+            field_name="file_path",
+            value=file_path,
+        )
 
     if not allow_absolute and path.is_absolute():
-        raise ValidationError(f"Absolute paths not allowed: {file_path}", field_name="file_path", value=file_path)
+        raise ValidationError(
+            f"Absolute paths not allowed: {file_path}",
+            field_name="file_path",
+            value=file_path,
+        )
 
     if check_exists and not path.exists():
-        raise ValidationError(f"File does not exist: {file_path}", field_name="file_path", value=file_path)
+        raise ValidationError(
+            f"File does not exist: {file_path}", field_name="file_path", value=file_path
+        )
 
     return path
 
@@ -95,16 +111,26 @@ def validate_model_name(model_name: str) -> str:
         ValidationError: If model name is invalid
     """
     if not model_name or not isinstance(model_name, str):
-        raise ValidationError("Model name cannot be empty", field_name="model_name", value=model_name)
+        raise ValidationError(
+            "Model name cannot be empty", field_name="model_name", value=model_name
+        )
 
     # Remove potentially harmful characters
-    sanitized = re.sub(r'[^\w\-/.:]', '', model_name)
+    sanitized = re.sub(r"[^\w\-/.:]", "", model_name)
 
     if len(sanitized) < 2:
-        raise ValidationError(f"Model name too short: {model_name}", field_name="model_name", value=model_name)
+        raise ValidationError(
+            f"Model name too short: {model_name}",
+            field_name="model_name",
+            value=model_name,
+        )
 
     if len(sanitized) > 100:
-        raise ValidationError(f"Model name too long: {model_name}", field_name="model_name", value=model_name)
+        raise ValidationError(
+            f"Model name too long: {model_name}",
+            field_name="model_name",
+            value=model_name,
+        )
 
     return sanitized
 
@@ -124,23 +150,31 @@ def validate_command_args(args: str, max_length: int = 10000) -> str:
         ValidationError: If arguments are invalid
     """
     if not isinstance(args, str):
-        raise ValidationError(f"Arguments must be string, got {type(args)}", field_name="args", value=args)
+        raise ValidationError(
+            f"Arguments must be string, got {type(args)}", field_name="args", value=args
+        )
 
     if len(args) > max_length:
-        raise ValidationError(f"Arguments too long (max {max_length} chars)", field_name="args", value=args[:100])
+        raise ValidationError(
+            f"Arguments too long (max {max_length} chars)",
+            field_name="args",
+            value=args[:100],
+        )
 
     # Check for potentially dangerous patterns
     dangerous_patterns = [
-        r'rm\s+-rf',  # rm -rf commands
-        r'sudo\s+',   # sudo commands
-        r'chmod\s+777',  # dangerous chmod
-        r'eval\s*\(',  # eval statements
-        r'exec\s*\(',  # exec statements
+        r"rm\s+-rf",  # rm -rf commands
+        r"sudo\s+",  # sudo commands
+        r"chmod\s+777",  # dangerous chmod
+        r"eval\s*\(",  # eval statements
+        r"exec\s*\(",  # exec statements
     ]
 
     for pattern in dangerous_patterns:
         if re.search(pattern, args, re.IGNORECASE):
-            raise ValidationError(f"Potentially dangerous command: {args}", field_name="args", value=args)
+            raise ValidationError(
+                f"Potentially dangerous command: {args}", field_name="args", value=args
+            )
 
     return args
 
@@ -159,13 +193,13 @@ def sanitize_filename(filename: str) -> str:
         return "unnamed"
 
     # Replace unsafe characters with underscores
-    sanitized = re.sub(r'[<>:"/\\|?*]', '_', filename)
+    sanitized = re.sub(r'[<>:"/\\|?*]', "_", filename)
 
     # Remove control characters
-    sanitized = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', sanitized)
+    sanitized = re.sub(r"[\x00-\x1f\x7f-\x9f]", "", sanitized)
 
     # Remove leading/trailing whitespace and dots
-    sanitized = sanitized.strip(' .')
+    sanitized = sanitized.strip(" .")
 
     # Ensure we have a valid filename
     if not sanitized:
@@ -192,16 +226,27 @@ def validate_environment_variable_name(name: str) -> str:
         ValidationError: If name is invalid
     """
     if not name:
-        raise ValidationError("Environment variable name cannot be empty", field_name="env_var_name")
+        raise ValidationError(
+            "Environment variable name cannot be empty", field_name="env_var_name"
+        )
 
     # Environment variable names should match [A-Z_][A-Z0-9_]*
-    if not re.match(r'^[A-Z_][A-Z0-9_]*$', name.upper()):
-        raise ValidationError(f"Invalid environment variable name: {name}", field_name="env_var_name", value=name)
+    if not re.match(r"^[A-Z_][A-Z0-9_]*$", name.upper()):
+        raise ValidationError(
+            f"Invalid environment variable name: {name}",
+            field_name="env_var_name",
+            value=name,
+        )
 
     return name.upper()
 
 
-def validate_numeric_input(value: Union[str, int, float], field_name: str, min_value: Optional[Union[int, float]] = None, max_value: Optional[Union[int, float]] = None) -> Union[int, float]:
+def validate_numeric_input(
+    value: Union[str, int, float],
+    field_name: str,
+    min_value: Optional[Union[int, float]] = None,
+    max_value: Optional[Union[int, float]] = None,
+) -> Union[int, float]:
     """
     Validate numeric input with optional range checking.
 
@@ -221,24 +266,36 @@ def validate_numeric_input(value: Union[str, int, float], field_name: str, min_v
         if isinstance(value, str):
             # Handle common suffixes
             value = value.strip().lower()
-            if value.endswith('k'):
+            if value.endswith("k"):
                 numeric_value = float(value[:-1]) * 1000
-            elif value.endswith('m'):
+            elif value.endswith("m"):
                 numeric_value = float(value[:-1]) * 1000000
-            elif value.endswith('g'):
+            elif value.endswith("g"):
                 numeric_value = float(value[:-1]) * 1000000000
             else:
                 numeric_value = float(value)
         else:
             numeric_value = float(value)
     except (ValueError, TypeError) as e:
-        raise ValidationError(f"Invalid numeric value for {field_name}: {value}", field_name=field_name, value=value) from e
+        raise ValidationError(
+            f"Invalid numeric value for {field_name}: {value}",
+            field_name=field_name,
+            value=value,
+        ) from e
 
     if min_value is not None and numeric_value < min_value:
-        raise ValidationError(f"Value {numeric_value} is below minimum {min_value} for {field_name}", field_name=field_name, value=value)
+        raise ValidationError(
+            f"Value {numeric_value} is below minimum {min_value} for {field_name}",
+            field_name=field_name,
+            value=value,
+        )
 
     if max_value is not None and numeric_value > max_value:
-        raise ValidationError(f"Value {numeric_value} is above maximum {max_value} for {field_name}", field_name=field_name, value=value)
+        raise ValidationError(
+            f"Value {numeric_value} is above maximum {max_value} for {field_name}",
+            field_name=field_name,
+            value=value,
+        )
 
     return numeric_value
 
@@ -258,21 +315,37 @@ def validate_api_key_format(api_key: str, provider: str) -> bool:
         ValidationError: If API key format is invalid
     """
     if not api_key or not isinstance(api_key, str):
-        raise ValidationError(f"API key cannot be empty for {provider}", field_name="api_key", value=api_key)
+        raise ValidationError(
+            f"API key cannot be empty for {provider}",
+            field_name="api_key",
+            value=api_key,
+        )
 
     # Basic format checks for common providers
     if provider.lower() == "openai":
         # OpenAI keys typically start with 'sk-'
         if not api_key.startswith("sk-"):
-            raise ValidationError(f"OpenAI API key should start with 'sk-': {api_key}", field_name="api_key", value=api_key)
+            raise ValidationError(
+                f"OpenAI API key should start with 'sk-': {api_key}",
+                field_name="api_key",
+                value=api_key,
+            )
 
     elif provider.lower() == "anthropic":
         # Anthropic keys typically start with 'sk-ant-'
         if not (api_key.startswith("sk-ant-") or api_key.startswith("sk-")):
-            raise ValidationError(f"Anthropic API key format looks incorrect: {api_key}", field_name="api_key", value=api_key)
+            raise ValidationError(
+                f"Anthropic API key format looks incorrect: {api_key}",
+                field_name="api_key",
+                value=api_key,
+            )
 
     # Minimum length check
     if len(api_key) < 20:
-        raise ValidationError(f"API key too short for {provider}: {api_key}", field_name="api_key", value=api_key)
+        raise ValidationError(
+            f"API key too short for {provider}: {api_key}",
+            field_name="api_key",
+            value=api_key,
+        )
 
     return True

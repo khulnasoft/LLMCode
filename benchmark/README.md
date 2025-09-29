@@ -43,14 +43,14 @@ These steps only need to be done once.
 
 ```
 # Clone the llmcode repo
-git clone https://github.com/khulnasoft-lab/llmcode.git
+git clone https://github.com/khulnasoft/llmcode.git
 
 # Create the scratch dir to hold benchmarking results inside the main llmcode dir:
 cd llmcode
 mkdir tmp.benchmarks
 
 # Clone the repo with the exercises
-git clone https://github.com/khulnasoft-lab/polyglot-benchmark tmp.benchmarks/polyglot-benchmark
+git clone https://github.com/khulnasoft/polyglot-benchmark tmp.benchmarks/polyglot-benchmark
 
 # Build the docker container
 ./benchmark/docker_build.sh
@@ -135,12 +135,12 @@ This way the `model`, `edit_format` and `commit_hash`
 should be enough to reliably reproduce any benchmark run.
 
 You can see examples of the benchmark report yaml in the
-[llmcode leaderboard data files](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/website/_data/).
+[llmcode leaderboard data files](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/_data/).
 
 
 ## Limitations, notes
 
 - Contributions of benchmark results are welcome! Submit results by opening a PR with edits to the
-[llmcode leaderboard data files](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/website/_data/).
+[llmcode leaderboard data files](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/_data/).
 - These scripts are not intended for use by typical llmcode end users.
 - Some of these tools are written as `bash` scripts, so it will be hard to use them on Windows.

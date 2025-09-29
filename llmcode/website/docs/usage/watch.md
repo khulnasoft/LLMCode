@@ -158,14 +158,14 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-### Add a file to the llmcode chat
+### Add a file to the llm code
 
-Rather than using `/add` to add a file inside the llmcode chat, you can
+Rather than using `/add` to add a file inside the llm code, you can
 simply put an `#AI` comment in it and save the file.
 You can undo/remove the comment immediately if you like, the file
-will still be added to the llmcode chat.
+will still be added to the llm code.
 
-## Also use llmcode chat in the terminal
+## Also use llm code in the terminal
 
 It can be really helpful to get a change started with AI comments.
 But sometimes you want to build on or refine those changes.
@@ -174,7 +174,7 @@ but it can sometimes be effective to switch over to the llmcode terminal chat.
 The chat has the history of the AI comments you just made,
 so you can continue on naturally from there.
 
-You can also use the normal llmcode chat in your terminal to work with
+You can also use the normal llm code in your terminal to work with
 many of llmcode's more advanced features:
 
 - Use `/undo` to revert changes you don't like. Although you may also be able to use your IDE's undo function to step back in the file history.

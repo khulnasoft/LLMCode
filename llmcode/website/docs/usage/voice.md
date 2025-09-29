@@ -18,7 +18,7 @@ Use the in-chat `/voice` command to start recording,
 and press `ENTER` when you're done speaking.
 Your voice coding instructions will be transcribed, 
 as if you had  typed them into
-the llmcode chat session.
+the llm code session.
 
 See the [installation instructions](https://llm.khulnasoft.com/docs/install/optional.html#enable-voice-coding) for
 information on how to enable the `/voice` command.

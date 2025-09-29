@@ -1,16 +1,10 @@
 import os
 from unittest.mock import MagicMock, patch
 
-from llmcode.editor import (
-    DEFAULT_EDITOR_NIX,
-    DEFAULT_EDITOR_OS_X,
-    DEFAULT_EDITOR_WINDOWS,
-    discover_editor,
-    get_environment_editor,
-    pipe_editor,
-    print_status_message,
-    write_temp_file,
-)
+from llmcode.editor import (DEFAULT_EDITOR_NIX, DEFAULT_EDITOR_OS_X,
+                            DEFAULT_EDITOR_WINDOWS, discover_editor,
+                            get_environment_editor, pipe_editor,
+                            print_status_message, write_temp_file)
 
 
 def test_get_environment_editor():
@@ -94,10 +88,12 @@ def test_pipe_editor_with_fake_editor():
         log_path_escaped = log_path.replace("\\", "\\\\")
 
     with tempfile.NamedTemporaryFile(mode="w", suffix=".py", delete=False) as f:
-        f.write(f"""import sys
+        f.write(
+            f"""import sys
 with open(r"{log_path_escaped}", "w") as f:
     f.write(" ".join(sys.argv))
-""")
+"""
+        )
         script_path = f.name
 
     try:

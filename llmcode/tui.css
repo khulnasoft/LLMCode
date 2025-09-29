@@ -1,0 +1,12 @@
+#filetree {
+    width: 30%;
+}
+#chat {
+    width: 40%;
+}
+#diff {
+    width: 30%;
+}
+Input {
+    dock: bottom;
+}

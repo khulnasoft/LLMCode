@@ -40,7 +40,7 @@ read: [CONVENTIONS.md, anotherfile.txt, thirdfile.py]
 
 Below is a sample of the YAML config file, which you
 can also
-[download from GitHub](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/website/assets/sample.llmcode.conf.yml).
+[download from GitHub](https://github.com/khulnasoft/llmcode/blob/main/llmcode/website/assets/sample.llmcode.conf.yml).
 
 <!--[[[cog
 from llmcode.args import get_sample_yaml

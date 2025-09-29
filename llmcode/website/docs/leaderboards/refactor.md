@@ -8,7 +8,7 @@ description: Quantitative benchmark of LLM code refactoring skill.
 
 ## Refactoring leaderboard
 
-[Llmcode's refactoring benchmark](https://github.com/khulnasoft-lab/refactor-benchmark) asks the LLM to refactor 89 large methods from large python classes. This is a more challenging benchmark, which tests the model's ability to output long chunks of code without skipping sections or making mistakes. It was developed to provoke and measure [GPT-4 Turbo's "lazy coding" habit](/2023/12/21/unified-diffs.html).
+[Llmcode's refactoring benchmark](https://github.com/khulnasoft/refactor-benchmark) asks the LLM to refactor 89 large methods from large python classes. This is a more challenging benchmark, which tests the model's ability to output long chunks of code without skipping sections or making mistakes. It was developed to provoke and measure [GPT-4 Turbo's "lazy coding" habit](/2023/12/21/unified-diffs.html).
 
 The refactoring benchmark requires a large context window to
 work with large source files.

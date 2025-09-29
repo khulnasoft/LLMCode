@@ -5,7 +5,7 @@ nav_order: 500
 
 # Privacy policy
 
-[Llmcode AI LLC](/docs/faq.html#what-is-khulnasoft-lab-llc)
+[Llmcode AI LLC](/docs/faq.html#what-is-khulnasoft-llc)
 (“Llmcode,” “we,” “our,” and/or “us”) values the privacy of individuals who use our website, programming tools, and related services (collectively, our “Services”). This privacy policy (the “Privacy Policy”) explains how we collect, use, and disclose information from users of our Services. By using our Services, you agree to the collection, use, disclosure, and procedures this Privacy Policy describes. 
 
 ### Information We Collect

@@ -12,3 +12,7 @@ semver
 codespell
 uv
 google-cloud-bigquery
+isort
+textual
+chromadb
+pygls

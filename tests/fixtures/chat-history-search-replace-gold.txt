@@ -2120,7 +2120,7 @@ llmcode/versioncheck.py
     if not is_update_available:
         return False
 
-    cmd = utils.get_pip_install(["--upgrade", "llmcode-chat"])
+    cmd = utils.get_pip_install(["--upgrade", "llmcode"])
 
     text = f"""
 Newer llmcode version v{latest_version} is available. To upgrade, run:
@@ -2163,7 +2163,7 @@ def check_version(io, just_check=False):
     import requests
 
     try:
-        response = requests.get("https://pypi.org/pypi/llmcode-chat/json")
+        response = requests.get("https://pypi.org/pypi/llmcode/json")
         data = response.json()
         latest_version = data["info"]["version"]
         current_version = llmcode.__version__
@@ -2192,7 +2192,7 @@ def check_version(io, just_check=False):
     if not is_update_available:
         return False
 
-    cmd = utils.get_pip_install(["--upgrade", "llmcode-chat"])
+    cmd = utils.get_pip_install(["--upgrade", "llmcode"])
 
     text = f"""
 Newer llmcode version v{latest_version} is available. To upgrade, run:
@@ -2235,7 +2235,7 @@ def check_version(io, just_check=False):
     import requests
 
     try:
-        response = requests.get("https://pypi.org/pypi/llmcode-chat/json")
+        response = requests.get("https://pypi.org/pypi/llmcode/json")
         data = response.json()
         latest_version = data["info"]["version"]
         current_version = llmcode.__version__
@@ -2274,7 +2274,7 @@ Newer llmcode version v{latest_version} is available. To upgrade, run:
         io.tool_error(text)
         return True
 
-    cmd = utils.get_pip_install(["--upgrade", "llmcode-chat"])
+    cmd = utils.get_pip_install(["--upgrade", "llmcode"])
 
     text = f"""
 Newer llmcode version v{latest_version} is available. To upgrade, run:
@@ -2941,12 +2941,12 @@ def guessed_wrong_repo(io, git_root, fnames, git_dname):
 @@@ REPLACE @@@@@@@@@@@@@@@@@@@@
 
 
-@@@ #### cache the `TreeContext` for each filename, and re-use it. @@@@@@@@@@@@@@@@@@@@
+@@@ #### cache the `TreeContext` for each filename, and reuse it. @@@@@@@@@@@@@@@@@@@@
 >  
 >  
 > ^C again to exit  
 
-To implement caching for `TreeContext` for each filename and re-use it, we need to modify the `RepoMap` class in `llmcode/repomap.py`. Specifically, we need to:
+To implement caching for `TreeContext` for each filename and reuse it, we need to modify the `RepoMap` class in `llmcode/repomap.py`. Specifically, we need to:
 
 1. Add a cache dictionary to store `TreeContext` instances.
 2. Modify the `render_tree` method to check the cache before creating a new `TreeContext` instance.
@@ -3024,7 +3024,7 @@ llmcode/repomap.py
 @@@ REPLACE @@@@@@@@@@@@@@@@@@@@
 
 
-@@@ #### cache the `TreeContext` for each filename, and re-use it. @@@@@@@@@@@@@@@@@@@@
+@@@ #### cache the `TreeContext` for each filename, and reuse it. @@@@@@@@@@@@@@@@@@@@
 @@@ SEARCH: llmcode/repomap.py @@@@@@@@@@@@@@@@@@@@
 class RepoMap:
     CACHE_VERSION = 3
@@ -3572,7 +3572,7 @@ from prompt_toolkit.shortcuts import CompleteStyle, PromptSession, prompt, confi
             self.console = Console(force_terminal=False, no_color=True)
 
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        self.append_chat_history(f"\n# llmcode chat started at {current_time}\n\n")
+        self.append_chat_history(f"\n# llm code started at {current_time}\n\n")
 @@@@@@@@@@@@@@@@@@@@
     def __init__(
         self,
@@ -3624,7 +3624,7 @@ from prompt_toolkit.shortcuts import CompleteStyle, PromptSession, prompt, confi
             self.console = Console(force_terminal=False, no_color=True)
 
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        self.append_chat_history(f"\n# llmcode chat started at {current_time}\n\n")
+        self.append_chat_history(f"\n# llm code started at {current_time}\n\n")
 
         self.pending_output = []
 @@@ REPLACE @@@@@@@@@@@@@@@@@@@@
@@ -11527,7 +11527,7 @@ llmcode/models.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:03:27
+# llm code started at 2024-08-12 15:03:27
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode sendchat.py  
 > Llmcode v0.49.2-dev  
@@ -11619,7 +11619,7 @@ from llmcode.llm import litellm
 @@@ REPLACE @@@@@@@@@@@@@@@@@@@@
 
 
-@@@ #### add a --deepseek-beta bool arg. descibe as uses deepseek coder via the beta api endpoint @@@@@@@@@@@@@@@@@@@@
+@@@ #### add a --deepseek-beta bool arg. describe as uses deepseek coder via the beta api endpoint @@@@@@@@@@@@@@@@@@@@
 @@@ SEARCH: llmcode/args.py @@@@@@@@@@@@@@@@@@@@
     deepseek_model = "deepseek/deepseek-coder"
     group.add_argument(
@@ -11657,7 +11657,7 @@ from llmcode.llm import litellm
 @@@ REPLACE @@@@@@@@@@@@@@@@@@@@
 
 
-@@@ #### add a --deepseek-beta bool arg. descibe as uses deepseek coder via the beta api endpoint. in main set the model name and DEEPSEEK_API_BASE=https://api.deepseek.com/beta @@@@@@@@@@@@@@@@@@@@
+@@@ #### add a --deepseek-beta bool arg. describe as uses deepseek coder via the beta api endpoint. in main set the model name and DEEPSEEK_API_BASE=https://api.deepseek.com/beta @@@@@@@@@@@@@@@@@@@@
 @@@ SEARCH: llmcode/args.py @@@@@@@@@@@@@@@@@@@@
     group.add_argument(
         "--deepseek",
@@ -11765,7 +11765,7 @@ Llmcode works best with GPT-4o & Claude 3.5 Sonnet and can
 
 Llmcode vous permet de programmer en binôme avec des LLMs,
 pour éditer du code dans votre dépôt git local.
-Commencez un nouveau projet ou travaillez avec un dépôt git existant.
+Commencez un nouveau project ou travaillez avec un dépôt git existent.
 Llmcode fonctionne mieux avec GPT-4o & Claude 3.5 Sonnet et peut
 [se connecter à presque tous les LLMs](https://llm.khulnasoft.com/docs/llms.html).
 
@@ -11795,7 +11795,7 @@ README.md
 You can get started quickly like this:
 
 ```
-python -m pip install llmcode-chat
+python -m pip install llmcode
 
 # Change directory into a git repo
 cd /to/your/git/repo
@@ -11812,7 +11812,7 @@ llmcode
 Vous pouvez commencer rapidement comme ceci :
 
 ```
-python -m pip install llmcode-chat
+python -m pip install llmcode
 
 # Changez de répertoire vers un dépôt git
 cd /vers/votre/depot/git
@@ -11868,7 +11868,7 @@ Pair program with AI.
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:11:18
+# llm code started at 2024-08-12 15:11:18
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode HISTORY.md  
 > Llmcode v0.49.2-dev  
@@ -12008,9 +12008,9 @@ HISTORY.md
 
 - Default pip install size reduced by 3-12x.
 - Added 3 package extras, which llmcode will offer to install when needed:
-  - `llmcode-chat[help]`
-  - `llmcode-chat[browser]`
-  - `llmcode-chat[playwright]`
+  - `llmcode[help]`
+  - `llmcode[browser]`
+  - `llmcode[playwright]`
 - Improved regex for detecting URLs in user chat messages.
 - Bugfix to globbing logic when absolute paths are included in `/add`.
 - Simplified output of `--models`.
@@ -12310,7 +12310,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:15:37
+# llm code started at 2024-08-12 15:15:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307  
 > Llmcode v0.49.2-dev  
@@ -12325,7 +12325,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 15:15:40
+# llm code started at 2024-08-12 15:15:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model claude-3-haiku-20240307 HISTORY.md  
 > Llmcode v0.49.2-dev  
@@ -13776,7 +13776,7 @@ HISTORY.md
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-12 20:56:40
+# llm code started at 2024-08-12 20:56:40
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --deepseek HISTORY.md --dry-run --edit whole  
 > Llmcode v0.49.2-dev  
@@ -15038,7 +15038,7 @@ llmcode/coders/base_coder.py
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-13 05:47:36
+# llm code started at 2024-08-13 05:47:36
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/coders/base_coder.py  
 > Llmcode v0.49.2-dev  
@@ -15052,7 +15052,7 @@ llmcode/coders/base_coder.py
 ^^^ Expected `>>>>>>> REPLACE` or `=======`
 
 
-@@@ #### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result inthe request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost` @@@@@@@@@@@@@@@@@@@@
+@@@ #### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result in the request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost` @@@@@@@@@@@@@@@@@@@@
 >  
 >  
 > ^C again to exit  
@@ -15101,7 +15101,7 @@ llmcode/coders/base_coder.py
 ^^^ Expected `=======`
 
 
-@@@ #### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result inthe request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost` @@@@@@@@@@@@@@@@@@@@
+@@@ #### self.calculate_and_show_tokens_and_cost isn't being called when send() raises `FinishReasonLength`. this might result in the request stopping or retrying with prefill. either way, we want to print costs and update the `total_cost` @@@@@@@@@@@@@@@@@@@@
 @@@ SEARCH: llmcode/coders/base_coder.py @@@@@@@@@@@@@@@@@@@@
     def send(self, messages, model=None, functions=None):
         if not model:
@@ -16081,7 +16081,7 @@ def sanity_check_model(io, model):
 @@@ #### use cog to import `exclude_website_pats` and emit it into the toml @@@@@@@@@@@@@@@@@@@@
 @@@ SEARCH: pyproject.toml @@@@@@@@@@@@@@@@@@@@
 [project]
-name = "llmcode-chat"
+name = "llmcode"
 @@@@@@@@@@@@@@@@@@@@
 # [[[cog
 # from llmcode.help_pats import exclude_website_pats
@@ -16089,7 +16089,7 @@ name = "llmcode-chat"
 # [[[end]]]
 
 [project]
-name = "llmcode-chat"
+name = "llmcode"
 @@@ REPLACE @@@@@@@@@@@@@@@@@@@@
 @@@ SEARCH: pyproject.toml @@@@@@@@@@@@@@@@@@@@
 [tool.setuptools.exclude-package-data]
@@ -19942,10 +19942,10 @@ llmcode/website/_data/code-in-json.yml
 >  
 > ^C KeyboardInterrupt  
 
-# llmcode chat started at 2024-08-14 16:50:59
+# llm code started at 2024-08-14 16:50:59
 
 
-# llmcode chat started at 2024-08-14 20:04:37
+# llm code started at 2024-08-14 20:04:37
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode llmcode/website/_posts/2024-08-14-code-in-json.md --read llmcode/website/_data/code-in-json.yml  
 > Llmcode v0.50.2-dev  
@@ -23945,7 +23945,7 @@ HISTORY.md
 
 > Tokens: 17,647 sent, 267 received. Cost: $0.0025 message, $0.0025 session.  
 
-# llmcode chat started at 2024-08-19 10:39:14
+# llm code started at 2024-08-19 10:39:14
 
 > /Users/gauthier/Projects/llmcode/.venv/bin/llmcode --model openrouter/deepseek/deepseek-coder HISTORY.md --dry-run --msg translate it all to french --edit-format whole  
 > Llmcode v0.50.2-dev  
@@ -24047,7 +24047,7 @@ def format_messages(messages, title=None):
 
 > Tokens: 4,537 sent, 180 received. Cost: $0.02 message, $0.02 session.  
 
-# llmcode chat started at 2024-08-19 12:53:59
+# llm code started at 2024-08-19 12:53:59
 
 > Loaded /Users/gauthier/.env  
 > Loaded /Users/gauthier/Projects/llmcode/.env  

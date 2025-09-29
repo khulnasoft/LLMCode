@@ -20,7 +20,7 @@ See
 [llmcode's release history](/HISTORY.html) for the latest statistics.
 
 The
-[llmcode git repo](https://github.com/khulnasoft-lab/llmcode)
+[llmcode git repo](https://github.com/khulnasoft/llmcode)
 currently contains about 4K commits and 14K lines of code.
 
 Llmcode made 15% of the commits, inserting 4.8K and deleting 1.5K lines of code.

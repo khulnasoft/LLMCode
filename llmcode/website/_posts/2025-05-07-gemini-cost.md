@@ -31,7 +31,7 @@ commit [a7db0df](https://github.com/BerriAI/litellm/commit/a7db0df0434bfbac2b68e
 This change was released in litellm v1.67.1.
 Llmcode picked up this change April 28, 2025 when it upgraded its litellm dependency 
 from v1.65.7 to v1.67.4.post1
-in commit [9351f37](https://github.com/khulnasoft-lab/llmcode/commit/9351f37).
+in commit [9351f37](https://github.com/khulnasoft/llmcode/commit/9351f37).
 That dependency change shipped on May 5, 2025 in llmcode v0.82.3.
 
 Unfortunately the 03-25 version of Gemini 2.5 Pro Preview is no longer available,
@@ -56,9 +56,9 @@ loaded the correct cost data from its database and made use of it during the ben
 Every llmcode benchmark report contains the git commit hash of the llmcode repository state used to
 run the benchmark.
 The 
-[benchmark run in question](https://github.com/khulnasoft-lab/llmcode/blob/edbfec0ce4e1fe86735c915cb425b0d8636edc32/llmcode/website/_data/polyglot_leaderboard.yml#L814)
+[benchmark run in question](https://github.com/khulnasoft/llmcode/blob/edbfec0ce4e1fe86735c915cb425b0d8636edc32/llmcode/website/_data/polyglot_leaderboard.yml#L814)
 was built from 
-commit [0282574](https://github.com/khulnasoft-lab/llmcode/commit/0282574).
+commit [0282574](https://github.com/khulnasoft/llmcode/commit/0282574).
 
 Additional runs of the benchmark from that build verified that the error in litellm's
 model cost database appears not to have been a factor:
@@ -80,7 +80,7 @@ relevant source.
 
 - 2025-04-04 19:54:45 UTC (Sat Apr 5 08:54:45 2025 +1300)
   - Correct value `"output_cost_per_token": 0.000010` for  `gemini/gemini-2.5-pro-preview-03-25` added to `llmcode/resources/model-metadata.json`
-  - Commit [eda796d](https://github.com/khulnasoft-lab/llmcode/commit/eda796d) in llmcode.
+  - Commit [eda796d](https://github.com/khulnasoft/llmcode/commit/eda796d) in llmcode.
 
 - 2025-04-05 16:20:01 UTC (Sun Apr 6 00:20:01 2025 +0800)
   - First litellm commit of `gemini/gemini-2.5-pro-preview-03-25` metadata, with incorrect price `"output_cost_per_token": 0.0000010`
@@ -92,12 +92,12 @@ relevant source.
 
 - 2025-04-12 04:55:50 UTC (2025-04-12-04-55-50 UTC)
   - Benchmark performed.
-  - Llmcode repo hash [0282574 recorded in benchmark results](https://github.com/khulnasoft-lab/llmcode/blob/7fbeafa1cfd4ad83f7499417837cdfa6b16fe7a1/llmcode/website/_data/polyglot_leaderboard.yml#L814), without a "dirty" annotation, indicating that the benchmark was run on a clean checkout of the llmcode repo at commit [0282574](https://github.com/khulnasoft-lab/llmcode/commit/0282574).
-  - Correct value `"output_cost_per_token": 0.000010` is in `llmcode/resources/model-metadata.json` at this commit [0282574](https://github.com/khulnasoft-lab/llmcode/blob/0282574/llmcode/resources/model-metadata.json#L357).
+  - Llmcode repo hash [0282574 recorded in benchmark results](https://github.com/khulnasoft/llmcode/blob/7fbeafa1cfd4ad83f7499417837cdfa6b16fe7a1/llmcode/website/_data/polyglot_leaderboard.yml#L814), without a "dirty" annotation, indicating that the benchmark was run on a clean checkout of the llmcode repo at commit [0282574](https://github.com/khulnasoft/llmcode/commit/0282574).
+  - Correct value `"output_cost_per_token": 0.000010` is in `llmcode/resources/model-metadata.json` at this commit [0282574](https://github.com/khulnasoft/llmcode/blob/0282574/llmcode/resources/model-metadata.json#L357).
 
 - 2025-04-12 15:06:39 UTC (Apr 12 08:06:39 2025 -0700)
   - Benchmark results added to llmcode repo.
-  - Commit [7fbeafa](https://github.com/khulnasoft-lab/llmcode/commit/7fbeafa) in llmcode.
+  - Commit [7fbeafa](https://github.com/khulnasoft/llmcode/commit/7fbeafa) in llmcode.
 
 - 2025-04-12 15:20:04 UTC (Sat Apr 12 19:20:04 2025 +0400)
   - litellm commit fixes `gemini/gemini-2.5-pro-preview-03-25` price metadata to `"output_cost_per_token": 0.00001`
@@ -110,5 +110,5 @@ relevant source.
 
 - 2025-04-28 14:53:20 UTC (Mon Apr 28 07:53:20 2025 -0700)
   - Llmcode upgraded its litellm dependency from v1.65.7 to v1.67.4.post1, which included the reasoning token count fix.
-  - Commit [9351f37](https://github.com/khulnasoft-lab/llmcode/commit/9351f37) in llmcode.
+  - Commit [9351f37](https://github.com/khulnasoft/llmcode/commit/9351f37) in llmcode.
   - This dependency change shipped on May 5, 2025 in llmcode v0.82.3.

@@ -10,11 +10,8 @@ import configargparse
 import shtab
 
 from llmcode import __version__
-from llmcode.args_formatter import (
-    DotEnvFormatter,
-    MarkdownHelpFormatter,
-    YamlHelpFormatter,
-)
+from llmcode.args_formatter import (DotEnvFormatter, MarkdownHelpFormatter,
+                                    YamlHelpFormatter)
 from llmcode.deprecated import add_deprecated_model_args
 
 from .dump import dump  # noqa: F401
@@ -55,7 +52,9 @@ def default_env_file(git_root: Optional[str]) -> str:
     return os.path.join(git_root, ".env") if git_root else ".env"
 
 
-def get_parser(default_config_files: List[str], git_root: Optional[str]) -> configargparse.ArgumentParser:
+def get_parser(
+    default_config_files: List[str], git_root: Optional[str]
+) -> configargparse.ArgumentParser:
     """
     Create and configure the argument parser for llmcode.
 
@@ -305,7 +304,9 @@ def get_parser(default_config_files: List[str], git_root: Optional[str]) -> conf
     ##########
     group = parser.add_argument_group("History Files")
     default_input_history_file = (
-        os.path.join(git_root, ".llmcode.input.history") if git_root else ".llmcode.input.history"
+        os.path.join(git_root, ".llmcode.input.history")
+        if git_root
+        else ".llmcode.input.history"
     )
     default_chat_history_file = (
         os.path.join(git_root, ".llm.khulnasoft.com.history.md")
@@ -1001,7 +1002,9 @@ def main() -> None:
             print(shtab.complete(parser, shell=shell))
         else:
             print("Error: Please specify a shell for completion.", file=sys.stderr)
-            print(f"Usage: python {sys.argv[0]} completion <shell_name>", file=sys.stderr)
+            print(
+                f"Usage: python {sys.argv[0]} completion <shell_name>", file=sys.stderr
+            )
             print(
                 f"Supported shells are: {', '.join(shtab.SUPPORTED_SHELLS)}",
                 file=sys.stderr,

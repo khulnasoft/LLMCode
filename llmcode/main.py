@@ -19,17 +19,15 @@ from dotenv import load_dotenv
 from prompt_toolkit.enums import EditingMode
 
 from llmcode import __version__, models, urls, utils
-from llmcode.validation import (
-    validate_api_key_format,
-    validate_environment_variable_name,
-    validate_model_name,
-    validate_numeric_input,
-)
 from llmcode.coders.base_coder import UnknownEditFormat
 from llmcode.commands import Commands, SwitchCoder
 from llmcode.copypaste import ClipboardWatcher
 from llmcode.deprecated import handle_deprecated_model_args
 from llmcode.format_settings import format_settings, scrub_sensitive_info
+from llmcode.validation import (validate_api_key_format,
+                                validate_environment_variable_name,
+                                validate_model_name, validate_numeric_input)
+
 
 def validate_configuration(args) -> List[str]:
     """
@@ -46,17 +44,23 @@ def validate_configuration(args) -> List[str]:
     # Check for missing API keys when specific providers are requested
     if args.model:
         model_lower = args.model.lower()
-        if any(provider in model_lower for provider in ['openai', 'gpt']) and not os.environ.get('OPENAI_API_KEY'):
+        if any(
+            provider in model_lower for provider in ["openai", "gpt"]
+        ) and not os.environ.get("OPENAI_API_KEY"):
             warnings.append("OpenAI model specified but OPENAI_API_KEY not found")
-        if 'anthropic' in model_lower and not os.environ.get('ANTHROPIC_API_KEY'):
+        if "anthropic" in model_lower and not os.environ.get("ANTHROPIC_API_KEY"):
             warnings.append("Anthropic model specified but ANTHROPIC_API_KEY not found")
-        if 'openrouter' in model_lower and not os.environ.get('OPENROUTER_API_KEY'):
-            warnings.append("OpenRouter model specified but OPENROUTER_API_KEY not found")
+        if "openrouter" in model_lower and not os.environ.get("OPENROUTER_API_KEY"):
+            warnings.append(
+                "OpenRouter model specified but OPENROUTER_API_KEY not found"
+            )
 
     # Check for deprecated arguments
     deprecated_args = [
-        'openai_api_type', 'openai_api_version', 'openai_api_deployment_id',
-        'openai_organization_id'
+        "openai_api_type",
+        "openai_api_version",
+        "openai_api_deployment_id",
+        "openai_organization_id",
     ]
     for arg in deprecated_args:
         if hasattr(args, arg) and getattr(args, arg):
@@ -87,8 +91,12 @@ def check_config_files_for_yes(config_files: List[str]) -> bool:
                     for line in f:
                         if line.strip().startswith("yes:"):
                             print("Configuration error detected.")
-                            print(f"The file {config_file} contains a line starting with 'yes:'")
-                            print("Please replace 'yes:' with 'yes-always:' in this file.")
+                            print(
+                                f"The file {config_file} contains a line starting with 'yes:'"
+                            )
+                            print(
+                                "Please replace 'yes:' with 'yes-always:' in this file."
+                            )
                             found = True
             except (OSError, IOError) as e:
                 # Log the error but don't fail completely
@@ -117,7 +125,9 @@ def get_git_root() -> Optional[str]:
         return None
 
 
-def guessed_wrong_repo(io, git_root: Optional[str], fnames: List[str], git_dname: Optional[str]) -> Optional[str]:
+def guessed_wrong_repo(
+    io, git_root: Optional[str], fnames: List[str], git_dname: Optional[str]
+) -> Optional[str]:
     """After we parse the args, we can determine the real repo. Did we guess wrong?"""
 
     try:
@@ -198,7 +208,9 @@ def setup_git(git_root, io):
             io.tool_warning('Update git name with: git config user.name "Your Name"')
         if not user_email:
             git_config.set_value("user", "email", "you@example.com")
-            io.tool_warning('Update git email with: git config user.email "you@example.com"')
+            io.tool_warning(
+                'Update git email with: git config user.email "you@example.com"'
+            )
 
     return repo.working_tree_dir
 
@@ -239,7 +251,9 @@ def check_gitignore(git_root, io, ask=True):
 
     if ask:
         io.tool_output("You can skip this check with --no-gitignore")
-        if not io.confirm_ask(f"Add {', '.join(patterns_to_add)} to .gitignore (recommended)?"):
+        if not io.confirm_ask(
+            f"Add {', '.join(patterns_to_add)} to .gitignore (recommended)?"
+        ):
             return
 
     content += "\n".join(patterns_to_add) + "\n"
@@ -261,14 +275,14 @@ def check_streamlit_install(io):
         io,
         "streamlit",
         "You need to install the llmcode browser feature",
-        ["llmcode-chat[browser]"],
+        ["llmcode[browser]"],
     )
 
 
 def write_streamlit_credentials():
     from streamlit.file_util import get_streamlit_file_path
 
-    # See https://github.com/khulnasoft-lab/llmcode/issues/772
+    # See https://github.com/khulnasoft/llmcode/issues/772
 
     credential_path = Path(get_streamlit_file_path()) / "credentials.toml"
     if not os.path.exists(credential_path):
@@ -302,7 +316,7 @@ def launch_gui(args):
         "--server.runOnSave=false",
     ]
 
-    # https://github.com/khulnasoft-lab/llmcode/issues/2193
+    # https://github.com/khulnasoft/llmcode/issues/2193
     is_dev = "-dev" in str(__version__)
 
     if is_dev:
@@ -409,7 +423,9 @@ def register_models(git_root, model_settings_fname, io, verbose=False):
     return None
 
 
-def load_dotenv_files(git_root: Optional[str], dotenv_fname: str, encoding: str = "utf-8") -> List[str]:
+def load_dotenv_files(
+    git_root: Optional[str], dotenv_fname: str, encoding: str = "utf-8"
+) -> List[str]:
     """
     Load environment variables from .env files.
 
@@ -463,7 +479,9 @@ def register_litellm_models(git_root, model_metadata_fname, io, verbose=False):
     )
 
     try:
-        model_metadata_files_loaded = models.register_litellm_models(model_metadata_files)
+        model_metadata_files_loaded = models.register_litellm_models(
+            model_metadata_files
+        )
         if len(model_metadata_files_loaded) > 0 and verbose:
             io.tool_output("Loaded model metadata from:")
             for model_metadata_file in model_metadata_files_loaded:
@@ -502,7 +520,9 @@ def sanity_check_repo(repo, io):
 
     if bad_ver:
         io.tool_error("Llmcode only works with git repos with version number 1 or 2.")
-        io.tool_output("You may be able to convert your repo: git update-index --index-version=2")
+        io.tool_output(
+            "You may be able to convert your repo: git update-index --index-version=2"
+        )
         io.tool_output("Or run llmcode --no-git to proceed without using git.")
         io.offer_url(urls.git_index_version, "Open documentation url for more info?")
         return False
@@ -512,7 +532,13 @@ def sanity_check_repo(repo, io):
     return False
 
 
-def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_root: Optional[str] = None, return_coder: bool = False) -> int:
+def main(
+    argv: Optional[List[str]] = None,
+    input=None,
+    output=None,
+    force_git_root: Optional[str] = None,
+    return_coder: bool = False,
+) -> int:
     report_uncaught_exceptions()
 
     if argv is None:
@@ -544,7 +570,10 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
     try:
         args, unknown = parser.parse_known_args(argv)
     except AttributeError as e:
-        if all(word in str(e) for word in ["bool", "object", "has", "no", "attribute", "strip"]):
+        if all(
+            word in str(e)
+            for word in ["bool", "object", "has", "no", "attribute", "strip"]
+        ):
             if check_config_files_for_yes(default_config_files):
                 return 1
         raise e
@@ -663,7 +692,7 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
                 raise ValidationError(
                     f"Invalid --set-env format: {env_setting}",
                     field_name="set_env",
-                    value=env_setting
+                    value=env_setting,
                 )
 
     # Process any API keys set via --api-key
@@ -685,7 +714,7 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
                 raise ValidationError(
                     f"Invalid --api-key format: {api_setting}",
                     field_name="api_key",
-                    value=api_setting
+                    value=api_setting,
                 )
 
     if args.anthropic_api_key:
@@ -704,7 +733,9 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
         )
         os.environ["OPENAI_API_VERSION"] = args.openai_api_version
     if args.openai_api_type:
-        io.tool_warning("--openai-api-type is deprecated, use --set-env OPENAI_API_TYPE=<value>")
+        io.tool_warning(
+            "--openai-api-type is deprecated, use --set-env OPENAI_API_TYPE=<value>"
+        )
         os.environ["OPENAI_API_TYPE"] = args.openai_api_type
     if args.openai_organization_id:
         io.tool_warning(
@@ -833,7 +864,9 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
     check_and_load_imports(io, is_first_run, verbose=args.verbose)
 
     register_models(git_root, args.model_settings_file, io, verbose=args.verbose)
-    register_litellm_models(git_root, args.model_metadata_file, io, verbose=args.verbose)
+    register_litellm_models(
+        git_root, args.model_metadata_file, io, verbose=args.verbose
+    )
 
     if args.list_models:
         models.print_matching_models(io, args.list_models)
@@ -862,7 +895,9 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
     args.model = selected_model_name  # Update args with the selected model
 
     # Check if an OpenRouter model was selected/specified but the key is missing
-    if args.model.startswith("openrouter/") and not os.environ.get("OPENROUTER_API_KEY"):
+    if args.model.startswith("openrouter/") and not os.environ.get(
+        "OPENROUTER_API_KEY"
+    ):
         io.tool_warning(
             f"The specified model '{args.model}' requires an OpenRouter API key, which was not"
             " found."
@@ -916,14 +951,16 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
     if args.reasoning_effort is not None:
         # Apply if check is disabled or model explicitly supports it
         if not args.check_model_accepts_settings or (
-            main_model.accepts_settings and "reasoning_effort" in main_model.accepts_settings
+            main_model.accepts_settings
+            and "reasoning_effort" in main_model.accepts_settings
         ):
             main_model.set_reasoning_effort(args.reasoning_effort)
 
     if args.thinking_tokens is not None:
         # Apply if check is disabled or model explicitly supports it
         if not args.check_model_accepts_settings or (
-            main_model.accepts_settings and "thinking_tokens" in main_model.accepts_settings
+            main_model.accepts_settings
+            and "thinking_tokens" in main_model.accepts_settings
         ):
             main_model.set_thinking_tokens(args.thinking_tokens)
 
@@ -973,10 +1010,14 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
             io.tool_output("You can skip this check with --no-show-model-warnings")
 
             try:
-                io.offer_url(urls.model_warnings, "Open documentation url for more info?")
+                io.offer_url(
+                    urls.model_warnings, "Open documentation url for more info?"
+                )
                 io.tool_output()
             except KeyboardInterrupt:
-                analytics.event("exit", reason="Keyboard interrupt during model warnings")
+                analytics.event(
+                    "exit", reason="Keyboard interrupt during model warnings"
+                )
                 return 1
 
     repo = None
@@ -1197,7 +1238,9 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
         io.tool_output(f"Git working dir: {git_root}")
 
     if args.stream and args.cache_prompts:
-        io.tool_warning("Cost estimates may be inaccurate when using streaming and caching.")
+        io.tool_warning(
+            "Cost estimates may be inaccurate when using streaming and caching."
+        )
 
     if args.load:
         commands.cmd_load(args.load)
@@ -1233,7 +1276,9 @@ def main(argv: Optional[List[str]] = None, input=None, output=None, force_git_ro
         analytics.event("exit", reason="Exit flag set")
         return
 
-    analytics.event("cli session", main_model=main_model, edit_format=main_model.edit_format)
+    analytics.event(
+        "cli session", main_model=main_model, edit_format=main_model.edit_format
+    )
 
     while True:
         try:
@@ -1313,8 +1358,12 @@ def check_and_load_imports(io, is_first_run, verbose=False):
                 load_slow_imports(swallow=False)
             except Exception as err:
                 io.tool_error(str(err))
-                io.tool_output("Error loading required imports. Did you install llmcode properly?")
-                io.offer_url(urls.install_properly, "Open documentation url for more info?")
+                io.tool_output(
+                    "Error loading required imports. Did you install llmcode properly?"
+                )
+                io.offer_url(
+                    urls.install_properly, "Open documentation url for more info?"
+                )
                 sys.exit(1)
 
             if verbose:
@@ -1344,28 +1393,28 @@ def load_slow_imports(swallow: bool = True) -> None:
         swallow: If True, exceptions during import will be silently ignored
     """
     heavy_imports = [
-        'httpx',
-        'litellm',
-        'networkx',
-        'numpy',
-        'scipy',
-        'PIL',
-        'sounddevice',
-        'soundfile',
-        'pydub',
-        'tiktoken',
-        'transformers',
-        'torch',
-        'tensorflow',
-        'jax',
-        'pandas',
-        'matplotlib',
-        'plotly',
-        'streamlit',
-        'gradio',
-        'fastapi',
-        'uvicorn',
-        'gunicorn'
+        "httpx",
+        "litellm",
+        "networkx",
+        "numpy",
+        "scipy",
+        "PIL",
+        "sounddevice",
+        "soundfile",
+        "pydub",
+        "tiktoken",
+        "transformers",
+        "torch",
+        "tensorflow",
+        "jax",
+        "pandas",
+        "matplotlib",
+        "plotly",
+        "streamlit",
+        "gradio",
+        "fastapi",
+        "uvicorn",
+        "gunicorn",
     ]
 
     failed_imports = []
@@ -1382,7 +1431,10 @@ def load_slow_imports(swallow: bool = True) -> None:
                 raise e
 
     if failed_imports and not swallow:
-        error_msg = f"Failed to load {len(failed_imports)} heavy imports:\n" + "\n".join(failed_imports)
+        error_msg = (
+            f"Failed to load {len(failed_imports)} heavy imports:\n"
+            + "\n".join(failed_imports)
+        )
         raise ImportError(error_msg)
 
 

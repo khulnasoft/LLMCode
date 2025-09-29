@@ -112,9 +112,9 @@ like functions and methods also include their signatures.
 
 Here's a
 sample of the map of the llmcode repo, just showing the maps of
-[main.py](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/main.py)
+[main.py](https://github.com/khulnasoft/llmcode/blob/main/llmcode/main.py)
 and
-[io.py](https://github.com/khulnasoft-lab/llmcode/blob/main/llmcode/io.py)
+[io.py](https://github.com/khulnasoft/llmcode/blob/main/llmcode/io.py)
 :
 
 ```

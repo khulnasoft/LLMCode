@@ -15,10 +15,10 @@ nav_exclude: true
 I recently wanted to draw a graph showing how LLM code editing skill has been
 changing over time as new models have been released by OpenAI, Anthropic and others.
 I have all the
-[data in a YAML file](https://github.com/khulnasoft-lab/llmcode/blob/main/website/_data/edit_leaderboard.yml) that is used to render
+[data in a YAML file](https://github.com/khulnasoft/llmcode/blob/main/website/_data/edit_leaderboard.yml) that is used to render
 [llmcode's LLM leaderboards](https://llm.khulnasoft.com/docs/leaderboards/).
 
-Below is the llmcode chat transcript, which shows:
+Below is the llm code transcript, which shows:
 
 - I launch llmcode with the YAML file, a file with other plots I've done recently (so GPT can crib the style) and an empty file called `over_time.py`.
 - Then I ask GPT to draw the scatterplot I want.
@@ -31,7 +31,7 @@ In the end I have the graph, but I also have the python code in my repo.
 So I can update this graph easily whenever I add new entries to the YAML data file.
 
 
-## Llmcode chat transcript
+## Llm code transcript
 
 <div class="chat-transcript" markdown="1">
 

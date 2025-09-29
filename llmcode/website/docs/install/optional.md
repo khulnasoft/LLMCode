@@ -95,6 +95,6 @@ There are a number of 3rd party
 
 If you are interested in creating an llmcode plugin for your favorite editor,
 please let us know by opening a
-[GitHub issue](https://github.com/khulnasoft-lab/llmcode/issues).
+[GitHub issue](https://github.com/khulnasoft/llmcode/issues).
 
 
