@@ -2,7 +2,7 @@
 #    uv pip compile --no-strip-extras --output-file=requirements/common-constraints.txt requirements/requirements.in requirements/requirements-browser.in requirements/requirements-dev.in requirements/requirements-help.in requirements/requirements-playwright.in
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.12.15
+aiohttp==3.13.3
     # via
     #   huggingface-hub
     #   litellm
@@ -92,7 +92,7 @@ distro==1.9.0
     # via
     #   openai
     #   posthog
-filelock==3.19.1
+filelock==3.20.1
     # via
     #   huggingface-hub
     #   torch
@@ -102,7 +102,7 @@ filetype==1.2.0
     # via llama-index-core
 flake8==7.3.0
     # via -r requirements/requirements.in
-fonttools==4.59.1
+fonttools==4.60.2
     # via matplotlib
 frozenlist==1.7.0
     # via
@@ -248,7 +248,7 @@ markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
-marshmallow==3.26.1
+marshmallow==3.26.2
     # via dataclasses-json
 matplotlib==3.10.5
     # via -r requirements/requirements-dev.in
@@ -631,11 +631,11 @@ tzdata==2025.2
     # via pandas
 uritemplate==4.2.0
     # via google-api-python-client
-urllib3==2.5.0
+urllib3==2.6.0
     # via
     #   mixpanel
     #   requests
-uv==0.9.6
+uv==0.9.21
     # via -r requirements/requirements-dev.in
 virtualenv==20.34.0
     # via pre-commit
